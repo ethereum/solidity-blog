@@ -47,7 +47,7 @@ The important property of the Merkle tries to be aware of is that whilst every n
 
 Geth v1.8.0 takes an initial stab at the problem by introducing an in-memory cache in which to store the recent trie nodes. As long as the nodes are in memory, they are cheap to reference count and garbage collect. Instead of writing each trie node to disk, we keep it around as long as possible, hoping that a future block will make it obsolete and save us a database write.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-pruning.png"><img src="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-pruning.png" alt="geth-v1.8.0-pruning" width="2168" height="816" class="aligncenter size-full wp-image-4134" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-pruning.png"><img src="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-pruning.png" alt="geth-v1.8.0-pruning"/></a>
 
 Geth v1.8.0 by default will use 25% of the user's cache allowance (`--cache`) for trie caching and will flush to disk either if the memory allowance is exceeded, or if block processing time since the last flush exceeds 5 minutes. This doesn't completely solve database growth just yet, but looking at the disk stats between v1.8 (purple) and v1.7 (blue) in the course of a single week, pruning makes a huge difference.
 
@@ -69,7 +69,7 @@ All said and done, writing a custom tracer **is complicated**, taking up a signi
 
 E.g. executing the `callTracer` against the [same transaction](https://rinkeby.etherscan.io/vmtrace?txhash=0xbb7323b02276aeed76b22fa50e2eefb76d5647560b8c15f23541ec5990d0e855) linked above gets us a much much friendlier output `debug.traceTransaction("0xhash", {tracer: "callTracer"})`.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-calltrace.png"><img src="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-calltrace.png" alt="geth-v1.8.0-calltrace" width="1368" height="1102" class="aligncenter size-full wp-image-4152" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-calltrace.png"><img src="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-calltrace.png" alt="geth-v1.8.0-calltrace" /></a>
 
 ## Streaming chain tracers
 
