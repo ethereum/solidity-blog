@@ -30,18 +30,18 @@ So let's go back to "<strong>Contracts</strong>" and then "<strong>Deploy Contra
 
 Your contract should be looking something like this:
 
-<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-16.png"><img class="aligncenter size-full wp-image-2324" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-16.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 16" width="2314" height="1770" /></a></strong>
+<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-16.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-16.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 16" /></a></strong>
 
 &nbsp;
 
 After a few seconds you'll be redirected to a the dashboard where you'll see your new contract being created:
 
-<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-13.png"><img class="aligncenter size-full wp-image-2325" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-13.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 13" width="1896" height="204" /></a>
+<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-13.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-13.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 13" /></a>
 </strong>
 
 You can also see the link to the new contract on the "Contracts" tab. If it's not there (for example: if you are adding a contract that you didn't create) then you'll have to add it manually. To add that you'll need the contract's address and it's JSON interface, a string of text that explains to the wallet how to interact with the code. You can pick any name you want and press OK.
 
-<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.57.34-AM.png"><img class="aligncenter size-full wp-image-2326" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.57.34-AM.png" alt="Ethereum Wallet Screen Shot 2015-12-03 at 9.57.34 AM" width="2322" height="1764" /></a>
+<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.57.34-AM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.57.34-AM.png" alt="Ethereum Wallet Screen Shot 2015-12-03 at 9.57.34 AM" /></a>
 </strong>
 
 Click your new contract box and you'll see a contract page. If you haven't already deposited some ether on that contract, click on deposit and put some small amount of ether so you can test how this particular democracy works. If the contract already has some funds, click the "show contract info" button.
@@ -50,7 +50,7 @@ On the <strong>"read from contract"</strong> you can see all the functions you c
 
 On the <strong>"Write to contract"</strong> you have a list of all the functions that will attempt to do some computation that saves data to the blockchain, and therefore will cost ether. Select "newProposal" and it will show all the options options for that function.
 
-<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.10.32-PM.png"><img class="aligncenter size-full wp-image-2327" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.10.32-PM.png" alt="Ethereum Wallet Screen Shot 2015-12-01 at 6.10.32 PM" width="2322" height="1838" /></a></strong>
+<strong><a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.10.32-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.10.32-PM.png" alt="Ethereum Wallet Screen Shot 2015-12-01 at 6.10.32 PM" /></a></strong>
 
 &nbsp;
 
@@ -60,12 +60,12 @@ Voting on a proposal is also very simple. Choose "vote" on the function picker. 
 
 &nbsp;
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.18.22-PM.png"><img class="aligncenter size-full wp-image-2328" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.18.22-PM.png" alt="Screen Shot 2015-12-01 at 6.18.22 PM" width="2322" height="1838" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.18.22-PM.png"><img  src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.18.22-PM.png" alt="Screen Shot 2015-12-01 at 6.18.22 PM" /></a>
 
 When the minimum voting time has passed, you can select <strong>"executeProposal"</strong>. If the proposal was simply sending ether, then you can also leave the "<strong>transactionBytecode</strong>" field blank. After pressing "execute" but before typing your password, pay attention to the screen that appears. If there is a warning on the "estimated fee consumption" field, then this means that for some reason the function called will not execute and will be abruptly terminated. It can mean many things, but in the context of this contract this warning will show up whenever you try to execute a contract before its deadline has passed, or if the user is trying to send a different bytecode data than the original proposal had. For security reasons if any of these things happens, the contract execution is abruptly terminated and the user that attempted the illegal transaction will lose the all the ether he sent to pay transaction fees.
 
 <strong>
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.21.30-PM.png"><img class="aligncenter size-full wp-image-2329" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.21.30-PM.png" alt="Ethereum Wallet Screen Shot 2015-12-01 at 6.21.30 PM" width="2322" height="1838" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.21.30-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-6.21.30-PM.png" alt="Ethereum Wallet Screen Shot 2015-12-01 at 6.21.30 PM"/></a>
 </strong>
 
 If everything went well you should be able to see the results of the vote in a few seconds. The "<strong>openToVote</strong>" parameter on the first box will turn to false while the <strong>proposalPassed</strong> will reflect if the proposal has been accepted or not. You should also be able to see that the Ether balance of the contract will go down and the equivalent ether will be sent to the beneficiary of the ether you wanted to send.

@@ -14,7 +14,7 @@ dsq_thread_id:
 <p>First of all, let us begin by exploring why the current Ethereum client database is so large. Ethereum, unlike Bitcoin, has the property that every block contains something called the "state root": the root hash of a <a href="https://github.com/ethereum/wiki/wiki/Patricia-Tree">specialized kind of Merkle tree</a> which stores the entire state of the system: all account balances, contract storage, contract code and account nonces are inside.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/06/ethblockchain_oneblock.png" height="300px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/06/ethblockchain_oneblock.png" height="300px" />
 </center>
 
 <p>The purpose of this is simple: it allows a node given only the last block, together with some assurance that the last block actually is the most recent block, to "synchronize" with the blockchain extremely quickly without processing any historical transactions, by simply downloading the rest of the tree from nodes in the network (the proposed <code>HashLookup</code> <a href="https://github.com/ethereum/wiki/wiki/Ethereum-Wire-Protocol">wire protocol message</a> will faciliate this), verifying that the tree is correct by checking that all of the hashes match up, and then proceeding from there. In a fully decentralized context, this will likely be done through an advanced version of Bitcoin's headers-first-verification strategy, which will look roughly as follows:</p>
@@ -31,7 +31,7 @@ dsq_thread_id:
 <p>However, this state tree mechanism has an important disadvantage if implemented naively: the intermediate nodes in the tree greatly increase the amount of disk space required to store all the data. To see why, consider this diagram here:</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/06/ethblockchain.png" height="300px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/06/ethblockchain.png" height="300px" />
 </center>
 
 <p>The change in the tree during each individual block is fairly small, and the magic of the tree as a data structure is that most of the data can simply be referenced twice without being copied. However, even still, for every change to the state that is made, a logarithmically large number of nodes (ie. ~5 at 1000 nodes, ~10 at 1000000 nodes, ~15 at 1000000000 nodes) need to be stored twice, one version for the old tree and one version for the new trie. Eventually, as a node processes every block, we can thus expect the total disk space utilization to be, in computer science terms, roughly <code>O(n*log(n))</code>, where <code>n</code> is the transaction load. In practical terms, the Ethereum blockchain is only 1.3 gigabytes, but the size of the database including all these extra nodes is 10-40 gigabytes.</p>

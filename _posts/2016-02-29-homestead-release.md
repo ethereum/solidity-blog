@@ -15,7 +15,7 @@ dsq_thread_id:
 
 <span style="font-weight: 400;">Somewhat later in October of 2014, Gav and I were sitting on the train to the Zurich airport when we figured that an Ethereum conference would be absolutely awesome, and settled on doing it in November that same year. It was a bit hectic for those who organised it (thanks Aeron, Christian &amp; Jason!), but we managed to pull it off as we were determined to host our first internal developers conference, </span><a href="https://www.youtube.com/playlist?list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS"><b>DEV</b><span style="font-weight: 400;">con0</span></a><span style="font-weight: 400;">.</span>
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2016/02/CRUGRsgWoAAAgSQ.jpg-large.jpeg" rel="attachment wp-att-2601"><img class="alignnone size-full wp-image-2601" src="https://blog.ethereum.org/wp-content/uploads/2016/02/CRUGRsgWoAAAgSQ.jpg-large.jpeg" alt="CRUGRsgWoAAAgSQ.jpg-large" width="1024" height="768" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2016/02/CRUGRsgWoAAAgSQ.jpg-large.jpeg" rel="attachment wp-att-2601"><img src="https://blog.ethereum.org/wp-content/uploads/2016/02/CRUGRsgWoAAAgSQ.jpg-large.jpeg" alt="CRUGRsgWoAAAgSQ.jpg-large" /></a>
 
 <span style="font-weight: 400;">When January 2015 came around, we all knew this would be the year we'd have to launch our beta version of Ethereum. Our PoC series was closed off with the PoC 9 hackathon on March 5th and on July 30, 2015 we successfully launched Frontier. Miners from all over the globe booted up their mining rigs, users fired up their nodes and the network came to life. It worked; no hiccups, no issues and from a developer's perspective the release couldn't have gone smoother. In the following months, our team and community demonstrated its potential and true awesomeness in dealing with issues on the network and together solving two consensus bugs.</span>
 
@@ -36,4 +36,4 @@ dsq_thread_id:
 
 <span style="font-weight: 400;">For more information about Ethereum, Homestead and how to operate one of the Ethereum clients, please head over to the </span><a href="http://ethereum-homestead.readthedocs.org/"><span style="font-weight: 400;">Homestead Documentation</span></a><span style="font-weight: 400;"> project and let us together prepare for the next phase of Ethereum.</span>
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2016/02/devcon1.png" rel="attachment wp-att-2600"><img class="alignnone size-full wp-image-2600" src="https://blog.ethereum.org/wp-content/uploads/2016/02/devcon1.png" alt="devcon1" width="1024" height="468" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2016/02/devcon1.png" rel="attachment wp-att-2600"><img src="https://blog.ethereum.org/wp-content/uploads/2016/02/devcon1.png" alt="devcon1" /></a>

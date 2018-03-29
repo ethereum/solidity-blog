@@ -16,7 +16,7 @@ dsq_thread_id:
 <p>To provide some empirical data for the next section, let us consider bitcoin as an example. Over the past few years, bitcoin transaction revenues have been in the range of 15-75 BTC per day, or about 0.35 BTC per block (or 1.4% of current mining rewards), and this has remained true throughout large changes in the level of adoption.</p>
 
 <p><center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screenshot-from-2016-07-27-142822.png" style="width:660px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screenshot-from-2016-07-27-142822.png" />
 </center></p>
 
 <p>It is not difficult to see why this may be the case: increases in BTC adoption will increase the total sum of USD-denominated fees (whether through transaction volume increases or average fee increases or a combination of both) but also decrease the amount of BTC in a given quantity of USD, so it is entirely reasonable that, absent exogenous block size crises, changes in adoption that do not come with changes to underlying market structure will simply leave the BTC-denominanted total transaction fee levels largely unchanged.</p>
@@ -40,7 +40,7 @@ dsq_thread_id:
 <p>The reason why this kind of balanced approach is taken, rather than just putting the entire markup on the most inelastic part of the demand, is that the harm from charging prices above marginal cost goes up with the square of the markup. Suppose that a given item takes $20 to produce, and you charge $21. There are likely a few people who value the item at somewhere between $20 and $21 (we'll say average of $20.5), and it is a tragic loss to society that these people will not be able to buy the item even though they would gain more from having it than the seller would lose from giving it up. However, the number of people is small and the net loss (average $0.5) is small. Now, suppose that you charge $30. There are now likely ten times more people with "reserve prices" between $20 and $30, and their average valuation is likely around $25; hence, there are ten times more people who suffer, and the average social loss from each one of them is now $5 instead of $0.5, and so the net social loss is 100x greater. Because of this superlinear growth, taking a little from everyone is less bad than taking a lot from one small group.</p>
 
 <p><center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Deadweight-loss-price-ceiling.svg/2000px-Deadweight-loss-price-ceiling.svg.png" style="width:450px"></img><br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Deadweight-loss-price-ceiling.svg/2000px-Deadweight-loss-price-ceiling.svg.png" /><br>
 <small><i>Notice how the "deadweight loss" section is a triangle. As you (hopefully) remember from math class, the area of a triangle is width * length / 2, so doubling the dimensions quadruples the area.</i></small>
 </center></p>
 
@@ -68,7 +68,7 @@ dsq_thread_id:
 
 <p>Note that literally redistributing 100% of fees (or, for that matter, any fixed percentage of fees) is infeasible due to "tax evasion" attacks via side-channel payment: instead of adding a transaction fee using the standard mechanism, transaction senders will put a zero or near-zero "official fee" and pay validators directly via other cryptocurrencies (or even PayPal), allowing validators to collect 100% of the revenue. However, we can get what we want by using another trick: determine in protocol a minimum fee that transactions must pay, and have the protocol "confiscate" that portion but let the miners keep the entire excess (alternatively, miners keep all transaction fees but must in turn pay a fee per byte or unit gas to the protocol; this a mathematically equivalent formulation). This removes tax evasion incentives, while still placing a large portion of transaction fee revenue under the control of the protocol, allowing us to keep fee-based issuance without introducing the game-theoretic malicentives of a traditional pure-fee model.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/moose.png"></img>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/moose.png"/>
 <small><i>The protocol cannot take all of the transaction fee revenues because the level of fees is very uneven and because it cannot price-discriminate, but it can take a portion large enough that in-protocol mechanisms have enough revenue allocating power to work with to counteract game-theoretic concerns with traditional fee-only security.</i></small>
 </center>
 

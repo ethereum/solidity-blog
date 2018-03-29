@@ -50,19 +50,19 @@ dsq_needs_sync:
 <p>SMPC with addition is easy. To see how, let's go back to the two-points-make-a-line example, but now let's have two lines:</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/twolines.png"> </img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/twolines.png" />
 </center>
 
 <p>Suppose that the <code>x=1</code> point of both lines <code>A</code> and <code>B</code> is stored by computer <code>P[1]</code>, the <code>x=2</code> point is stored by computer <code>P[2]</code>, etc. Now, suppose that <code>P[1]</code> computes a new value, <code>C(1) = A(1) + B(1)</code>, and B computes <code>C(2) = A(2) + B(2)</code>. Now, let's draw a line through those two points:</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/twolinesum.png"> </img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/twolinesum.png" />
 </center>
 
 <p>So we have a new line, <code>C</code>, such that <code>C = A + B</code> at points <code>x=1</code> and <code>x=2</code>. However, the interesting thing is, this new line is actually equal to <code>A + B</code> on <em>every</em> point:</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/twolinesum2.png"> </img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/twolinesum2.png" />
 </center>
 
 <p>Thus, we have a rule: sums of secret shares (at the same x coordinate) are secret shares of the sum. Using this principle (which also applies to higher dimensions), we can convert secret shares of <code>a</code> and secret shares of <code>b</code> into secret shares of <code>a+b</code>, all <em>without ever reconstituting <code>a</code> and <code>b</code> themselves</em>. Multiplication by a known constant value works the same way: <code>k</code> times the ith secret share of <code>a</code> is equal to the ith secret share of <code>a*k</code>.</p>
@@ -70,7 +70,7 @@ dsq_needs_sync:
 <p>Multiplication of two secret shared values, unfortunately, is <a href="http://www.eecs.harvard.edu/~cat/cs/tlc/papers/grr.pdf">much more involved</a>. The approach will take several steps to explain, and because it is fairly complicated in any case it's worth simply doing for arbitrary polynomials right away. Here's the magic. First, suppose that there exist values <code>a</code> and <code>b</code>, secret shared among parties <code>P[1]</code> ... <code>P[n]</code>, where <code>a[i]</code> represents the ith share of <code>a</code> (and same for <code>b[i]</code> and <code>b</code>). We start off like this:</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/secretmultiply.png" width="450px"> </img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/secretmultiply.png" width="450px" />
 </center>
 
 <p>Now, one option that you might think of is, if we can just make a new polynomial <code>c = a + b</code> by having every party store <code>c[i] = a[i] + b[i]</code>, can't we do the same for multiplication as well? The answer is, surprisingly, yes, but with a serious problem: the new polynomial has a degree twice as large as the original. For example, if the original polynomials were <code>y = x + 5</code> and <code>y = 2x - 3</code>, the product would be <code>y = 2x^2 + 7x - 15</code>. Hence, if we do multiplication more than once, the polynomial would become too big for the group of N to store.</p>
@@ -78,13 +78,13 @@ dsq_needs_sync:
 <p>To avoid this problem, we perform a sort of rebasing protocol where we convert the shares of the larger polynomial into shares of a polynomial of the original degree. The way it works is as follows. First, party <code>P[i]</code> generates a new random polynomial, of the same degree as <code>a</code> and <code>b</code>, which evaluates to <code>c[i] = a[i]*b[i]</code> at zero, and distributes points along that polynomial (ie. shares of <code>c[i]</code>) to all parties.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/secretmultiply2.png" width="450px"> </img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/secretmultiply2.png" width="450px" />
 </center>
 
 <p>Thus, <code>P[j]</code> now has <code>c[i][j]</code> for all <code>i</code>. Given this, <code>P[j]</code> calculates <code>c[j]</code>, and so everyone has secret shares of <code>c</code>, on a polynomial with the same degree as <code>a</code> and <code>b</code>.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/secretmulitply3.png" width="450px"> </img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/secretmulitply3.png" width="450px" />
 </center>
 
 <p>To do this, we used a clever trick of secret sharing: because the secret sharing math itself involves nothing more than additions and multiplications by known constants, the two layers of secret sharing are commutative: if we apply secret sharing layer A and then layer B, then we can take layer A off first and still be protected by layer B. This allows us to move from a higher-degree polynomial to a lower degree polynomial but avoid revealing the values in the middle - instead, the middle step involved both layers being applied <em>at the same time</em>. </p>
@@ -116,7 +116,7 @@ GET: [from_pubkey, from_id, sig]
 
 <p>The database is stored among the N nodes in the following format:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/accounts.png"> </img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/12/accounts.png" />
 
 <p>Essentially, the database is stored as a set of 3-tuples representing accounts, where each 3-tuple stores the owning pubkey, nonce and balance. To send a request, a node constructs the transaction, splits it off into secret shares, generates a random request ID and attaches the ID and a small amount of proof of work to each share. The proof of work is there because some anti-spam mechanism is necessary, and because account balances are private there is no way if the sending account has enough funds to pay a transaction fee. The nodes then independently verify the shares of the signature against the share of the public key supplied in the transaction (there are signature algorithms that allow you to do this kind of per-share verification; <a href="https://en.wikipedia.org/wiki/Schnorr_signature">Schnorr signatures</a> are one major category). If a given node sees an invalid share (due to proof of work or the signature), it rejects it; otherwise, it accepts it.</p>
 

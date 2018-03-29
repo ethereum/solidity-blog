@@ -18,8 +18,8 @@ dsq_thread_id:
 <p>Suppose that the success metric chosen is GDP in trillions of dollars, with a time delay of ten years, and there exists a proposed policy: "bail out the banks". Two assets are released, each of which promises to pay $1 per token per trillion dollars of GDP after ten years. The markets might be allowed to run for two weeks, during which the "yes" token fetches an average price of $24.94 (meaning that the market thinks that the GDP after ten years will be $24.94 trillion) and the "no" token fetches an average price of $26.20. The banks are not bailed out. All trades on the "yes" market are reverted, and after ten years everyone holding the asset on the "no" market gets $26.20 apiece.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/08/futarchy_top1.png" style="width:450px"></img>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/08/futarchy_bottom1.png"  style="width:450px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/08/futarchy_top1.png" style="width:450px" />
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/08/futarchy_bottom1.png"  style="width:450px" />
 </center>
 
 <p>Typically, the assets in a futarchy are zero-supply assets, similar to Ripple IOUs or <a href="http://wiki.bitshares.org/index.php/Market_Peg">BitAssets</a>. This means that the only way the tokens can be created is through a derivatives market; individuals can place orders to buy or sell tokens, and if two orders match the tokens are transferred from the buyer to the seller in exchange for USD. It's possible to sell tokens even if you do not have them; the only requirement in that case is that the seller must put down some amount of collateral to cover the eventual negative reward. An important consequence of the zero-supply property is that because the positive and negative quantities, and therefore rewards cancel each other out, barring communication and consensus costs the market is actually free to operate.</p>
@@ -82,7 +82,7 @@ dsq_thread_id:
 <p>To see how futarchy for DAOs might work, let us simply describe how a possible protocol would run on top of Ethereum:</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/08/futarchy.png" style="width:450px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/08/futarchy.png" style="width:450px" />
 </center>
 
 <ol>

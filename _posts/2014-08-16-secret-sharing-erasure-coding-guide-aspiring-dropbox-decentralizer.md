@@ -219,9 +219,12 @@ And tada, we get 6 in both cases. This is the surprising thing: the polynomials 
 
 <center>
 <img src="https://blog.ethereum.org/wp-content/uploads/2014/08/borgcube.jpg" width="300" height="300" />
+
 <small>
 <i>"The cube can still function even if up to 78% of it were to be destroyed..."</i>
-</small></center>So, let's put it all together. You have a 10 GB file, and you want to split it up across the network. First, you encrypt the file, and then you split the file into, let's say, 125 chunks. You arrange these chunks into a 3-dimensional 5x5x5 cube, figure out the polynomial along each axis, and "extend" each one so that at the end you have a 7x7x7 cube. You then look for 343 nodes willing to store each piece of data, and tell each node only the identity of the other nodes that are along the same axis (we want to make an effort to avoid a single node gathering together an entire line, square or cube and storing it and calculating any redundant chunks as needed in real-time, getting the reward for storing all the chunks of the file without actually providing any redundancy.
+</small></center>
+
+So, let's put it all together. You have a 10 GB file, and you want to split it up across the network. First, you encrypt the file, and then you split the file into, let's say, 125 chunks. You arrange these chunks into a 3-dimensional 5x5x5 cube, figure out the polynomial along each axis, and "extend" each one so that at the end you have a 7x7x7 cube. You then look for 343 nodes willing to store each piece of data, and tell each node only the identity of the other nodes that are along the same axis (we want to make an effort to avoid a single node gathering together an entire line, square or cube and storing it and calculating any redundant chunks as needed in real-time, getting the reward for storing all the chunks of the file without actually providing any redundancy.
 
 In order to actually retrieve the file, you would send out a request for all of the chunks, then see which of the pieces coming in have the highest bandwidth. You may use the pay-per-chunk protocol to pay for the sending of the data; extortion is not an issue because you have such high redundancy so no one has the monopoly power to deny you the file. As soon as the minimal number of pieces arrive, you would do the math to decrypt the pieces and reconstitute the file locally. Perhaps, if the encoding is per-byte, you may even be able to apply this to a Youtube-like streaming implementation, reconstituting one byte at a time.
 

@@ -43,7 +43,7 @@ It is probably a bit too early to try out remix, but if you want, follow the ins
 
 For everyone else: Here is a screenshot of an early proof of concept version:
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2016/05/remix.png"><img class="alignnone wp-image-2683 size-full" src="https://blog.ethereum.org/wp-content/uploads/2016/05/remix.png" alt="Screenshot of an early version of remix" width="845" height="753" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2016/05/remix.png"><img src="https://blog.ethereum.org/wp-content/uploads/2016/05/remix.png" alt="Screenshot of an early version of remix" /></a>
 
 <strong>Other Tasks</strong>
 

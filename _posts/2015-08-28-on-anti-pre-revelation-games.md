@@ -13,7 +13,7 @@ dsq_thread_id:
 
 <p>The fact that Augur has an independent token provides a partial defense against this problem: if the voters collude, then the value of Augur's token can be expected to decrease to near-zero as the system becomes perceived as useless and unreliable, and so the colluders lose a large amount of value. However, it is certainly not a total defense. Paul Sztorc's Truthcoin (and also Augur) includes a further defense, which is quite economically clever. The core mechanism is simple: rather than simply awarding a static amount to everyone in the majority, the amount awarded depends on the level of disagreement among the final votes, and the more disagreement there is the more majority voters get, and minority voters get an equally large amount taken out of their security deposit.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/08/schellingcoin_payoff1.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/08/schellingcoin_payoff1.png"/>
 
 <p>The intent is simple: if you get a message from someone saying "hey, I am starting a collusion; even though the actual answer is A, let's all vote B", in a simpler scheme you may be inclined to go along. In Sztorc's scheme, however, you may well come to the conclusion that this individual is <em>actually</em> going to vote A, and is trying to convince <em>only a few percent</em> of people to vote B, so as to steal some of their money. Hence, it creates a lack of trust, making collusions harder. However, there is a problem: precisely because blockchains are such excellent devices for cryptographically secure agreements and coordination, it's very hard to make it impossible to collude <em>provably</em>.</p>
 

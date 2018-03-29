@@ -53,7 +53,7 @@ From a collaborative perspective, the Internet and technology in general became 
 
 This allowed us as humans to transcend time and space limitations -- keystroke by keystroke.
 <h3>emerging patterns: free culture and open movements</h3>
-[caption id="attachment_926" align="aligncenter" width="1615"]<a href="https://blog.ethereum.org/wp-content/uploads/2014/09/whole_network7.png"><img class="size-full wp-image-926" src="https://blog.ethereum.org/wp-content/uploads/2014/09/whole_network7.png" alt="Twitter Network Vizualized" width="1615" height="805" /></a> Twitter Network Vizualized[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2014/09/whole_network7.png"><img class="size-full wp-image-926" src="https://blog.ethereum.org/wp-content/uploads/2014/09/whole_network7.png" alt="Twitter Network Vizualized" width="1615" height="805" /></a> Twitter Network Vizualized
 <blockquote><b><i>“In real open source, you have the right to control your own destiny.”</i></b> Linus Torvalds</blockquote>
 Started around the 1970s, the earliest form of free software cultural movement has been ignited by Richard Stallman and his peers through their work tackling access and dissemination of information in this new technological realm.
 
@@ -119,6 +119,7 @@ This is definitely the most exciting time we could have hoped to be alive.
 
 And things are just starting.
 
-https://www.youtube.com/watch?v=lmc21V-zBq0
+{% include youtubePlayer.html id="lmc21V-zBq0" %}
+
 
 &nbsp;

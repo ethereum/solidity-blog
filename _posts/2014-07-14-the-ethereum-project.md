@@ -57,4 +57,4 @@ From our humble beginnings as foragers and hunters, we have arrived at a point w
 
 How many rivers will we have to cross before we'll find our way?
 
-https://www.youtube.com/watch?v=b58SfRphkKc
+{% include youtubePlayer.html id="b58SfRphkKc" %}

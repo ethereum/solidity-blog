@@ -49,13 +49,13 @@ dsq_thread_id:
 <p>Another approach is to rely on counter-coordination; essentially, somehow coordinate, perhaps via credible commitments, on voting A (if A is the truth) with probability 0.6 and B with probability 0.4, the theory being that this will allow users to (probabilistically) claim the mechanism's reward and a portion of the attacker's bribe at the same time. This (seems to) work particularly well in games where instead of paying out a constant reward to each majority-compliant voter, the game is structured to have a constant total payoff, adjusting individual payoffs to accomplish this goal is needed. In such situations, from a collective-rationality standpoint it is indeed the case that the group earns a highest profit by having 49% of its members vote B to claim the attacker's reward and 51% vote A to make sure the attacker's reward is paid out.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/01/collectivepayoff.png" style="width:300px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/01/collectivepayoff.png" style="width:300px" />
 </center>
 
 <p>However, this approach itself suffers from the flaw that, if the attacker's bribe is high enough, even from there one can defect. The fundamental problem is that given a probabilistic mixed strategy between A and B, for each the return always changes (almost) linearly with the probability parameter. Hence, if, for the individual, it makes more sense to vote for B than for A, it will also make more sense to vote with probability 0.51 for B than with probability 0.49 for B, and voting with probability 1 for B will work even better.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/01/incentives.png" style="width:600px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/01/incentives.png" style="width:600px" />
 </center>
 
 <p>Hence, everyone will defect from the "49% for 1" strategy by simply always voting for 1, and so 1 will win and the attacker will have succeeded in the costless takeover. The fact that such complicated schemes exist, and come so close to "seeming to work" suggests that perhaps in the near future some complex counter-coordination scheme will emerge that actually does work; however, we must be prepared for the eventuality that no such scheme will be developed.</p>

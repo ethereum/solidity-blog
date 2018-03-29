@@ -104,7 +104,7 @@ def _create(vals:arr, depth):
 
 <p>It's well-known and established that an open blockchain requires some kind of cryptocurrency in order to incentivize people to participate in the consensus process; this is the kernel of truth behind this otherwise rather silly meme:</p>
 
-<center><img src="https://pbs.twimg.com/media/CCiUG8OWAAABAN-.jpg"></img></center>
+<center><img src="https://pbs.twimg.com/media/CCiUG8OWAAABAN-.jpg" /></center>
 
 <p>However, can we create a blockchain that does not rely on any <em>specific</em> currency, instead allowing people to transact using whatever currency they wish? In a proof of work context, particularly a fees-only one, this is actually relatively easy to do for a simple currency blockchain; just have a block size limit and leave it to miners and transaction senders themselves to come to some equilibrium over the transaction price (the transaction fees may well be done as a batch payment via credit card). For Ethereum, however, it is slightly more complicated. The reason is that Ethereum 1.0, as it stands, comes with a built-in gas mechanism which allows miners to safely accept transactions without fear of being hit by denial-of-service attacks; the mechanism works as follows:</p>
 

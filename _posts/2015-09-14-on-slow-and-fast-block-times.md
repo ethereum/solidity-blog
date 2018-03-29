@@ -31,11 +31,11 @@ dsq_thread_id:
 
 <p>We can incorporate this assumption into our question by making it slightly more complex: what is the probability that the original transaction has been placed in a block that will end up as part of the final blockchain? The first step to getting to that state is getting included in a block in the first place. The probability that this will take place after <code>k</code> seconds is pretty well established:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/12.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/12.png"/>
 
 <p>Unfortunately, getting into one block is not the end of the story. Perhaps, when that block is created, another block is created at the same time (or, more precisely, within network latency); at that point, we can assume as a first approximation that it is a 50:50 chance which of those two blocks the next block will be built on, and that block will ultimately "win" - or, perhaps, two blocks will be created once again at the same time, and the contest will repeat itself. Even after two blocks have been created, it's possible that some miner has not yet seen both blocks, and that miner gets lucky and created three blocks one after the other. The possibilities are likely mathematically intractable, so we will just take the lazy shortcut and simulate them:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/2.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/2.png"/>
 
 <p><a href="http://vitalik.ca/files/sim.py">Script here</a></p>
 
@@ -47,11 +47,11 @@ dsq_thread_id:
 
 <p>Mathematically, we know that the probability of the attacker winning such a game (assuming <code>x < 0.5</code> as otherwise the attacker can overwhelm the network no matter what the blockchain parameters are) is:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/09/drawing.png" style="width:100px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/09/drawing.png" style="width:100px"/><</center>
 
 <p>We can combine this with a probability estimate for <code>k</code> (using the <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>) and get the net probability of the attacker winning after a given number of seconds:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/3.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/3.png"/>
 
 <p><a href="http://vitalik.ca/files/compute_probs.py">Script here</a></p>
 
@@ -61,29 +61,29 @@ dsq_thread_id:
 
 <p>We can also approach the subject of attackers from the other side: the attacker has $X to spend, and can spend it on bribes, near-infinite instantaneous hashpower, or anything else. How high is the requisite <code>X</code> to revert a transaction after <code>k</code> seconds? Essentially, this question is equivalent to "how much economic expenditure does it take to revert the number of blocks that will have been produced on top of a transaction after <code>k</code> seconds". From an expected-value point of view, the answer is simple (assuming a block reward of 1 coin per second in both cases):</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/4_1.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/4_1.png"/>
 
 <p>If we take into account stale rates, the picture actually turns slightly in favor of the longer block time:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/4_2.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/4_2.png"/>
 
 <p>But "what is the expected economic security margin after <code>k</code> seconds" (using "expected" here in the formal probability-theoretic sense where it roughly means "average") is actually not the question that most people are asking. Instead, the problem that concerns ordinary users is arguably one of them wanting to get "enough" security margin, and wanting to get there as quickly as possible. For example, if I am using the blockchain to purchase a $2 coffee, then a security margin of $0.03 (the current bitcoin transaction fee, which an attacker would need to outbid in a replace-by-fee model) is clearly not enough, but a security margin of $5 is clearly enough (ie. very few attacks would happen that spend $5 to steal $2 from you), and a security margin of $50000 is not much better. Now, let us take this strict binary enough/not-enough model and apply it to a case where the payment is so small that one block reward on the faster blockchain is greater than the cost. The probability that we will have "enough" security margin after a given number of seconds is exactly equivalent to a chart that we already saw earlier:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/12.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/12.png"/>
 
 <p>Now, let us suppose that the desired security margin is worth between four and five times the smaller block reward; here, on the smaller chain we need to compute the probability that after <code>k</code> seconds at least five blocks will have been produced, which we can do via the Poisson distribution:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/5.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/5.png"/>
 
 <p>Now, let us suppose that the desired security margin is worth as much as the larger block reward:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/6.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/6.png"/>
 
 <p>Here, we can see that fast blocks no longer provide an unambiguous benefit; in the short term they actually hurt your chances of getting more security, though that is compensated by better performance in the long term. However, what they do provide is more predictability; rather than a long exponential curve of possible times at which you will get enough security, with fast blocks it is pretty much certain that you will get what you need within 7 to 14 minutes. Now, let us keep increasing the desired security margin further:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/7.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/7.png"/>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/9.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/9.png"/>
 
 <p>As you can see, as the desired security margin gets very high, it no longer really matters that much. However, at those levels, you have to wait a day for the desired security margin to be achieved in any case, and that is a length of time that most blockchain users in practice do not end up waiting; hence, we can conclude that either (i) the economic model of security is not the one that is dominant, at least at the margin, or (ii) most transactions are small to medium sized, and so actually do benefit from the greater predictability of small block times.</p>
 
@@ -97,11 +97,11 @@ dsq_thread_id:
 
 <p>A recent interesting proposal presented at the <a href="http://scalingbitcoin.org">Scaling Bitcoin</a> conference in Montreal is the idea of splitting blocks into two types: (i) infrequent (eg. 10 minute heartbeat) "key blocks" which select the "leader" that creates the next blocks that contain transactions, and (ii) frequent (eg. 10 second heartbeat) "microblocks" which contain transactions:</p>
 
-<img src="http://media.coindesk.com/2015/09/Screen-Shot-2015-09-12-at-4.29.26-PM.png" alt="" title=""></img>
+<img src="http://media.coindesk.com/2015/09/Screen-Shot-2015-09-12-at-4.29.26-PM.png" alt="" title=""/>
 
 <p>The theory is that we can get very fast blocks without the <a href="https://blog.ethereum.org/2014/07/11/toward-a-12-second-block-time/">centralization risks</a> by essentially electing a dictator only once every (on average) ten minutes, for those ten minutes, and allowing the dictator to produce blocks very quickly. A dictator "should" produce blocks once every ten seconds, and in the case that the dictator attempts to double-spend their own blocks and create a longer new set of microblocks, a <a href="https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/">Slasher</a>-style algorithm is used where the dictator can be punished if they get caught:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/Screenshot-from-2015-09-13-201036.png" alt="" title=""></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/09/Screenshot-from-2015-09-13-201036.png" alt="" title=""/>
 
 <p>This is certainly an improvement over plain old ten-minute blocks. However, it is not nearly as effective as simply having regular blocks come once every ten seconds. The reasoning is simple. Under the economically-bounded attacker model, it actually does offer the same probabilities of assurances as the ten-second model. Under the BFT model, however, it fails: if an attacker has 10% hashpower then the probability that a transaction will be final cannot exceed 90% until at least two key blocks are created. In reality, which can be modeled as a hybrid between the economic and BFT scenarios, we can say that even though 10-second microblocks and 10-second real blocks have the same security margin, in the 10-second microblock case "collusion" is easier as within the 10-minute margin only one party needs to participate in the attack. One possible improvement to the algorithm may be to have microblock creators rotate during each inter-key-block phase, taking from the creators of the last 100 key blocks, but taking this approach to its logical conclusion will likely lead to reinventing full-on Slasher-style proof of stake, albeit with a proof of work issuance model attached.</p>
 

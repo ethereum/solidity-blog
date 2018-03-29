@@ -55,11 +55,9 @@ Casper research is now in the process of fine-tuning the incentives for liveness
 
 Other research stuff:
 
-<ul>
-<li>Substantial work has been done on sharding, and specifically the dreaded “data availability problem”; see here: </span><a href="https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding"><span style="font-weight: 400;">https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding</li>
+<li>Substantial work has been done on sharding, and specifically the dreaded “data availability problem”; see here: <a href="https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding"><span style="font-weight: 400;">https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding</li>
 <li>The Sharding FAQ <a href="https://github.com/ethereum/wiki/wiki/Sharding-FAQ">has been updated</a></li>
 <li>Greg Colvin's "EVM 1.5" proposals are now EIP drafts <a href="https://github.com/ethereum/EIPs/issues/615">615</a> and <a href="https://github.com/ethereum/EIPs/issues/616">616</a></li>
-</ul>
 
 Geth development:
 
@@ -114,9 +112,10 @@ Mist:
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Added macOS and Windows Code-Signing, preparing github/swarm based auto-updater</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Many of the audit findings will incorporated in the coming releases</span></li>
 </ul>
-<span style="font-weight: 400;">Changes to the provider will make Mist and other Projects like MetaMask and status.im more future proof, as developers don’t need to depend on high level libraries not changing over time. </span><b>There will be a few announcements concerning the new provider</b><span style="font-weight: 400;">. Discussion about that is happening at https://github.com/ethereum/interfaces/issues/16</span>
+<span style="font-weight: 400;">Changes to the provider will make Mist and other Projects like MetaMask and status.im more future proof, as developers don’t need to depend on high level libraries not changing over time. </span><b>There will be a few announcements concerning the new provider</b><span style="font-weight: 400;">. Discussion about that is happening at [https://github.com/ethereum/interfaces/issues/16](https://github.com/ethereum/interfaces/issues/16)</span>
 
-<span style="font-weight: 400;">Web3.js</span>
+Web3.js:
+
 <ul>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">We are currently adding generation and signing with private keys right into web3.js. So that you can easily create wallets and sign messages in your dapps. You can find the current experimental docs here: </span><a href="http://web3js.readthedocs.io/en/1.0/web3-eth-accounts.html"><span style="font-weight: 400;">http://web3js.readthedocs.io/en/1.0/web3-eth-accounts.html</span></a></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">The next steps will be adding @maiavictor’s swarm library and the new whisper API and the new web3.js should be ready for test drive by the community.</span></li>

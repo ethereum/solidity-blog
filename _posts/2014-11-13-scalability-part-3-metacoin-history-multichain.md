@@ -70,8 +70,8 @@ dsq_thread_id:
 <tr>
 <td>Centralized</td><td>Decentralized</td>
 </tr><tr>
-<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/centralized_multichain.png" width="332px"></img></td>
-<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/New-document-13.2014_11_13_06_40_01.1.png" width="332px"></img></td>
+<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/centralized_multichain.png" width="332px" /></td>
+<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/New-document-13.2014_11_13_06_40_01.1.png" width="332px" /></td>
 </table>
 
 <p>A centralized paradigm is essentially every chain, whether directly or indirectly, piggybacking off of a single master chain; Bitcoin proponents often love to see the central chain being Bitcoin, though unfortunately it may be something else since Bitcoin was not exactly designed with the required level of general-purpose functionality in mind. A decentralized paradigm is one that looks vaguely like Ripple's network of unique node lists, except working across chains: every chain has a list of other consensus mechanisms that it trusts, and those mechanisms together determine block validity.</p>

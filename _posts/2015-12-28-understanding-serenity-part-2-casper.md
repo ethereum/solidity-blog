@@ -21,7 +21,7 @@ dsq_thread_id:
 
 <p>A helpful analogy here is to look at proof of work consensus - a protocol which seems highly unique when viewed by itself, but which can in fact be perfectly modeled as a very specific subset of consensus-by-bet. The argument is as follows. When you are mining on top of a block, you are expending electricity costs <code>E</code> per second in exchange for receiving a chance <code>p</code> per second of generating a block and receiving <code>R</code> coins <i>in all forks containing your block</i>, and zero rewards in all other chains:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-7-1.png" style="width:500px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-7-1.png" style="width:500px"/></center>
 
 <p>Hence, every second, you receive an expected gain of <code>p*R-E</code> on the chain you are mining on, and take a loss of <code>E</code> on all other chains; this can be interpreted as taking a bet at <code>E:p*R-E</code> odds that the chain you are mining on will "win"; for example, if p is 1 in 1 million, R is 25 BTC ~= $10000 USD and E is $0.007, then your gains per second on the winning chain are <code>0.000001 * 10000 - 0.007 = 0.003</code>, your losses on the losing chain are the electricity cost of <code>0.007</code>, and so you are betting at 7:3 odds (or 70% probability) that the chain you are mining on will win. Note that proof of work satisfies the requirement of being economically "recursive" in the way described above: users' clients will calculate their balances by processing the chain that has the most proof of work (ie. bets) behind it.</p>
 
@@ -31,12 +31,12 @@ dsq_thread_id:
 
 <p>In the context of consensus-by-bet, different consensus protocols differ in only one way: who is allowed to bet, at what odds and how much? In proof of work, there is only one kind of bet offered: the ability to bet on the chain containing one's own block at odds <code>E:p*R-E</code>. In generalized consensus-by-bet, we can use a mechanism known as a <a href="https://en.wikipedia.org/wiki/Scoring_rule">scoring rule</a> to essentially offer an infinite number of betting opportunities: one infinitesimally small bet at 1:1, one infinitesimally small bet at 1.000001:1, one infinitesimally small bet at 1.000002:1, and so forth.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-11.png" style="width:500px"></img><br><small>A scoring rule as an infinite number of bets.</small></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-11.png" style="width:500px"/><br><small>A scoring rule as an infinite number of bets.</small></center>
 
 <p>One can still decide exactly how large these infinitesimal marginal bets are at each probability level, but in general this technique allows us to elicit a very precise reading of the probability with which some validator thinks some block is likely to be confirmed; if a validator thinks that a block will be confirmed with probability 90%, then they will accept all of the bets below 9:1 odds and none of the bets above 9:1 odds, and seeing this the protocol will be able to infer this "opinion" that the chance the block will be confirmed is 90% with exactness. In fact, the <a href="https://en.wikipedia.org/wiki/Revelation_principle">revelation principle</a> tells us that we may as well ask the validators to supply a signed message containing their "opinion" on the probability that the block will be confirmed directly, and let the protocol calculate the bets on the validator's behalf.</p>
 
 <p><center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/12/scoringrule.png" style="width:500px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/12/scoringrule.png" style="width:500px"/>
 <small>Thanks to the wonders of calculus, we can actually come up with fairly simple functions to compute a total reward and penalty at each probability level that are mathematically equivalent to summing an infinite set of bets at all probability levels below the validator's stated confidence. A fairly simple example is <code>s(p) = p/(1-p)</code> and <code>f(p) = (p/(1-p))^2/2</code> where <code>s</code> computes your reward if the event you are betting on takes place and <code>f</code> computes your penalty if it does not.</small>
 </center></p>
 
@@ -54,17 +54,17 @@ dsq_thread_id:
 
 <p>In by-chain consensus, one can view the consensus process as being a kind of tug-of-war between negative infinity and positive infinity <em>at each fork</em>, where the "status" at the fork represents the number of blocks in the longest chain on the right side minus the number of blocks on the left side:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/bchain_tugofwar.png" style="width:450px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/bchain_tugofwar.png" style="width:450px"/></center>
 
 <p>Clients trying to determine the "correct chain" simply move forward starting from the genesis block, and at each fork go left if the status is negative and right if the status is positive. The economic incentives here are also clear: once the status goes positive, there is a strong economic pressure for it to converge to positive infinity, albeit very slowly. If the status goes negative, there is a strong economic pressure for it to converge to negative infinity.</p>
 
 <p>Incidentally, note that under this framework the core idea behind the <a href="https://eprint.iacr.org/2013/881.pdf">GHOST scoring rule</a> becomes a natural generalization - instead of just counting the length of the longest chain toward the status, count every block on each side of the fork:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/bchain_tugofwar2.png" style="width:500px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/bchain_tugofwar2.png" style="width:500px"/></center>
 
 <p>In by-block consensus, there is once again the tug of war, though this time the "status" is simply an arbitrary number that can be increased or decreased by certain actions connected to the protocol; at every block height, clients process the block if the status is positive and do not process the block if the status is negative. Note that even though proof of work is currently by-chain, it doesn't have to be: one can easily imagine a protocol where instead of providing a parent block, a block with a valid proof of work solution must provide a +1 or -1 vote on every block height in its history; +1 votes would be rewarded only if the block that was voted on does get processed, and -1 votes would be rewarded only if the block that was voted on does not get processed:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-6.png" style="width:500px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-6.png" style="width:500px"/></center>
 
 <p>Of course, in proof of work such a design would not work well for one simple reason: if you have to vote on absolutely <em>every</em> previous height, then the amount of voting that needs to be done will increase quadratically with time and fairly quickly grind the system to a halt. With consensus-by-bet, however, because the tug of war can converge to complete finality exponentially, the voting overhead is much more tolerable.</p>
 
@@ -76,7 +76,7 @@ dsq_thread_id:
 
 <p>In keeping with Serenity's spirit of abstraction, all of this is implemented via a <strong>Casper contract</strong>, which has functions for making bets, joining, withdrawing, and accessing consensus information, and so one can submit bets and take other actions simply by calling the Casper contract with the desired data. The state of the Casper contract looks as follows:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-8.png" style="width:600px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-8.png" style="width:600px"/></center>
 
 <p>The contract keeps track of the current set of validators, and for each validator it keeps track of six primary things:</p>
 
@@ -101,7 +101,7 @@ dsq_thread_id:
 
 <p>A bet is an object that looks like this:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-9.png" style="width:500px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-9.png" style="width:500px"/></center>
 
 <p>The key information is the following:</p>
 
@@ -149,7 +149,7 @@ dsq_thread_id:
 <li>Otherwise, bet <code>e(M)</code>, though limit the result to be within the range <code>[0.15, 0.85]</code> so that less than 67% of validators can't force another validator to move their bets too far</li>
 </ul>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-10.png" style="width:500px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/drawing-10.png" style="width:500px"/></center>
 
 <p>Validators are free to choose their own level of risk aversion within the context of this strategy by choosing the shape of <code>e</code>. A function where <code>f(e) = 0.99999</code> for <code>e &gt; 0.8</code> could work (and would in fact likely provide the same behavior as Tendermint) but it creates somewhat higher risks and allows hostile validators making up a large portion of the bonded validator set to trick these validators into losing their entire deposit at a low cost (the attack strategy would be to bet 0.9, trick the other validators into betting 0.99999, and then jump back to betting 0.1 and force the system to converge to zero). On the other hand, a function that converges very slowly will incur higher inefficiencies when the system is not under attack, as finality will come more slowly and validators will need to keep betting on each height longer.</p>
 

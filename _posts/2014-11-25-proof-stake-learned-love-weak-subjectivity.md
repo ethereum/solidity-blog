@@ -25,11 +25,11 @@ dsq_thread_id:
 
 <p>Proof of work has a nice property that makes it much simpler to design effective algorithms for it: participation in the economic set requires the consumption of a resource external to the system. This means that, when contributing one's work to the blockchain, a miner must make the choice of which of all possible forks to contribute to (or whether to try to start a new fork), and the different options are mutually exclusive. Double-voting, including double-voting where the second vote is made many years after the first, is unprofitablem since it requires you to split your mining power among the different votes; the dominant strategy is always to put your mining power exclusively on the fork that you think is most likely to win.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/powsec.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/powsec.png" />
 
 <p>With proof of stake, however, the situation is different. Although inclusion into the economic set may be costly (although as we will see it not always is), voting is free. This means that "naive proof of stake" algorithms, which simply try to copy proof of work by making every coin a "simulated mining rig" with a certain chance per second of making the account that owns it usable for signing a block, have a fatal flaw: if there are multiple forks, the optimal strategy is to vote on all forks at once. This is the core of "nothing at stake".</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/possec1.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/possec1.png" />
 
 <p>Note that there is one argument for why it might not make sense for a user to vote on one fork in a proof-of-stake environment: "altruism-prime". Altruism-prime is essentially the combination of actual altruism (on the part of users <a href="https://blog.ethereum.org/2014/09/02/software-bounded-rationality/">or software developers</a>), expressed both as a direct concern for the welfare of others and the network and a psychological moral disincentive against doing something that is obviously evil (double-voting), as well as the "fake altruism" that occurs because holders of coins have a desire not to see the value of their coins go down.</p>
 
@@ -39,11 +39,11 @@ dsq_thread_id:
 
 <p>If we focus our attention specifically on <em>short-range forks</em> - forks lasting less than some number of blocks, perhaps 3000, then there actually is a solution to the nothing at stake problem: security deposits. In order to be eligible to receive a reward for voting on a block, the user must put down a security deposit, and if the user is caught either voting on multiple forks then a proof of that transaction can be put into the original chain, taking the reward away. Hence, voting for only a single fork once again becomes the dominant strategy.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/slasher1sec1.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/slasher1sec1.png" />
 
 <p>Another set of strategies, called "Slasher 2.0" (in contrast to <a href="https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/">Slasher 1.0</a>, the original security deposit-based proof of stake algorithm), involves simply penalizing voters that vote on the <em>wrong</em> fork, not voters that double-vote. This makes analysis substantially simpler, as it removes the need to pre-select voters many blocks in advance to prevent probabilistic double-voting strategies, although it does have the cost that users may be unwilling to sign anything if there are two alternatives of a block at a given height. If we want to give users the option to sign in such circumstances, a variant of <a href="http://en.wikipedia.org/wiki/Scoring_rule#Logarithmic_scoring_rule">logarithmic scoring rules</a> can be used (see <a href="https://docs.google.com/a/buterin.com/document/d/13_FSQ1Koq8uLvqTaSvZdb6OT2SpUZZq53vFiiDQj4qM/edit#">here</a> for more detailed investigation). For the purposes of this discussion, Slasher 1.0 and Slasher 2.0 have identical properties.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/slasher2sec2.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/slasher2sec2.png" />
 
 <p>The reason why this only works for short-range forks is simple: the user has to have the right to withdraw the security deposit eventually, and once the deposit is withdrawn there is no longer any incentive not to vote on a long-range fork starting far back in time using those coins. One class of strategies that attempt to deal with this is making the deposit permanent, but these approaches have a problem of their own: unless the value of a coin constantly grows so as to continually admit new signers, the consensus set ends up ossifying into a sort of permanent nobility. Given that one of the main ideological grievances that has led to cryptocurrency's popularity is precisely the fact that centralization tends to ossify into nobilities that retain permanent power, copying such a property will likely be unacceptable to most users, at least for blockchains that are meant to be permanent. A nobility model may well be precisely the correct approach for special-purpose ephemeral blockchains that are meant to die quickly (eg. one might imagine such a blockchain existing for a round of a blockchain-based game).</p>
 
@@ -79,11 +79,11 @@ dsq_thread_id:
 <li>If a node sees a new block <code>B'</code> with <code>B</code> as parent, then if <code>n</code> is the length of the longest chain of descendants from <code>B</code> at that time, <code>gravity(B') = gravity(B) * 0.99 ^ n</code> (note that values other than 0.99 can also be used).</li>
 </ol>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess1.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess1.png" />
 
 <p>Essentially, we explicitly penalize forks that come later. ESS has the property that, unlike more naive approaches at subjectivity, it mostly avoids permanent network splits; if the time between the first node on the network hearing about block B and the last node on the network hearing about block B is an interval of <code>k</code> blocks, then a fork is unsustainable unless the lengths of the two forks remain forever within roughly <code>k</code> percent of each other (if that is the case, then the differing gravities of the forks will ensure that half of the network will forever see one fork as higher-scoring and the other half will support the other fork). Hence, ESS is weakly subjective with <code>X</code> roughly corresponding to how close to a 50/50 network split the attacker can create (eg. if the attacker can create a 70/30 split, then <code>X = 0.29</code>).</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess2.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess2.png" />
 
 <p>In general, the "max revert N blocks" rule is superior and less complex, but ESS may prove to make more sense in situations where users are fine with high degrees of subjectivity (ie. N being small) in exchange for a rapid ascent to very high degrees of security (ie. immune to a 99% attack after N blocks).</p>
 
@@ -105,7 +105,7 @@ dsq_thread_id:
 
 <p>First, marginal cost is not total cost, and the ratio of total cost divided by marginal cost is much less for proof of stake than proof of work. A user will likely experience close to no pain from locking up 50% of their capital for a few months, a slight amount of pain from locking up 70%, but would find locking up more than 85% intolerable without a large reward. Additionally, different users have very different preferences for how willing they are to lock up capital. Because of these two factors put together, regardless of what the equilibrium interest rate ends up being, the vast majority of the capital will be locked up at far below marginal cost.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/liquidity.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/liquidity.png" />
 
 <p>Second, locking up capital is a private cost, but also a public good. The presence of locked up capital means that there is less money supply available for transactional purposes, and so the value of the currency will increase, redistributing the capital to everyone else, creating a social benefit. Third, security deposits are a very safe store of value, so (i) they substitute the use of money as a personal crisis insurance tool, and (ii) many users will be able to take out loans in the same currency collateralized by the security deposit. Finally, because proof of stake can actually take away deposits for misbehaving, and not just rewards, it is capable of achieving a level of security much higher than the level of rewards, whereas in the case of proof of work the level of security can only equal the level of rewards. There is no way for a proof of work protocol to <i>destroy</i> misbehaving miners' ASICs.</p>
 

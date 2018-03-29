@@ -40,13 +40,13 @@ dsq_thread_id:
 
 <p>We'll start off by describing a relatively simple model that does provide both kinds of scalability, but provides the second only in a very weak and costly way; essentially, we have just enough intra-dapp scalability to ensure asset fungibility, but not much more. The model works as follows:</p>
 
-<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/hubspoke.png" width="400px"></img> </center>
+<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/hubspoke.png" width="400px" /></center>
 
 <p>Suppose that the global Ethereum state (ie. all accounts, contracts and balances) is split up into N parts ("substates") (think 10 &lt;= N &lt;= 200). Anyone can set up an account on any substate, and one can send a transaction to any substate by adding a substate number flag to it, but ordinary transactions can only send a message to an account in the same substate as the sender. However, to ensure security and cross-transmissibility, we add some more features. First, there is also a special "hub substate", which contains only a list of messages, of the form <code>[dest_substate, address, value, data]</code>. Second, there is an opcode <code>CROSS_SEND</code>, which takes those four parameters as arguments, and sends such a one-way message enroute to the destination substate.</p>
 
 <p>Miners mine blocks on some substate <code>s[j]</code>, and each block on <code>s[j]</code> is simultaneously a block in the hub chain. Each block on <code>s[j]</code> has as dependencies the previous block on <code>s[j]</code> and the previous block on the hub chain. For example, with <code>N = 2</code>, the chain would look something like this:</p>
 
-<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/hubchain.png"></img> </center>
+<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/hubchain.png" /> </center>
 
 <p>The block-level state transition function, if mining on substate <code>s[j]</code>, does three things:</p>
 
@@ -76,7 +76,7 @@ dsq_thread_id:
 
 The first two "intermediate state roots" are the roots of the Ethereum <a href="http://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/">Patricia state tree</a> before and after executing the transaction; the Ethereum protocol requires both of these to be in every block. The Patricia state tree nodes provided are needed in order to the verifier to follow along the computation themselves, and see that the same result is arrived at the end. For example, if a transaction ends up modifying the state of three accounts, the set of tree nodes that will need to be provided might look something like this:</p>
 
-<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/lightproof.png" width="400px"></img> </center>
+<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/lightproof.png" width="400px" /></center>
 
 <p>Technically, the proof should include the set of Patricia tree nodes that are needed to access the intermediate state roots and the transaction as well, but that's a relatively minor detail. Altogether, one can think of the proof as consisting of the minimal amount of information from the blockchain needed to process that particular transaction, plus some extra nodes to prove that those bits of the blockchain are actually in the current state. Once the whistleblower creates this proof, they will then be broadcasted to the network, and all other miners will see the proof and discard the defective block.</p>
 
@@ -105,11 +105,11 @@ The first two "intermediate state roots" are the roots of the Ethereum <a href="
 
 <p>The second flaw, the expensiveness of cross-substate messages, we solve by converting the blockchain model from this:</p>
 
-<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/hubspoke.png" width="400px"></img> </center>
+<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/hubspoke.png" width="400px" /></center>
 
 <p>To this:</p>
 
-<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/cube.png" width="400px"></img> </center>
+<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/cube.png" width="400px" /></center>
 
 <p>Except the cube should have twelve dimensions instead of three. Now, the protocol looks as follows:</p>
 
@@ -160,11 +160,11 @@ The first two "intermediate state roots" are the roots of the Ethereum <a href="
 
 <p>As it turns out, you can. The key is to add to messages a data structure called a <a href="https://en.wikipedia.org/wiki/Continuation">continuation</a>. For example, suppose that we are in the middle of a computation where a contract calls a contract which creates a contract, and we are currently executing the code that is creating the inner contract. Thus, the place we are in the computation looks something like this:</p>
 
-<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/executionpath.png" width="400px"></img> </center>
+<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/executionpath.png" width="400px" /></center>
 
 <p>Now, what is the current "state" of this computation? That is, what is the set of all the data that we need to be able to pause the computation, and then using the data resume it later on? In a single instance of the EVM, that's just the program counter (ie. where we are in the code), the memory and the stack. In a situation with contracts calling each other, we need that data for the entire "computational tree", including where we are in the current scope, the parent scope, the parent of that, and so forth back to the original transaction:</p>
 
-<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/stacktrace.png"  width="400px"></img> </center>
+<center> <img src="https://blog.ethereum.org/wp-content/uploads/2014/10/stacktrace.png"  width="400px" /></center>
 
 <p>This is called a "continuation". To resume an execution from this continuation, we simply resume each computation and run it to completion in reverse order (ie. finish the innermost first, then put its output into the appropriate space in its parent, then finish the parent, and so forth). Now, to make a fully scalable EVM, we simply replace the concept of a one-way message with a continuation, and there we go.</p>
 

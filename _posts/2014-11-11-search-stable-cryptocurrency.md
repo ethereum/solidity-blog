@@ -15,7 +15,7 @@ dsq_thread_id:
 
 <p>One of the main problems with Bitcoin for ordinary users is that, while the network may be a great way of sending payments, with lower transaction costs, much more expansive global reach, and a very high level of censorship resistance, Bitcoin the currency is a very volatile means of storing value. Although the currency had by and large grown by leaps and bounds over the past six years, especially in financial markets past performance is no guarantee (and by efficient market hypothesis not even an indicator) of future results of expected value, and the currency also has an established reputation for extreme volatility; over the past eleven months, Bitcoin holders have lost about 67% of their wealth and quite often the price moves up or down by as much as 25% in a single week. Seeing this concern, there is a growing interest in a simple question: can we get the best of both worlds? Can we have the full decentralization that a cryptographic payment network offers, but at the same time have a higher level of price stability, without such extreme upward and downward swings?</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/chart.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/chart.png" />
 
 <p>Last week, a team of Japanese researchers made a <a href="www.coindesk.com/japanese-scholars-draft-proposal-better-bitcoin/">proposal</a> for an "<a href="http://www.scribd.com/doc/245827939/SSRN-id2519367-Japan-Improved-Bitcoin-IBC">improved Bitcoin</a>", which was an attempt to do just that: whereas Bitcoin has a fixed supply, and a volatile price, the researchers' Improved Bitcoin would vary its supply in an attempt to mitigate the shocks in price. However, the problem of making a price-stable cryptocurrency, as the researchers realized, is much different from that of simply setting up an inflation target for a central bank. The underlying question is more difficult: how do we target a fixed price in a way that is both decentralized and robust against attack?</p>
 
@@ -31,7 +31,7 @@ dsq_thread_id:
 <p>For the decentralized measurement problem, there are two known major classes of solutions: <strong>exogenous solutions</strong>, mechanisms which try to measure the price with respect to some precise index from the outside, and <strong>endogenous solutions</strong>, mechanisms which try to use internal variables of the network to measure price. As far as exogenous solutions go, so far the only reliable known class of mechanisms for (possibly) cryptoeconomically securely determining the value of an exogenous variable are the different variants of <a href="https://blog.ethereum.org/2014/03/28/schellingcoin-a-minimal-trust-universal-data-feed/">Schellingcoin</a> - essentially, have everyone vote on what the result is (using some set chosen randomly based on mining power or stake in some currency to prevent sybil attacks), and reward everyone that provides a result that is close to the majority consensus. If you assume that everyone else will provide accurate information, then it is in your interest to provide accurate information in order to be closer to the consensus - a self-reinforcing mechanism much like cryptocurrency consensus itself.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/schellingcoin.png" width="450px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/schellingcoin.png" />
 </center>
 
 <p>The main problem with Schellingcoin is that it's not clear exactly how stable the consensus is. Particularly, what if some medium-sized actor pre-announces some alternative value to the truth that would be beneficial for most actors to adopt, and the actors manage to coordinate on switching over? If there was a large incentive, and if the pool of users was relatively centralized, it might not be too difficult to coordinate on switching over.</p>
@@ -72,7 +72,7 @@ dsq_thread_id:
 <p>First, let us set up the problem. Formally, we define an <strong>estimator</strong> to be a function which receives a data feed of some input variable (eg. mining difficulty, transaction cost in currency units, etc) <code>D[1]</code>, <code>D[2]</code>, <code>D[3]</code>..., and needs to output a stream of estimates of the currency's price, <code>P[1]</code>, <code>P[2]</code>, <code>P[3]</code>... The estimator obviously cannot look into the future; <code>P[i]</code> can be dependent on <code>D[1]</code>, <code>D[2]</code> ... <code>D[i]</code>, but not <code>D[i+1]</code>. Now, to start off, let us graph the simplest possible estimator on Bitcoin, which we'll call the <strong>naive estimator</strong>: difficulty equals price.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo3.svg_.png" width="450px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo3.svg_.png" />
 </center>
 
 <p>Unfortunately, the problem with this approach is obvious from the graph and was already mentioned above: difficulty is a function of both price and Moore's law, and so it gives results that depart from any accurate measure of the price exponentially over time. The first immediate strategy to fix this problem is to try to compensate for Moore's law, using the difficulty but artificially reducing the price by some constant per day to counteract the expected speed of technological progress; we'll call this the <strong>compensated naive estimator</strong>. Note that there are an infinite number of versions of this estimator, one for each depreciation rate, and all of the other estimators that we show here will also have parameters.</p>
@@ -80,26 +80,26 @@ dsq_thread_id:
 <p>The way that we will select the parameter for our version is by using a variant of <a href="http://en.wikipedia.org/wiki/Simulated_annealing">simulated annealing</a> to find the optimal values, using the first 780 days of the Bitcoin price as "training data". The estimators are then left to perform as they would for the remaining 780 days, to see how they would react to conditions that were unknown when the parameters were optimized (this technique, knows as "cross-validation", is standard in machine learning and optimization theory). The optimal value for the compensated estimator is a drop of 0.48% per day, leading to this chart:</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo4.svg_.png" width="450px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo4.svg_.png" />
 </center>
 
 <p>The next estimator that we will explore is the <strong>bounded estimator</strong>. The way the bounded estimator works is somewhat more complicated. By default, it assumes that all growth in difficulty is due to Moore's law. However, it assumes that Moore's law cannot go backwards (ie. technology getting worse), and that Moore's law cannot go faster than some rate - in the case of our version, 5.88% per two weeks, or roughly quadrupling every year. Any growth outside these bounds it assumes is coming from price rises or drops. Thus, for example, if the difficulty rises by 20% in one period, it assumes that 5.88% of it is due to technological advancements, and the remaining 14.12% is due to a price increase, and thus a stabilizing currency based on this estimator might increase supply by 14.12% to compensate. The theory is that cryptocurrency price growth to a large extent happens in rapid bubbles, and thus the bounded estimator should be able to capture the bulk of the price growth during such events.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo5.svg_.png" width="450px"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo5.svg_.png" />
 </center>
 
 <p>There are more advanced strategies as well; the best strategies should take into account the fact that ASIC farms take time to set up, and also follow a <a href="https://en.wikipedia.org/wiki/Hysteresis">hysteresis</a> effect: it's often viable to keep an ASIC farm online if you already have it even when under the same conditions it would not be viable to start up a new one. A simple approach is looking at the rate of increase of the difficulty, and not just the difficulty itself, or even using a linear regression analysis to project difficulty 90 days into the future. Here is a chart containing the above estimators, plus a few others, compared to the actual price:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo30.svg_.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo30.svg_.png" />
 
 <p>Note that the chart also includes three estimators that use statistics other than Bitcoin mining: a simple and an advanced estimator using transaction volume, and an estimator using the average transaction fee. We can also split up the mining-based estimators from the other estimators:</p>
 
 <center>
 <table>
 <tr>
-<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo10.svg_.png" width="330px"></img></td>
-<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo20.svg_.png" width="330px"></img></td>
+<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo10.svg_.png" /></td>
+<td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/endo20.svg_.png" /></td>
 </tr>
 </table>
 </center>

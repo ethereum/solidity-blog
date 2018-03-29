@@ -21,7 +21,7 @@ But first a short introduction: I am Alex Van de Sande and I am the lead designe
 
 So if you consider yourself in that group, then welcome we'll guide you to some basic activities you can do in a few minutes in ethereum: <strong>Build your own cryptocurrency, building your own democracy and creating a central bank in the blockchain</strong>. We skipped the "Hello World" tutorial this time, but you'll do fine.
 <h3>Download the Ethereum Wallet</h3>
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-3.00.41-PM.png"><img class="aligncenter size-full wp-image-2313" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-3.00.41-PM.png" alt="Ethereum Wallet Screenshot" width="1986" height="1426" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-3.00.41-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-3.00.41-PM.png" alt="Ethereum Wallet Screenshot" /></a>
 <p style="text-align: center;"><strong><a href="https://github.com/ethereum/mist/releases/latest" target="_blank">Download the latest version of the Wallet</a></strong></p>
 But enough talking, let's get our hands dirty with Ethereum! I might be biased but I'd say the best place to start is the Ethereum Wallet, a multi platform app that will enable you to send ether and ethereum based currencies, create and execute contracts.
 
@@ -29,7 +29,7 @@ The first thing you have to do on it is create an ethereum account. All you need
 
 The wallet only allows basic mining on the testnet, but if you want to try your luck on the real net, then you need a more advanced tool. This used to be a cumbersome process but now there are better easier tools: and we have new tools that will make that process much easier.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-3.58.29-PM.png"><img class="alignright wp-image-2314" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-3.58.29-PM.png" alt="Aleah One Miner Screenshot" width="466" height="500" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-3.58.29-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-3.58.29-PM.png" alt="Aleah One Miner Screenshot" /></a>
 
 <a href="https://github.com/ethereum/webthree-umbrella/releases" target="_blank">The AlethOne miner</a> is a straightforward tool with two buttons: press one to start mining in your GPU and press the other to deposit your rewards in a wallet. <a href="https://github.com/ethereum/webthree-umbrella/releases" target="_blank">Download it from the Turbo Suite</a>, a set of power tools created by the C++ team to develop ethereum applications.
 
@@ -41,24 +41,24 @@ Go to the contracts page and then click "deploy new contract".
 
 &nbsp;
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-7.png"><img class="aligncenter size-full wp-image-2315" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-7.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 7" width="2314" height="1770" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-7.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-7.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 7" /></a>
 
 Now get the<a href="http://chriseth.github.io/browser-solidity/?gist=21935dc37c5bfbe92e5a"> token code</a> from here and paste it into the "Solidity source field". If the code compiles without any error, you should see a "pick a contract" drop down on the left. Get it and select the "MyToken" contract. On the right column you'll see all the parameters you need to personalize your own token. You can tweak them as you please, but for the purpose of this tutorial we recommend you to pick these parameters: 10,000 as the supply, any name you want, "%" for a symbol and 2 decimal places. Your app should be looking like this:
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-10.png"><img class="aligncenter size-full wp-image-2317" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-10.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 10" width="2314" height="1770" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-10.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-10.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 10" /></a>
 
 Scroll to the end of the page and you'll see an estimate of the computation cost of that contract and you can select a fee on how much ether you are willing to pay for it. <strong>Any excess ether you don't spend will be returned to you</strong> so you can leave the default settings if you wish. Press "deploy", type your account password and wait a few seconds for your transaction to be picked up.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-11.png"><img class="aligncenter size-full wp-image-2318" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-11.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 11" width="2314" height="1770" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-11.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Ethereum-Wallet-Screenshot-2015-12-03-at-3.50.36-PM-11.png" alt="Ethereum Wallet Screenshot 2015-12-03 at 3.50.36 PM 11" /></a>
 
 You'll be redirected to the front page where you can see your transaction waiting for confirmations. Click the account named "Etherbase" (your main account) and after no more than a minute you should see that your account will show that you have 100% of the shares you just created.  To send some to a few friends: select "send", and then choose which currency you want to send (ether or your newly created share), paste your friend's address on the "to" field and press "send".
 
-<img class="aligncenter size-full wp-image-2319" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.48.15-AM.png" alt="Screen Shot 2015-12-03 at 9.48.15 AM" width="2334" height="1764" />
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.48.15-AM.png" alt="Screen Shot 2015-12-03 at 9.48.15 AM" />
 
 If you send it to a friend, they will not see anything in their wallet yet. This is because the wallet only tracks tokens it knows about, and you have to add these manually. Now go to the "Contracts" tab and you should see a link for your newly created contract. Click on it to go to it's page. Since this is a very simple contract page there isn't much to do here, just click "copy address" and paste the contract address on a text editor, you'll need it shortly.
 
 To add a token to watch, go to the contracts page and then click "Watch Token". A popup will appear and you only need to paste the contract address. The token name, symbol and decimal number should be automatically filled but if it's not you can put anything you want (it will only affect how it displays on your wallet). Once you do this, you'll automatically be shown any balance you have of that token and you'll be able to send it to anyone else.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.44.42-AM.png"><img class="aligncenter size-full wp-image-2320" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.44.42-AM.png" alt="Ethereum Wallet Beta 4 Screen Shot 2015-12-03 at 9.44.42 AM" width="2334" height="1764" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.44.42-AM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-03-at-9.44.42-AM.png" alt="Ethereum Wallet Beta 4 Screen Shot 2015-12-03 at 9.44.42 AM" /></a>
 
 And now you have your own crypto token! Tokens by themselves can be useful as <a href="https://en.wikipedia.org/wiki/Local_currency">value exchange on local communities</a>, ways to <a href="https://en.wikipedia.org/wiki/Time-based_currency">keep track of worked hours</a> or other loyalty programs. But can we make a currency have an intrinsic value by making it useful? Tomorrow we'll show how tokens can be used as voting system in order to make collective decisions on the use of funds by<a href="https://blog.ethereum.org/2015/12/04/ethereum-in-practice-part-2-how-to-build-a-better-democracy-in-under-a-100-lines-of-code/" target="_blank"> creating a <strong>Democratic Autonomous Organization</strong></a>.

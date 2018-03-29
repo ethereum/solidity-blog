@@ -36,7 +36,7 @@ One answer is infographics. Here are a few benefits of this medium
 </ol>
 Bellow is the concept of the first general infographic for Ethereum designed for the masses. I’ll allow it to speak for itself and I welcome feedback and questions as to why we crafted the message the way we did or why certain terms or ideas were left out. Please feel free to share this and help get the message around the web.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/06/Ethereum-image-infographic-beginners-guide.png"><img class="alignnone wp-image-1780 size-full" src="https://blog.ethereum.org/wp-content/uploads/2015/06/Ethereum-image-infographic-beginners-guide.png" alt="Ethereum Infographic Image - Beginners Guide" width="900" height="2246" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/06/Ethereum-image-infographic-beginners-guide.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/06/Ethereum-image-infographic-beginners-guide.png" alt="Ethereum Infographic Image - Beginners Guide"/></a>
 
 This is the first of a few proposed infographics. The next one will focus more on Ethereum use cases for various sectors, then one for the more technically inclined.
 

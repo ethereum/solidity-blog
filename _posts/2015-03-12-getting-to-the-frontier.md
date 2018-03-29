@@ -9,7 +9,7 @@ permalink: /2015/03/12/getting-to-the-frontier/
 dsq_thread_id:
   - "3589629011"
 ---
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Frontier_BLOG-Image_2.jpg"><img class="alignleft size-full wp-image-1474" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Frontier_BLOG-Image_2.jpg" alt="Frontier_BLOG-Image_2" width="1920" height="1152" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Frontier_BLOG-Image_2.jpg"><img class="alignleft size-full wp-image-1474" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Frontier_BLOG-Image_2.jpg" alt="Frontier_BLOG-Image_2" /></a>
 
 So first some background. We’ve already covered a little about what to expect from Frontier in the <a href="https://blog.ethereum.org/2015/03/03/ethereum-launch-process/">Ethereum Launch Process</a> blog post and Gav has given us a <a href="https://blog.ethereum.org/2015/03/02/gavs-ethereum-d%CE%BEv-update-v/">comprehensive overview of the state of the development effort</a>. You can also read about some of the ongoing security work, <a href="https://bounty.ethdev.com/">including the bug bounty system</a>. The bug bounty program has found my favorite bug so far: <a href="https://jonasnick.github.io/">Jonas Nick</a>'s discovery that <a href="https://www.reddit.com/r/ethereum/comments/2xujcn/ethereum_bug_sending_negative_value_transactions/">you could send a negative payment to somebody which moves value from their account to yours!</a>
 
@@ -41,7 +41,7 @@ If you would like to see the current state of play, Jeffrey Wilcke (<a href="htt
 
 This <a href="https://github.com/ethereum/go-ethereum/milestones/Frontier">issue list</a> is the best reference for the Frontier release: right now, 10 issues closed, 26 open. New issues will get raised, and of course issue count is only a very loose proxy for “ship time” but the work done is the best indicator, so look there if you would like to prognosticate.
 
-<a href="https://github.com/ethereum/go-ethereum/milestones/Frontier"><img class="alignleft size-full wp-image-1469" src="https://blog.ethereum.org/wp-content/uploads/2015/03/screen-shot-for-downloads.png" alt="screen shot for downloads" width="997" height="400" /></a>
+<a href="https://github.com/ethereum/go-ethereum/milestones/Frontier"><img class="alignleft size-full wp-image-1469" src="https://blog.ethereum.org/wp-content/uploads/2015/03/screen-shot-for-downloads.png" alt="screen shot for downloads" /></a>
 
 Please note: this is not to say that we are running on “<a href="https://developer.valvesoftware.com/wiki/Valve_Time%20">Valve Time</a>” (even though Valve Time does produce some spectacular products!) We have open development processes, you can see the code being written, download the latest branches, participate in testing. It’s not all hidden behind a company PR wall. But we are running on “releasing innovative software with huge associated security processes” time, and schedule estimation for things which have never been done before is not going to help anybody: part of the benefit of the way Ethereum was funded over conventional funding models is that we can do what is right in the medium- and long-term, rather than being under constant market pressure for next quarter’s numbers.
 

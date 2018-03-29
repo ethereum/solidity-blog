@@ -217,7 +217,7 @@ Create an Ethereum Builders session for
 </ul>
 It's worth mentioning that even if no monetary rewards are involved in this, reputation is. We have started to keep track of the contributions and involvement in a very crude form on <a href="http://ethereum.builders/co-creators" target="_blank">ethereum.builders/co-creators</a>:
 
-<a href="http://ethereum.builders/co-creators" target="_blank"><img class="aligncenter size-full wp-image-1615" src="https://blog.ethereum.org/wp-content/uploads/2015/04/ethereum-co-creators.png" alt="ethereum co-creators" width="1446" height="565" /></a>
+<a href="http://ethereum.builders/co-creators" target="_blank"><img src="https://blog.ethereum.org/wp-content/uploads/2015/04/ethereum-co-creators.png" alt="ethereum co-creators" /></a>
 
 We’re all excited about the upcoming launch, but in all this excitement I think it is important also to keep in mind that regardless of how great the technology is, without an energized community co-creating a multi-verse of smart contracts with it, Ethereum's success is not guaranteed by any means.
 

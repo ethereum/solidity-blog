@@ -15,13 +15,14 @@ Although the core concept was proven last summer when lead developers Vitalik Bu
 
 One of the challenges with a project of this scope and complexity is simply agreeing on any particular thing. Translating human abstractions into code is a tough task, as <a href="http://queue.acm.org/detail.cfm?id=1999945" target="_blank">even the words we choose</a> influences different ways of expressing ideas with code. As we build more around these core ideas and truly experience how reality meets theory, we’re able to refine the underlying specifications to remove ambiguity. This all pays off as the team shares a clean and well-understood vision that should translate effectively to other developers of varying disciplines.
 
-[caption id="attachment_1546" align="alignnone" width="1766"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.39.17-1.png"><img class="size-full wp-image-1546" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.39.17-1.png" alt="Number of git commits over time" width="1766" height="332" /></a> Number of git commits over time[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.39.17-1.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.39.17-1.png" alt="Number of git commits over time" /></a>
+Number of git commits over time
 
 Complementing this, a variety of test suites add an important level of confidence that the various implementations adhere to a specification. On the consensus front, we have used a series of VM and State tests to simulate known results and have added randomization and fuzzing to increase this testing space. A series of system and networking tests are also being run, ensuring clients communicate in an expected manner or respond to certain networking scenarios predictably.
 
 Not only are tests designed for success, but all sorts of error conditions are fed into the test suites to ensure that known errors (such as running out of gas or being abruptly disconnected from a peer) are reported correctly. What this means is that when changes are made to the behaviour of the clients, the decision is driven by data and metrics, rather than theory and gut feelings.
 
-[caption id="attachment_1550" align="alignnone" width="711"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/peerconnections.jpg"><img class="size-full wp-image-1550" src="https://blog.ethereum.org/wp-content/uploads/2015/03/peerconnections.jpg" alt="Graphing node connectivity allows us to visually inspect the health of network" width="711" height="658" /></a> Graphing node connectivity allows us to visually inspect the health of network[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/peerconnections.jpg"><img class="size-full wp-image-1550" src="https://blog.ethereum.org/wp-content/uploads/2015/03/peerconnections.jpg" alt="Graphing node connectivity allows us to visually inspect the health of network" width="711" height="658" /></a> Graphing node connectivity allows us to visually inspect the health of network
 
 Beyond testing of the core components, we have begun implementing tests on the exterior layers to ensure that the clients respond to a multitude of calls to the underlying system in the same way with easily-consumable JSON. These specifications are linked <a href="https://github.com/ethereum/wiki/wiki" target="_blank">in the wiki</a> and drive the implementation and communication across diverse teams. This helps to ensure that what is in our heads is reliably translated into code, and that all of this is tested and audited.
 
@@ -33,13 +34,15 @@ So how does all of this underlying technobabble expose itself to the general use
 
 Using the command-line client will be a familiar process to many. For example, you can create a new account with `geth account new`, at which point the program will prompt you for a password to secure the account. Starting geth as a miner can be done by calling it with a parameter, like so: `geth -mine`. This is a great way to start interacting with the system, but has its own set of limitations. For example, once you’ve started mining, how does one pause it?
 
-[caption id="attachment_1549" align="aligncenter" width="577"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/geth9.gif"><img class="size-full wp-image-1549" src="https://blog.ethereum.org/wp-content/uploads/2015/03/geth9.gif" alt="Using Geth’s interactive JavaScript console" width="577" height="344" /></a> Using Geth’s interactive JavaScript console[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/geth9.gif"><img src="https://blog.ethereum.org/wp-content/uploads/2015/03/geth9.gif" alt="Using Geth’s interactive JavaScript console" /></a>
+Using Geth’s interactive JavaScript console
 
 For a more useful way to control the program, Geth has a JavaScript console backed by a <a href="https://github.com/ethereum/wiki/wiki/JavaScript-API" target="_blank">JavaScript API</a>. Start it with a simple command: `geth console`. With Geth, this starts the <a href="https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console" target="_blank">interactive console</a>, giving users the familiarity of JavaScript scripting to control the system from the terminal. For example, to find out a bit more about the local node, run `admin.nodeInfo()`.
 
 This control is partly powered by <a href="https://github.com/ethereum/ethereum.js" target="_blank">ethereum.js</a>, a JavaScript library that helps provide a friendly interface to not only the console, but also DApps. It relies on a well-documented <a href="https://github.com/ethereum/wiki/wiki/JSON-RPC" target="_blank">JSON-RPC</a> interface for automated processing or integration into existing infrastructure. Work on many of these components is ongoing as rigorous effort is being put in to ensuring that the implementations speak the same language and are as generally compatible as possible.
 
-[caption id="attachment_1548" align="alignnone" width="1332"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-22.06.02.png"><img class="size-full wp-image-1548" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-22.06.02.png" alt="A quick view of build status" width="1332" height="304" /></a> A quick view of build status[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-22.06.02.png"><img class="size-full wp-image-1548" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-22.06.02.png" alt="A quick view of build status" /></a>
+A quick view of build status
 
 Of course, all of this is built publicly on GitHub and includes various continuous integration aspects such as automated builds and reporting on major platforms. This is not a program defining a spec—this is a spec implemented and cross tested between machines and humans spanning the globe.
 
@@ -47,7 +50,7 @@ Concurrently, work is progressing on several other components to the ecosystem, 
 
 Beyond the technical ins and outs of development, our communications team has continued interacting with the community to produce public education material like tutorials and videos. Furthermore, our admin staff helps process payments and comply with various local laws including tedious things like employment taxes.
 
-[caption id="attachment_1545" align="alignnone" width="1894"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.31.34.png"><img class="size-full wp-image-1545" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.31.34.png" alt="Who needs sleep?" width="1894" height="1050" /></a> Who needs sleep?[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.31.34.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-28-at-15.31.34.png" alt="Who needs sleep?" /></a> Who needs sleep?
 
 Being part of the Ethereum project has been an exceptional experience filled with excitement. What started as only <a href="http://vitalik.ca/ethereum.html" target="_blank">an idea</a> little more than a year ago has spawned an exceptional engineering effort led by professionals implementing all the necessary infrastructure required to build a revolutionary decentralized application platform.
 

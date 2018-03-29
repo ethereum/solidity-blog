@@ -21,15 +21,15 @@ dsq_thread_id:
 
 <p>We can model this kind of network thus:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet1.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet1.png" />
 
 <p>However, the problems arise when we take into account the fact that network propagation is not instant. According to a <a href="http://www.tik.ee.ethz.ch/file/49318d3f56c1d525aabf7fda78b23fc0/P2P2013_041.pdf">2013 paper</a> from Decker and Wattenhofer in Zurich, once a miner produces a block on average it takes 6.5 seconds for the block to reach 50% of nodes, 40 seconds for it to reach 95% of nodes and the mean delay is 12.6 seconds. Thus, a more accurate model might be:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet2.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet2.png" />
 
 <p>This gives rise to the following problem: if, at time T = 500, miner M mines a block <code>B'</code> on top of <code>B</code> (where "on top of" is understood to mean "pointing to as the previous block in the chain"), then miner N might not hear about the block until time T = 510, so until T = 510 miner N will still be mining on B. If miner B finds a block in that interval, then the rest of the network will reject miner B's block because they already saw miner A's block which has an equal score:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet3.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet3.png" />
 
 <h3>Stales, Efficiency and Centralization</h3>
 
@@ -55,7 +55,7 @@ dsq_thread_id:
 
 <p>Thus, in the graphical blockchain example given above, we'll instead have something like this:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet4.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet4.png" />
 
 <p>Here, the math gets more complex, so we'll make some intuitive arguments and then take the lazy approach and simulate the whole thing. The basic intuitive argument is this: in the basic mining protocol, for the reasons we described above, the stale rate is roughly <code>t/(T+t)</code> where <code>t</code> is the transit time and <code>T</code> is the block interval, because <code>t/T</code> of the time miners are mining on old data. With single-level GHOST, the failure condition changes from mining one stale to mining two stales in a row (since uncles can get included but relatives with a divergence of 2 or higher cannot), so the stale rate should be <code>(t/T)^2</code>, ie. about 2.7% instead of 16.7%. Now, let's use a <a href="https://github.com/ethereum/economic-modeling/blob/master/ghost.py">Python script</a> to test that theory:</p>
 
@@ -80,7 +80,7 @@ Block time:  70.8516366728
 
 <p>Specifically, suppose that the main chain has its last block <code>M</code> (score 502) with parent <code>L</code> (score 501) with parent <code>K</code> (score 500). Also suppose that <code>K</code> has two stale children, both of which were produced after <code>M</code> so there was no chance for them to be included in <code>M</code> as uncles. If you mine on <code>M</code>, you would produce a block with score <code>502 + 1 = 503</code> and reward 1, but if you mine on <code>L</code> you would be able to include <code>K</code>'s children and get a block with score <code>501 + 1 + 2 = 504</code> and reward <code>1 + 0.0625 * 2 = 1.125</code>.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet51.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet51.png" />
 
 <p>Additionally, there is a <a href="http://bitcoinmagazine.com/7953/selfish-mining-a-25-attack-against-the-bitcoin-network/">selfish-mining</a>-esque attack against single-level GHOST. The argument is as follows: if a mining pool with 25% hashpower were not to include any other blocks, then in the short term it would hurt itself because it would no longer receive the 1/16x nephew reward but it would hurt others more. Because in the long-term mining is a zero-sum game since the block time rebalances to keep issuance constant, this means that not including uncles might actually be a dominant strategy, so centralization concerns are not entirely gone (specifically, they still remain 30% of the time). Additionally, if we decide to crank up the speed further, say to a 12 second target block time, single-level is just not good enough. Here's a result with those statistics:</p>
 

@@ -21,7 +21,7 @@ dsq_thread_id:
 
 <p>Hence, there needs to be some way in which a user with far less computing power to still get a secure assurance about various details of the blockchain state - what is the balance/state of a particular account, did a particular transaction process, did a particular event happen, etc. Ideally, it should be possible for a light client to do this <em>in logarithmic time</em> - that is, <i>squaring</i> the number of transactions (eg. going from 1000 tx/day to 1000000 tx/day) should only <i>double</i> a light client's cost. Fortunately, as it turns out, it is quite possible to design a cryptocurrency protocol that can be securely evaluated by light clients at this level of efficiency.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/01/pow_header.png" width="600"></img>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/01/pow_header.png" width="600" />
 <br>
 <small><i>Basic block header model in Ethereum (note that Ethereum has a Merkle tree for transactions and accounts in each block, allowing light clients to easily access more data)</i></small></center>
 
@@ -35,11 +35,11 @@ dsq_thread_id:
 
 <p>Additional data like the timestamp is also included in the block header, but this is not relevant here. Second, there is the <em>transaction tree</em>. Transactions in a Bitcoin block are stored in a data structure called a Merkle tree. The nodes on the bottom level of the tree are the transactions, and then going up from there every node is the hash of the two nodes below it. For example, if the bottom level had sixteen transactions, then the next level would have eight nodes: <code>hash(tx[1] + tx[2])</code>, <code>hash(tx[3] + tx[4])</code>, etc. The level above that would have four nodes (eg. the first node is equal to <code>hash(hash(tx[1] + tx[2]) + hash(tx[3] + tx[4]))</code>), the level above has two nodes, and then the level at the top has one node, the Merkle root of the entire tree.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/01/merkle_basic.png" width="500"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/01/merkle_basic.png" width="500" /></center>
 
 <p>The Merkle root can be thought of as a hash of all the transactions together, and has the same properties that you would expect out of a hash - if you change even one bit in one transaction, the Merkle root will end up completely different, and there is no way to come up with two different sets of transactions that have the same Merkle root. The reason why this more complicated tree construction needs to be used is that it actually allows you to come up with a compact proof that one particular transaction was included in a particular block. How? Essentially, just provide the branch of the tree going down to the transaction:</p>
 
-<center><img src="https://camo.githubusercontent.com/52e0d1b4436e61cca69cd3e3e62dda7b9bcb3b54/68747470733a2f2f7777772e657468657265756d2e6f72672f67685f77696b692f7370765f626974636f696e2e706e67" width="600"></img></center>
+<center><img src="https://camo.githubusercontent.com/52e0d1b4436e61cca69cd3e3e62dda7b9bcb3b54/68747470733a2f2f7777772e657468657265756d2e6f72672f67685f77696b692f7370765f626974636f696e2e706e67" width="600" /></center>
 
 <p>The verifier will verify only the hashes going down along the branch, and thereby be assured that the given transaction is legitimately a member of the tree that produced a particular Merkle root. If an attacker tries to change any hash anywhere going down the branch, the hashes will no longer match and the proof will be invalid. The size of each proof is equal to the depth of the tree - ie. logarithmic in the number of transactions. If your block contains 2<sup>20</sup> (ie. ~1 million) transactions, then the Merkle tree will have only 20 levels, and so the verifier will only need to compute 20 hashes in order to verify a proof. If your block contains 2<sup>30</sup> (ie. ~1 billion) transactions, then the Merkle tree will have 30 levels, and so a light client will be able to verify a transaction with just 30 hashes.</p>
 
@@ -61,7 +61,7 @@ dsq_thread_id:
 
 <p>To start off, let us describe an older version of Slasher, which was not particularly designed to be explicitly light-client friendly:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/01/pos_header.png"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/01/pos_header.png" /></center>
 
 <ol>
 <li>In order to be a "potential blockmaker" or "potential signer", a user must put down a security deposit of some size. This security deposit can be put down at any time, and lasts for a long period of time, say 3 months.</li>
@@ -92,7 +92,7 @@ dsq_thread_id:
 
 <p>However, we can do significantly better than the naive algorithm above. The key insight that lets us go further is that of splitting the blockchain up into <em>epochs</em>. Here, let us define a more advanced version of Slasher, that we will call "epoch Slasher". Epoch Slasher is identical to the above Slasher, except for a few other conditions:</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2015/01/pos_checkpoints.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2015/01/pos_checkpoints.png" />
 
 <ol>
 <li>Define a <em>checkpoint</em> as a block such that <code>block.number % n == 0</code> (ie. every <code>n</code> blocks there is a checkpoint). Think of <code>n</code> as being somewhere around a few weeks long; it only needs to be substantially less than the security deposit length.</li>

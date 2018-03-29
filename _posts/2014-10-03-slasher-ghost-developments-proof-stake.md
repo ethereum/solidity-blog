@@ -64,13 +64,13 @@ dsq_thread_id:
 
 <p>Fortunately, one can actually construct a third approach that neatly solves this problem, which we will call <em>exponentially subjective scoring</em>. Essentially, instead of rejecting forks that go back too far, we simply penalize them on a graduating scale. For every block, a node maintains a score and a "gravity" factor, which acts as a multiplier to the contribution that the block makes to the blockchain's score. The gravity of the genesis block is 1, and normally the gravity of any other block is set to be equal to the gravity of its parent. However, if a node receives a block whose parent already has a chain of N descendants (ie. it's a fork reverting N blocks), that block's gravity is penalized by a factor of 0.99<sup>N</sup>, and the penalty propagates forever down the chain and stacks multiplicatively with other penalties.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess1.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess1.png" />
 
 <p>That is, a fork which starts 1 block ago will need to grow 1% faster than the main chain in order to overtake it, a fork which starts 100 blocks ago will need to grow 2.718 times as quickly, and a fork which starts 3000 blocks ago will need to grow 12428428189813 times as quickly - clearly an impossibility with even trivial proof of work. </p>
 
 <p>The algorithm serves to smooth out the role of checkpointing, assigning a small "weak checkpoint" role to each individual block. If an attacker produces a fork that some nodes hear about even three blocks earlier than others, those two chains will need to stay within 3% of each other forever in order for a network split to maintain itself.</p>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess2.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/ess2.png" />
 
 <p>There are other solutions that could be used aside from, or even alongside ESS; a particular set of strategies involves stakeholders voting on a checkpoint every few thousand blocks, requiring every checkpoint produced to reflect a large consensus of the majority of the current stake (the reason the majority of the stake can't vote on every block is, of course, that having that many signatures would bloat the blockchain).</p>
 
@@ -99,7 +99,7 @@ dsq_thread_id:
 <li><code>[block_number, uncle_parent_hash, vtx]</code> - this transaction is valid if (1) the block with the given <code>uncle_parent_hash</code> has already been validated, (2) the given virtual transaction is valid at the given block height with the state at the end of <code>uncle_parent_hash</code>, and (3) the virtual transaction shows a signature by an address which also signed a block at the given <code>block_number</code> in the main chain. This transaction penalizes that one address.</li>
 </ol>
 
-<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/slasherghost.png"></img>
+<img src="https://blog.ethereum.org/wp-content/uploads/2014/10/slasherghost.png" />
 
 <p>Essentially, one can think of the mechanism as working like a "zipper", with one block from the fork chain at a time being zipped into the main chain. Note that for a fork to start, there must exist double-signers at every block; there is no situation where there is a double-signer 1500 blocks into a fork so a whistleblower must "zip" 1499 innocent blocks into a chain before getting to the target block - rather, in such a case, even if 1500 blocks need to be added, each one of them notifies the main chain about five separate malfeasors that double-signed at that height. One somewhat complicated property of the scheme is that the validity of these "Slasher uncles" depends on whether or not the node has validated a particular block outside of the main chain; to facilitate this, we specify that a response to a "getblock" message in the wire protocol must include the uncle-dependencies for a block before the actual block. Note that this may sometimes lead to a recursive expansion; however, the denial-of-service potential is limited since each individual block still requires a substantial quantity of proof-of-work to produce.</p>
 

@@ -13,11 +13,11 @@ With Ethereum getting close to its first official launch with Frontier, we have 
 
 First, an introduction to roughly how the foundation is structured now from an organizational standpoint.
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/04/etherfoundation12321.png" style="width:500px"> </img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/04/etherfoundation12321.png" /></center>
 
 Stiftung Ethereum (that's German for "Ethereum Foundation") is a non-profit organization registered in Switzerland; specifically, in the wonderful town of Zug:
 
-<center><img src="http://images.gadmin.st.s3.amazonaws.com/n66020/images/buehne/guggi.jpg" style="width:500px"> </img></center>
+<center><img src="http://images.gadmin.st.s3.amazonaws.com/n66020/images/buehne/guggi.jpg" style="width:500px" /></center>
 
 The Stiftung is the body that is, ultimately, tasked with managing the funds and determining the long-term vision and direction of Ethereum. The foundation is legally controlled by a body known as the Foundation Council; however, a larger advisory group also exists that has been involved in providing input for decision-making. There are a number of legal entities registered in multiple countries across Europe, and these entities each employ the individuals housed in their respective countries. The centers in Switzerland and Berlin are the largest. The Foundation Council is intended to make decisions occasionally and focus on the long term; for day-to-day decisions regarding development an "executive" consisting of myself, Gavin Wood and Jeffrey Wilcke is in charge, with considerable assistance from Aeron Buchanan, Jutta Steiner, Kelley Becker, Frithjof Weinert and others on administrative and security management.
 

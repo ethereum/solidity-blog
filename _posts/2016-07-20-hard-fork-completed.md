@@ -11,7 +11,7 @@ dsq_thread_id:
 ---
 We would like to congratulate the Ethereum community on a successfully completed hard fork. <a href="http://etherscan.io/block/1920000">Block 1920000</a> contained the execution of an irregular state change which transferred ~12 million ETH from the "Dark DAO" and "Whitehat DAO" contracts into the <a href="https://etherscan.io/address/0xbf4ed7b27f1d666546e30d74d50d173d20bca754">WithdrawDAO recovery contract</a>. The fork itself took place smoothly, with roughly 85% of miners mining on the fork:
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/the-moment-ethereum-historically-hardforked.jpg"><img class="alignnone size-full wp-image-2933" src="https://blog.ethereum.org/wp-content/uploads/2016/07/the-moment-ethereum-historically-hardforked.jpg" alt="the-moment-ethereum-historically-hardforked" width="310" height="483" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/the-moment-ethereum-historically-hardforked.jpg"><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/the-moment-ethereum-historically-hardforked.jpg" alt="the-moment-ethereum-historically-hardforked" /></a>
 
 You can see ongoing fork progress <a href="http://fork.ethstats.net/">here</a>. <a href="https://ethstats.net/">EthStats</a> shows Go, Java and Parity (Rust) nodes successfully synchronized to the fork chain.
 

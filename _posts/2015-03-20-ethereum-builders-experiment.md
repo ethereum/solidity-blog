@@ -27,7 +27,7 @@ Enjoy!
 <blockquote>Liberty, when it begins to take root, is a plant of rapid growth.</blockquote>
 <i>—George Washington</i>
 
-<img class="aligncenter" src="https://meowhigh.files.wordpress.com/2015/03/7b366-287545.jpg" alt="" width="1600" height="900" />
+<img class="aligncenter" src="https://meowhigh.files.wordpress.com/2015/03/7b366-287545.jpg" alt="" />
 
 As does any successful idea, the Ethereum Project has metamorphosed many times and evolved into what it has become today. The growth happened in various ways while the available resources were channeled into strategic areas.
 
@@ -47,7 +47,7 @@ Everyone agrees that in order to have a thriving ecosystem, we need to create fa
 <blockquote>“In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.”</blockquote>
 <strong><i>—Eric Hoffer</i></strong>
 
-<img class="aligncenter" src="http://www.ce5.be/eng/blog/wp-content/uploads/2014/09/close-your-eyes-open-your-mind.jpg" alt="" width="1920" height="1080" />
+<img class="aligncenter" src="http://www.ce5.be/eng/blog/wp-content/uploads/2014/09/close-your-eyes-open-your-mind.jpg" alt="" />
 
 While exploring the idea behind educational portals (i.e. Code Academy) and researching into the effectiveness of different approaches, I <a href="http://chronicle.com/blogs/wiredcampus/passive-mooc-students-dont-retain-new-knowledge-study-finds/52295" target="_blank">stumbled upon a study</a> on students taking online courses.
 
@@ -67,7 +67,7 @@ By combining screensharing, an open source upvoting interface and Bitcoin, we cr
 
 Because of lack of a better option, Google Hangouts with screensharing will be used as the <b>interactive medium</b> for the Ethereum sessions. The web interface is an open source upvoting system, in this case used as a <b>peer-to-peer self-organizing knowledge-sharing network</b>. Bitcoin (and soon ETH) can serve as a tipping/donation mechanism for the course/hackathon organizers – tokens of appreciation for the invaluable shared knowledge. If the quality of the sessions is good, the screensharing hangouts could also be recorded and used for video tutorials and other educational content quite easily.
 
-<a href="http://ethereumbuilders.gitbooks.io/guide/" target="_blank"><img class="aligncenter size-full wp-image-1531" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-20-at-11.53.08.png" alt="Screen Shot 2015-03-20 at 11.53.08" width="2094" height="1342" /></a>
+<a href="http://ethereumbuilders.gitbooks.io/guide/" target="_blank"><img src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-20-at-11.53.08.png" alt="Screen Shot 2015-03-20 at 11.53.08" /></a>
 
 For documentation and guides, GitBook seems like an interesting option. With it you can pull content directly from wiki pages that live on different repos (i.e. ethereum wiki, cpp wiki, go wiki, etc.) and display it in a nice web UI or ebook format. By pulling content from the wikis, whenever the documentation is updated the GitBook automatically updates as well. All in all it looks to be a good fit for what we need at the moment, since the documentation evolves at such a rapid pace in Ethereum world.
 
@@ -98,7 +98,7 @@ If received well by the community, Ethereum Builders could unfold in a number of
 <blockquote><i>You will only be remembered for two things: the problems you solve and the ones you create.</i></blockquote>
 <strong>—Mike Murdock</strong>
 
-<img class="aligncenter" src="http://www.nastol.com.ua/pic/201110/1920x1080/nastol.com.ua-10383.jpg" alt="" width="1920" height="1080" />
+<img class="aligncenter" src="http://www.nastol.com.ua/pic/201110/1920x1080/nastol.com.ua-10383.jpg" alt="" />
 
 In the current form, ethereum.builders is an open-ended tool that enables the Ethereum community to coordinate, collaborate and share knowledge. The users will most likely discover new ways to use it on things that we haven't figured out yet.
 
@@ -142,7 +142,7 @@ Online - By design you remove the bottlenecks as in having "X" to organize a mee
 
 And now to wrap all these ideas into one, here is how it currently looks like:
 
-<img class="aligncenter size-full wp-image-1530" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-20-at-01.14.58.png" alt="Screen Shot 2015-03-20 at 01.14.58" width="2012" height="1752" />
+<img class="aligncenter size-full wp-image-1530" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Screen-Shot-2015-03-20-at-01.14.58.png" alt="Screen Shot 2015-03-20 at 01.14.58" />
 
 *Some of the above sessions are just examples.
 

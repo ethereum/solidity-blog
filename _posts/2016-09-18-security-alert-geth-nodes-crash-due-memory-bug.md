@@ -17,7 +17,7 @@ dsq_thread_id:
 
 <span style="font-weight: 400;">Severity: High</span>
 
-<span style="font-weight: 400;">Summary: geth nodes running out of memory and crashing on block https://etherchain.org/block/2283416</span>
+<span style="font-weight: 400;">Summary: geth nodes running out of memory and crashing on block [https://etherchain.org/block/2283416](https://etherchain.org/block/2283416)</span>
 
 <span style="font-weight: 400;">Details: TBD</span>
 

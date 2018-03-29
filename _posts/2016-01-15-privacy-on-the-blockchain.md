@@ -22,7 +22,7 @@ dsq_thread_id:
 <p>The most powerful technology that holds promise in direction is, of course, cryptographically secure obfuscation. In general, obfuscation is a way of turning any program into a "black box" equivalent of the program, in such a way that the program still has the same "internal logic", and still gives the same outputs for the same inputs, but it's impossible to determine any other details about how the program works.</p>
 
 <center>
-<img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-2.png" style="width:250px"></img><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-3.png" style="width:250px; margin-left: 75px"></img><br><small><i>Think of it as "encrypting" the wires inside of the box in such a way that the encryption cancels itself out and ultimately has no effect on the output, but does have the effect of making it absolutely impossible to see what is going on inside.</i></small>
+<img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-2.png" /><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-3.png" /><br><small><i>Think of it as "encrypting" the wires inside of the box in such a way that the encryption cancels itself out and ultimately has no effect on the output, but does have the effect of making it absolutely impossible to see what is going on inside.</i></small>
 </center>
 
 <p>Unfortunately, absolutely perfect black-box obfuscation is mathematically <a href="https://www.iacr.org/archive/crypto2001/21390001.pdf">known to be impossible</a>; it turns out that there is always at least <em>something</em> that you can get extract out of a program by looking at it beyond just the outputs that it gives on a specific set of inputs. However, there is a weaker standard called <a href="https://eprint.iacr.org/2013/451.pdf">indistinguishability obfuscation</a> that we can satisfy: essentially, given two <i>equivalent</i> programs that have been obfuscated using the algorithm (eg. <code>x = (a + b) * c</code> and <code>x = (a * c) + (b * c)</code>), one cannot determine which of the two outputs came from which original source. To see how this is still powerful enough for our applications, consider the following two programs:</p>
@@ -36,7 +36,7 @@ dsq_thread_id:
 
 <p>So, how do we use this on a blockchain? Here's one simple approach for a digital token. We create an obfuscated smart contract which contains a private key, and accepts instructions encrypted with the correponding public key. The contract stores account balances in storage encrypted, and if the contract wants to read the storage it decrypts it internally, and if the contract wants to write to storage it encrypts the desired result before writing it. If someone wants to read a balance of their account, then they encode that request as a transaction, and simulate it on their own machine; the obfuscated smart contract code will check the signature on the transaction to see if that user is entitled to read the balance, and if they are entitled to read the balance it will return the decrypted balance; otherwise the code will return an error, and the user has no way of extracting the information.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-4.png" style="width:500px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-4.png" /></center>
 
 <p>However, as with several other technologies of this type, there is one problem: the mechanism for doing this kind of obfuscation is horrendously inefficient. Billion-factor overhead is the norm, and often even highly optimistic; a <a href="https://www22.in.tum.de/fileadmin/papers/essos15a.pdf">recent paper</a> estimates that "executing [a 2-bit multiplication] circuit on the same CPU would take 1.3 * 10<sup>8</sup> years". Additionally, if you want to prevent reads and writes to storage from being a data leak vector, you must also set up the contract so that read and write operations always modify large portions of a contract's entire state - another source of overhead. When, on top of that, you have the overhead of hundreds of nodes running the code on a blockchain, one can quickly see how this technology is, unfortunately, not going to change anything any time soon.</p>
 
@@ -58,7 +58,7 @@ dsq_thread_id:
 
 <p>For two-party smart contracts (eg. think of something like a financial derivative contract negotiated between two parties), the application of zero-knowledge-proofs is fairly easy to understand. When the contract is first negotiated, instead of creating a smart contract containing the actual formula by which the funds will eventually be released (eg. in a binary option, the formula would be "if index I as released by some data source is greater than X, send everything to A, otherwise send everything to B"), create a contract containing the <i>hash of the formula</i>. When the contract is to be closed, either party can themselves compute the amount that A and B should receive, and provide the result alongside a zero-knowledge-proof that a formula with the correct hash provides that result. The blockchain finds out how much A and B each put in, and how much they get out, but not <em>why</em> they put in or get out that amount.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-8.png" style="width:650px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-8.png" /></center>
 
 <p>This model can be generalized to N-party smart contracts, and the <a href="http://oblivm.com/hawk/">Hawk</a> project is seeking to do exactly that.</p>
 
@@ -68,11 +68,11 @@ dsq_thread_id:
 
 <p>The simplest step that Bitcoin took to somewhat increase privacy is its use of one-time accounts, similar to Zcash, in order to store funds. Just like with Zcash, every transaction must <i>completely empty</i> one or more accounts, and <i>create</i> one or more new accounts, and it is recommended for users to generate a new private key for every new account that they intend to receive funds into (though it is possible to have multiple accounts with the same private key). The main benefit that this brings is that a user's funds are not linked to each other by default: if you receive 50 coins from source A and 50 coins from source B, there is no way for other users to tell that those funds belong to the same person. Additionally, if you spend 13 coins to someone else's account C, and thereby create a fourth account D where you send the remaining 37 coins from one of these accounts as "change", the other users cannot even tell which of the two outputs of the transaction is the "payment" and which is the "change".</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-5.png" style="width:400px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-5.png" /></center>
 
 <p>However, there is a problem. If, at any point in the future, you make a transaction consuming from two accounts at the same time, then you irrevertibly "link" those accounts, making it obvious to the world that they come from one user. And, what's more, these linkages are transitive: if, at any point, you link together A and B, and then at any other point link together A and C, and so forth, then you've created a large amount of evidence by which statistical analysis can link up your entire set of assets.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-6-1.png" style="width:400px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-6-1.png" /></center>
 
 <p>Bitcoin developer Mike Hearn came up with a mitigation strategy that reduces the likelihood of this happening called <a href="https://medium.com/@octskyward/merge-avoidance-7f95a386692f">merge avoidance</a>: essentially, a fancy term for trying really really hard to minimize the number of times that you link accounts together by spending from them at the same time. This definitely helps, but even still, privacy inside of the Bitcoin system has proven to be highly porous and heuristic, with nothing even close to approaching high guarantees.</p>
 
@@ -85,13 +85,13 @@ dsq_thread_id:
 <li>If N coins are paid into the account, they are distributed to the destination addresses, otherwise they are refunded.</li>
 </ol>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-7.png" style="width:600px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-7.png" /></center>
 
 <p>If all participants are honest and provide one coin, then everyone will put one coin in and get one coin out, but <strong>no one will know which input maps to which output</strong>. If at least one participant does not put one coin in, then the process will fail, the coins will get refunded, and all of the participants can try again. An algorithm similar to this was implemented <a href="https://sx.dyne.org/anontx/">by Amir Taaki and Pablo Martin for Bitcoin</a>, and by <a href="https://gist.github.com/gavofyork/dee1f3b727f691b381dc">Gavin Wood and Vlad Gluhovsky for Ethereum</a>.</p>
 
 <p>So far, we have only discussed token anonymization. What about two-party smart contracts? Here, we use the same mechanism as Hawk, except we substitute the cryptography with simpler cryptoeconomics - namely, the "auditable computation" trick. The participants send their funds into a contract which stores the hash of the code. When it comes time to send out funds, either party can submit the result. The other party can either send a transaction to agree on the result, allowing the funds to be sent, or it can publish the actual code to the contract, at which point the code will run and distribute the funds correctly. A security deposit can be used to incentivize the parties to participate honestly. Hence, the system is private by default, and only if there is a dispute does any information get leaked to the outside world.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-9-1.png" style="width:650px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/drawing-9-1.png" /></center>
 
 <p>A generalization of this technique is called <a href="http://www.jeffcoleman.ca/state-channels/">state</a> <a href="http://www.arcturnus.com/ethereum-lightning-network-and-beyond/">channels</a>, and also has scalability benefits alongside its improvements in privacy.</p>
 
@@ -99,7 +99,7 @@ dsq_thread_id:
 
 <p>A technology which is moderately technically complicated, but extremely promising for both token anonymization and identity applications, is ring signatures. A ring signature is essentially a signature that proves that the signer has a private key corresponding to one of a specific set of public keys, <em>without revealing which one</em>. The two-sentence explanation for how this works mathematically is that a ring signature algorithm includes a mathematical function which can be computed normally with just a public key, but where knowing the private key allows you to add a seed to the input to make the output be whatever specific value you want. The signature itself consists of a list of values, where each value is set to the function applied to the previous value (plus some seed); producing a valid signature requires using knowledge of a private key to "close the loop", forcing the last value that you compute to equal the first. Given a valid "ring" produced in this way, anyone can verify that it is indeed a "ring", so each value is equal to the function computed on the previous value plus the given seed, but there is no way to tell at which "link" in the ring a private key was used.</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/Screenshot-from-2016-01-15-122133.png" style="width:500px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2016/01/Screenshot-from-2016-01-15-122133.png" /></center>
 
 <p>There is also an upgraded version of a ring signature called a <strong>linkable ring signature</strong>, which adds an extra property: if you sign twice with the same private key, that fact can be detected - but no other information is revealed. In the case of token anonymization, the application is fairly simple: when a user wants to spend a coin, instead of having them provide a regular signature to prove ownership of their public key directly, we combine public keys together into groups, and ask the user to simply prove membership in the group. Because of the linkability property, a user that has one public key in a group can only spend from that group once; conflicting signatures are rejected.</p>
 

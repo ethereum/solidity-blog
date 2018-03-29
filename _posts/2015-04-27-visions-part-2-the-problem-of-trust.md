@@ -70,7 +70,7 @@ A relationship created at the direction of an individual, in which one or more p
 
 <p>The second case for decentralization is more subtle. Rather than concentrating on the <em>lack</em> of trust, here we emphasize the <em>barrier to entry</em> in becoming a locus of trust. Sure, billion dollar companies can certainly become loci of trust just fine, and indeed it is the case that they generally work pretty well - with a few important exceptions that we will discuss later on. However, their ability to do so comes at a high cost. Although the fact that so many Bitcoin businesses have managed to abscond with their customers' funds is sometimes perceived as a strike against the decentralized economy, it is in fact something quite different: it is a strike against <em>a economy with low social capital</em>. It shows that the high degree of trust that mainstream institutions have today is not something that simply arose because powerful people are especially nice and tech geeks are less nice; rather, it is the result of centuries of social capital built up over a process which would take many decades and many trillions of dollars of investment to replicate. Quite often, the institutions only play nice because they are regulated by governments - and the regulation itself is in turn not without large secondary costs. Without that buildup of social capital, well, we simply have this:</p>
 
-<center><a href="http://www.wired.com/2014/03/bitcoin-exchange/"><img src="https://blog.ethereum.org/wp-content/uploads/2015/04/Screenshot-from-2015-02-25-103540.png" style="width:450px"></img></a></center>
+<center><a href="http://www.wired.com/2014/03/bitcoin-exchange/"><img src="https://blog.ethereum.org/wp-content/uploads/2015/04/Screenshot-from-2015-02-25-103540.png" style="width:450px" /></a></center>
 
 <p>And lest you think that such incidents are a unique feature of "cryptoland", back in the real world we also have this:</p>
 
@@ -79,7 +79,7 @@ A relationship created at the direction of an individual, in which one or more p
 
 <p>The key promise of decentralized technology, under this viewpoint, is not to create systems that are even more trustworthy than current large institutions; if one simply looks at basic statistics in the developed world, one can see that many such systems can quite reasonably be described as being "trustworthy enough", in that their annual rate of failure is sufficiently low that other factors dominate in the choice of which platform to use. Rather, the key promise of decentralized technology is to provide a shortcut to let future application developers get there faster:</p>
 
-<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/04/mofnsafety.png" style="width:450px"></img></center>
+<center><img src="https://blog.ethereum.org/wp-content/uploads/2015/04/mofnsafety.png" style="width:450px" /></center>
 
 <p>Traditionally, creating a service that holds critical customer data or large quantities of customer funds has involved a very high degree of trust, and therefore a very large degree of effort - some of it involving complying with regulations, some convincing an established partner to lend you their brand name, some buying extremely expensive suits and renting fake "virtual office space" in the heart of downtown New York or Tokyo, and some simply being an established company that has served customers well for decades. If you want to be entrusted with millions, well, better be prepared to spend millions.</p>
 

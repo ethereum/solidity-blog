@@ -33,7 +33,7 @@ The heavy internal rewrites allowed us to reliably reproduce and fix these issue
 
 The final result of these optimizations is that fast sync became stable again. From one perspective there are no more hangs, so you don't have to constantly monitor the sync progress. From the other perspective memory usage is constant, so there's no need for machines with insane RAM.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-sync-memory.png"><img src="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-sync-memory.png" alt="geth-v1.8.0-sync-memory" width="1074" height="397" class="aligncenter size-full wp-image-4119" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-sync-memory.png"><img src="https://blog.ethereum.org/wp-content/uploads/2018/02/geth-v1.8.0-sync-memory.png" alt="geth-v1.8.0-sync-memory"/></a>
 
 The above chart plots the memory usage during mainnet fast sync of two `m4.2xlarge` Amazon instance types (purple = Geth 1.8, blue = Geth 1.7). At the time of writing, fast sync completes in around 3 hours on these instance types. The exponential growth of Ethereum however resulted in a state trie of around 85 million nodes, the import of which can take even half a day on end-user laptops (with an SSD). Hopefully 1.9 will tackle this issue.
 
@@ -110,7 +110,7 @@ As many of you probably know, the [Rinkeby](https://www.rinkeby.io/#stats) test 
 
 Puppeth was an invaluable tool for us in maintaining the Rinkeby network since its creation 10 months ago. It was fit for its purpose – as an internal tool – alas it had a lot of rough edges. We wanted to make this tool useful not just for Rinkeby, rather for all other developer networks out there too, so for Devcon3 we've heavily polished it. It became user friendly(-er), it gained support for configuring Parity, C++ Ethereum, pyethapp and Harmony (on `ethash` consensus) and it could deploy online wallets and basic block explorers too.
 
-https://www.youtube.com/watch?v=T5RcjYPTG9g&amp;t=22s
+{% include youtubePlayer.html id="T5RcjYPTG9g" %}
 
 It seems to have been ages since Devcon3 and Puppeth being merged on master, but v1.8.0 finally ships the next incarnation of `puppeth` for those who have been holding out. Go on and deploy your own Ethereum network!
 

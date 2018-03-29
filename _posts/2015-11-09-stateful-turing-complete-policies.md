@@ -15,6 +15,7 @@ dsq_thread_id:
 
 <p><center>
 <img src="https://blog.ethereum.org/wp-content/uploads/2015/11/kartenleser-mit-access-card.jpeg" alt="" title="" />
+
 <small>
 The hardware access device to my UBS bank account. Remind me, why can't I also use this to secure my domains on Namecheap?
 </small>

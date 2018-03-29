@@ -21,7 +21,7 @@ We are going to modify the token contract to allow it to be minted by your DAO. 
 
 You can fill the parameters any way you want (yes, emojis are permitted on the string fields) but you'll notice one new field that didn't exist before: Central Minter. Here add the address of your newly created democracy contract.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.09.11-PM.png"><img class="aligncenter size-full wp-image-2332" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.09.11-PM.png" alt="Ethereum Wallet 2015-12-01 at 7.09.11 PM" width="2318" height="1766" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.09.11-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.09.11-PM.png" alt="Ethereum Wallet 2015-12-01 at 7.09.11 PM"/></a>
 
 &nbsp;
 
@@ -31,7 +31,7 @@ Select the "mintToken" function to your right and then put any address you own a
 
 Instead, <strong>copy the contract execution code from the "data" field</strong> and put it aside on a notepad. Also get the address of your new "Mint" contract and save it somewhere.
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.17.06-PM.png"><img class="aligncenter size-full wp-image-2333" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.17.06-PM.png" alt="Ethereum Wallet Screen-Shot-2015-12-01-at-7.17.06-PM" width="2318" height="1766" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.17.06-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.17.06-PM.png" alt="Ethereum Wallet Screen-Shot-2015-12-01-at-7.17.06-PM" /></a>
 
 Now go back to the democracy contract and create a new proposal with these parameters:
 <ul>
@@ -42,7 +42,7 @@ Now go back to the democracy contract and create a new proposal with these param
 </ul>
 &nbsp;
 
-<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.22.48-PM.png"><img class="aligncenter size-full wp-image-2334" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.22.48-PM.png" alt="Ethereum Wallet Screen Shot 2015-12-01 at 7.22.48 PM" width="2322" height="1800" /></a>
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.22.48-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-01-at-7.22.48-PM.png" alt="Ethereum Wallet Screen Shot 2015-12-01 at 7.22.48 PM" /></a>
 
 &nbsp;
 
@@ -52,13 +52,13 @@ But that of course creates a security hole: how can a proposal be voted without 
 
 &nbsp;
 
-[caption id="attachment_2335" align="aligncenter" width="500"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png"><img class="wp-image-2335" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png" alt="It's an older code, but it checks out" width="500" height="446" /></a> <a href="https://www.youtube.com/watch?v=4HJ-Y8YTo8Q" target="_blank">It's an older code, but it checks out</a>[/caption]
+[caption id="attachment_2335" align="aligncenter" width="500"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png" alt="It's an older code, but it checks out"  /></a> <a href="https://www.youtube.com/watch?v=4HJ-Y8YTo8Q" target="_blank">It's an older code, but it checks out</a>[/caption]
 <p style="text-align: center;"><a href="https://www.youtube.com/watch?v=4HJ-Y8YTo8Q" target="_blank"> </a></p>
 Now everyone can vote on the proposal and after the voting period has passed, anyone with the correct bytecode can ask the votes to be tallied up and the contract to be executed. If the proposal has enough support then the newly minted coins should appear on Alice's account, as if it was a transfer from address Zero.
 
 &nbsp;
 
-[caption id="attachment_2336" align="aligncenter" width="2322"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png"><img class="size-full wp-image-2336" src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png" alt="Why a transfer from code zero? Because it says so on the code. You can change that as you will" width="2322" height="1800" /></a> Why a transfer from address zero? Because doing the opposite, sending a coin to 0x00 is a way to effectively destroy it, but more importantly, because it says so on the contract code. You can change that as you prefer.[/caption]
+[caption id="attachment_2336" align="aligncenter" width="2322"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png" alt="Why a transfer from code zero? Because it says so on the code. You can change that as you will" /></a> Why a transfer from address zero? Because doing the opposite, sending a coin to 0x00 is a way to effectively destroy it, but more importantly, because it says so on the contract code. You can change that as you prefer.[/caption]
 
 &nbsp;
 

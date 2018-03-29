@@ -16,8 +16,10 @@ It is highly reccomended to switch to Parity mining. Use these settings:
 <code>--cache-size-db 1024 --gas-floor-target 1000000 --gasprice 50000000000</code>
 
 Parity mining guides:
-https://docs.google.com/document/d/1j3v8bKjXQcMNNdx5Juwo3PRRCcHy8XcA6R9-0W7NCso/edit
-https://github.com/ethcore/parity/wiki/Mining
+
+[https://docs.google.com/document/d/1j3v8bKjXQcMNNdx5Juwo3PRRCcHy8XcA6R9-0W7NCso/edit](https://docs.google.com/document/d/1j3v8bKjXQcMNNdx5Juwo3PRRCcHy8XcA6R9-0W7NCso/edit)
+
+[https://github.com/ethcore/parity/wiki/Mining](https://github.com/ethcore/parity/wiki/Mining)
 If you continue to use geth, use the following settings:
 
 <code>--cache 1024 --targetgaslimit 1000000 --gasprice 50000000000</code>

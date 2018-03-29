@@ -11,7 +11,7 @@ dsq_thread_id:
 ---
 Ethereum’s present reliance on Proof of Work (PoW) mining is not ideal, and while we continue to work with gusto towards a Proof of Stake solution (PoS), we have to live with PoW as gracefully as possible (at least until the eventual switch!). Meanwhile, in the interest of overall network health, mining decentralization and diversity is a clear imperative:
 
-[caption id="attachment_2623" align="alignnone" width="622"]<a href="https://blog.ethereum.org/wp-content/uploads/2016/03/miningpool.png" rel="attachment wp-att-2623"><img class="size-full wp-image-2623" src="https://blog.ethereum.org/wp-content/uploads/2016/03/miningpool.png" alt="Mining Pool Diversity" width="622" height="402" /></a> Mining Pool Diversity from March 28 via <a href="https://etherchain.org/statistics/miners">https://etherchain.org/statistics/miners</a>[/caption]
+[caption id="attachment_2623" align="alignnone" width="622"]<a href="https://blog.ethereum.org/wp-content/uploads/2016/03/miningpool.png" rel="attachment wp-att-2623"><img src="https://blog.ethereum.org/wp-content/uploads/2016/03/miningpool.png" alt="Mining Pool Diversity" /></a> Mining Pool Diversity from March 28 via <a href="https://etherchain.org/statistics/miners">https://etherchain.org/statistics/miners</a>[/caption]
 
 Though there are <a href="https://forum.ethereum.org/discussion/3575/weipool-full-open-source-pool-release">some instances</a> of open source Ethereum pool mining software available, the uptake has been low, and there appears to be a large efficiency gap between proprietary and available open source pool software.
 

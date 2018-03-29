@@ -24,7 +24,7 @@ This text is intended at those who have a basic understanding of web technology 
 <h2>How can apps run without servers?</h2>
 Currently servers in web apps do much more than what they were originally intended to. Besides serving static web pages, they also keep private information, handle user authentication and deal with all the complicated ways in which data is analyzed and saved. All the user computer does - a device which would be considered a super computer when the web was invented - is to load and display that information to the user.
 
-[caption id="attachment_2894" align="aligncenter" width="1846"]<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.27.25-PM.png"><img class="size-full wp-image-2894" src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.27.25-PM.png" alt="Current server models" width="1846" height="798" /></a> Current server models[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.27.25-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.27.25-PM.png" alt="Current server models" /></a> Current server models
 
 Instead, a more decentralized architecture would allow a much more modular approach, in which different machines and different protocols would handle specific tasks, some on the user's side and some in specialized machines deployed on a peer to peer network. Therefore all the Data logic (what gets saved, who saves it, how to solve conflicts etc) is handled by smart contracts on the blockchain, static files are served via <a href="http://swarm-gateways.net/bzz:/a600d48f01d5e6d07907d9d14db0ff205624caf0570d0c2601cdb80c9767bcb9/index.html"> Swarm </a> and realtime communication over <a href="https://github.com/ethereum/wiki/wiki/Whisper"> Whisper</a>. The user device keeps the user authentication and runs the application interface.
 
@@ -32,7 +32,7 @@ Doing this would remove the danger of data breach and attacks as there are less
 
 &nbsp;
 
-[caption id="attachment_2895" align="alignnone" width="1792"]<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.37.32-PM.png"><img class="size-full wp-image-2895" src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.37.32-PM.png" alt="Decentralised Server models" width="1792" height="754" /></a> Decentralised Server models[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.37.32-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-08-at-5.37.32-PM.png" alt="Decentralised Server models" /></a> Decentralised Server models
 
 A decentralized architecture also encourages innovation: since the interface is detached from the data, anyone can come up with a new interface to the same app, creating a more vibrant and competing ecosystem. Arguably, one of the most interesting and innovative periods in Twitter history was when it served mostly as a central data hub and anyone could build their  Twitter Application.
 <h2>See it working</h2>
@@ -40,7 +40,8 @@ If you want to experiment with the app before learning it, we recommend you <a h
 
 &nbsp;
 
-[caption id="attachment_2898" align="aligncenter" width="2332"]<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/92730668-4473-11e6-8a49-fef5d43a1eb7-1.png"><img class="size-full wp-image-2898" src="https://blog.ethereum.org/wp-content/uploads/2016/07/92730668-4473-11e6-8a49-fef5d43a1eb7-1.png" alt="Stake Voice running on the Mist Browser" width="2332" height="1594" /></a> Stake Voice running on the Mist Browser[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2016/07/92730668-4473-11e6-8a49-fef5d43a1eb7-1.png"><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/92730668-4473-11e6-8a49-fef5d43a1eb7-1.png" alt="Stake Voice running on the Mist Browser" /></a> Stake Voice running on the Mist Browser
+
 <h2>Let's get to it</h2>
 We are going to build a very simple application called "Stake Voice". The idea is to allow ether stakers to vote on anything they want, and the app will tally the total ether balance of all those who agree or disagree with the statement.
 

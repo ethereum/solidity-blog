@@ -17,7 +17,9 @@ The good news is that ÐΞVgrants isn't over, because we now have $100K USD of a
 <blockquote>"We are honored by the opportunity to support the decentralization revolution, beginning with our contribution that will restart the Ethereum ÐΞVgrants program." – Jun Hasegawa, Omise CEO</blockquote>
 It is our hope that this donation will encourage both potential funders to come forward and support ÐΞVgrants and related endeavors, just as much as it may encourage potential applicants. We thank Jun and Omise for their gesture of good will in the space.
 
-https://www.youtube.com/watch?v=4jGqmlA4KEY
+
+{% include youtubePlayer.html id="4jGqmlA4KEY" %}
+
 <h3>Summary of projects</h3>
 <strong>Syng (Ethereum Android) – <a href="http://syng.io">syng.io</a></strong>
 Jarrad Hope

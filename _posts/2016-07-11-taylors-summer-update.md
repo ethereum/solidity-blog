@@ -17,7 +17,7 @@ Hey everyone, I spent some time with our Canadian friends in Toronto after prese
 
 Ethereum wallet has been refined significantly over the last several months expanding support to arbitrary contract interaction via the "custom contracts" tab. This is a massive improvement over sending transactions on the command line, as was often required in Frontier. With several new team members doing work with the Ethereum Foundation, new versions of Mist are now rolling out and will incorporate improvements to Geth and Eth as they are integrated. If you're using an old version, update to <a href="https://github.com/ethereum/mist/releases/tag/0.8.0">Mist 0.8.0</a> for the latest goodies.
 
-[caption id="attachment_2884" align="aligncenter" width="2442"]<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/23353356-446f-11e6-8fda-7f5546645449.png" alt="Screenshot Mist 0.8.0" width="2442" height="1714" class="size-full wp-image-2884" /> Screenshot Mist 0.8.0[/caption]
+<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/23353356-446f-11e6-8fda-7f5546645449.png" alt="Screenshot Mist 0.8.0" /> Screenshot Mist 0.8.0
 
 ### Remix
 
@@ -25,7 +25,7 @@ After all the hard work spent reorganizing the C++ codebase, the CPP team has sh
 
 ### ENS
 
-[caption id="attachment_2824" align="aligncenter" width="1282"]<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-06-at-17.30.40.png" alt="ENS example diagram" width="1282" height="716" class="size-full wp-image-2824" /> Diagram of example ENS hierarchy with multiple records[/caption]
+<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-06-at-17.30.40.png" alt="ENS example diagram" /> Diagram of example ENS hierarchy with multiple records
 
 Not an official project, but closely related to many projects, Nick Johnson has started work on the Ethereum Name Service. The encompasses smart contract-based resolvers with standard API. The specification supports delegation by name component (separated by “.”) and multiple types of records. It’s possible to build gateways to plug-in to existing systems, like DNS. Currently, a draft specification with [a reference implementation is available in solidity](https://github.com/arachnid/ens) and discussion is ongoing on [Gitter](https://gitter.im/ethereum/go-ethereum/name-registry). This could have large implications for general usability of many services on Ethereum network from wallet aliases to friendly Swarm node names.
 
@@ -35,13 +35,13 @@ Not an official project, but closely related to many projects, Nick Johnson has 
 
 Something to watch closely is light-client functionality entering [public testing phase](https://github.com/zsfelfoldi/go-ethereum/wiki/Light-Client-Public-Test). Zsolt has been working on this code for months and the team looks poised to merge it into the main repo soon. The new code decreases chain sync time to under 30 mins from genesis block and under a minute when used week-to-week. This builds on top of work that Peter did for the fast sync functionality that is now the default in Mist (`--fast`). More work is being done to improve log/receipt retrieval, and several iterations to the protocol is expected over time, so this is not the last you'll hear about LES!
 
-[caption id="attachment_2828" align="aligncenter" width="988"]<a href="https://twitter.com/vgrade/status/748257427481583616/photo/1"><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-06-at-18.18.05.png" alt="Light client running on embedded device" width="988" height="1026" class="size-full wp-image-2828" /></a> Tweet of light client running on embedded device[/caption]
+<a href="https://twitter.com/vgrade/status/748257427481583616/photo/1"><img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-06-at-18.18.05.png" alt="Light client running on embedded device" /></a> Tweet of light client running on embedded device
 
 ### Swarm
 
 Swarm is also being vigorously tested as PoC2 demonstrating economically self sustaining storage and distribution layers. Viktor, Dani, and Aaron have been working hard to ensure the code is as bug-free as possible before launching it on testnet. Nick has developed a simulation script for network and communication verification which will go a long way towards this effort. One of the exciting features of their work is the accounting &amp; incentive systems allowing for long-term storage and retrieval of data. If you want to know more, the Swarm team has been featured in several [YouTube videos](https://www.youtube.com/watch?v=BAAAhZI7qRQ) which explains how everything works.
 
-[caption id="attachment_2826" align="aligncenter" width="1276"]<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-06-at-18.14.16.png" alt="Data storage &amp; retrieval on Swarm" width="1276" height="718" class="size-full wp-image-2826" /> Data storage & retrieval on Swarm[/caption]
+<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/Screen-Shot-2016-07-06-at-18.14.16.png" alt="Data storage &amp; retrieval on Swarm" /> Data storage & retrieval on Swarm
 
 Though called many other names, this enables a vision for decentralized storage where you own your own data. Currently, while there are a few blockchain-based apps, full availability of Swarm will allow for those blockchain-backed apps to become full DApps and run 100% decentralized inside Mist.
 
@@ -55,7 +55,7 @@ Devcon2 is right around the corner, with sessions scheduled for September 19, 20
 
 I hope 2016 will prove to be a pivotal year for blockchains. UI/UX is improving rapidly over what was available just a couple years ago and with solutions like Raiden for state/payment-channels, some of the privacy and scalability problems of blockchains are eased. Combined with research advancements targeted for Serenity, we are on pace to overcome many of the obstacles Vitalik once listed as <a href="https://github.com/ethereum/wiki/wiki/Problems">hard problems</a>.
 
-[caption id="attachment_2837" align="aligncenter" width="800"]<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/ethereum-keep-calm-and-code-on.png" alt="Keep Calm and Code On" width="800" height="1200" class="size-full wp-image-2837" /> Keep Calm and Code On[/caption]
+<img src="https://blog.ethereum.org/wp-content/uploads/2016/07/ethereum-keep-calm-and-code-on.png" alt="Keep Calm and Code On" /> Keep Calm and Code On
 &nbsp;
 
 <div id="disqus_link_container"></div>
