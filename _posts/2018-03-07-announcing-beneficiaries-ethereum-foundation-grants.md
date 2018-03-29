@@ -26,17 +26,29 @@ permalink: /2018/03/07/announcing-beneficiaries-ethereum-foundation-grants/
 Here are the inaugural Ethereum Foundation grant winners:
 
 <a href="http://l4.ventures/"><b>L4 Research</b></a><span style="font-weight: 400;"> – Scalability Grant – $1.5M. State channels research.
+
 </span><a href="https://runtimeverification.com/"><b>Runtime Verification</b></a><span style="font-weight: 400;"> – Security Grant – $500K. Casper contract formal verification.
+
 </span><a href="https://ethglobal.co/"><b>ETHGlobal</b></a><span style="font-weight: 400;"> – DevEx Grant* – $200K. World-class developer conferences for Ethereum
+
 </span><a href="https://prysmaticlabs.com/"><b>Prysmatic Labs</b></a><span style="font-weight: 400;"> – Scalability Grant – $100K. Sharding implementation.
+
 </span><a href="https://www.decentralizedderivatives.org/"><b>DDA</b></a><span style="font-weight: 400;"> – #buidl Grant** – $100K. Tokenless decentralized derivatives network + state channels R&amp;D
+
 </span><a href="https://www.bsc.es/"><b>Barcelona Supercomputing Center</b></a><span style="font-weight: 400;"> – Scalability Grant – $50K. Sharding simulation.
+
 </span><a href="https://github.com/ethereum-plasma/naivechain"><b>Plasma Taiwan Dev</b></a><span style="font-weight: 400;"> – Scalability Grant – $25K. Plasma implementation.
+
 </span><a href="https://github.com/ethers-io/ethers.js/"><b>Ethers.js</b></a><span style="font-weight: 400;"> – DevEx Grant – $25K. Web3.js alternative.
+
 </span><a href="https://medium.com/@akhounov/roadmap-for-turbo-geth-31cbfb1e72b7"><b>Turbo Geth</b></a><span style="font-weight: 400;"> – Scalability Grant – $25K. Geth optimization.
+
 </span><a href="https://github.com/duaraghav8/Solium"><b>Solium</b></a><span style="font-weight: 400;"> – DevEx Grant – $10K. Solidity static analyzer.
+
 </span><a href="https://www.linkedin.com/in/akomarov/"><b>Alex Komarov</b></a><span style="font-weight: 400;"> – Design Grant – $10K. Key management UX study
+
 </span><b>(Anonymous)</b><span style="font-weight: 400;"> – Hackternship – $10K. Deterministic WebAssembly.
+
 </span><a href="https://www.linkedin.com/in/ankitrajjha/"><b>Ankit Raj</b></a><span style="font-weight: 400;"> – Hackternship – $10K. Technical writing for Geth and Solidity.</span>
 
 <span style="font-weight: 400;">* DevEx Grant – Improves developer experience (“useful” for developers).
