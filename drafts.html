@@ -25,8 +25,9 @@ meta_robots:  noindex
   {% endfor %}
 </div>
 <h1>OTHER STUFF UNDER</h1>
-<div class="posts-list">
-  {% for post in paginator.posts %}
+<div class="posts">
+  {% assign sorted = (site.drafts | sort: 'date') | reverse %}
+  {% for draft in sorted %}
   <article class="post-preview">
     <a href="{{ draft.url | prepend: site.baseurl }}">
     <h2 class="post-title">{{ draft.title }}</h2>
@@ -71,22 +72,6 @@ meta_robots:  noindex
       {% endif %}
     </div>
     {% endif %}
-
    </article>
-  {% endfor %}
+     {% endfor %}
 </div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
