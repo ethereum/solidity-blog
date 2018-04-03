@@ -136,7 +136,7 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: date
+permalink: pretty
 paginate: 5
 
 kramdown:
@@ -215,8 +215,7 @@ prose:
         field:
           element: "text"
           label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
+          value: "CURRENT_DATETIME"
           alterable: true
       - name: "author"
         field:
