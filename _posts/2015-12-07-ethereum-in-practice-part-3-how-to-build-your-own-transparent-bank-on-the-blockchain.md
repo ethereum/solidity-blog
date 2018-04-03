@@ -60,7 +60,7 @@ Now everyone can vote on the proposal and after the voting period has passed, an
 
 &nbsp;
 
-[caption id="attachment_2336" align="aligncenter" width="2322"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png" alt="Why a transfer from code zero? Because it says so on the code. You can change that as you will" /></a> Why a transfer from address zero? Because doing the opposite, sending a coin to 0x00 is a way to effectively destroy it, but more importantly, because it says so on the contract code. You can change that as you prefer.[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-12.02.43-PM.png" alt="Why a transfer from code zero? Because it says so on the code. You can change that as you will" /></a> Why a transfer from address zero? Because doing the opposite, sending a coin to 0x00 is a way to effectively destroy it, but more importantly, because it says so on the contract code. You can change that as you prefer.
 
 &nbsp;
 

@@ -62,8 +62,13 @@ document.getElementById("ether").innerText = eth.toDecimal(eth.balanceAt(eth.sec
 &lt;/script&gt;</code></pre>
 Because the ethereum protocol also acts as a large distributed key-store (a happy note for fans of <a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a>), eventually user accounts, credentials, and reputation can be migrated on-blockchain with the help of the Whisper communication protocol. In this way, ethereum sets the stage for an total sharding of traditional infrastructure as we know it. No more complex high-availability infrastructure diagrams. In the ethereum ecosystem, even decentralized DNS is free.
 
-<h3>a decentralized future</h3>
-[videojs height="360" webm="https://blog.ethereum.org/wp-content/uploads/2014/08/GLOBE_LARGE.webm" mp4="https://blog.ethereum.org/wp-content/uploads/2014/08/GLOBE_LARGE.mp4" preload="auto" loop="true" autoplay="true" controls="false"][/videojs]
+<video height="360" controls preload autoplay></video>
+<video controls preload autoplay loop>
+  <source src="https://blog.ethereum.org/wp-content/uploads/2014/08/GLOBE_LARGE.mp4" type="video/mp4">
+  <source src="https://blog.ethereum.org/wp-content/uploads/2014/08/GLOBE_LARGE.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 Evaluating this context in a larger diagram of any systems infrastructure, it’s obvious that our current web isn't as privacy secure or censorship resistant as we desire. Economies of scale have allowed single institutions to offer a vast amount of processing power and storage on the internet for very low prices, thereby increasing their market share to a point where they individually control large segments of internet activity, often under the supervision of less-than-savvy governments. In a post-borders era where the Internet knows no bounds, such jurisdiction has little or no meaning.
 
 As economics of the ethereum ecosystem mature such that open contracts for lowest-rate storage develop, a free market of content hosting could evolve. Given the nature and dynamics of P2P applications, popular content will readily scale as the swarm shares, rather than suffering from the buckling load of siloed servers. The net result is that popular content is delivered <em>faster</em>, not slower.

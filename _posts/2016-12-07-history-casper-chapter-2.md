@@ -24,6 +24,7 @@ Some time in late summer of 2014, I first ran into "the bribing attacker model"
 <strong>By bribing game participants you can modify a game's payoffs, and through this operation change its Nash Equilibriums.</strong> Here's how this might look:
 
 <img src="http://i.imgur.com/owE9V4c.png"/>
+<br>
 The bribe attack changes the Nash Equilibrium of the Prisoner's Dilemma game from (Up, Left) to (Down,Right). The bribing attacker in this example has a cost of 6 if (Down, Right) is played.
 
 <strong>The bribing attacker was our first useful model of economic security.</strong>

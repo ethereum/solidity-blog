@@ -51,7 +51,7 @@ In future versions of </span><code><span style="font-weight: 400">geth</span></c
 <em>This feature is currently already supported by <code>geth</code> and <code>eth</code> on their develop branches.</em>
 
 Finally start the wallet by clicking the executable!
-<h2><a href="https://blog.ethereum.org/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-11.05.12.png"><img class="alignnone size-full wp-image-2102" src="https://blog.ethereum.org/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-11.05.12.png" alt="Wallet - sending a transaction" width="2272" height="1584" /></a></h2>
+<h2><a href="https://blog.ethereum.org/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-11.05.12.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-11.05.12.png" alt="Wallet - sending a transaction" /></a></h2>
 <h2>Running on a testnet</h2>
 If you want to try the wallet on a testnet you need to start your node with a different network id and probably a different data directory. To make sure the wallet can still connect to your node you manually need to set the IPC path:
 
