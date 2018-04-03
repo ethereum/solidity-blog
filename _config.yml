@@ -218,12 +218,12 @@ prose:
           help: "Enter date of post."
           placeholder: "yyyy-mm-dd"
           alterable: true
-      - name: "image"
+      - name: "author"
         field:
           element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
+          label: "Author"
+          help: "Add the author name."
+          placeholder: "Author"
           alterable: true
       - name: "published"
         field:
