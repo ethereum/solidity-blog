@@ -28,13 +28,15 @@ Beyond testing of the core components, we have begun implementing tests on the e
 
 All of these improvements are important to the health of the overlaying ecosystem and help shine a spotlight on otherwise very nuanced problems. In addition to refining the core virtual machine and serialization layers, security audits were initiated with a third-party firm experienced in decentralization and cryptographic technologies.
 
-[caption id="attachment_1551" align="alignnone" width="1279"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Ethereum-Infrastructure.png"><img class="size-full wp-image-1551" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Ethereum-Infrastructure.png" alt="A rough snapshot of development efforts" width="1279" height="898" /></a> A rough snapshot of development efforts[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/03/Ethereum-Infrastructure.png"><img class="size-full wp-image-1551" src="https://blog.ethereum.org/wp-content/uploads/2015/03/Ethereum-Infrastructure.png" alt="A rough snapshot of development efforts" /></a>
+A rough snapshot of development efforts.
 
 So how does all of this underlying technobabble expose itself to the general user? For the Frontier rollout, we are aiming to release stable binaries on major operating systems (Mac, Windows, Linux). The main interfaces will consist primarily of the command-line client, interactive JavaScript console, and JSON-RPC. In go-ethereum, we’ve recently renamed this client to “Geth”, a nod to both <a href="http://masseffect.wikia.com/wiki/Geth" target="_blank">Mass Effect</a> and <a href="http://www.thefreedictionary.com/Geth" target="_blank">Old English</a>.
 
 Using the command-line client will be a familiar process to many. For example, you can create a new account with `geth account new`, at which point the program will prompt you for a password to secure the account. Starting geth as a miner can be done by calling it with a parameter, like so: `geth -mine`. This is a great way to start interacting with the system, but has its own set of limitations. For example, once you’ve started mining, how does one pause it?
 
 <a href="https://blog.ethereum.org/wp-content/uploads/2015/03/geth9.gif"><img src="https://blog.ethereum.org/wp-content/uploads/2015/03/geth9.gif" alt="Using Geth’s interactive JavaScript console" /></a>
+<br>
 Using Geth’s interactive JavaScript console
 
 For a more useful way to control the program, Geth has a JavaScript console backed by a <a href="https://github.com/ethereum/wiki/wiki/JavaScript-API" target="_blank">JavaScript API</a>. Start it with a simple command: `geth console`. With Geth, this starts the <a href="https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console" target="_blank">interactive console</a>, giving users the familiarity of JavaScript scripting to control the system from the terminal. For example, to find out a bit more about the local node, run `admin.nodeInfo()`.

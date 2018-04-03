@@ -52,7 +52,9 @@ But that of course creates a security hole: how can a proposal be voted without 
 
 &nbsp;
 
-[caption id="attachment_2335" align="aligncenter" width="500"]<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png" alt="It's an older code, but it checks out"  /></a> <a href="https://www.youtube.com/watch?v=4HJ-Y8YTo8Q" target="_blank">It's an older code, but it checks out</a>[/caption]
+<a href="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png"><img src="https://blog.ethereum.org/wp-content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.51.50-AM.png" alt="It's an older code, but it checks out"  /></a> <a href="https://www.youtube.com/watch?v=4HJ-Y8YTo8Q" target="_blank">
+It's an older code, but it checks out</a>
+
 <p style="text-align: center;"><a href="https://www.youtube.com/watch?v=4HJ-Y8YTo8Q" target="_blank"> </a></p>
 Now everyone can vote on the proposal and after the voting period has passed, anyone with the correct bytecode can ask the votes to be tallied up and the contract to be executed. If the proposal has enough support then the newly minted coins should appear on Alice's account, as if it was a transfer from address Zero.
 

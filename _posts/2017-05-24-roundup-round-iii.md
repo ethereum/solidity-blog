@@ -112,8 +112,8 @@ Mist:
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Added macOS and Windows Code-Signing, preparing github/swarm based auto-updater</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Many of the audit findings will incorporated in the coming releases</span></li>
 </ul>
-<span style="font-weight: 400;">Changes to the provider will make Mist and other Projects like MetaMask and status.im more future proof, as developers don’t need to depend on high level libraries not changing over time. </span><b>There will be a few announcements concerning the new provider</b><span style="font-weight: 400;">. Discussion about that is happening at [https://github.com/ethereum/interfaces/issues/16](https://github.com/ethereum/interfaces/issues/16)</span>
-
+<span style="font-weight: 400;">Changes to the provider will make Mist and other Projects like MetaMask and status.im more future proof, as developers don’t need to depend on high level libraries not changing over time. </span><b>There will be a few announcements concerning the new provider</b><span style="font-weight: 400;">. Discussion about that is happening at <a href="https://github.com/ethereum/interfaces/issues/16">https://github.com/ethereum/interfaces/issues/16</a></span>
+<br><br>
 Web3.js:
 
 <ul>

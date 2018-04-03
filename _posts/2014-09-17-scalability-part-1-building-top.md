@@ -17,6 +17,7 @@ dsq_thread_id:
 
 <p><center>
 <img src="https://bitcoin.org/img/dev/en-transaction-propagation.svg" alt="" title="" />
+
 <small>Image from <a href="https://bitcoin.org/en/developer-guide">https://bitcoin.org/en/developer-guide</a></small>
 </center></p>
 
@@ -118,7 +119,6 @@ elif msg.data[0] == 2:
         contract.storage[id + 3] = 0
         contract.storage[id + 4] = 0
 </code></pre>
-</small>
 
 <p>And there we go. All that is needed now is a decent off-chain user interface for processing the consumer-merchant side of the transaction.</p>
 

@@ -43,7 +43,7 @@ If you want to unlock an account to be able to transfer add <code>--unlock &lt
 
 <strong>C++:</strong>
 <pre>$ eth</pre>
-<strong><span style="font-weight: 400"><strong><img class="wp-image-2149 alignright" src="https://blog.ethereum.org/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-19.11.43.png" alt="" width="359" height="234" />
+<strong><span style="font-weight: 400"><strong><img class="wp-image-2149 alignright" src="https://blog.ethereum.org/wp-content/uploads/2015/09/Screen-Shot-2015-09-16-at-19.11.43.png" alt="" />
 
 It is important to note that the wallet is expecting a fully synced up node.</strong>
 

@@ -40,7 +40,8 @@ Almost immediately, the results of the sale were put to use paying back mounting
 
 Finally, around September 2014, the majority of funds would be available to support the complex engineering of bleeding-edge decentralisation technology. Born out of an interest in extending blockchains, Ethereum commenced a massive hiring effort, attracting developers across a variety of disciplines to carry out the hard work of fully flushing out what were only preliminary ideas.
 
-<a href="https://en.wikipedia.org/wiki/Ethereum#/media/File:DEVCON_0_group_photo.jpeg"><img src="https://blog.ethereum.org/wp-content/uploads/2016/02/DEVCON_0_group_photo.jpeg" alt="DEVCON0 group photo (Wikipedia)" /></a>DEVCON0 group photo (Wikipedia)
+<a href="https://en.wikipedia.org/wiki/Ethereum#/media/File:DEVCON_0_group_photo.jpeg"><img src="https://blog.ethereum.org/wp-content/uploads/2016/02/DEVCON_0_group_photo.jpeg" alt="DEVCON0 group photo (Wikipedia)" /></a>
+DEVCON0 group photo (Wikipedia)
 
 Only two months later, in November 2014, the majority of the Ethereum project team was assembled and descended upon Berlin to participate in the first Ethereum conference: <a href="https://www.youtube.com/playlist?list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS">DEVCON0</a>. Although many had spoke via Skype, this was a time when most of the project members met for the first time. At this proto-conference, in a modest but beautiful space, developers took turns standing in front of peers explaining their vision for any given segment of the many protocols that would be necessary to develop “<a href="https://blog.ethereum.org/2014/08/18/building-decentralized-web/" target="_blank">Web3</a>”.
 

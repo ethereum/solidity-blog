@@ -19,13 +19,13 @@ Of course, it is important to note that there are reasons to buy at the start to
 
 At this point, we can expect to see a declining flow that will stabilize over the next few days, and then a smaller final spike on day 42. The chart below shows the cumulative ether sold up until this point:
 
-<a href="https://docs.google.com/a/ethereum.org/spreadsheets/d/1H5w9YVp1eRoNP8N9UFFvCcz51Q5DxzJaOVliCAAT46g/gviz/chartiframe?oid=831527247">
+<iframe><a href="https://docs.google.com/a/ethereum.org/spreadsheets/d/1H5w9YVp1eRoNP8N9UFFvCcz51Q5DxzJaOVliCAAT46g/gviz/chartiframe?oid=831527247" seamless frameborder=0 scrolling=no></iframe>
 
 The other interesting thing to analyze is the distribution of purchases. <a href="https://docs.google.com/spreadsheets/d/1GS9pzSdMx9lK0XGSKEDr_aoi02riq3MPRyvEntVUm68/edit#gid=0">This spreadsheet</a> contains a list of purchases arranged by purchase size. The largest single purchase was 500 BTC (1 million ether), followed by one at 466 BTC (933,580 ETH) and 330 BTC (660,360 ETH). We have not received any requests at largepurchases@ethereum.org. If we arrange purchases by size, we get the following two graphs, one for the quantity of purchases and one for the amount of ETH purchased, by purchase size:
 
-<a href="https://docs.google.com/a/ethereum.org/spreadsheets/d/1GS9pzSdMx9lK0XGSKEDr_aoi02riq3MPRyvEntVUm68/gviz/chartiframe?oid=168457404" seamless frameborder=0 scrolling=no></iframe>
+<iframe><a href="https://docs.google.com/a/ethereum.org/spreadsheets/d/1GS9pzSdMx9lK0XGSKEDr_aoi02riq3MPRyvEntVUm68/gviz/chartiframe?oid=168457404" seamless frameborder=0 scrolling=no></iframe>
 
-<a href="https://docs.google.com/a/ethereum.org/spreadsheets/d/1GS9pzSdMx9lK0XGSKEDr_aoi02riq3MPRyvEntVUm68/gviz/chartiframe?oid=846945325">
+<iframe><a href="https://docs.google.com/a/ethereum.org/spreadsheets/d/1GS9pzSdMx9lK0XGSKEDr_aoi02riq3MPRyvEntVUm68/gviz/chartiframe?oid=846945325" seamless frameborder=0 scrolling=no></iframe>
 
 Note that this only applies to purchases. There is also another slice of ether which will soon be distributed, which is the endowment. The portions in which the endowment is planned to be distributed are on <a href="https://docs.google.com/spreadsheets/d/1GS9pzSdMx9lK0XGSKEDr_aoi02riq3MPRyvEntVUm68/edit#gid=0">the spreadsheet</a>; the largest is equal to 0.922% of all ether purchased (ie. 0.369% of the total supply after five years) and the smallest is 0.004%, with 81 people total receiving a share. If you are one of the recipients, you will be contacted shortly; if you are not then there is still a second slice whose distribution has not been decided.
 

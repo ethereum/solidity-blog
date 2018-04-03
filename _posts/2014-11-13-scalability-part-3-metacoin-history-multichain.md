@@ -69,7 +69,7 @@ dsq_thread_id:
 <table style="border:none; border-collapse: collapse" cellspacing="0" cellpadding="0">
 <tr>
 <td>Centralized</td><td>Decentralized</td>
-</tr><tr>
+</tr>
 <td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/centralized_multichain.png" width="332px" /></td>
 <td><img src="https://blog.ethereum.org/wp-content/uploads/2014/11/New-document-13.2014_11_13_06_40_01.1.png" width="332px" /></td>
 </table>

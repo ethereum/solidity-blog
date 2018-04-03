@@ -19,17 +19,15 @@ In a phase of the PoC-IX testnet called "Olympic", the usage of this network wil
 
 The sorts of usage we will be awarding include:
 
-<ul>
 <li>mining
 <li>spending gas (in a variety of ways)
 <li>interesting contracts (variety of opcodes, length of execution time)
 <li>... and of course a grand prize for causing a fork!
-</ul>
-
+<br>
 Vinay will keep you updated on this but our rough time scale for this is <i>as soon as possible</i> :)
-
+<br>
 <strong>Ongoing work from my side...</strong>
-
+<br>
 As you might notice if you keep an eye on our repositories, development proceeds steadily. Alex (alongside Felix on the Go side) continue to perfect our peer-network infrastructure, with the last few changes having been prototyped recently and a period of review and testing to be carried out prior to our Olympic binaries being released. Marek's work (alongside Fabian on the Go side) on the JSON-RPC testing and web3.js continues to prepare the ground for Frontier and lots of lovely ÐApps.
 
 Meanwhile, Lefteris has been refactoring our Ethash implementation, good for both C++ and Go clients and helping make it as efficient and clean as possible. Yann and Arkadiy have been busy polishing Mix and getting the deployment experience as smooth as possible, with the help of Avsa, Fabian and Jutta. Christian and Liana continue working on Solidity, now putting in various optimisations and providing information for gas usage accounting in Mix. For my time coding, I've been doing mainly core refactoring and optimisation, getting the internals as smooth and reliable as possible, especially in block importing and transaction processing.
