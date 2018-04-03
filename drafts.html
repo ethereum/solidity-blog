@@ -11,7 +11,7 @@ meta_robots:  noindex
 <div class="posts-list">
   {% assign sorted = (site.drafts | sort: 'date') | reverse %}
   {% for draft in sorted %}
-    <div class="post-preview">
+    <article class="post-preview">
     <a href="{{ draft.url | prepend: site.baseurl }}">
     <h2 class="post-title">{{ draft.title }}</h2>
     </a>
@@ -31,7 +31,7 @@ meta_robots:  noindex
           <a href="{{ draft.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
       </div>
-    </div>
+    </article>
   {% endfor %}
 </div>
 <h1>OTHER STUFF UNDER</h1>
