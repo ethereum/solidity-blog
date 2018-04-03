@@ -158,6 +158,12 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
+  -
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: draft
 
 # Use tags index page and make tags on each post clickable
 link-tags: true
@@ -224,6 +230,12 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+
+# Added by Hudson to enable drafts.
+# https://bsn.io/2017/01/public-drafts-with-a-github-pages-blog
+collections:
+  drafts:
+    output: true
 
 plugins:
   - jekyll-paginate
