@@ -62,7 +62,6 @@ document.getElementById("ether").innerText = eth.toDecimal(eth.balanceAt(eth.sec
 &lt;/script&gt;</code></pre>
 Because the ethereum protocol also acts as a large distributed key-store (a happy note for fans of <a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a>), eventually user accounts, credentials, and reputation can be migrated on-blockchain with the help of the Whisper communication protocol. In this way, ethereum sets the stage for an total sharding of traditional infrastructure as we know it. No more complex high-availability infrastructure diagrams. In the ethereum ecosystem, even decentralized DNS is free.
 
-<video height="360" controls preload autoplay></video>
 <video controls preload autoplay loop>
   <source src="https://blog.ethereum.org/wp-content/uploads/2014/08/GLOBE_LARGE.mp4" type="video/mp4">
   <source src="https://blog.ethereum.org/wp-content/uploads/2014/08/GLOBE_LARGE.webm" type="video/webm">
