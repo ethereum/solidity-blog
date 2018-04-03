@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2018-04-03 01:17 -0500'
-published: false
+published: true
 title: Example2 test
 subtitle: test3
 author: Hudson
