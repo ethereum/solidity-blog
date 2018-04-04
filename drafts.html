@@ -6,8 +6,6 @@ permalink:    /drafts/
 meta_robots:  noindex
 ---
 
-<p>These are draft posts for previewing.</p>
-
 <div class="posts-list">
   {% assign sorted = (site.drafts | sort: 'date') | reverse %}
   {% for draft in sorted %}
@@ -32,6 +30,7 @@ meta_robots:  noindex
           {% endfor %}
         </span>
       {% endif %}
+      --------------------------------------------
     </div>
   {% endfor %}
 </div>
