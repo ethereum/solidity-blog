@@ -35,9 +35,9 @@ We strive to create a decentralized economy that allows everyone to freely buy,
 <td style="width: 209px; border: none;"><a href="https://blog.ethereum.org/wp-content/uploads/2018/04/download.png"><img class="alignnone size-full wp-image-4240" src="https://blog.ethereum.org/wp-content/uploads/2018/04/download.png" alt="download" width="204" height="204" /></a></td>
 </tr>
 <tr>
-<td style="width: 208px; border: none; text-align: center;"><strong>Vitallk Vuterin</strong></td>
-<td style="width: 209px; border: none; text-align: center;"><strong>Barack Obama</strong></td>
-<td style="width: 209px; border: none; text-align: center;"><strong>Moose</strong></td>
+<td style="width: 199px; height:199px; border: none; text-align: center;"><strong>Vitallk Vuterin</strong></td>
+<td style="width: 201px; height:201px; border: none; text-align: center;"><strong>Barack Obama</strong></td>
+<td style="width: 200px; height:200px; border: none; text-align: center;"><strong>Moose</strong></td>
 </tr>
 <tr>
 <td style="width: 208px; border: none; text-align: center;">Twitter scamming veteran. Raised over 4500 ETH from running a scam far more direct and honest than this one.</td>
