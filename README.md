@@ -19,10 +19,12 @@ You have the ability to embed YouTube videos, code snippets, and GitHub gists in
 
 ### Embed YouTube clips
 Paste the following into your blog entry, replacing T5RcjYPTG9g with the video ID found in the video URL.
+
 {% include youtubePlayer.html id="T5RcjYPTG9g" %}
 
 ### Embed GitHub Gists
 Paste the following into your blog entry, replacing 8387126 with the Gist ID found in the Gist URL.
+
 {% gist 8387126 %}
 
 ### Create a code snippet
