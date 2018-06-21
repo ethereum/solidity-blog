@@ -13,7 +13,7 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 # You can add images using the Insert Image button above.
 The image will be auto-uploaded to the /img directory in the repo.
 
-![hello_world.jpeg]({{site.baseurl}}/img/hello_world.jpeg)
+![dogethereum.png](https://github.com/ethereum/blog/blob/master/img/dogethereum.png "Mouseover Text Here. Wow!")
 
 # You can use emojis!
 :shiptit:
