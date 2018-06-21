@@ -24,6 +24,9 @@ In the coming weeks, you’ll begin to find information on how to obtain tickets
 Thank you all for making this community so great, and we look forward to seeing you at an incredible dc⟠ıv in Prague this fall!
 
 dc⟠ıv
+
 prague, czech republic
+
 oct 30 - nov 2, 2018
+
 -- devcon team
