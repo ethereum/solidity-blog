@@ -1,12 +1,15 @@
 # blog.ethereum.org
 
-This is the repository for blog entries to blog.ethereum.org. A blog editor is required to approve draft posts and merge them into the gh-pages branch to be published on the live site.
+This is the repository for blog entries to blog.ethereum.org. A blog editor (currently Hudson Jameson) is required to approve draft posts and merge them into the gh-pages branch to be published on the live site.
 
 ## How to submit a blog post.
 ### Preferred Method:
 Follow this guide: https://docs.google.com/document/d/1TrId4aaham0MVFDQ9O7xi_HidKB_2RO15kvbdvLSW2k/edit?usp=sharing
 
 ## Alternate Method:
+E-mail your blog post to hudson@ethereum.org. It can be in Markdown format, a Google Doc, or plaintext.
+
+## Advanced Method:
 Create a .md document in the _drafts folder with a naming convention and header content (title, date, author, layout) similar to blog entries in the _posts folder.
 
 ## Publishing your blog post
@@ -16,6 +19,15 @@ Once you create your draft blog post, contact a blog editor who will look over t
 Blogs need to be written in [Markdown format](https://guides.github.com/features/mastering-markdown/). If you are unfamiliar with Markdown, see the **Useful Markdown Links** section below.
 
 You have the ability to embed YouTube videos, code snippets, and GitHub gists into your blogs.
+
+### Embed an image
+![alt text](https://github.com/ethereum/blog/blob/master/img/doge.jpg "Mouseover Text Here. Wow!")
+
+If you are using the advanced method you may want to put the image files in the img/[YEAR]/[MONTH] directory in the repo.
+```
+![alt text](https://github.com/ethereum/blog/blob/master/img/doge.jpg "Title Text Here. Wow!")
+```
+If this step if confusing you can just send me the pictures and let me know where you want them in the blog.
 
 ### Embed YouTube clips
 Paste the following into your blog entry, replacing T5RcjYPTG9g with the video ID found in the video URL.
@@ -32,9 +44,13 @@ If you don't want to use a GitHub gist, you can highlight a code snippet. Replac
 Visit [the Rouge site](http://rouge.jneen.net/) to see what languages are supported.
 
 {% highlight ruby %}
+
 def foo
+
   puts 'foo'
+
 end
+
 {% endhighlight %}
 
 or
