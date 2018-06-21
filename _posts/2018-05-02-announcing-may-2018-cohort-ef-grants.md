@@ -30,11 +30,10 @@ permalink: /2018/05/02/announcing-may-2018-cohort-ef-grants/
 <span style="font-weight: 400;">Also, many of these grants may be followed on with additional funding and/or collaboration when milestones are achieved. We believe this will provide tight feedback loops for impact to the ecosystem.</span>
 <h2><span style="font-weight: 400;">Grantee List: May 2018</span></h2>
 
-<b>Scalability
+<b>Scalability:
 </b>
 
-<span style="font-weight: 400;">:
-</span><a href="https://eprint.iacr.org/2018/320"><span style="font-weight: 400;">Perun</span></a><span style="font-weight: 400;"> – $250K. State channels R&amp;D.
+<a href="https://eprint.iacr.org/2018/320"><span style="font-weight: 400;">Perun</span></a><span style="font-weight: 400;"> – $250K. State channels R&amp;D.
 </span>
 
 <span style="font-weight: 400;">PISA (by </span><a href="http://www0.cs.ucl.ac.uk/staff/P.McCorry/"><span style="font-weight: 400;">Patrick McCorry</span></a><span style="font-weight: 400;"> et al.) – $250K. State channels R&amp;D.
