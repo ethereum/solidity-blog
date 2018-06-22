@@ -10,7 +10,7 @@
 # If you are building a GitHub project page then use these settings:
 # url: "https://ethereum.github.io/blog"
 url: "https://blog.ethereum.org"
-baseurl: "/"
+baseurl: ""
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -24,7 +24,7 @@ description:
 
 # List of links in the navigation bar
 navbar-links:
-  Ethereum.org: "https://ethereum.org/"
+  Ethereum.org: "https://ethereum.org/1"
   Bug Bounty Program: "https://bounty.ethereum.org/"
   Ethereum Research Forum: "https://ethresear.ch/"
 
