@@ -139,6 +139,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:year/:month/:day/:title/
 paginate: 5
+paginate_path: "/page:num/"
 
 kramdown:
   input: GFM
