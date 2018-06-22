@@ -24,7 +24,7 @@ description:
 
 # List of links in the navigation bar
 navbar-links:
-  Ethereum.org: "https://ethereum.org/1"
+  Ethereum.org: "https://ethereum.org/"
   Bug Bounty Program: "https://bounty.ethereum.org/"
   Ethereum Research Forum: "https://ethresear.ch/"
 
