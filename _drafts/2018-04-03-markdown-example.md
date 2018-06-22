@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Markdown Example
 subtitle: Some resources to write posts in GitHub Markdown format.
 date: '2018-04-03'
