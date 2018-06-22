@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Announcing Swarm Proof-of-Concept Release 3
 date: '2018-06-21'
 author: Viktor Trón
