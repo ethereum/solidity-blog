@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: Announcing Swarm Proof-of-Concept Release 3
 date: '2018-06-21'
 author: Viktor Trón
@@ -68,4 +68,4 @@ We welcome your feedback and contribution. Come find us in our [gitter channel](
 
 
 
-![the Swarm team](https://blog.ethereum.org/img/2018/06/swarm_team_2018.jpg:large)
+![the Swarm team](https://blog.ethereum.org/img/2018/06/swarm_team_2018.jpg)
