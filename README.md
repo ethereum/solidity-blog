@@ -10,7 +10,7 @@ Follow this guide: https://docs.google.com/document/d/1TrId4aaham0MVFDQ9O7xi_Hid
 E-mail your blog post to hudson@ethereum.org. It can be in Markdown format, a Google Doc, or plaintext.
 
 ## Advanced Method:
-Create a .md document in the _drafts folder with a naming convention and header content (title, date, author, layout) similar to blog entries in the _posts folder.
+Create a .md document in the _drafts folder with a naming convention and header content (title, date, author, layout) similar to blog entries in the _posts folder. Once it is done being a draft, move it to the _posts folder. Create a pull request to merge master with gh-pages branch. It is a protected branch so a blog editor has to approve the PR before the post goes live.
 
 ## Publishing your blog post
 Once you create your draft blog post, contact a blog editor who will look over the post to make sure it is formatted correctly. Once it is approved it will be merged into the gh-pages branch where it will be broadcast live to the interwebz.
