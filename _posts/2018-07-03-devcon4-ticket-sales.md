@@ -6,8 +6,6 @@ date: '2018-07-03'
 author: Deva the Devcon Unicorn
 ---
 
-<center><img src="https://blog.ethereum.org/img/2018/07/devcon4-logo.png" alt="Devcon4 Logo"></center>
-
 Friends,
 
 Today, we’re happy to announce some significant updates to the Devcon4 website, and with it we wanted to unveil a bit about the ticketing and discount processes and more!
@@ -32,3 +30,4 @@ We look forward to making this year’s Devcon the best yet!
 
 <small>*What is a *wave*? To ensure that the majority of tickets are reserved for the builders we design Devcon for, we are selling small batches of General Admissions tickets in several intervals — which we are calling waves. The first wave will begin at 8am PDT on July 9, 2018. However, applications for scholarships and developer & student discounts will always be open, regardless of the waves.</small>
 
+<center><img src="https://blog.ethereum.org/img/2018/07/devcon4-logo.png" alt="Devcon4 Logo"></center>
