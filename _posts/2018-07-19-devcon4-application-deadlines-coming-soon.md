@@ -18,4 +18,5 @@ As we continue to work toward providing everyone an opportunity to attend Devcon
 We look forward to receiving your applications soon, and to seeing you in Prague!
  
 Děkuji,
+
 -- dc⟠ıv team
