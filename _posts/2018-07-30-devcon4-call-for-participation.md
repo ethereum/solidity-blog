@@ -25,7 +25,7 @@ When you apply, we ask that you connect your session to one of five core themes:
 - **Privacy**: How can we empower users to be in control of their own data? 
 - **Developer Experience**: How can we make developing for Ethereum simple, extensible, and fun?
 - **UX & Design**: How can we create a more intuitive, usable and delightful experience for our users?
-- ** Society & Systems**: Why do we BUIDL? How will this technology change our societal systems, and the people within them? (To be clear: this is also a bit of a “catch all” theme for governance, cryptoeconomics, social impact, memes, etc.)
+- **Society & Systems**: Why do we BUIDL? How will this technology change our societal systems, and the people within them? (To be clear: this is also a bit of a “catch all” theme for governance, cryptoeconomics, social impact, memes, etc.)
 
 If you want to talk about your specific dapp or protocol, please do so in the context of one of these shared topics. How have you identified or solved a common problem? How can your work benefit the rest of our community? 
 
