@@ -22,9 +22,10 @@ When you apply, we ask that you connect your session to one of five core themes:
 
 - **Scalability**: How can we scale Ethereum in a secure, decentralized, and trustless manner in order to achieve mass adoption? 
 - **Security**: How can we ensure the safety of user data and funds?
+- **Privacy**: How can we empower users to be in control of their own data? 
 - **Developer Experience**: How can we make developing for Ethereum simple, extensible, and fun?
 - **UX & Design**: How can we create a more intuitive, usable and delightful experience for our users?
-- **Systems & Society**: Why do we BUIDL? How will this technology change our societal systems, and the people within them? (To be clear: this is also a bit of a “catch all” theme for governance, cryptoeconomics, social impact, memes, etc.)
+- ** Society & Systems**: Why do we BUIDL? How will this technology change our societal systems, and the people within them? (To be clear: this is also a bit of a “catch all” theme for governance, cryptoeconomics, social impact, memes, etc.)
 
 If you want to talk about your specific dapp or protocol, please do so in the context of one of these shared topics. How have you identified or solved a common problem? How can your work benefit the rest of our community? 
 
@@ -35,5 +36,8 @@ Please help us create a Devcon4 experience in the spirit of these values:
 - **Participatory**: We are all creating the Ethereum ecosystem together and Devcon4 should reflect that. In addition to educational talks, Devcon4 should provide opportunities for participants to contribute to the broader conversation and share information with one another.
 - **Educational**: As the only EF-hosted event, Devcon4 is a chance for our community to learn directly from the leaders of the Ethereum ecosystem. Participants should learn things they couldn’t learn anywhere else.
 - **Fun**: The number one reason why people come to Devcon is to see one another! Let’s create a uniquely “Ethereum” family reunion for our community. 
+
+Visit [https://devcon4.ethereum.org/call-for-participation](https://devcon4.ethereum.org/call-for-participation) to learn more and apply!
+
 
 --dc⟠ıv team
