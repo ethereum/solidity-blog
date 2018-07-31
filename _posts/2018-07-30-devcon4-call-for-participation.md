@@ -18,7 +18,7 @@ Here are three ways you can apply to participate in Devcon4:
 - **Lead a workshop**: Teach people to do something. Over the course of 2 hours, participants should “get their hands dirty,” whether writing code or learning to tell stories. 
 - **Host a breakout room**: Be creative and come up with your own programming for Devcon4! Host dapp design critiques, facilitate a conversation, do live security reviews, [enter your awesome idea here]
 
-When you apply, we ask that you connect your session to one of five core themes:
+When you apply, we ask that you connect your session to one of six core themes:
 
 - **Scalability**: How can we scale Ethereum in a secure, decentralized, and trustless manner in order to achieve mass adoption? 
 - **Security**: How can we ensure the safety of user data and funds?
