@@ -20,14 +20,6 @@ Since the Grants Program has picked up, we've received feedback requesting great
 
 ### Funding Snapshot
 
----
-layout: post
-published: true
-title: Devcon4 Call for Participation!
-date: '2018-07-30'
-author: Deva the Devcon Unicorn
----
-
 The EF Grant Program provided more than $11M in support to 52 projects since early 2018 (Waves 1, 2, and 3).
 
 <center><img src="https://blog.ethereum.org/img/2018/08/grants_funds_charts.png" alt="Grants Charts"></center>
