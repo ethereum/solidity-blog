@@ -7,7 +7,8 @@ author: Ethereum Team
 ---
 
 <center><img src="https://blog.ethereum.org/img/2018/08/grants_eth_logo.png" alt="Ethereum Logo Image" width="266"></center>
-Ethereum Foundation Grants Update
+
+# Ethereum Foundation Grants Update
 
 We've been hard at work getting to know so many amazing people and projects, and are extremely excited to announce the recipients of the Wave 3 of the Ethereum Foundation Grants Program!
 
