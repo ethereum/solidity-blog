@@ -108,8 +108,8 @@ Want to #BUIDL with us?  See the dev wishlist below and follow links to learn m
 6.  Tokenless end user products 💜
 7.  [Vyper development](https://github.com/ethereum/vyper) 💜
 8.  More security focused [high-level](https://github.com/flintlang/flint) languages 💜
-10.  9.  Solidity interpreter 🔥
-11. Non-transferable ID tokens 🔥
+9. Solidity interpreter 🔥
+10. Non-transferable ID tokens 🔥
 
 ### Security
 1.  Security audits for [Solidity](https://github.com/ethereum/solidity) and [Vyper](https://github.com/ethereum/vyper) 💙💜
@@ -127,11 +127,7 @@ You already have a job (or school)? No problem! Suggest a problem you want to so
 💜 -- Wave 3\
 🔥  -- New to wishlist
 
-<center>
-
-# [NOW ACCEPTING APPLICATIONS FOR WAVE 4](https://efgrants.typeform.com/to/huczUJ)
-
-</center>
+<center><h1><a href="https://efgrants.typeform.com/to/huczUJ">NOW ACCEPTING APPLICATIONS FOR WAVE 4</a></h1></center>
 
 
 For more inspiration...
