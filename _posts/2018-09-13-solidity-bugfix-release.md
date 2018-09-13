@@ -62,7 +62,7 @@ if they are not used in a Solidity contract.
 The bug is only in the component that decodes a multi-dimensional fixed-size array
 that is returned from a function call from Solidity.
 
-This bug was fonud by [jmahhh](https://github.com/jmahhh).
+This bug was found by [jmahhh](https://github.com/jmahhh).
 
 ## Invalid Encoding of Structs in Events
 
