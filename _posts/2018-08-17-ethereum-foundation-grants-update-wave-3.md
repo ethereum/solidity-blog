@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Ethereum Foundation Grants Update - Wave 3
+title: Ethereum Foundation Grants Update - Wave III
 date: '2018-08-17'
 author: Ethereum Team
 ---
@@ -10,9 +10,9 @@ author: Ethereum Team
 
 # Ethereum Foundation Grants Update
 
-We've been hard at work getting to know so many amazing people and projects, and are extremely excited to announce the recipients of the Wave 3 of the Ethereum Foundation Grants Program!
+We've been hard at work getting to know so many amazing people and projects, and are extremely excited to announce the recipients of the Wave III of the Ethereum Foundation Grants Program!
 
-We kicked off 2018 with a [blog post](https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/) to galvanize scalability research for first and second-layer solutions. Since then, we've committed over $11M to 52 projects dedicated to advancing the Ethereum ecosystem. Grants have funded multiple plasma and state channel implementations, diverse client research, enhanced developer frameworks, security audits, and so much more (find them all in the previous posts: [Wave 1](https://blog.ethereum.org/2018/03/07/announcing-beneficiaries-ethereum-foundation-grants/) & [Wave 2](https://blog.ethereum.org/2018/05/02/announcing-may-2018-cohort-ef-grants/))!
+We kicked off 2018 with a [blog post](https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/) to galvanize scalability research for first and second-layer solutions. Since then, we've committed over $11M to 52 projects dedicated to advancing the Ethereum ecosystem. Grants have funded multiple plasma and state channel implementations, diverse client research, enhanced developer frameworks, security audits, and so much more (find them all in the previous posts: [Wave I](https://blog.ethereum.org/2018/03/07/announcing-beneficiaries-ethereum-foundation-grants/) & [Wave II](https://blog.ethereum.org/2018/05/02/announcing-may-2018-cohort-ef-grants/))!
 
 A Look into the Selection Process
 ---------------------------------
@@ -21,7 +21,7 @@ Since the Grants Program has picked up, we've received feedback requesting great
 
 ### Funding Snapshot
 
-The EF Grant Program provided more than $11M in support to 52 projects since early 2018 (Waves 1, 2, and 3).
+The EF Grant Program provided more than $11M in support to 52 projects since early 2018 (Waves I, II, and III).
 
 <center><img src="https://blog.ethereum.org/img/2018/08/grants_funds_charts.png" alt="Grants Charts"></center>
 
@@ -33,16 +33,16 @@ The EF Grants program is constantly evolving. With this round, we've refined our
 
 Ideal applicants come with strong technical knowledge, project roadmap, and show a commitment to fostering collaboration within the ecosystem. For more information about applicant expectations and process workflow, please see our [Applicant Expectations and FAQs](https://app.tettra.co/teams/ethereum/pages/applying-for-ef-grants).
 
-Wave 3
+Wave III
 ------
 
 With each round, the grants program evolves. Our goal is to effectively grease the wheels for projects building the critical infrastructure of our young community. There are many tracks to lay down before Ethereum "makes it" and it's been incredible to see all the projects working to lay down these tracks.
 
-The applicant pool for Wave 3 offered a record number of strong teams and innovative ideas. It's fascinating and humbling to see the diversity of projects from around the world with a shared interest in fostering the development of Ethereum. These are folks spending their free time reading [ethresear.ch](https://ethresear.ch/), developing new libraries and wallet designs, and engaging in communities discussing the latest in DApp usability and security...and we love them for that.
+The applicant pool for Wave III offered a record number of strong teams and innovative ideas. It's fascinating and humbling to see the diversity of projects from around the world with a shared interest in fostering the development of Ethereum. These are folks spending their free time reading [ethresear.ch](https://ethresear.ch/), developing new libraries and wallet designs, and engaging in communities discussing the latest in DApp usability and security...and we love them for that.
 
 Without further ado...
 
-🎉 We are proud to announce our Wave 3 Finalists! 🎉
+🎉 We are proud to announce our Wave III Finalists! 🎉
 ----------------------------------------------------
 
 ### Scalability
@@ -80,7 +80,7 @@ Without further ado...
 * [Etherlinker](https://linkedin.com/in/kelheor)  -- $10K. Unreal Engine 4 API for Ethereum
 
 
-Scalability will continue to be a focus of EF grants, but we also look to fund other critical work. This includes better UX, new clients, high-level languages, better developer tools, and efforts to make Ethereum applications more secure. With Wave 3, we expanded into education and community efforts in order to help bring new talent into the ecosystem.
+Scalability will continue to be a focus of EF grants, but we also look to fund other critical work. This includes better UX, new clients, high-level languages, better developer tools, and efforts to make Ethereum applications more secure. With Wave III, we expanded into education and community efforts in order to help bring new talent into the ecosystem.
 
 Want to #BUIDL with us?  See the dev wishlist below and follow links to learn more. If you can imagine a project relating to the topics listed, submit an application and talk to us!
 
@@ -112,7 +112,7 @@ Want to #BUIDL with us?  See the dev wishlist below and follow links to learn m
 10. Non-transferable ID tokens 🔥
 
 ### Security
-1.  Security audits for [Solidity](https://github.com/ethereum/solidity) and [Vyper](https://github.com/ethereum/vyper) 💙💜
+1.  Security audits for [Vyper](https://github.com/ethereum/vyper) 💙💜
 2.  Smart contract audits 💚💜
 3.  Particularly, audits for ERC20, ERC223, ERC721, multisig wallets, vaults 💜
 4.  Tooling that prevents vulnerable code 💚💙💜
@@ -122,18 +122,14 @@ Want to #BUIDL with us?  See the dev wishlist below and follow links to learn m
 ###  Hackternships
 You already have a job (or school)? No problem! Suggest a problem you want to solve and we're happy to fund a 10-week $10K externship for your spare-time working on Ethereum. 💚💙💜(Successful projects will be featured at a developer conference. We are also looking to hire and fund from this pool of side projects. If you're looking for where to start, look at the list above.)
 
-💚 --  Wave 1\
-💙 -- Wave 2\
-💜 -- Wave 3\
-🔥  -- New to wishlist
+💚 --  Wave I / 💙 -- Wave II / 💜 -- Wave III / 🔥  -- New to wishlist
 
 <center><h1><a href="https://efgrants.typeform.com/to/huczUJ">NOW ACCEPTING APPLICATIONS FOR WAVE 4</a></h1></center>
-
 
 For more inspiration...
 * Read the original [DevGrant](https://blog.ethereum.org/2015/04/07/devgrants-help/) post.
 * Read the [post](https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/) that kicked off the current program.
-* Find the grantees from [Wave 1](https://blog.ethereum.org/2018/03/07/announcing-beneficiaries-ethereum-foundation-grants/) and [Wave 2](https://blog.ethereum.org/2018/05/02/announcing-may-2018-cohort-ef-grants/).
+* Find the grantees from [Wave I](https://blog.ethereum.org/2018/03/07/announcing-beneficiaries-ethereum-foundation-grants/) and [Wave II](https://blog.ethereum.org/2018/05/02/announcing-may-2018-cohort-ef-grants/).
 * Keep up to date with research [here](https://ethresear.ch/) and [here](http://www.weekinethereum.com/).
 
 
