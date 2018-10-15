@@ -76,73 +76,47 @@ Want to #BUIDL with us?  See the dev wishlist below and follow links to learn m
 ### Scalability
 
 1.  More payment and/or [state channel](http://www.jeffcoleman.ca/state-channels/) implementations 💚💙💜
-
 2.  More [plasma](https://ethresear.ch/t/minimal-viable-plasma/426) implementations 💚💙
-
 3.  Improving efficiency of existing clients such as [geth](https://github.com/ethereum/go-ethereum) & [parity](https://github.com/paritytech/parity-ethereum) 💚💙
-
 4.  A tokenless "[Lightning Network](https://raiden.network/101.html)" for Ethereum 💙
-
 5.  [WebAssembly](https://github.com/ewasm/design) R&D 🔥
-
 6.  libp2p Python implementation 🔥
-
 7.  Plasma Cash implementations for fungible tokens utilizing defragmentation techniques found [here](https://ethresear.ch/t/plasma-cash-defragmentation/3410) and [here](https://ethresear.ch/t/plasma-cash-defragmentation-take-2/3515) 🔥
-
 8.  Academic analysis of Casper 🔥
 
 ### Privacy
 
 1.  [STARKS](https://github.com/ethereum/research/tree/master/mimc_stark) R&D 🔥
-
 2.  [BLS12-381](https://blog.z.cash/new-snark-curve/) implementations in new languages 🔥
 
 ### Usability
 
 1.  Improve private key management and transacting in Ethereum 💚💙💛
-
 2.  Alternative wallet / client designs 💙💜
-
 3.  Standards and [portability](https://github.com/WalletConnect) between wallets 💙
-
 4.  [Tooling](https://medium.com/buyethdomains/browseth-2018-roadmap-1533bfd02cd) that improves developer experience 💚💙💜💛
-
 5.  Improved documentation & developer/user education videos 💚💙💜💛
-
 6.  Tokenless end user products 💜
-
 7.  [Vyper development](https://github.com/ethereum/vyper) 💜
-
 8.  More security focused [high-level](https://github.com/flintlang/flint) languages 💜
-
-9.  Solidity interpreter 🔥
-
-10. Non-transferable ID tokens 🔥
-
-11. Establishing a spec and cross client test suite for the JSON-RPC API 🔥
-
-12. Analysis of and analytics for real world Ethereum transactions (application usage, gas / opcode usage, missed avenues for optimization, etc) 🔥
-
-13. Tooling that source-verifies contracts client-side, makes use of the metadata hash and shows NatSpec comments to the user for use in wallets. 🔥
+9.  Non-transferable ID tokens 🔥
+10. Establishing a spec and cross client test suite for the JSON-RPC API 🔥
+11. Analysis of and analytics for real world Ethereum transactions (application usage, gas / opcode usage, missed avenues for optimization, etc) 🔥
+12. Tooling that source-verifies contracts client-side, makes use of the metadata hash and shows NatSpec comments to the user for use in wallets 🔥
 
 ### Security
 
 1.  Security audits for [Vyper](https://github.com/ethereum/vyper) 💙💜
-
 2.  Smart contract audits 💚💜
-
 3.  Particularly, audits for ERC20, ERC223, ERC721, multisig wallets, vaults 💜
-
 4.  Tooling that prevents vulnerable code 💚💙💜
-
 5.  IDE with a visual debugger 🔥
-
 6.  [Privacy Solutions](https://cryptstorm.com/zk-snarks-comes-to-ethereum/) 🔥
+7.  More in-depth network monitoring tools 🔥
 
 ### Education
 
 1.  Community groups and conferences for underrepresented and underserved communities 🔥
-
 2.  Translation of research, documentation, and specs into other languages 🔥
 
 ### Hackternships
