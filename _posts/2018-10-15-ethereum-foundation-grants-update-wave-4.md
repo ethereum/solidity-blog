@@ -38,7 +38,7 @@ Without further ado...
 * [Buidler](http://getbuidler.com/) ​​-- $50K. Development of modular alternative to Truffle based on Ethers.js.
 * [Ethdoc​​](https://ethdoc.io/) -- $25K. Open source tool for organization and interaction of smart contract codebases.
 * [Ethers.js​​](https://blog.ricmoo.com/ethers-v4-released-6db6e08d523d) -- $25K. Support for ricmoo to continue development and maintenance of Ethers.js.
-* [Kauri​​](https://gitcoin.co/) -- $25K. Funding documentation bounties on Kauri.
+* [Kauri​​](https://www.kauri.io/) -- $25K. Funding documentation bounties on Kauri.
 
 ### (#BUIDL)
 
