@@ -55,7 +55,7 @@ Non-Custodial Payment Channel Hub​​ -- $420K. Payment upon delivery for the 
 
 [Magic Money Tree  (Dark Crystal)](https://darkcrystal.pw)  -- $50K. Tool for securely storing and recovering keys and secrets through a multisig design by the Secure Scuttlebutt Team.
 
-Hackternships
+### Hackternships
 
 [Elizabeth Binks](https://github.com/noot)​​ -- $10K. Ring signature implementation with nine or more keys.
 
