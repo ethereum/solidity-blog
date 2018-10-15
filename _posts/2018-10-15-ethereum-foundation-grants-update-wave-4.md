@@ -99,11 +99,10 @@ Want to #BUIDL with us?  See the dev wishlist below and follow links to learn m
 6.  Tokenless end user products 💜
 7.  [Vyper development](https://github.com/ethereum/vyper) 💜
 8.  More security focused [high-level](https://github.com/flintlang/flint) languages 💜
-9.  Solidity interpreter 🔥
-10. Non-transferable ID tokens 🔥
-11. Establishing a spec and cross client test suite for the JSON-RPC API 🔥
-12. Analysis of and analytics for real world Ethereum transactions (application usage, gas / opcode usage, missed avenues for optimization, etc) 🔥
-13. Tooling that source-verifies contracts client-side, makes use of the metadata hash and shows NatSpec comments to the user for use in wallets 🔥
+9.  Non-transferable ID tokens 🔥
+10. Establishing a spec and cross client test suite for the JSON-RPC API 🔥
+11. Analysis of and analytics for real world Ethereum transactions (application usage, gas / opcode usage, missed avenues for optimization, etc) 🔥
+12. Tooling that source-verifies contracts client-side, makes use of the metadata hash and shows NatSpec comments to the user for use in wallets 🔥
 
 ### Security
 
