@@ -19,55 +19,41 @@ Without further ado...
 ## 🎉 We are proud to announce our Wave 4 Grantees! 🎉
 
 ### Scalability
-Non-Custodial Payment Channel Hub​​ -- $420K. Payment upon delivery for the open source SDK release built by Spankchain, Kyokan, and Connext at Devcon 4
-
-[Prototypal​​](https://counterfactual.com/) -- $375K. Front-end state channel research and development.
-
-[Finality Labs](https://finalitylabs.io/)​​ ​​-- $250K. Development of Forward-Time Locked Contracts (FTLC).
-
-[Kyokan​​](http://plasma.kyokan.io/) ​​-- $250K. Development of production ready mainnet Plasma Cash & Debit plugins.
-
-[Atomic Cross-Chain Transactions](http://cs.brown.edu/research/atomic-transactions/) -- $65K. Research led by Maurice Herlihy of Brown University.
-
-[EthSnarks​​](https://github.com/HarryR/ethsnarks) ​​-- $40K. Development of a cross-compatible SDK for zkSNARKS to be viable on Ethereum.
+* Non-Custodial Payment Channel Hub​​ -- $420K. Payment upon delivery for the open source SDK release built by Spankchain, Kyokan, and Connext at Devcon 4
+* [Prototypal​​](https://counterfactual.com/) -- $375K. Front-end state channel research and development.
+* [Finality Labs](https://finalitylabs.io/)​​ ​​-- $250K. Development of Forward-Time Locked Contracts (FTLC).
+* [Kyokan​​](http://plasma.kyokan.io/) ​​-- $250K. Development of production ready mainnet Plasma Cash & Debit plugins.
+* [Atomic Cross-Chain Transactions](http://cs.brown.edu/research/atomic-transactions/) -- $65K. Research led by Maurice Herlihy of Brown University.
+* [EthSnarks​​](https://github.com/HarryR/ethsnarks) ​​-- $40K. Development of a cross-compatible SDK for zkSNARKS to be viable on Ethereum.
 
 ### Security
 
-[Flintstones](https://github.com/flintlang)  -- $120K. Further development of the Flint Language including a security focused IDE by Susan Eisenbach of Imperial College London.
+* [Flintstones](https://github.com/flintlang)  -- $120K. Further development of the Flint Language including a security focused IDE by Susan Eisenbach of Imperial College London.
 
 ### Usability (DevEx)
 
-[TrueBlocks](https://github.com/Great-Hill-Corporation/quickBlocks) ​​-- $120K. Open source block explorer.
-
-[Gitcoin​​](https://gitcoin.co/) -- $100K. Funding bounties on Gitcoin.
-
-[VulcanizeDB](https://github.com/vulcanize/vulcanizedb) ​​-- $75K. "Community sourced" block explorer.
-
-[Buidler](http://getbuidler.com/) ​​-- $50K. Development of modular alternative to Truffle based on Ethers.js.
-
-[Ethdoc​​](https://ethdoc.io/) -- $25K. Open source tool for organization and interaction of smart contract codebases.
-
-[Ethers.js​​](https://blog.ricmoo.com/ethers-v4-released-6db6e08d523d) -- $25K. Support for ricmoo to continue development and maintenance of Ethers.js.
-
-[Kauri​​](https://gitcoin.co/) -- $25K. Funding documentation bounties on Kauri.
+* [TrueBlocks](https://github.com/Great-Hill-Corporation/quickBlocks) ​​-- $120K. Open source block explorer.
+* [Gitcoin​​](https://gitcoin.co/) -- $100K. Funding bounties on Gitcoin.
+* [VulcanizeDB](https://github.com/vulcanize/vulcanizedb) ​​-- $75K. "Community sourced" block explorer.
+* [Buidler](http://getbuidler.com/) ​​-- $50K. Development of modular alternative to Truffle based on Ethers.js.
+* [Ethdoc​​](https://ethdoc.io/) -- $25K. Open source tool for organization and interaction of smart contract codebases.
+* [Ethers.js​​](https://blog.ricmoo.com/ethers-v4-released-6db6e08d523d) -- $25K. Support for ricmoo to continue development and maintenance of Ethers.js.
+* [Kauri​​](https://www.kauri.io/) -- $25K. Funding documentation bounties on Kauri.
 
 ### (#BUIDL)
 
-[Magic Money Tree  (Dark Crystal)](https://darkcrystal.pw)  -- $50K. Tool for securely storing and recovering keys and secrets through a multisig design by the Secure Scuttlebutt Team.
+* [Magic Money Tree  (Dark Crystal)](https://darkcrystal.pw)  -- $50K. Tool for securely storing and recovering keys and secrets through a multisig design by the Secure Scuttlebutt Team.
 
 ### Hackternships
 
-[Elizabeth Binks](https://github.com/noot)​​ -- $10K. Ring signature implementation with nine or more keys.
-
-[Lindsey Gray​​](https://github.com/lgray/bls12-381-cpp)  -- $10K. Development of C++ BLS-381 implementation.
+* [Elizabeth Binks](https://github.com/noot)​​ -- $10K. Ring signature implementation with nine or more keys.
+* [Lindsey Gray​​](https://github.com/lgray/bls12-381-cpp)  -- $10K. Development of C++ BLS-381 implementation.
 
 ### Client Diversity
 
-[Sigma Prime](https://github.com/sigp/lighthouse/)​​ -- $150K. Lighthouse Eth 2.0 client in Rust.
-
-[Prysmatic Labs](http://github.com/prysmaticlabs/prysm) -- $500K. Eth 2.0 Prysm client
-
-[Status](https://blog.status.im/introducing-nimbus-3360367bb311) ​​-- $500K. Eth 2.0 client in Nim.
+* [Sigma Prime](https://github.com/sigp/lighthouse/)​​ -- $150K. Lighthouse Eth 2.0 client in Rust.
+* [Prysmatic Labs](http://github.com/prysmaticlabs/prysm) -- $500K. Eth 2.0 Prysm client.
+* [Status](https://blog.status.im/introducing-nimbus-3360367bb311) ​​-- $500K. Eth 2.0 client in Nim.
 
 Want to #BUIDL with us?  See the dev wishlist below and follow links to learn more. If you can imagine a project relating to the topics listed, submit an application and talk to us!
 
