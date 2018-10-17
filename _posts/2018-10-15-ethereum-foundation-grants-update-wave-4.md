@@ -22,7 +22,7 @@ Without further ado...
 * Non-Custodial Payment Channel Hub​​ -- $420K. Payment upon delivery for the open source SDK release built by Spankchain, Kyokan, and Connext at Devcon 4
 * [Prototypal​​](https://counterfactual.com/) -- $375K. Front-end state channel research and development.
 * [Finality Labs](https://finalitylabs.io/)​​ ​​-- $250K. Development of Forward-Time Locked Contracts (FTLC).
-* [Kyokan​​](http://plasma.kyokan.io/) ​​-- $250K. Development of production ready mainnet Plasma Cash & Debit plugins.
+* [Kyokan​​](http://plasma.kyokan.io/) ​​-- $125K. Development of production ready mainnet Plasma Cash & Debit plugins.
 * [Atomic Cross-Chain Transactions](http://cs.brown.edu/research/atomic-transactions/) -- $65K. Research led by Maurice Herlihy of Brown University.
 * [EthSnarks​​](https://github.com/HarryR/ethsnarks) ​​-- $40K. Development of a cross-compatible SDK for zkSNARKS to be viable on Ethereum.
 
