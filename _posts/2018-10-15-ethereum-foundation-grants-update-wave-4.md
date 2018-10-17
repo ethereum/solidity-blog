@@ -19,7 +19,7 @@ Without further ado...
 ## 🎉 We are proud to announce our Wave 4 Grantees! 🎉
 
 ### Scalability
-* Non-Custodial Payment Channel Hub​​ -- $420K. Payment upon delivery for the open source SDK release built by Spankchain, Kyokan, and Connext at Devcon 4
+* Non-Custodial Payment Channel Hub​​ -- $420K. Payment upon delivery for the open source SDK release built by [Spankchain](https://spankchain.com), [Kyokan](https://kyokan.io), and [Connext](https://connext.network) at Devcon 4
 * [Prototypal​​](https://counterfactual.com/) -- $375K. Front-end state channel research and development.
 * [Finality Labs](https://finalitylabs.io/)​​ ​​-- $250K. Development of Forward-Time Locked Contracts (FTLC).
 * [Kyokan​​](http://plasma.kyokan.io/) ​​-- $125K. Development of production ready mainnet Plasma Cash & Debit plugins.
@@ -116,9 +116,7 @@ You already have a job (or school)? No problem! Suggest a problem you want to so
 For more inspiration...
 
 -   Read the original [DevGrant](https://blog.ethereum.org/2015/04/07/devgrants-help/) post.
-
 -   Read the [post](https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/) that kicked off the current program.
-
 -   Find the grantees from [Wave I](https://blog.ethereum.org/2018/03/07/announcing-beneficiaries-ethereum-foundation-grants/), [Wave II](https://blog.ethereum.org/2018/05/02/announcing-may-2018-cohort-ef-grants/), and [Wave III](https://blog.ethereum.org/2018/08/17/ethereum-foundation-grants-update-wave-3/).
 
 Keep up to date with research [here](https://ethresear.ch/) and [here](http://www.weekinethereum.com/).
