@@ -11,7 +11,7 @@ Today, we're excited to unveil our Devcon4 Sponsors. Each of this year's six tie
 
 ### DEVCON IV PREMIER SPONSORS
 
-**SERENITY**: [AdEx](https://www.adex.network/), [Blockchain Ventures](https://blockasset.ventures/), [Blockchains LLC](https://blockchains.com/), [Blockfolio](https://blockfolio.com/), [Colony](https://colony.io/), [ConsenSys](https://new.consensys.net/), [OmiseGO](http://omisego.network), [Sparkpool](https://eth.sparkpool.com/), and [Status](https://status.im/)
+**SERENITY**: [AdEx](https://www.adex.network/), [Blockasset Ventures](https://blockasset.ventures/), [Blockchains LLC](https://blockchains.com/), [Blockfolio](https://blockfolio.com/), [Colony](https://colony.io/), [ConsenSys](https://new.consensys.net/), [OmiseGO](http://omisego.network), [Sparkpool](https://eth.sparkpool.com/), and [Status](https://status.im/)
 
 **METROPOLIS**: [Celer Network](https://www.celer.network/), [Kyber Network](https://kyber.network/), [imToken](https://token.im/), [Santiment](https://santiment.net/), and [ShapeShift](https://shapeshift.io/)
 
@@ -33,7 +33,7 @@ Finally, our Community Sponsorship program has helped us to provide an affordabl
 
 ### OLYMPIC COMMUNITY SPONSORS
 
-**OLYMPIC**: [Aventus Foundation](https://aventus.io/), [Asseth](https://www.asseth.fr/), [b9lab](https://b9lab.com/), [Bee Token](https://www.beetoken.com/), [blk.io](https://blk.io/), [Chronologic](https://chronologic.network/), [CoinFabrik](https://www.coinfabrik.com/), [Cryptium Labs](https://cryptium.ch/), [Enterprise Ethereum Alliance](https://entethalliance.org/), [Eth.events](https://eth.events/), [Etherisc](https://etherisc.com/), [Festy](https://www.festy.ie/), [Fluence Labs](https://fluence.one/), [Giveth](https://giveth.io/), [JOYSO](https://joyso.io/), [Melonport](https://melonport.com/), [Midas Social](https://midas.social/), [Multichain Asset Managers Association](https://mama.global/), [Nanome.ai](https://nanome.ai/), [Next Big Thing](http://www.nextbigthing.ag/), [PegaSys](https://pegasys.tech/), [Propy Inc.](https://propy.com/), [Rtrade Technologies](https://www.rtradetechnologies.com/en/), [Runtime Verification](https://runtimeverification.com/), [Trustlines Network](https://trustlines.network/), [Wolk](https://wolk.com/), [Zinc](https://zinc.co/).
+**OLYMPIC**: [Aventus](https://aventus.io/), [Asseth](https://www.asseth.fr/), [b9lab](https://b9lab.com/), [Bee Token](https://www.beetoken.com/), [blk.io](https://blk.io/), [Chronologic](https://chronologic.network/), [CoinFabrik](https://www.coinfabrik.com/), [Cryptium Labs](https://cryptium.ch/), [Enterprise Ethereum Alliance](https://entethalliance.org/), [Eth.events](https://eth.events/), [Etherisc](https://etherisc.com/), [Festy](https://www.festy.ie/), [Fluence Labs](https://fluence.one/), [Giveth](https://giveth.io/), [JOYSO](https://joyso.io/), [Melonport](https://melonport.com/), [Midas Social](https://midas.social/), [Multichain Asset Managers Association](https://mama.global/), [Nanome.ai](https://nanome.ai/), [Next Big Thing](http://www.nextbigthing.ag/), [PegaSys](https://pegasys.tech/), [Propy Inc.](https://propy.com/), [Rtrade Technologies](https://www.rtradetechnologies.com/en/), [Runtime Verification](https://runtimeverification.com/), [Trustlines Network](https://trustlines.network/), [Wolk](https://wolk.com/), [Zinc](https://zinc.work/).
 
 Join us in thanking each of these incredible organizations for their dedication to the Ethereum community!
 
