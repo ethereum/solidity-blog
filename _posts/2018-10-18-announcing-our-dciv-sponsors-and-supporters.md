@@ -11,7 +11,7 @@ Today, we're excited to unveil our Devcon4 Sponsors. Each of this year's six tie
 
 ### DEVCON IV PREMIER SPONSORS
 
-**SERENITY**: [AdEx](https://www.adex.network/), [Blockasset Ventures](https://blockasset.ventures/), [Blockchains LLC](https://blockchains.com/), [Blockfolio](https://blockfolio.com/), [Colony](https://colony.io/), [ConsenSys](https://new.consensys.net/), [OmiseGO](http://omisego.network), [Sparkpool](https://eth.sparkpool.com/), and [Status](https://status.im/)
+**SERENITY**: [AdEx](https://www.adex.network/), [BlockAsset Ventures](https://blockasset.ventures/), [Blockchains LLC](https://blockchains.com/), [Blockfolio](https://blockfolio.com/), [Colony](https://colony.io/), [ConsenSys](https://new.consensys.net/), [OmiseGO](http://omisego.network), [Sparkpool](https://eth.sparkpool.com/), and [Status](https://status.im/)
 
 **METROPOLIS**: [Celer Network](https://www.celer.network/), [Kyber Network](https://kyber.network/), [imToken](https://token.im/), [Santiment](https://santiment.net/), and [ShapeShift](https://shapeshift.io/)
 
