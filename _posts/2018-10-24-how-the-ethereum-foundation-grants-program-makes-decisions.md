@@ -23,10 +23,11 @@ Our goal on the grants team is to be faithful stewards of Ethereum community res
 ### How do we evaluate applications?
 
 * We think about highest impact by asking ourselves:
-  * how important would this be to the ecosystem?
-  * how urgent is the problem?
-  * how many other people are working on this problem?
-  * how much value do we get by giving a grant compared to doing nothing?
+
+  - how important would this be to the ecosystem?
+  - how urgent is the problem?
+  - how many other people are working on this problem?
+  - how much value do we get by giving a grant compared to doing nothing?
 
 * We are favorably biased towards projects with reasonable paths towards sustainability.  This helps ensure a long-term impact on the investment of community resources.
 
