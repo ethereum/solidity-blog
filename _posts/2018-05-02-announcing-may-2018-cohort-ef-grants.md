@@ -169,7 +169,7 @@ permalink: /2018/05/02/announcing-may-2018-cohort-ef-grants/
 
 &nbsp;
 <h2>Next steps</h2>
-<span style="font-weight: 400;">This is an ongoing grant program, and we’d like to invite the rest of the community to approach us with your ideas (</span><a href="https://docs.google.com/forms/d/1_Fi0UmsdYefkRmWZg12QJOQgQoEajAJPvJw1tRI9N0c/viewform?edit_requested=true"><span style="font-weight: 400;">application link</span></a><span style="font-weight: 400;">).</span>
+<span style="font-weight: 400;">This is an ongoing grant program, and we’d like to invite the rest of the community to approach us with your ideas (</span><a href="https://ethunicorns.typeform.com/to/XhZlnp"><span style="font-weight: 400;">application link</span></a><span style="font-weight: 400;">).</span>
 
 <span style="font-weight: 400;">Ethereum is built by the community for the community, and we’re here to support you. Thank you for building!</span>
 
