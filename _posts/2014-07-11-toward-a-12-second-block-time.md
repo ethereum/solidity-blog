@@ -27,7 +27,7 @@ dsq_thread_id:
 
 <img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet2.png" />
 
-<p>This gives rise to the following problem: if, at time T = 500, miner M mines a block <code>B'</code> on top of <code>B</code> (where "on top of" is understood to mean "pointing to as the previous block in the chain"), then miner N might not hear about the block until time T = 510, so until T = 510 miner N will still be mining on B. If miner B finds a block in that interval, then the rest of the network will reject miner B's block because they already saw miner A's block which has an equal score:</p>
+<p>This gives rise to the following problem: if, at time T = 500, miner M mines a block <code>B'</code> on top of <code>B</code> (where "on top of" is understood to mean "pointing to as the previous block in the chain"), then miner N might not hear about the block until time T = 510, so until T = 510 miner N will still be mining on B. If miner B finds a block in that interval, then the rest of the network will reject miner B's block because they already saw miner M's block which has an equal score:</p>
 
 <img src="https://blog.ethereum.org/wp-content/uploads/2014/07/minernet3.png" />
 
