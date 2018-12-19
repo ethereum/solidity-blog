@@ -11,7 +11,7 @@ At Devcon 4,  [Aya Miyaguchi gave a talk](https://slideslive.com/38911600/ef-val
 
 As a non-profit organization, the Ethereum Foundation has a vision that we've outlined and tried to embody through our values, mission and work, but we know that the developers behind dApps built on Ethereum are the ones who will execute on this vision. Together, we can build a more globally accessible, more trustworthy and free internet, and eventually a society with less imbalance and injustice. That's why we're looking to learn more about the change already happening using impactful dApps built on Ethereum. If you, or someone you know, is building an application on Ethereum aimed at solving real-world issues, we would love to hear from you. Please take part in our short 3-5 minute survey, [now available here](https://ethereumfoundation.typeform.com/to/JJNqRP).
 
-<center><img src="https://blog.ethereum.org/img/2018/12/ef_ecosystem.png" alt="Ethereum Ecosystem Image" width="400"></center>
+<center><img src="https://blog.ethereum.org/img/2018/12/ef_ecosystem.png" alt="Ethereum Ecosystem Image" width="720"></center>
 
 The very first dApps were still conceptual only a few years ago, but we've advanced in a short time from proof-of-concepts to seeing developers solve challenging issues in their own regions and local communities. We see it as part of our responsibility to highlight the good faith efforts and positive works of all those helping to realize the Ethereum Foundation's mission.
 
