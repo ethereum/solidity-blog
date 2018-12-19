@@ -2,7 +2,6 @@
 layout: post
 published: true
 title: Call for Submissions! DApps Solving Real-World Issues
-subtitle: Help identify dApps impacting emerging economies and communities around the world!
 date: '2018-12-19'
 author: Ethereum Team
 ---
