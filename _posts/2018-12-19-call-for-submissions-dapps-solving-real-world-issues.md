@@ -2,10 +2,11 @@
 layout: post
 published: true
 title: Call for Submissions! DApps Solving Real-World Issues
-subtitle: Help identify dApps impacting emerging economies and communities around the world!
 date: '2018-12-19'
 author: Ethereum Team
 ---
+
+## [Help identify dApps impacting emerging economies and communities around the world!](https://ethereumfoundation.typeform.com/to/JJNqRP)
 
 At Devcon 4,  [Aya Miyaguchi gave a talk](https://slideslive.com/38911600/ef-values)  about the Ethereum Foundation's values, about Ethereum as being representative of hope for an open future, and about a better world that we can build by applying this philosophy and technology. Our community reflects this effort as many embrace the spirit of Kaizen, or continuous change for the better, through their work each day.
 
