@@ -19,4 +19,4 @@ To that end, we have worked to connect new and underfunded builders with the mos
 
 The Ethereum Foundation is only one star among many in this ecosystem, but it is our aim to connect and support others working to improve the world. Help us advance our understanding of all the stars that are out there, including those that have been hidden from our view, so that we can be a better connector and supporter to all!
 
-**__[Let's bring this constellation to life. Thank you, we hope that you'll take part in our survey, and we look forward to hearing from you!](https://ethereumfoundation.typeform.com/to/JJNqRP)__**
+**[Let's bring this constellation to life. Thank you, we hope that you'll take part in our survey, and we look forward to hearing from you!](https://ethereumfoundation.typeform.com/to/JJNqRP)**
