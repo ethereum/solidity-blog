@@ -5,6 +5,7 @@ title: Announcing an Ethereum Foundation Grant to Parity Technologies
 date: '2019-01-07'
 author: Ethereum Team
 ---
+
 The Ethereum Foundation is thrilled to announce a scalability, usability and security grant of five million dollars (USD) to Parity Technologies.
 
 For several years, Parity Technologies has been an invaluable member of the Ethereum ecosystem for their leadership in core development efforts, their [Parity Ethereum](https://parity.io/ethereum) client and more. Their work has continued at a blazing pace. At Devcon4 in Prague, Parity team members presented their plans to develop a Serenity implementation, exampling an exciting direction for the years ahead.
