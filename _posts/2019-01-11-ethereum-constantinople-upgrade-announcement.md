@@ -80,13 +80,13 @@ Changes that are implemented in Constantinople are defined using EIPs. Ethereum 
 
 -   This EIP proposes net gas metering changes for SSTORE opcode, enabling new usages for contract storage, and reducing excessive gas costs where it doesn't match how most implementation works.
 
--   TL;DR: Makes it cheaper (less gas is needed) to do certain things on chain, especially things that are currently "excessively" expensive.
+-   In short: This EIP makes it cheaper (less gas is needed) to do certain things on chain, especially things that are currently “excessively” expensive.
 
 ### [EIP 1234: Constantinople Difficulty Bomb Delay and Block Reward Adjustment](https://eips.ethereum.org/EIPS/eip-1234)
 
--   The average block times are increasing due to the difficulty bomb (also known as the "ice age") slowly accelerating. This EIP proposes to delay the difficulty bomb for approximately 12 months and to reduce the block rewards with the Constantinople network upgrade, the second part of the Metropolis upgrade.
+-   The average block times are increasing due to the difficulty bomb (also known as the "ice age") slowly accelerating. This EIP proposes to delay the difficulty bomb for approximately 12 months and to reduce the block rewards to adjust for the ice age delay.
 
--   TL;DR: Make sure we don't freeze the blockchain before proof of stake is ready & implemented. 😉
+-   In short: This EIP make sure we don’t freeze the blockchain before proof of stake is ready & implemented.
 
 # Thank You!
 
