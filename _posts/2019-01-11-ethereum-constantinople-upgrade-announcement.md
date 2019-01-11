@@ -8,18 +8,15 @@ author: Hudson Jameson
 
 The Ethereum network will be undergoing a scheduled upgrade at **block number 7,080,000**, which is predicted to occur on **Wednesday, January 16, 2019**. The exact date is subject to change depending on block times between now and then and could be activated 1-2 days before or after. A countdown timer can be seen at <https://amberdata.io/blocks/7080000>. You can monitor the network upgrade in real time at <http://forkmon.ethdevops.io/>.
 
-What is Constantinople?
------------------------
+# What is Constantinople?
 
 Constantinople is the name given to this network upgrade. Previous network upgrades have been given other names such as [Spurious Dragon](https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/) and [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/).
 
-As an Ethereum user or ether holder is there anything I need to do?
--------------------------------------------------------------------
+# As an Ethereum user or ether holder is there anything I need to do?
 
 If you use an exchange (such as Coinbase, Kraken, or Binance), a web wallet service (such as Metamask, MyCrypto, or MyEtherWallet), a mobile wallet service (such as Toshi, Status.im, or Trust Wallet), or a hardware wallet (such as Ledger, Trezor, or KeepKey) you do not need to do anything unless you are informed to take additional steps by your exchange or wallet service.
 
-As a node operator or miner, what do I need to do?
---------------------------------------------------
+# As a node operator or miner, what do I need to do?
 
 Download the latest version of your Ethereum client:
 
@@ -35,23 +32,19 @@ Download the latest version of your Ethereum client:
 
 -   [Latest version of Ethereum Wallet/Mist (v0.11.1)](https://github.com/ethereum/mist/releases/tag/v0.11.1)
 
-What happens if I am a miner or node operator and I do not participate in the upgrade?
---------------------------------------------------------------------------------------
+# What happens if I am a miner or node operator and I do not participate in the upgrade?
 
 If you are using an Ethereum client that is not updated to the latest version (listed above), your client will sync to the pre-fork blockchain once the upgrade occurs. You will be stuck on an incompatible chain following the old rules and you will be unable to send ether or operate on the post-upgrade Ethereum network.
 
-What is a network upgrade in Ethereum-land?
--------------------------------------------
+# What is a network upgrade in Ethereum-land?
 
 A network upgrade is a change to the underlying Ethereum protocol, creating new rules to improve the system. The decentralized nature of blockchain systems makes a network upgrade more difficult. Network upgrades in a blockchain require cooperation and communication with the community, as well as with the developers of the various Ethereum clients in order for the transition to go smoothly.
 
-What happens during a network upgrade?
---------------------------------------
+# What happens during a network upgrade?
 
 After the community comes to an agreement concerning which changes should be included in the upgrade, changes to the protocol are written into the various Ethereum clients, such as geth, Parity, and Harmony. The protocol changes are activated at a specific block number. Any nodes that have not been upgraded to the new ruleset will be abandoned on the old chain where the previous rules continue to exist.
 
-What changes are going into Constantinople?
--------------------------------------------
+# What changes are going into Constantinople?
 
 Changes that are implemented in Constantinople are defined using EIPs. Ethereum Improvement Proposals (EIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards. The following EIPs will be implemented in Constantinople.
 
@@ -87,19 +80,16 @@ Changes that are implemented in Constantinople are defined using EIPs. Ethereum 
 
 -   This EIP proposes net gas metering changes for SSTORE opcode, enabling new usages for contract storage, and reducing excessive gas costs where it doesn't match how most implementation works.
 
--   TL;DR: Makes it cheaper (less gas is needed) to do certain things on chain, especially things that are currently "excessively" expensive.
+-   In short: This EIP makes it cheaper (less gas is needed) to do certain things on chain, especially things that are currently “excessively” expensive.
 
 ### [EIP 1234: Constantinople Difficulty Bomb Delay and Block Reward Adjustment](https://eips.ethereum.org/EIPS/eip-1234)
 
--   The average block times are increasing due to the difficulty bomb (also known as the "ice age") slowly accelerating. This EIP proposes to delay the difficulty bomb for approximately 12 months and to reduce the block rewards with the Constantinople network upgrade, the second part of the Metropolis upgrade.
+-   The average block times are increasing due to the difficulty bomb (also known as the "ice age") slowly accelerating. This EIP proposes to delay the difficulty bomb for approximately 12 months and to reduce the block rewards to adjust for the ice age delay.
 
--   TL;DR: Make sure we don't freeze the blockchain before proof of stake is ready & implemented. 😉
+-   In short: This EIP make sure we don’t freeze the blockchain before proof of stake is ready & implemented.
 
-Thank You!
-----------
+# Thank You!
 
 **A big thanks to the Ethereum community, and to all Ethereum developers across all clients and platforms who came together to provide input, thoughts, and contribution. Special thanks to Reddit user cartercarlson who let us use [his Reddit post](https://old.reddit.com/r/ethereum/comments/abv70c/heres_a_summary_of_the_constantinople_update/) and the [MyCrypto](https://mycrypto.com) team who let us use their "[Ethereum Constantinople: Everything You Need To Know](https://link.medium.com/MLw7MrPknT)" Medium post.**
-
-----------------------------------------------------
 
 **DISCLAIMER**: This is an emergent and evolving highly technical space. If you choose to implement the recommendations in this post and continue to participate, you should make sure you understand how it impacts you. You should understand that there are risks involved including but not limited to risks like unexpected bugs. By choosing to implement these recommendations, you alone assume the risks of the consequences. This post and recommendations are not a sale of any kind and do not create any warranties of any kind including but not limited to any relating to the Ethereum network or the Ethereum clients referred to herein.
