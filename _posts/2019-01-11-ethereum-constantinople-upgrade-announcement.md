@@ -14,7 +14,7 @@ Constantinople is the name given to this network upgrade. Previous network upgra
 
 # As an Ethereum user or ether holder is there anything I need to do?
 
-If you use an exchange (such as Coinbase, Kraken, or Binance), a web wallet service (such as Metamask, MyCrypto, or MyEtherWallet), a mobile wallet service (such as Toshi, Status.im, or Trust Wallet), or a hardware wallet (such as Ledger, Trezor, or KeepKey) you do not need to do anything unless you are informed to take additional steps by your exchange or wallet service.
+If you use an exchange (such as Coinbase, Kraken, or Binance), a web wallet service (such as Metamask, MyCrypto, or MyEtherWallet), a mobile wallet service (such as Coinbase Wallet, Status.im, or Trust Wallet), or a hardware wallet (such as Ledger, Trezor, or KeepKey) you do not need to do anything unless you are informed to take additional steps by your exchange or wallet service.
 
 # As a node operator or miner, what do I need to do?
 
