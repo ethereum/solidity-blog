@@ -94,9 +94,16 @@ Parties involved in the discussions included, but were not limited to:
 
 ### Response Time
 
-**8:04am PT**
+**3:09am PT**
 
--   Original article by ChainSecurity was published around
+-   ChainSecurity responsibly discloses potentially vulnerability via Ethereum Foundation's bug bounty program
+
+**8:09am PT**
+
+-   Ethereum Foundation asks ChainSecurity to publicly disclose
+
+**8:11am PT**
+-   Original article by ChainSecurity is published
 
 **8:52am PT**
 
