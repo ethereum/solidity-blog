@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Security Alert: Ethereum Constantinople Postponement
+title: 'Security Alert: Ethereum Constantinople Postponement'
 date: '2019-01-15'
 author: Hudson Jameson
 ---
