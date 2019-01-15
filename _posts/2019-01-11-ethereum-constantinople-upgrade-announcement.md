@@ -6,6 +6,8 @@ date: '2019-01-11'
 author: Hudson Jameson
 ---
 
+# NOTE: DUE TO A SECURITY VULNERABILITY WE ARE POSTPONING CONSTANTINOPLE. PLEASE DISREGARD THE INSTRUCTIONS IN THIS BLOG POST. [CLICK HERE FOR MORE INFORMATION](https://blog.ethereum.org/2019/01/15/security-alert-ethereum-constantinople-postponement/).
+
 The Ethereum network will be undergoing a scheduled upgrade at **block number 7,080,000**, which is predicted to occur on **Wednesday, January 16, 2019**. The exact date is subject to change depending on block times between now and then and could be activated 1-2 days before or after. A countdown timer can be seen at <https://amberdata.io/blocks/7080000>. You can monitor the network upgrade in real time at <http://forkmon.ethdevops.io/>.
 
 # What is Constantinople?
