@@ -59,7 +59,7 @@ Changes that are implemented in Constantinople are defined using EIPs. Ethereum 
 
 ### [EIP 1014: Skinny CREATE2](https://eips.ethereum.org/EIPS/eip-1014)
 
--   Adds a new opcode at 0xf5, which takes 4 stack arguments: endowment, memory_start, memory_length, salt. Behaves identically to CREATE, except using keccak256( 0xff ++ sender_address ++ salt ++ keccak256(init_code)))[12:] instead of keccak256(RLP(sender_address, nonce))[12:] as the address where the contract is initialized at.
+-   Adds a new opcode at 0xf5, which takes 4 stack arguments: endowment, memory_start, memory_length, salt. Behaves identically to CREATE, except using keccak256( 0xff ++ address ++ salt ++ keccak256(init_code)))[12:] instead of keccak256(RLP(sender_address, nonce))[12:] as the address where the contract is initialized at.
 
 -   This allows interactions to be made with addresses that do not exist yet on-chain but can be relied on to only possibly contain code eventually that has been created by a particular piece of init code.
 
