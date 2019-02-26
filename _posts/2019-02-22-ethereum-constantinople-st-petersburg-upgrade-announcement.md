@@ -30,6 +30,8 @@ Download the latest version of your Ethereum client:
 
 -   [Latest EthereumJS VM client (v2.6.0)](https://github.com/ethereumjs/ethereumjs-vm/releases/tag/v2.6.0)
 
+-   [Latest version of Nethermind client (v0.9.4)](https://github.com/NethermindEth/nethermind/releases/tag/v0.9.4)
+
 -   [Latest version of Ethereum Wallet/Mist (v0.11.1)](https://github.com/ethereum/mist/releases/tag/v0.11.1)
 
 # What happens if I am a miner or node operator and I do not participate in the upgrade?
