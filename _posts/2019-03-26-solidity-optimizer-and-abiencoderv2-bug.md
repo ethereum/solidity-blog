@@ -21,8 +21,7 @@ The [0.5.7 release](https://github.com/ethereum/solidity/releases/tag/v0.5.7) co
 All the bugs mentioned here should be easily visible in tests that touch the relevant code paths, at least when run with all combinations of zero and nonzero values.
 
 
-Credits to Adam Kolar and Nick Munoz-McDonald for reporting this via the Ethereum bug bounty program!
-
+Credits to Melonport team (Travis Jacobs & Jenna Zenk) and the Melon Council (Nick Munoz-McDonald, Martin Lundfall, Matt di Ferrante & Adam Kolar), who reported this via the Ethereum bug bounty program!
 
 # Who should be concerned 
 
@@ -83,7 +82,7 @@ The bug, when triggered, will under certain circumstances send corrupt parameter
 
 
 2019-03-16:  
-* Report via bug bounty, from Adam Kolar and Nick Munoz-McDonald, about corruption caused when reading from arrays of booleans directly from storage into ABI encoder.
+* Report via bug bounty, about corruption caused when reading from arrays of booleans directly from storage into ABI encoder.
 
 2019-03-16 to 2019-03-21:
 * Investigation of root cause, analysis of affected contracts. An unexpectedly high count of contracts compiled with the experimental encoder were found deployed on mainnet, many without verified source-code.
