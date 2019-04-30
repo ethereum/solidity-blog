@@ -30,7 +30,7 @@ As we’ve progressed towards a re-launch of [ethereum.org](https://ethereum.org
 
 Ethereum.org is re-launching as an MVP, and the design intentionally evokes a simple blank slate. We want your help to update and improve it over time - check out the [contributors guide](https://github.com/ethereum/ethereum-org-website) or list of [open issues](https://github.com/ethereum/ethereum-org-website/issues) if you want to get started.
 
-Right now, there are just four subpages, ([Beginners](https://ethereum.org/beginners/), [Use](https://ethereum.org/use/), [Learn](https://ethereum.org/Learn/), and [Build](https://ethereum.org/build/)) but we anticipate adding new ones over time. We also expect to solicit submissions from the community for re-designs of whole subpages - stay tuned for details about how to get involved. 
+Right now, there are just four subpages, ([Beginners](https://ethereum.org/beginners/), [Use](https://ethereum.org/use/), [Learn](https://ethereum.org/learn/), and [Build](https://ethereum.org/build/)) but we anticipate adding new ones over time. We also expect to solicit submissions from the community for re-designs of whole subpages - stay tuned for details about how to get involved. 
 
 The dominant feature of the landing page is a large “HERO” style image, and the current one is only temporary. We plan to change it regularly as we receive submissions from the community, rotating the art over time. If you’re interested in submitting a new HERO image design, reach out to us at website@ethereum.org. 
 
