@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'Beginning a new ethereum.org'
-subtitle: 'Built by the community, for the communty'
+subtitle: 'Built by the community, for the community'
 date: '2019-04-30'
 author: Ethereum Team
 ---
