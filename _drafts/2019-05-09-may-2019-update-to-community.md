@@ -1,11 +1,12 @@
 ---
 layout: post
 published: true
-title: Markdown Example
-subtitle: Some resources to write posts in GitHub Markdown format.
-date: '2018-04-03'
-author: Hudson Jameson
+title: May 2019 Update to the Community
+subtitle: 
+date: '2019-05-09'
+author: Ethereum Team
 ---
+
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com).
 
 # Markdown Guide
