@@ -7,9 +7,6 @@ date: '2019-05-21'
 author: Ethereum Team
 ---
 
-# Ethereum Foundation Spring 2019 Update
-
-
 <center><img src="https://blog.ethereum.org/img/2019/05/ef-update-01.png" alt="Ethereum Logo Colorful Header"></center>
 
 
