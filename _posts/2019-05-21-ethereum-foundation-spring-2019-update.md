@@ -101,7 +101,7 @@ In our role as an advocate for Ethereum to the outside world, the Foundation has
 
 Notably, we have been working closely with Microsoft Azure’s team in a long-term commitment to support the Ethereum developer experience through Visual Studio Code and the new Azure Blockchain service.
 
-We have also connected with large entities like HTC and O, encouraging them to engage with the Ethereum community and support Ethereum-based applications, and with non-corporate organizations like UNICEF to help find ways to use Ethereum for social good.
+We have also connected with large entities like HTC and Opera, encouraging them to engage with the Ethereum community and support Ethereum-based applications, and with non-corporate organizations like UNICEF to help find ways to use Ethereum for social good.
 
 There’s a *lot* more being done by Foundation-supported teams than just the examples listed above. Stay tuned for more updates coming from these teams in the next few weeks. 
 
