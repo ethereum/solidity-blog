@@ -9,8 +9,6 @@ author: Ethereum Team
 
 # Ethereum Foundation Spring 2019 Update
 
-## Our plan for the next year
-
 
 <center><img src="https://blog.ethereum.org/img/2019/05/ef-update-01.png" alt="Ethereum Logo Colorful Header"></center>
 
@@ -59,7 +57,7 @@ Even as we deploy significant resources across the ecosystem to improve Ethereum
 In plain language, following a philosophy of subtraction means resisting the natural tendency of organizations to grow and accumulate value *within* themselves, and ensure instead that this value is created *outside* the Foundation in the broader Ethereum ecosystem. 
 
 
-<center><img src="https://blog.ethereum.org/img/2019/05/ef-update-00.png" alt="EF: A Philosophy of Subtraction" width="266"></center>
+<center><img src="https://blog.ethereum.org/img/2019/05/ef-update-00.png" alt="EF: A Philosophy of Subtraction" ></center>
 
 Instead of capturing opportunities for ourselves, we distribute those opportunities to the community.  Instead of pulling everything in-house, we push our resources out to teams across the ecosystem. We don’t compete with the ecosystem — we are thrilled when other organizations create value, because that means Ethereum is becoming more decentralized and sustainable. 
 
