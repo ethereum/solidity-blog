@@ -12,7 +12,7 @@ author: Ethereum Foundation Team
 
 ## 1. Introduction
 
-Ethereum Community, 
+Ethereum Community,
 
 Ethereum’s future is bright. Over the last 12 months the Ethereum community — a global collection of developers, entrepreneurs, researchers, and passionate users — has made tremendous progress. Every week, new applications built on Ethereum launch to mainnet, scalability solutions come online, and ETH 2.0 moves closer to key milestones. Ethereum remains the de-facto platform for decentralized applications, and is used every day to secure billions of dollars in digital assets. 
 
