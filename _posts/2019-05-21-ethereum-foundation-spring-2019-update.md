@@ -4,7 +4,7 @@ published: true
 title: 'Ethereum Foundation Spring 2019 Update'
 subtitle: 'Our plan for the next year'
 date: '2019-05-21'
-author: Ethereum Foundation Team
+author: Ethereum Team
 ---
 
 <center><img src="https://blog.ethereum.org/img/2019/05/ef-update-01.png" alt="Ethereum Logo Colorful Header"></center>
