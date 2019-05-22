@@ -99,7 +99,7 @@ Additionally, the [Cryptophage](http://www.cryptophage.com/) collaboration betwe
 
 In our role as an advocate for Ethereum to the outside world, the Foundation has worked to encourage high profile organizations to engage with Ethereum in ways that strengthen the whole ecosystem. 
 
-Notably, we have been working closely with Microsoft Azure’s team in a long-term commitment to support the Ethereum developer experience through Visual Studio Code and the new Azure Blockchain service.
+Notably, we have been working closely with Microsoft in a long-term commitment to support the Ethereum developer experience through Visual Studio Code and the new Azure Blockchain Service.
 
 We have also connected with large entities like HTC and Opera, encouraging them to engage with the Ethereum community and support Ethereum-based applications, and with non-corporate organizations like UNICEF to help find ways to use Ethereum for social good.
 
