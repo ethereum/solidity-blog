@@ -10,7 +10,7 @@ author: Devcon Team
 
 Friends,
 
-The year is well underway, cherry blossoms have fallen, and Devcon is quickly approaching!
+The year is well underway, cherry blossoms have fallen, and [Devcon](https://devcon.org) is quickly approaching!
 
 As announced on-stage at Ethereal last month, Devcon will be returning to Asia in 2019. We hope that you'll join us this October 8th-11th as we come together in Osaka, Japan!
 
@@ -40,6 +40,6 @@ See you in Osaka!
 
 -- devcon team
 
-P.s. -- For any questions not covered in the [FAQ](https://devcon.org/faq), you can reach us at support@ethereum.org.
+P.s. -- For any questions not covered in the [FAQ](https://devcon.org/faq), you can reach us at [support@ethereum.org](mailto:support@ethereum.org).
 
 *What is a wave? To ensure tickets are distributed as fairly as possible, we are releasing batches of General Admissions tickets in several intervals --- which we call waves.
