@@ -143,6 +143,7 @@ paginate_path: "/page:num/"
 
 kramdown:
   input: GFM
+  parse_block_html: true
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
