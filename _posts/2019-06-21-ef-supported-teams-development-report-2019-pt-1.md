@@ -7,6 +7,8 @@ date: '2019-06-21'
 author: Ethereum Foundation Team
 ---
 
+<center><img src="https://blog.ethereum.org/img/2019/06/ethdenver.jpg" alt="EthDenver Photo"></center>
+
 Friends,
 
 Over the last year, developers and researchers supported by Ethereum Foundation have kept their heads down and continued to produce at a staggering pace.
