@@ -345,6 +345,27 @@ The hive framework has been updated, and is again running on <https://hivetests.
 
 Retesteth stability has been restored. We've also fixed bugs when running StateTests and BlockchainTests via test_ RPC interface on aleth. Retesteth could now be built on docker and run against any client that support test_ RPC interface. Geth + retesteth support has now been enabled.
 
+## Special Projects
+
+* Collaborations with Microsoft to build us a superior Integrated Development Environment, such as the [Azure Blockchain Workbench](https://azure.microsoft.com/en-in/features/blockchain-workbench/).
+
+* Ether's Shariah Compliance is completed. Details of the fatwa from [Amanie Advisors](https://amanieadvisors.com/) to be announced. Hopefully, this will bring more users and applications from the Islamic world.  Hurray financial inclusion and new markets.
+
+* Launching the [Ethereum OASIS Open Project](https://github.com/ethresearch/oasis-open-project) to attempt to battle harden and bring a little more structure to our standards process.
+
+* Launched new wiki: [eth.wiki](https://eth.wiki) (still a work in progress).
+
+* Working with [Santa Fe Institute](https://santafe.edu) to develop a cryptoeconomics research program. We recently sent Consensys's Shruti Appiah to Santa Fe to [speak on token economics](https://www.youtube.com/watch?v=7GW-iNu3hTE).
+
+* EF wishes to up Ethereum's game in the enterprise space. Ergo we've been chatting more with Ethereum Enterprise Alliance and Hyperledger. So far Ethereum Foundation has joined [both](https://entethalliance.org/members/) [organizations](https://cointelegraph.com/news/hyperledger-gains-microsoft-and-ethereum-foundation-among-raft-of-new-members) and we're figuring out plausible next steps.
+
+* Ongoing collaboration explorations with:
+    * Zcash -- Joint funding of EIPs for a [Blake2b precompile](https://ethereum-magicians.org/t/blake2b-f-precompile/3157).
+    * Cosmos -- Joint funding Justin Drake's [VDF research](https://vdfresearch.org/)
+    * Protocol Labs -- Ethereum Name Service is recieving a grant for [IPFS integrations](https://github.com/ipfs/go-ipfs/pull/6448) with eth.link.
+
+* A lot of new swag on the [Ethereum swag store](https://swag.ethereum.org/collections/regional)!
+
 ## Solidity
 
 The current focus points for Solidity development are as follows:
