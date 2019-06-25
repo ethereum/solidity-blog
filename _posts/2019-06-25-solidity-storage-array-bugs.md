@@ -12,7 +12,7 @@ author: Solidity and Security Team
 This blog post is about two bugs connected to storage arrays which are otherwise unrelated. Both have been present in the compiler for a long time and have only been discovered now even though a contract containing them should very likely show malfunctions in tests.
 
 Daenam Kim discovered an issue where invalid data is stored in connection with arrays of signed integers.
-This bug is present since Solidity 0.4.7 and we consider it the more serious of the two. If these arrays use negative integers in a certain situation, it will cause data corruption and thus the bug should be easy to detect.
+This bug has been present since Solidity 0.4.7 and we consider it the more serious of the two. If these arrays use negative integers in a certain situation, it will cause data corruption and thus the bug should be easy to detect.
 
 Through the Ethereum bug bounty program, we received a report about a flaw within the new experimental ABI encoder (referred to as ABIEncoderV2). The new ABI encoder is still marked as experimental, but we nevertheless think that this deserves a prominent announcement since it is already used on mainnet.
 Credits to Ming Chuan Lin (of https://www.secondstate.io) for both discovering and fixing the bug!
@@ -68,10 +68,6 @@ The bug only manifests itself when all of the following conditions are met:
 
 In addition to that, in the following situation, your code is NOT affected:
 * if you only return such data and do not use it in ``abi.encode``, external calls or event data.
-
-
-If you have a contract that meets these conditions, and want to verify whether the contract is indeed vulnerable, you can reach out to us via security@ethereum.org.
-
 
 ## Possible consequences
 
