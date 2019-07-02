@@ -355,9 +355,9 @@ Retesteth stability has been restored. We've also fixed bugs when running StateT
 
 * Launched new wiki: [eth.wiki](https://eth.wiki) (still a work in progress).
 
-* Working with [Santa Fe Institute](https://santafe.edu) to develop a cryptoeconomics research program. We recently sent Consensys's Shruti Appiah to Santa Fe to [speak on token economics](https://www.youtube.com/watch?v=7GW-iNu3hTE).
+* Working with [Santa Fe Institute](https://santafe.edu) to develop a cryptoeconomics research program.  We recently sent Consensys's Shruti Appiah to Santa Fe to [speak on token economics](https://www.youtube.com/watch?v=7GW-iNu3hTE).
 
-* EF wishes to up Ethereum's game in the enterprise space. Ergo we've been chatting more with Ethereum Enterprise Alliance and Hyperledger. So far Ethereum Foundation has joined [both](https://entethalliance.org/members/) [organizations](https://cointelegraph.com/news/hyperledger-gains-microsoft-and-ethereum-foundation-among-raft-of-new-members) and we're figuring out plausible next steps.
+* Explorations into upping Ethereum's game in the enterprise space. Ergo we've been chatting more with Ethereum Enterprise Alliance and Hyperledger. So far Ethereum Foundation has joined [both](https://entethalliance.org/members/) [organizations](https://cointelegraph.com/news/hyperledger-gains-microsoft-and-ethereum-foundation-among-raft-of-new-members) and we're figuring out plausible next steps.
 
 * Ongoing collaboration explorations with:
     * Zcash -- Joint funding of EIPs for a [Blake2b precompile](https://ethereum-magicians.org/t/blake2b-f-precompile/3157).
