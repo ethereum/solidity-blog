@@ -28,4 +28,4 @@ With these priorities in mind, we’re pleased to announce the first grantees of
  
 Finally, while we generally aim to increase the transparency of the Grants Program, we have chosen not to include grant award amounts or a wishlist. We have made these decisions because we do not want applicants to be prejudiced by previous wishlists and award amounts. Instead, we seek innovative ideas and detailed budgets.
 
-### [APPLY FOR A GRANT HERE](https://ethunicorns.typeform.com/to/XhZlnp)
+### [APPLY FOR A GRANT HERE](https://airtable.com/shrAeswLt0BxGvGu7)
