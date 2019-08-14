@@ -10,7 +10,7 @@ author: Devcon Team
 
 各位,
 
-We are now less than 60 days away from Devcon, and we wanted to provide important updates and further details about how to obtain remaining Devcon tickets for everyone looking to join us in Osaka.
+We are now fewer than 60 days away from Devcon, and we wanted to provide important updates and further details about how to obtain remaining Devcon tickets for everyone looking to join us in Osaka.
 
 First, save the date: **Wave 3 of Devcon ticket sales will take place on Thursday, the 15th of August at 6:00am PT / 9:00am ET / 3:00pm CEST / 10:00pm JST at Devcon.org!**
 
