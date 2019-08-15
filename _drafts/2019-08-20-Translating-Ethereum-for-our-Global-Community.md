@@ -7,11 +7,11 @@ date: '2019-08-20'
 author: Ethereum Foundation Website Team
 ---
 
-# [Translating Ethereum for our Global Community](#english)
+# Translating Ethereum for our Global Community
 
 _Read this post in:_
 
-Chinese | Korean | Japanese | Russian |  German | Italian
+[English](#translating-ethereum-for-our-global-community) | [中文](#你好-世界-|-为我们的全球社区翻译-ethereum.org) | [한국어] | [日本人] | [русский] |  [Deutsche] | [italiano]
 
 We are happy to announce the launch of a large-scale translation program for Ethereum.org, which will translate the website and other resources into more than 15 languages. 
 
@@ -124,7 +124,7 @@ Siamo lieti di annunciare il lancio di un programma di traduzione su larga scala
 
 Ethereum è un progetto globale, è pertanto fondamentale che il sito ethereum.org rifletta la nostra comunità presente in tutto il mondo. Dal rilancio del sito web, il nostro team ha dato la precedenza all'organizzazione di un programma di traduzione che garantisca l'accessibilità alle risorse Ethereum a tutti, a prescindere dalla nazionalità o dalla lingua.
 
-**Oggi siamo emozionati per il lancio della nostra prima traduzione completa: una versione coreana del sito, disponibile su [**ethereum.org/ko**](http://ethereum.org/ko)**. Nelle prossime settimane, il nostro programma di espanderà concentrandosi inizialmente sul completamento delle traduzioni in cinese, giapponese, russo, tedesco e italiano. Questo set di lingue iniziale è stato scelto in base al volume di ricerca di Ethereum e termini relativi, nonché al traffico su siti web relazionati ad Ethereum.
+**Oggi siamo emozionati per il lancio della nostra prima traduzione completa: una versione coreana del sito, disponibile su [ethereum.org/ko](http://ethereum.org/ko)**. Nelle prossime settimane, il nostro programma di espanderà concentrandosi inizialmente sul completamento delle traduzioni in cinese, giapponese, russo, tedesco e italiano. Questo set di lingue iniziale è stato scelto in base al volume di ricerca di Ethereum e termini relativi, nonché al traffico su siti web relazionati ad Ethereum.
 
 Mentre all'inizio gli sforzi sono concentrati sulla traduzione di Ethereum.org, nel tempo si espanderanno includendo traduzioni di risorse chiave di terze parti, come documentazioni, guide, post del blog e altro ancora. 
 
