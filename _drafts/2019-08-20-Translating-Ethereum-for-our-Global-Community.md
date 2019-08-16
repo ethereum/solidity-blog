@@ -7,11 +7,11 @@ date: '2019-08-20'
 author: Ethereum Foundation Website Team
 ---
 
-# Translating Ethereum for our Global Community
+# <div id="english">Translating Ethereum for our Global Community</div>
 
 _Read this post in:_
 
-[English](#translating-ethereum-for-our-global-community) | [中文](#你好-世界-|-为我们的全球社区翻译-ethereum.org) | [한국어] | [日本人] | [русский] |  [Deutsche] | [italiano]
+<a href="#english">English</a> | <a href="#chinese">中文</a> | [한국어] | [日本人] | [русский] |  [Deutsche] | [italiano]
 
 We are happy to announce the launch of a large-scale translation program for Ethereum.org, which will translate the website and other resources into more than 15 languages. 
 
@@ -32,7 +32,7 @@ Ethereum is critical infrastructure for all of humanity, and Ethereum.org should
 
 ___
 
-# 你好，世界 | 为我们的全球社区翻译 Ethereum.org
+# <div id="chinese">你好，世界 | 为我们的全球社区翻译 Ethereum.org </div>
 
 我们很高兴地宣布启动一项大规模的 Ethereum.org 翻译计划，该网站和其他资源最终将翻译为 15 种以上的语言。
 
