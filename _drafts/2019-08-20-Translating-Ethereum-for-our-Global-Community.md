@@ -7,11 +7,15 @@ date: '2019-08-20'
 author: Ethereum Foundation Website Team
 ---
 
-# <div id="english">Translating Ethereum for our Global Community</div>
+<div id="inline_toc" markdown="1">
 
-_Read this post in:_
+#### This post is available in several langauges:
+{:.no_toc}
 
-<a href="#english">English</a> | <a href="#chinese">中文</a> | [한국어] | [日本人] | [русский] |  [Deutsche] | [italiano]
+* TOC
+{:toc title="Read this post in"}
+
+</div>
 
 We are happy to announce the launch of a large-scale translation program for Ethereum.org, which will translate the website and other resources into more than 15 languages. 
 
@@ -27,18 +31,18 @@ The translation program will be a combination of volunteer-driven translations, 
 
 Ethereum is critical infrastructure for all of humanity, and Ethereum.org should reflect the diversity that we see at regular hackathons and events across the world. With today’s launch of ethereum.org/ko and the Ethereum.org translation program, we’ve taken one more step toward reflecting the most important thing about our ecosystem -- our community.
 
-*Special thanks to Taeyeon Kim, who has led the translation program, and the team of volunteers who translated [**ethereum.org/ko**](http://ethereum.org/ko):* Daniel Jee、Hyungsuk Kang、Jeongmoo Heo、Jumin Lee、Sangphil Kim、Suhun Kim、Wanseob Lim、Yeong Hun Ryu。
+*Special thanks to Taeyeon Kim, who has led the translation program, and the team of volunteers who translated [**ethereum.org/ko**](http://ethereum.org/ko):* Daniel Jee, Hyungsuk Kang, Jeongmoo Heo, Jumin Lee, Sangphil Kim, Suhun Kim, Wanseob Lim, and Yeong Hun Ryu. 
 
 
 ___
 
-# <div id="chinese">你好，世界 | 为我们的全球社区翻译 Ethereum.org </div>
+# 你好，世界 | 为我们的全球社区翻译 Ethereum.org
 
 我们很高兴地宣布启动一项大规模的 Ethereum.org 翻译计划，该网站和其他资源最终将翻译为 15 种以上的语言。
 
 以太坊是一个全球项目，因此 ethereum.org 有必要反映我们全球社区的特点。自该网站重新上线以来，我们的团队已优先筹备了一项翻译计划，该计划可确保每个人无论其国籍或语言是什么，都能获得关于以太坊的资源。
 
-**今天，我们无比激动地推出首个全文译本：网站的韩语版，现在可访问 [**ethereum.org/ko**](http://ethereum.org/ko) 获取。** 接下来的几周，我们的计划将继续推进，首批主要完成中文、日语、俄语、德语和意大利语的翻译。选择这第一批语言的依据是以太坊和相关词语的搜索量以及访问以太坊相关网站的流量。
+**今天，我们无比激动地推出首个全文译本：网站的韩语版，现在可访问 [ethereum.org/ko](http://ethereum.org/ko) 获取。** 接下来的几周，我们的计划将继续推进，首批主要完成中文、日语、俄语、德语和意大利语的翻译。选择这第一批语言的依据是以太坊和相关词语的搜索量以及访问以太坊相关网站的流量。
 
 虽然这项工作最初主要是翻译 Ethereum.org，但将逐渐扩大范围，纳入文档、指南、博文等重要第三方资源的翻译。
 
@@ -46,7 +50,7 @@ ___
 
 **您是否有兴趣帮助开展某种特定语言的翻译工作？** 我们正在从全球的以太坊社区寻找志愿者加入特定语言的翻译团队。我们希望您[在此](https://docs.google.com/forms/d/e/1FAIpQLSfsV1sG7OEPRzO6zDdj0BsYo9DR1L3nSSmCvYktftLjhQ4CoA/viewform?usp=sf_link)提出申请，随后我们的翻译团队会与您联系。
 
-以太坊是全人类的重要基础设施，因此 Ethereum.org 应反映世界各地定期举行的编程马拉松和其他活动中展现的多元化。通过今天推出 [**ethereum.org/ko**](http://ethereum.org/ko) 和 Ethereum.org 翻译计划，我们已经朝着反映我们生态系统中最重要的一环—我们的社区—更进了一步。
+以太坊是全人类的重要基础设施，因此 Ethereum.org 应反映世界各地定期举行的编程马拉松和其他活动中展现的多元化。通过今天推出 [ethereum.org/ko](http://ethereum.org/ko) 和 Ethereum.org 翻译计划，我们已经朝着反映我们生态系统中最重要的一环—我们的社区—更进了一步。
 
 特别感谢主持该翻译计划的 Taeyeon Kim 以及翻译 ko.ethereum.org 的志愿者团队：Daniel Jee、Hyungsuk Kang、Jeongmoo Heo、Jumin Lee、Sangphil Kim、Suhun Kim、Wanseob Lim、Yeong Hun Ryu。
 
@@ -79,7 +83,7 @@ Ethereum.org の大規模な翻訳プログラムを開始したことをお知�
 
 イーサリアム (Ethereum) はグローバルなプロジェクトであり、ethereum.org が私たちの世界中のコミュニティを反映していることが重要です。ウェブサイトのリニューアル以来、私たちのチームは、国籍や言語に関係なく、誰でもイーサリアムに関するリソースにアクセスできるようにする翻訳プログラムの編成を優先してきました。
 
-**今日、ついに初の完全翻訳版を開始することになりました。それは韓国語版のウェブサイト、[**ethereum.org/ko**](http://ethereum.org/ko)でご利用いただけます**。今後数週間のうちに、このプログラムは、まず中国語、日本語、ロシア語、ドイツ語、そしてイタリア語への翻訳に焦点を当てて拡大していく予定です。この最初の言語のセットは、イーサリアムの検索量と関連用語、およびイーサリアムに関連するウェブサイトへのトラフィックに基づいて選択されました。
+**今日、ついに初の完全翻訳版を開始することになりました。それは韓国語版のウェブサイト、[ethereum.org/ko](http://ethereum.org/ko)でご利用いただけます**。今後数週間のうちに、このプログラムは、まず中国語、日本語、ロシア語、ドイツ語、そしてイタリア語への翻訳に焦点を当てて拡大していく予定です。この最初の言語のセットは、イーサリアムの検索量と関連用語、およびイーサリアムに関連するウェブサイトへのトラフィックに基づいて選択されました。
 
 この取り組みは当初 Ethereum.org の翻訳に重点を置いていましたが、やがてドキュメント、ガイド、ブログ投稿などの主要なサードパーティ リソースの翻訳も含むように拡大していきます。
 
@@ -100,7 +104,7 @@ ___
 
 Ethereum — это глобальный проект, и очень важно, чтобы сайт ethereum.org отражал наше всемирное сообщество. После возобновления работы этого сайта наша команда уделила первоочередное внимание организации программы перевода, выполнение которой обеспечит доступность ресурсов о проекте Ethereum для всех, независимо от национальности и языка.
 
-**Сегодня мы рады представить результат нашего первого полного перевода — корейскую версию сайта, доступную сейчас по адресу [**ethereum.org/ko**](http://ethereum.org/ko).** В ближайшие недели наша программа расширится, и основное внимание будет уделено выполнению переводов на китайский, японский, русский, немецкий и итальянский языки. Такой начальный набор языков был выбран на основе объема поиска по слову Ethereum и связанных с ним терминов, а также посещаемости сайтов, связанных с Ethereum.
+**Сегодня мы рады представить результат нашего первого полного перевода — корейскую версию сайта, доступную сейчас по адресу [ethereum.org/ko](http://ethereum.org/ko).** В ближайшие недели наша программа расширится, и основное внимание будет уделено выполнению переводов на китайский, японский, русский, немецкий и итальянский языки. Такой начальный набор языков был выбран на основе объема поиска по слову Ethereum и связанных с ним терминов, а также посещаемости сайтов, связанных с Ethereum.
 
 Хотя первоначально наши усилия направлены на перевод сайта Ethereum.org, со временем они будут расширяться и включать переводы ключевых сторонних ресурсов, в частности документации, руководств, публикаций в блогах и т. д. 
 
@@ -123,7 +127,7 @@ Wir freuen uns, den Start eines umfangreichen Übersetzungsprojekts für Ethereu
 
 Ethereum ist ein globales Projekt. Daher ist es sehr wichtig, dass auf ethereum.org unsere weltweite Community repräsentiert wird. Seit dem Relaunch der Website hat die Organisation eines Übersetzungsprojekts die höchste Priorität für unser Team. Alle Ressourcen zu Ethereum sollen allen Benutzern unabhängig von ihrer Nationalität oder Sprache zur Verfügung stehen.
 
-**Mit großer Freude geben wir die Veröffentlichung unserer ersten vollständigen Übersetzung bekannt, die jetzt unter: [**ethereum.org/ko**](http://ethereum.org/ko) abgerufen werden kann.** In den kommenden Wochen wird unser Projekt noch erweitert. Der Schwerpunkt liegt zunächst auf den Übersetzungen ins Deutsche, Chinesische, Japanische, Russische und Italienische. Diese erste Sprachgruppe wurde anhand der Zahl der Suchanfragen nach Ethereum und verwandten Begriffen sowie anhand des Traffics von Websites ausgewählt, die mit Ethereum zu tun haben.
+**Mit großer Freude geben wir die Veröffentlichung unserer ersten vollständigen Übersetzung bekannt, die jetzt unter: [ethereum.org/ko](http://ethereum.org/ko) abgerufen werden kann.** In den kommenden Wochen wird unser Projekt noch erweitert. Der Schwerpunkt liegt zunächst auf den Übersetzungen ins Deutsche, Chinesische, Japanische, Russische und Italienische. Diese erste Sprachgruppe wurde anhand der Zahl der Suchanfragen nach Ethereum und verwandten Begriffen sowie anhand des Traffics von Websites ausgewählt, die mit Ethereum zu tun haben.
 
 Dieses Projekt konzentriert sich zunächst auf die Übersetzung von ethereum.org, wird jedoch mit der Zeit auf Übersetzungen wichtiger Drittressourcen wie z. B. Dokumentationen, Anleitungen oder Blog-Beiträge erweitert. 
 
