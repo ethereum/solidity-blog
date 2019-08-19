@@ -7,11 +7,15 @@ date: '2019-04-30'
 author: Ethereum Team
 ---
 
-# <div id="english">Translating Ethereum for our Global Community</div>
+<div id="inline_toc" markdown="1">
 
-_Read this post in:_
+#### Read this post in:
+{:.no_toc}
 
-<a href="#english">English</a> | <a href="#chinese">中文</a> | [한국어] | [日本人] | [русский] |  [Deutsche] | [italiano]
+* TOC
+{:toc title="Read this post in"}
+
+</div>
 
 We are happy to announce the launch of a large-scale translation program for Ethereum.org, which will translate the website and other resources into more than 15 languages. 
 
@@ -32,7 +36,7 @@ Ethereum is critical infrastructure for all of humanity, and Ethereum.org should
 
 ___
 
-# <div id="chinese">你好，世界 | 为我们的全球社区翻译 Ethereum.org </div>
+# 你好，世界 | 为我们的全球社区翻译 Ethereum.org
 
 我们很高兴地宣布启动一项大规模的 Ethereum.org 翻译计划，该网站和其他资源最终将翻译为 15 种以上的语言。
 
