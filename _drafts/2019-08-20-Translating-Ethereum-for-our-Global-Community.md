@@ -1,10 +1,10 @@
 ---
 layout: post
 published: true
-title: 'Beginning a new ethereum.org'
-subtitle: 'Built by the community, for the community'
-date: '2019-04-30'
-author: Ethereum Team
+title: Translating Ethereum for our Global Community
+subtitle: 
+date: '2019-08-20'
+author: Ethereum Foundation Website Team
 ---
 
 # <div id="english">Translating Ethereum for our Global Community</div>
@@ -156,3 +156,4 @@ Il programma di traduzione sarà una combinazione di traduzioni gestite da perso
 Ethereum è una struttura fondamentale per tutta l'umanità ed Ethereum.org dovrebbe riflettere la diversità che vediamo durante gli hackathon e gli eventi in tutto il mondo. Oggi, con il lancio di [**ethereum.org/ko**](http://ethereum.org/ko) e del programma di traduzioni di Ethereum.org, abbiamo fatto un ulteriore passo avanti nel riflettere la cosa più importante del nostro ecosistema - la nostra comunità.
 
 Un ringraziamento speciale va a Taeyeon Kim, che ha guidato il programma di traduzioni e al team di volontari che ha tradotto ko.ethereum.org: Daniel Jee, Hyungsuk Kang, Jeongmoo Heo, Jumin Lee, Sangphil Kim, Suhun Kim, Wanseob Lim, Yeong Hun Ryu.
+
