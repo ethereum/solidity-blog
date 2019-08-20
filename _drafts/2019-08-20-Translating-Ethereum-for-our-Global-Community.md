@@ -13,7 +13,7 @@ author: Ethereum Foundation Website Team
 {:.no_toc}
 
 * TOC
-{:toc title="Read this post in"}
+{:toc title="This post is available in several languages"}
 
 </div>
 
