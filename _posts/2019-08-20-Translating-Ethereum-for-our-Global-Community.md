@@ -21,7 +21,7 @@ We are happy to announce the launch of a large-scale translation program for Eth
 
 Ethereum is a global project, and it is critical that Ethereum.org reflect our worldwide community. Since the website’s relaunch, our team has prioritized organizing a translation program that can ensure resources about Ethereum are accessible to everyone, regardless of their nationality or language.
 
-**Today, we are thrilled to launch our first full translation: a Korean version of the website, available now at** [**ethereum.org/ko**](http://ethereum.org/ko)**.** In the coming weeks, our program will expand with an initial focus on completing translations in Chinese, Japanese, Russian, German, and Italian. This initial set of languages was chosen based on search volume for Ethereum and related terms, as well as traffic to websites related to Ethereum.
+**Today, we are thrilled to launch our first full translation: a Korean version of the website, available now at** [**ethereum.org/ko**](http://ethereum.org/ko)**.** In the coming weeks, our program will expand with an initial focus on completing translations in Simplified Chinese, Japanese, Russian, German, and Italian. This initial set of languages was chosen based on search volume for Ethereum and related terms, as well as traffic to websites related to Ethereum.
 
 While this effort is initially focused on translating Ethereum.org, over time it will expand to include translations of important community resources like documentation, guides, blog posts, and more. 
 
@@ -42,7 +42,7 @@ ___
 
 以太坊是一个全球项目，因此 ethereum.org 有必要反映我们全球社区的特点。自该网站重新上线以来，我们的团队已优先筹备了一项翻译计划，该计划可确保每个人无论其国籍或语言是什么，都能获得关于以太坊的资源。
 
-**今天，我们无比激动地推出首个全文译本：网站的韩语版，现在可访问 [ethereum.org/ko](http://ethereum.org/ko) 获取。** 接下来的几周，我们的计划将继续推进，首批主要完成中文、日语、俄语、德语和意大利语的翻译。选择这第一批语言的依据是以太坊和相关词语的搜索量以及访问以太坊相关网站的流量。
+**今天，我们无比激动地推出首个全文译本：网站的韩语版，现在可访问 [ethereum.org/ko](http://ethereum.org/ko) 获取。** 接下来的几周，我们的计划将继续推进，首批主要完成简体中文、日语、俄语、德语和意大利语的翻译。选择这第一批语言的依据是以太坊和相关词语的搜索量以及访问以太坊相关网站的流量。
 
 虽然这项工作最初主要是翻译 Ethereum.org，但将逐渐扩大范围，纳入文档、指南、博文等重要第三方资源的翻译。
 
