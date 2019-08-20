@@ -29,7 +29,7 @@ The translation program will be a combination of volunteer-driven translations, 
 
 **Are you interested in helping with the translation effort for a specific language?** We’re seeking volunteers from the global Ethereum community to join language-specific teams. We encourage you to apply **[here](https://docs.google.com/forms/d/e/1FAIpQLSfsV1sG7OEPRzO6zDdj0BsYo9DR1L3nSSmCvYktftLjhQ4CoA/viewform?usp=sf_link)**, and we will connect you to our translation team.
 
-Ethereum is critical infrastructure for all of humanity, and Ethereum.org should reflect the diversity that we see at regular hackathons and events across the world. With today’s launch of ethereum.org/ko and the Ethereum.org translation program, we’ve taken one more step toward reflecting the most important thing about our ecosystem -- our community.
+Ethereum is critical infrastructure for all of humanity, and Ethereum.org should reflect the diversity that we see at regular hackathons and events across the world. With today’s launch of [ethereum.org/ko](http://ethereum.org/ko) and the Ethereum.org translation program, we’ve taken one more step toward reflecting the most important thing about our ecosystem -- our community.
 
 *Special thanks to Taeyeon Kim, who has led the translation program, and the team of volunteers who translated [**ethereum.org/ko**](http://ethereum.org/ko):* Daniel Jee, Hyungsuk Kang, Jeongmoo Heo, Jumin Lee, Sangphil Kim, Suhun Kim, Wanseob Lim, and Yeong Hun Ryu. 
 
@@ -52,7 +52,7 @@ ___
 
 以太坊是全人类的重要基础设施，因此 Ethereum.org 应反映世界各地定期举行的编程马拉松和其他活动中展现的多元化。通过今天推出 [ethereum.org/ko](http://ethereum.org/ko) 和 Ethereum.org 翻译计划，我们已经朝着反映我们生态系统中最重要的一环—我们的社区—更进了一步。
 
-特别感谢主持该翻译计划的 Taeyeon Kim 以及翻译 ko.ethereum.org 的志愿者团队：Daniel Jee、Hyungsuk Kang、Jeongmoo Heo、Jumin Lee、Sangphil Kim、Suhun Kim、Wanseob Lim、Yeong Hun Ryu。
+特别感谢主持该翻译计划的 Taeyeon Kim 以及翻译 [ethereum.org/ko](http://ethereum.org/ko) 的志愿者团队：Daniel Jee、Hyungsuk Kang、Jeongmoo Heo、Jumin Lee、Sangphil Kim、Suhun Kim、Wanseob Lim、Yeong Hun Ryu。
 
 ___
 
@@ -93,7 +93,7 @@ Ethereum.org の大規模な翻訳プログラムを開始したことをお知�
 
 イーサリアムは、すべての人類にとって重要なインフラストラクチャであり、Ethereum.org は世界中の定期的なハッカソンやイベントで見られる多様性を反映していなければなりません。本日の [**ethereum.org/ko**](http://ethereum.org/ko) および Ethereum.org 翻訳プログラムの開始により、私たちはエコシステムに関する最も重要なこと、つまり私たちのコミュニティを反映するためのさらなる一歩を進めることができました。
 
-翻訳プログラムを主導してくれた Taeyeon Kim と、ko.ethereum.org を翻訳してくれたボランティア チーム Daniel Jee、Hyungsuk Kang、Jeongmoo Heo、Jumin Lee、Sangphil Kim、Suhun Kim、Wanseob Lim、Yeong Hun Ryu に感謝いたします。
+翻訳プログラムを主導してくれた Taeyeon Kim と、[ethereum.org/ko](http://ethereum.org/ko) を翻訳してくれたボランティア チーム Daniel Jee、Hyungsuk Kang、Jeongmoo Heo、Jumin Lee、Sangphil Kim、Suhun Kim、Wanseob Lim、Yeong Hun Ryu に感謝いたします。
 
 
 ___
@@ -114,7 +114,7 @@ Ethereum — это глобальный проект, и очень важно,
 
 Ethereum — очень важная инфраструктура для всего человечества, и сайт Ethereum.org должен отражать разнообразие, которое мы видим на регулярно проводимых по всему миру форумах разработчиков программного обеспечения и мероприятиях. Запустив сегодня сайт [**ethereum.org/ko**](http://ethereum.org/ko) и программу перевода сайта Ethereum.org, мы сделали еще один шаг к представлению самой важной части нашей инфраструктуры — нашего сообщества.
 
-Особая благодарность Тэён Ким, ставшей руководителем программы перевода, и команде добровольцев, которые перевели сайт ko.ethereum.org, — Даниэлю Джи (Daniel Jee), Хёнгсуку Кангу (Hyungsuk Kang), Чонму Хо (Jeongmoo Heo), Джумину Ли (Jumin Lee), Сангхилу Киму (Sangphil Kim), Сухуну Киму (Suhun Kim), Вансеобу Лиму (Wanseob Lim) и Ёну Хун Рю (Yeong Hun Ryu).
+Особая благодарность Тэён Ким, ставшей руководителем программы перевода, и команде добровольцев, которые перевели сайт [ethereum.org/ko](http://ethereum.org/ko), — Даниэлю Джи (Daniel Jee), Хёнгсуку Кангу (Hyungsuk Kang), Чонму Хо (Jeongmoo Heo), Джумину Ли (Jumin Lee), Сангхилу Киму (Sangphil Kim), Сухуну Киму (Suhun Kim), Вансеобу Лиму (Wanseob Lim) и Ёну Хун Рю (Yeong Hun Ryu).
 
 
 
@@ -137,7 +137,7 @@ Im Rahmen des Übersetzungsprojekts werden die Übersetzungen von Freiwilligen, 
 
 Ethereum ist eine wichtige Infrastruktur für die gesamte Menschheit, und Ethereum.org sollte die Vielfalt widerspiegeln, der wir bei regelmäßigen Hackathons und Events auf der ganzen Welt begegnen. Mit dem heutigen Start von [**ethereum.org/ko**](http://ethereum.org/ko) und dem Ethereum.org-Übersetzungsprojekt unternehmen wir einen weiteren Schritt, um die wichtigste Komponente unseres Ökosystems zu repräsentieren – unsere Community.
 
-Ein besonderer Dank gilt Taeyeon Kim, der das Übersetzungsprojekt leitet, und dem Team von Freiwilligen, die ko.ethereum.org übersetzt haben: Daniel Jee, Hyungsuk Kang, Jeongmoo Heo, Jumin Lee, Sangphil Kim, Suhun Kim, Wanseob Lim, Yeong Hun Ryu.
+Ein besonderer Dank gilt Taeyeon Kim, der das Übersetzungsprojekt leitet, und dem Team von Freiwilligen, die [ethereum.org/ko](http://ethereum.org/ko) übersetzt haben: Daniel Jee, Hyungsuk Kang, Jeongmoo Heo, Jumin Lee, Sangphil Kim, Suhun Kim, Wanseob Lim, Yeong Hun Ryu.
 
 
 ___
@@ -159,5 +159,5 @@ Il programma di traduzione sarà una combinazione di traduzioni gestite da perso
 
 Ethereum è una struttura fondamentale per tutta l'umanità ed Ethereum.org dovrebbe riflettere la diversità che vediamo durante gli hackathon e gli eventi in tutto il mondo. Oggi, con il lancio di [**ethereum.org/ko**](http://ethereum.org/ko) e del programma di traduzioni di Ethereum.org, abbiamo fatto un ulteriore passo avanti nel riflettere la cosa più importante del nostro ecosistema - la nostra comunità.
 
-Un ringraziamento speciale va a Taeyeon Kim, che ha guidato il programma di traduzioni e al team di volontari che ha tradotto ko.ethereum.org: Daniel Jee, Hyungsuk Kang, Jeongmoo Heo, Jumin Lee, Sangphil Kim, Suhun Kim, Wanseob Lim, Yeong Hun Ryu.
+Un ringraziamento speciale va a Taeyeon Kim, che ha guidato il programma di traduzioni e al team di volontari che ha tradotto [ethereum.org/ko](http://ethereum.org/ko): Daniel Jee, Hyungsuk Kang, Jeongmoo Heo, Jumin Lee, Sangphil Kim, Suhun Kim, Wanseob Lim, Yeong Hun Ryu.
 
