@@ -6,7 +6,7 @@ date: '2019-08-22'
 author: Devcon Team
 ---
 
-Over the last few months, we've been coordinating with the talented team over at Ether.Cards to bring an NFT-based on-chain ticketing solution to the Ethereum community in time for Devcon5.
+Over the last few months, we've been coordinating with the talented team over at [ether.cards](https://ether.cards) to bring an NFT-based on-chain ticketing solution to the Ethereum community in time for Devcon5.
 
 This experiment will take place in two parts, with a raffle and an auction with proceeds donated to the **[Devcon Scholars Program](https://blog.ethereum.org/2019/08/20/announcing-the-devcon-scholars-program/)** taking place in the coming days. We have committed 100 tickets to the raffle and 50 to the auction this year, and we plan to extend the availability of on-chain ticketing options next year.
 
