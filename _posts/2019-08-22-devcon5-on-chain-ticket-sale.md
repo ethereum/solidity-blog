@@ -10,7 +10,7 @@ Over the last few months, we've been coordinating with the talented team over at
 
 This experiment will take place in two parts, with a raffle and an auction with proceeds donated to the **[Devcon Scholars Program](https://blog.ethereum.org/2019/08/20/announcing-the-devcon-scholars-program/)** taking place in the coming days. We have committed 100 tickets to the raffle and 50 to the auction this year, and we plan to extend the availability of on-chain ticketing options next year.
 
-**The raffle will begin at 5:00pm GMT on August 22. The link to both the raffle and the auction will be found at [https://ether.cards/devcon5.html](https://ether.cards/devcon5.html) once the sale goes live.**
+**The raffle will begin at 5:00pm GMT on August 22. The link to both the raffle and the auction will be found at [https://ethercards.devcon.org](https://ethercards.devcon.org) once the sale goes live.**
 
 ## Provably Fair Sale
 
