@@ -32,7 +32,7 @@ _Award: $485k for Lighthouse client development_
 
 \*Co-funded by: Ethereum Foundation & ConsenSys
 
-[Website](http://sigmaprime.com/) | [Github](https://github.com/sigp/lighthouse/)
+[Website](http://sigmaprime.io/) | [Github](https://github.com/sigp/lighthouse/)
 
 ### Status
 
