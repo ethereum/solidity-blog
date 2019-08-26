@@ -24,7 +24,7 @@ Non-winning transactions, less the 2% "sybil-resistance fee", will be refunded a
 
 ## Ticket Auction
 
-**Bidding - Aug. 27-29 (Reveal - Aug. 30 - Sep. 2)**
+**Bidding: Aug. 27 - 29 (Reveal: Aug. 30 - Sep. 2)**
 
 The auction is modeled after the ENS domain registration silent auction. Bids are submitted blind over a 48 hour period and must be revealed once the bidding period concludes. We chose this system to avoid potential bidding wars. *After the close of the reveal period, any unrevealed bids are forfeited.*
 
