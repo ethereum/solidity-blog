@@ -93,4 +93,4 @@ The Legendre pseudo-random function is an extremely MPC-friendly one bit PRF. Th
 
 ### STARK-Friendly Hash Challenge
 
-The Ethereum Foundation has asked StarkWare to recommend a STARK-Friendly Hash (SFH). The StarkWare hash challenge is a public competition aimed at evaluating the security of current proposed SFH candidates. The challenge is proposed at four security levels: low-security, medium-security, target-security, and high-security in multiple scenarios. See https://starkware.co/hash-challenge/ for more details about the competition and how to get started.
+The Ethereum Foundation has asked StarkWare to recommend a STARK-Friendly Hash (SFH). The StarkWare hash challenge is a public competition aimed at evaluating the security of current proposed SFH candidates. The challenge is proposed at four security levels: low-security, medium-security, target-security, and high-security in multiple scenarios. See [starkware.co/hash-challenge](https://starkware.co/hash-challenge/) for more details about the competition and how to get started.
