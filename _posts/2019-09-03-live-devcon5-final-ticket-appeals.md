@@ -24,7 +24,7 @@ By next week, we’ll have allotted the final Devcon passes, and the one-month c
 
 **Opens: Live now**
 
-**Ends: 11:59PM Pacific Time (US)**
+**Ends: Friday September 6, 2019 at 11:59PM Pacific Time (US)**
 
 --
 devcon team
