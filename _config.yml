@@ -102,7 +102,7 @@ url-pretty: "blog.ethereum.org"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-52040685-1"
+# google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
