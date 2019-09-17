@@ -53,7 +53,7 @@ Here's a preview of our priorities for the next few weeks:
 ### 👩‍💻 Improved developer resources
 
 - We have created a specific landing page for Java developers: [ethereum.org/java](http://ethereum.org/java).
-    - Because many developers specialize in a specific programming language, creating language-specific dev landing pages are a key developer evangelism technique used by many organizations.
+    - Because many developers specialize in a specific programming language, creating language-specific pages are a key developer evangelism and on-boarding technique. 
     - We are working on additional developer landing pages: see for instance the open-issues for [/javascript](https://github.com/ethereum/ethereum-org-website/issues/224) and [/python](https://github.com/ethereum/ethereum-org-website/issues/223)
 - We're close to finishing a new feature of the website that will allow developers to immediately jump into a "studio" where they can write their first solidity contract, right on ethereum.org
 
@@ -61,4 +61,4 @@ Here's a preview of our priorities for the next few weeks:
 
 - We're working to ensure that all project management is exposed on [Github](https://github.com/ethereum/ethereum-org-website), where we can benefit from more community comment and input.
 - This will include creating more well-documented issues to make it easier for open-source contributors to know how they can help with the site's development. See all issues tagged ["good first issue"](https://github.com/ethereum/ethereum-org-website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-- We've also created a [twitter account for the website](https://twitter.com/ethdotorg): @ethdotorg. This account will be used to share updates like this one, as well as more granular updates like the addition of a great new resource or article, a new feature, an interesting pull request, and more.
+- We've also created a [twitter account for the website: @ethdotorg](https://twitter.com/ethdotorg). This account will be used to share updates like this one, as well as more granular updates like the addition of a great new resource or article, a new feature, an interesting pull request, and more.
