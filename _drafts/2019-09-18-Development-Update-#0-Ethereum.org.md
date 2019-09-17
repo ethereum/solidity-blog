@@ -34,7 +34,7 @@ Interested in contributing to the translation program? Apply to join a language 
 
 ## 🛠 Fixing, merging, and updating
 
-Since launch, we have merged 102 pull requests, making many tweaks and changes to the website in response to community input. As always, development of [ethereum.org](http://ethereum.org) happens in our [Github repo](https://github.com/ethereum/ethereum-org-website) - check it out if you want to follow along more closely, or work on one of the outstanding issues.
+Since launch, we have merged 102 pull requests, making many tweaks and changes to the website in response to community input. Now that Sam has joined the team, we expect to be able to move much faster. As always, development of [ethereum.org](http://ethereum.org) happens in our [Github repo](https://github.com/ethereum/ethereum-org-website) - check it out if you want to follow along more closely, or work on one of the outstanding issues.
 
 We've also shipped the first [new piece of artwork](https://hackernoon.com/rethinking-the-identity-of-ethereumorg-l718w347l) for the homepage. Every few months, we will update the website with new artwork created by the Ethereum community - a way of showcasing the talent in our ecosystem, and reminding the world that Ethereum is always progressing and improving thanks to the contributions of our global community. 
 
