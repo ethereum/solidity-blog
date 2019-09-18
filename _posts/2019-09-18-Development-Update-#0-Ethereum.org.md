@@ -1,8 +1,7 @@
 ---
 layout: post
 published: true
-title: Development Update #0 - Ethereum.org
-subtitle: 
+title: 'Development Update #0 - Ethereum.org'
 date: '2019-09-18'
 author: Ethereum.org Team
 ---
