@@ -14,9 +14,11 @@ You have the ability to embed images, YouTube videos, Twitter posts, code snippe
 ![alt text](https://github.com/ethereum/blog/blob/master/img/doge.jpg "Mouseover Text Here. Wow!")
 
 Please put the image files in the `img/[YEAR]/[MONTH]` directory in the repo.
+
 ```
 ![alt text](https://github.com/ethereum/blog/blob/master/img/doge.jpg "Title Text Here. Wow!")
 ```
+
 If this step if confusing you can just send a blog editor the pictures and let them know where you want them in the blog.
 
 ### Embed YouTube clips
@@ -61,12 +63,13 @@ You can create a new file by navigating to the `_posts` folder above and clickin
 
 ![Example create post](https://blog.ethereum.org/img/2019/readme/new_file.png)
 
-Trouble seeing the text? [Click here for full size image.](https://blog.ethereum.org/img/2019/readme/new_file.png)
+Trouble seeing the image or text? [Click here for the full size image.](https://blog.ethereum.org/img/2019/readme/new_file.png)
 
 ### Naming convention and header content
 When naming a file use the following format:
 
 `YYYY-MM-DD-blog-title-in-all-lowercase-without-symbols.md`
+
 Example: `2019-09-19-example-title.md`
 
 When adding the header content use the following format:
@@ -86,7 +89,7 @@ For an demonstration of the naming convention and the header content please see 
 
 ![Example post GIF](https://blog.ethereum.org/img/2019/readme/create_post_ani.gif)
 
-Trouble seeing the text? [Click here for full size image.](https://blog.ethereum.org/img/2019/readme/create_post_ani.gif)
+Trouble seeing the GIF or text? [Click here for the full size image.](https://blog.ethereum.org/img/2019/readme/create_post_ani.gif)
 
 Additionally please look at other blog posts in the `_posts` folder to make sure you are doing it correctly.
 
