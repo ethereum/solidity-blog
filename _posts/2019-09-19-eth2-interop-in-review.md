@@ -63,7 +63,7 @@ The following represent a glimpse into the highlights of the client successes, b
 
 * Client teams served as eachother's first alpha users resulting in extensive [build/run scripts](https://github.com/status-im/nim-beacon-chain/tree/interop/multinet) and related documentation.
 * Isolated load tests with Nimbus and Lighthouse handled 2000+ validators on a single machine paired with similarly full nodes over LAN.
-* Multiple clients were built and tested on a [small raspberry pi network](https://twitter.com/jcksie/status/1171886857908609024).
+* Multiple clients were built and tested on a [small raspberry pi network](https://twitter.com/jcksie/status/1171886857908609024). 
 
 ## And beyond
 
