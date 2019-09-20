@@ -55,7 +55,7 @@ The following represent a glimpse into the highlights of the client successes, b
 * Some [consensus errors](https://github.com/djrtwo/interop-test-cases/) between clients were identified, debugged, and recorded as portions of the state transition that require increased test coverage.
 * Command line tools were built to better debug ssz objects and state transitions ([zcli](https://github.com/protolambda/zcli), [pycli](https://github.com/djrtwo/pycli), and similar tools embedded within clients).
 * Progress made on metrics dashboards, a fork visualizer, and other tools to better understand clients and networks
-* Clients were packaged up into containers to perform large-scale network tests within the [Whiteblock](https://whiteblock.io/) genesis platform.
+* Clients were packaged up into containers to perform large-scale network tests within the [Whiteblock](https://whiteblock.io/) genesis platform. 
 
 ### And then some
 
