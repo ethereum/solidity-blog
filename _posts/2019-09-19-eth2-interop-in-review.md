@@ -55,7 +55,7 @@ The following represent a glimpse into the highlights of the client successes, b
 * Some [consensus errors](https://github.com/djrtwo/interop-test-cases/) between clients were identified, debugged, and recorded as portions of the state transition that require increased test coverage.
 * Command line tools were built to better debug ssz objects and state transitions ([zcli](https://github.com/protolambda/zcli), [pycli](https://github.com/djrtwo/pycli), and similar tools embedded within clients).
 * Progress made on metrics dashboards, a fork visualizer, and other tools to better understand clients and networks
-* Clients were packaged up into containers to perform large-scale network tests within the [Whiteblock](https://whiteblock.io/) genesis platform.
+* Clients were packaged up into containers to perform large-scale network tests within the [Whiteblock](https://whiteblock.io/) genesis platform. 
 
 ### And then some
 
@@ -63,7 +63,7 @@ The following represent a glimpse into the highlights of the client successes, b
 
 * Client teams served as eachother's first alpha users resulting in extensive [build/run scripts](https://github.com/status-im/nim-beacon-chain/tree/interop/multinet) and related documentation.
 * Isolated load tests with Nimbus and Lighthouse handled 2000+ validators on a single machine paired with similarly full nodes over LAN.
-* Multiple clients were built and tested on a [small raspberry pi network](https://twitter.com/jcksie/status/1171886857908609024).
+* Multiple clients were built and tested on a [small raspberry pi network](https://twitter.com/jcksie/status/1171886857908609024). 
 
 ## And beyond
 
