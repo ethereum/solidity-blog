@@ -77,4 +77,4 @@ So what's up next for client teams and eth2 development?
 * Third party audits
 * Polishing the validator user experience
 
-Finally, we owe a special thank you to the [ConsenSys](consensys.net) team for helping to organize, host and provide resources that made Interop possible.
+Finally, we owe a special thank you to the [ConsenSys](https://consensys.net) team for helping to organize, host and provide resources that made Interop possible.
