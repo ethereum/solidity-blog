@@ -6,7 +6,7 @@ date: '2019-09-26'
 author: Devcon Team
 ---
 
-![Asanoha](https://github.com/ethereum/blog/blob/gh-pages/img/2019/09/01-Asanoha-1440p.jpg)
+![Asanoha](https://blog.ethereum.org/img/2019/09/01-Asanoha-1440p.jpg)
 
 Devcon season is finally here. Days from now, Devcon participants from across the world will begin to make their way to Osaka, and as we approach the final countdown, we’ve made number BIG online releases at [Devcon.org](https://Devcon.org)! 
 
