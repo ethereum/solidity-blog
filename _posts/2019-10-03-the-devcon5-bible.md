@@ -85,7 +85,7 @@ Location: Sakishima  Cosmo Tower 1st floor
 b. DOORS OPEN: On-Site Registration
 -----------------------------------
 
-Date: Monday, October 8th
+Date: Tuesday, October 8th
 
 Time: 8:00 AM (Programming begins @9:00AM)
 
