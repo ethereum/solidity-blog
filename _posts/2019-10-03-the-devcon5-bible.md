@@ -247,6 +247,8 @@ Aside from Devcon events and activities, there is a lot happening in Osaka, and 
 
 -   [Japan Blockchain Week](https://www.blockchainweek.jp/)
 
+-   [DevCon5 Osaka 2019 by @EthereumJesus](https://docs.google.com/spreadsheets/d/1UQEs-FueNlbomS063xK00vRhiOqg9BqkPHf2MP7l2ks/edit?usp=sharing)
+
 V. Cultural Tips
 ================
 
