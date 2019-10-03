@@ -223,9 +223,9 @@ An on-the-go schedule is available through our Devcon mobile app. Check it out b
 
 Through the app, you'll be able to save your most anticipated talks to a personalized schedule, search for and learn about speakers by name, receive live Devcon updates, connect and share schedules with friends and more! We'd like to send a special thank you to [Ackee](https://ackee.cz/en) for their work on this year's app.
 
-[appa.devcon.org](https://appa.devcon.org) (for iOS)
+[appa.devcon.org](http://appa.devcon.org) (for iOS)
 
-[appg.devcon.org](https://appg.devcon.org) (for android)
+[appg.devcon.org](http://appg.devcon.org) (for android)
 
 c. HackMD
 ---------
@@ -370,9 +370,9 @@ Follow Deva on Twitter: [https://twitter.com/efdevcon](https://twitter.com/efdev
 
 Stay Tuned to (and enable) push notifications in the Devcon App:
 
-- [appa.devcon.org](https://appa.devcon.org) (for iOS)
+- [appa.devcon.org](http://appa.devcon.org) (for iOS)
 
-- [appg.devcon.org](https://appg.devcon.org) (for Android)
+- [appg.devcon.org](http://appg.devcon.org) (for Android)
 
 The official website for Devcon5 is [https://devcon.org/](https://devcon.org/)
 
