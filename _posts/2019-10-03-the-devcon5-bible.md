@@ -144,7 +144,7 @@ Want something more? We've got exclusive designs and add-ons like Devcon hoodies
 
 #### iii. Badge Design, Sticker Station and Food!
 
-##### Is your badge not yet covered in pastel colored and meme-related stickers? We can help. Last year's Devcon stickers went quickly, so we've reloaded. Head to the back of Hall C to fulfill your sticker dreams, and grab a snack along the way. 
+Is your badge not yet covered in pastel colored and meme-related stickers? We can help. Last year's Devcon stickers went quickly, so we've reloaded. Head to the back of Hall C to fulfill your sticker dreams, and grab a snack along the way. 
 
 ### 2. Decompression Room II
 
