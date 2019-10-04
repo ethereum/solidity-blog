@@ -241,7 +241,7 @@ d. After & Side Events
 
 Aside from Devcon events and activities, there is a lot happening in Osaka, and independent groups across the Ethereum ecosystem have been at work to aggregate side events, afterparties and other opportunities for all of us to take part in. We applaud their work and dedication, and can't wait to see everyone at a few of the events that they're helping to make happen. Check out their pages below.
 
--   [OFFDevcon](http://offdevcon)
+-   [OFFDevcon](https://www.offdevcon.com/)
 
 -   [Osaka Blockchain Week](http://osaka.kickback.events/events/devcon-5/)
 
