@@ -140,7 +140,7 @@ Hall C is directly accessible from the main entryway and gathering place of the 
 
 Speaking of swag, Hall C is also the place to pick up your pre-ordered swag and more! Did you select your gear during the ticketing process? Head to the Swag Station and present your QR (download separately from your ticket) to redeem for your swag. If you selected a size, we've got it reserved for you. 
 
-Want something more? We've got exclusive designs and add-ons like Devcon hoodies for sale as well.
+Want something more? We've got exclusive designs and add-ons like Devcon hoodies for sale as well. Check those out here: [swag.ethereum.org](https://swag.ethereum.org/collections/devcon5) - use the password "osaka5" ;) 
 
 #### iii. Badge Design, Sticker Station and Food!
 
