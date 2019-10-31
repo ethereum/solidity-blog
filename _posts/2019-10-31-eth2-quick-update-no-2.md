@@ -26,15 +26,17 @@ Read the [release notes](https://github.com/ethereum/eth2.0-spec-tests/releases/
 
 As mentioned in the last [_eth2 quick update_](https://blog.ethereum.org/2019/10/23/eth2-quick-update/), we are almost certainly taking a new and simpler direction for Phase 1. The [new sharding proposal](https://notes.ethereum.org/KbEyHiaSRQW_KS7dDK0OFw) facilitates "crosslinks" for all shards at each slot. This drastically simplifies communication between shards and will result in a much better and simpler developer/user experience come Phase 2.
   
+<p align="center">
   
-![sharding-status-quo](https://blog.ethereum.org/img/2019/10/sharding-status-quo.png)
+![sharding-status-quo](https://blog.ethereum.org/img/2019/10/sharding-status-quo.png) </p> 
 
+<p align="center"> <i>Previous cross-shard communication (approximate)</i> <p align="center">
 
-<i>Previous cross-shard communication (approximate)</i>
+<p align="center">
+  
+![sharding-new-proposal](https://blog.ethereum.org/img/2019/10/sharding-new-proposal.png) </p>
 
-![sharding-new-proposal](https://blog.ethereum.org/img/2019/10/sharding-new-proposal.png)
-
-<i>New shard design proposal</i>
+<p align="center">  <i>New shard design proposal</i> </p> 
 
 
 To support this new proposal, the total shard count to start must be reduced from 1024 to the new estimate of 64, with the intention to scale up the number of shards over time (~10 years) as standard resources available to consumer laptops increases. The following are the primary reasons for the requisite reduction in total shards:
