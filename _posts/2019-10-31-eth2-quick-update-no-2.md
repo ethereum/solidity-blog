@@ -28,12 +28,12 @@ As mentioned in the last [_eth2 quick update_](https://blog.ethereum.org/2019/10
 
 <br>
 <center>
-![Sharding status quo](https://blog.ethereum.org/img/2019/10/sharding-status-quo.png)
+![Sharding-status-quo](https://blog.ethereum.org/img/2019/10/sharding-status-quo.png)
 <br><br>
 <i>Previous cross-shard communication (approximate)</i></center>
 <br>
 <center>
-![Sharding new proposal](https://blog.ethereum.org/img/2019/10/sharding-new-proposal.png)
+![Sharding-new-proposal](https://blog.ethereum.org/img/2019/10/sharding-new-proposal.png)
 <br><br>
 <i>New Proposal</i></center>
 <br>
