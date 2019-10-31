@@ -36,7 +36,7 @@ As mentioned in the last [_eth2 quick update_](https://blog.ethereum.org/2019/10
   
 ![sharding-new-proposal](https://blog.ethereum.org/img/2019/10/sharding-new-proposal.png) </p>
 
-<p align="center">  <i>New shard design proposal</i> </p>
+<p align="center">  <i>New shard design proposal</i> </p> 
 
 
 To support this new proposal, the total shard count to start must be reduced from 1024 to the new estimate of 64, with the intention to scale up the number of shards over time (~10 years) as standard resources available to consumer laptops increases. The following are the primary reasons for the requisite reduction in total shards:
