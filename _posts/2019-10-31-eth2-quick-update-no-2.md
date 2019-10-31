@@ -30,7 +30,7 @@ As mentioned in the last [_eth2 quick update_](https://blog.ethereum.org/2019/10
   
 ![sharding-status-quo](https://blog.ethereum.org/img/2019/10/sharding-status-quo.png) </p> 
 
-<p align="center"> <i>Previous cross-shard communication (approximate)</i> <p align="center">
+<p align="center"> <i>Previous cross-shard communication (approximate)</i> </p>
 
 <p align="center">
   
