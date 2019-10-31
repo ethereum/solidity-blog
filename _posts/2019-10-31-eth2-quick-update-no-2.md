@@ -44,6 +44,10 @@ To support this new proposal, the total shard count to start must be reduced fro
 * Each shard induces an attestation load on the network and beacon chain at each slot rather than at each epoch
 * Each committee must be of a [minimum safe](https://medium.com/@chihchengliang/minimum-committee-size-explained-67047111fa20) number of validators. If there are too many committees per epoch due to high shard count, then there couldn't possibly be enough 32-ETH validators to safely allocate enough to each committee 
 
+_[EDIT: the following paragraph was added after initial release of the blog post in response to some discussion on reddit]_
+
+To achieve a similar scalability as the previous proposal, target shard block sizes are being increased 8x, from `16kB` to `128kB`. This provides the system with greater than `1 MB/s` of data availability which synergizes well with promising L2 schemes such as ZKRollup and [OVM](https://medium.com/cryptoeconomics-lab/a-gentle-guide-to-the-ovm-934035646942). The network safety of these larger shard block sizes are justified by [recent experimental research](https://ethereum-magicians.org/t/eip-2028-transaction-data-gas-cost-reduction/3280/24) done on the existing Ethereum network.
+
 Much of the EF research team's focus in the past few weeks has been around vetting and ironing out the details of this new proposal. For more details, check out the [work-in-progress PR](https://github.com/ethereum/eth2.0-specs/pull/1427) or some of the [Phase 1 issues](https://github.com/ethereum/eth2.0-specs/issues?q=is%3Aopen+is%3Aissue+label%3A%22phase+1%22).
 
 
