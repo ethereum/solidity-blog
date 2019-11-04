@@ -19,7 +19,7 @@ The EF will offer 5 prizes of $1,000 each, for projects that tackle any (or more
 
 
 ## Education
-- Beacon Chain interactive, educational visualization
+- An interactive, educational visualization of the [Beacon Chain](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
 - Help document/visualize the architecture of your [favourite eth2 client](https://eth.wiki/en/eth2/clients)
 - Visualize the cutting edge of [phase 2](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/) (suggestion: the [phase 2 wiki](https://hackmd.io/UzysWse1Th240HELswKqVA?view) is very helpful)
 
@@ -36,11 +36,11 @@ The EF will offer 5 prizes of $1,000 each, for projects that tackle any (or more
 
 
 ## **Research**
-- Take the [EE interaction design from Quilt](https://github.com/lightclient/sheth), and extend it with your own experiment. (Curious to know more about this? Ask us in the Discord during the hackathon and we can point you in the right direction)
+- Take the [EE interaction design from Quilt](https://github.com/lightclient/sheth), and extend it with your own experiment. (Curious to know more about this? Ask us [in the Discord](http://ethwaterloo.com/chat) during the hackathon and we can point you in the right direction)
 - Model state size growth on beaconchain and shards (suggestion: parametrize with constants config, [lodestar](https://github.com/ChainSafe/lodestar) has a [neat TS package](https://github.com/ChainSafe/lodestar/tree/master/packages/eth2.0-config))
 
 
-**Interested in other bounties or prizes offered by the Ethereum Foundation?** 
+### **Interested in other bounties or prizes offered by the Ethereum Foundation?** 
 
 Here are a few other bounties currently live:
 
