@@ -16,12 +16,12 @@ The EF will offer 5 prizes of $1,000 each, for projects that tackle any (or more
 
 
 ## Education
-- An interactive, educational visualization of the [Beacon Chain](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
-- Help document/visualize the architecture of your [favourite eth2 client](https://eth.wiki/en/eth2/clients)
-- Visualize the cutting edge of [phase 2](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/) (suggestion: the [phase 2 wiki](https://hackmd.io/UzysWse1Th240HELswKqVA?view) is very helpful)
+- **An interactive, educational visualization of the [Beacon Chain]**(https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
+- **Help document/visualize the architecture of your [favourite eth2 client](https://eth.wiki/en/eth2/clients)**
+- **Visualize the cutting edge of [phase 2](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/)** (suggestion: the [phase 2 wiki](https://hackmd.io/UzysWse1Th240HELswKqVA?view) is very helpful)
 
 
-## **Tooling**
+## Tooling
 - **Implement the proposed BLS key standards** (EIPs [2333](https://github.com/ethereum/EIPs/pull/2333), [2334](https://github.com/ethereum/EIPs/pull/2334), [2335](https://github.com/ethereum/EIPs/pull/2335)) in a language of your choice (suggestion: one of the [eth2 client languages](https://eth.wiki/en/eth2/clients))
 - **Fast viz:** Given just a single BeaconState, visualize the last events and validator registry state (suggestion: use [lodestar](https://github.com/ChainSafe/lodestar) code to work in the browser)
 - **Attestation surround/double vote checker** (suggestion: look at [eth2.0-pm repo issue 63](https://github.com/ethereum/eth2.0-pm/issues/63))
@@ -32,9 +32,9 @@ The EF will offer 5 prizes of $1,000 each, for projects that tackle any (or more
 - **Validator tracking:** a service that you can point at a validator and it notifies you if the validator is offline.
 
 
-## **Research**
-- Take the [EE interaction design from Quilt](https://github.com/lightclient/sheth), and extend it with your own experiment. (Curious to know more about this? Ask us [in the Discord](http://ethwaterloo.com/chat) during the hackathon and we can point you in the right direction)
-- Model state size growth on beaconchain and shards (suggestion: parametrize with constants config, [lodestar](https://github.com/ChainSafe/lodestar) has a [neat TS package](https://github.com/ChainSafe/lodestar/tree/master/packages/eth2.0-config))
+## Research
+- **Take the [EE interaction design from Quilt](https://github.com/lightclient/sheth)**, and extend it with your own experiment. (Curious to know more about this? Ask us [in the Discord](http://ethwaterloo.com/chat) during the hackathon and we can point you in the right direction)
+- **Model state size growth on beaconchain and shards** (suggestion: parametrize with constants config, [lodestar](https://github.com/ChainSafe/lodestar) has a [neat TS package](https://github.com/ChainSafe/lodestar/tree/master/packages/eth2.0-config))
 
 
 ### **Interested in other bounties or prizes offered by the Ethereum Foundation?** 
