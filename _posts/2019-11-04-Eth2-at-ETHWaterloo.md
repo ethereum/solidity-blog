@@ -16,7 +16,7 @@ The EF will offer 5 prizes of $1,000 each, for projects that tackle any (or more
 
 
 ## Education
-- **An interactive, educational visualization of the [Beacon Chain]**(https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
+- **An interactive, educational visualization of the [Beacon Chain](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)**
 - **Help document/visualize the architecture of your [favourite eth2 client](https://eth.wiki/en/eth2/clients)**
 - **Visualize the cutting edge of [phase 2](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/)** (suggestion: the [phase 2 wiki](https://hackmd.io/UzysWse1Th240HELswKqVA?view) is very helpful)
 
