@@ -6,8 +6,6 @@ date: '2019-11-04'
 author: Ethereum Foundation Team
 ---
 
-# Eth2 at ETHWaterloo: Prizes for Eth2 education, tooling, and research hacks
-
 For the first time ever, the Ethereum Foundation will be sponsoring a range of hacker prizes related to Eth2 at a major hackathon.
 
 With Eth2 development proceeding rapidly, there are now many discrete areas of work that a team of motivated hackers can complete over a weekend. The bounties below include useful educational tools for Eth2 development, necessary tooling, and valuable research.
