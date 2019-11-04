@@ -1,10 +1,9 @@
 ---
 layout: post
 published: true
-title: Eth2 at ETHWaterloo: Prizes for Eth2 education, tooling, and research
-subtitle: 
+title: 'Eth2 at ETHWaterloo: Prizes for Eth2 education, tooling, and research'
 date: '2019-11-04'
-author: Ethereum Foundation
+author: Ethereum Foundation Team
 ---
 
 # Eth2 at ETHWaterloo: Prizes for Eth2 education, tooling, and research hacks
