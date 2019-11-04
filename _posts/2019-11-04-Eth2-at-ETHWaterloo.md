@@ -48,9 +48,6 @@ Here are a few other bounties currently live:
 
 - We have [several open bounties available on Gitcoin](https://gitcoin.co/hackathon/web3-world), covering a variety of small updates and improvements to [ethereum.org](http://ethereum.org)
 
-**Phase 0 Consensus**
-
-- The Ethereum Foundation is offering 5 ETH bounties (or 1000 DAI, whichever larger) for any recommendations for substantive changes (bug fixes, optimizations, etc) that make it into the Phase 0 Eth 2.0 spec prior to the Eth 2.0 genesis. These include changes for the state transition function, fork choice rule, or deposit contract. For more information, check out [the open bounty issue on the specs repo](https://github.com/ethereum/eth2.0-specs/issues/1345).
 
 **Legendre PRF**
 
