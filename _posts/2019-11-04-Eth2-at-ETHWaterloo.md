@@ -36,7 +36,7 @@ The EF will offer 5 prizes of $1,000 each, for projects that tackle any (or more
 
 
 ## **Research**
-- Take the [EE interaction design from Quilt](https://github.com/ConsenSys/sheth), and extend it with your own experiment. (suggestion: watch their devcon talks, and start with modifying a copy of their EE example)
+- Take the [EE interaction design from Quilt](https://github.com/lightclient/sheth), and extend it with your own experiment. (Curious to know more about this? Ask us in the Discord during the hackathon and we can point you in the right direction)
 - Model state size growth on beaconchain and shards (suggestion: parametrize with constants config, [lodestar](https://github.com/ChainSafe/lodestar) has a [neat TS package](https://github.com/ChainSafe/lodestar/tree/master/packages/eth2.0-config))
 
 
