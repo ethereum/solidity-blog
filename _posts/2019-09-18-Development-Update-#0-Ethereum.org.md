@@ -29,7 +29,7 @@ Since announcing the program, we have been joined by **116 volunteers** who are 
 
 As we continue to scale up the translation effort, we will expand our work to include the translation of key third party resources: blog posts, documentation, and other material. We are also working to ensure that [ethereum.org](http://ethereum.org) itself is built in a way that lets us add and revise translations smoothly and sustainably. 
 
-Interested in contributing to the translation program? Apply to join a language team using the form [here](https://docs.google.com/forms/d/e/1FAIpQLSfsV1sG7OEPRzO6zDdj0BsYo9DR1L3nSSmCvYktftLjhQ4CoA/viewform?usp=sf_link). 
+Interested in contributing? [Learn more about the ethereum.org Translation Program and get started here](http://ethereum.org/languages/).
 
 ## 🛠 Fixing, merging, and updating
 
