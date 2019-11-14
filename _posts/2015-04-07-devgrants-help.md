@@ -2,7 +2,7 @@
 id: 1577
 title: 'DEVgrants: Here to Help'
 date: 2015-04-07T17:24:23+00:00
-author: Wendell Davis
+author: ÐΞVgrants Team
 layout: post
 guid: https://blog.ethereum.org/?p=1577
 permalink: /2015/04/07/devgrants-help/
