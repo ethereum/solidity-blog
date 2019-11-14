@@ -27,7 +27,7 @@ While this effort is initially focused on translating Ethereum.org, over time it
 
 The translation program will be a combination of volunteer-driven translations, project management from the Ethereum Foundation team, and professional translation services where needed to fill gaps or to provide audits.
 
-**Are you interested in helping with the translation effort for a specific language?** We’re seeking volunteers from the global Ethereum community to join language-specific teams. We encourage you to apply **[here](https://docs.google.com/forms/d/e/1FAIpQLSfsV1sG7OEPRzO6zDdj0BsYo9DR1L3nSSmCvYktftLjhQ4CoA/viewform?usp=sf_link)**, and we will connect you to our translation team.
+**Are you interested in helping with the translation effort for a specific language?** We’re seeking volunteers from the global Ethereum community to join language-specific teams. We encourage you to [learn more and get involved here](https://ethereum.org/languages/).
 
 Ethereum is critical infrastructure for all of humanity, and Ethereum.org should reflect the diversity that we see at regular hackathons and events across the world. With today’s launch of [ethereum.org/ko](http://ethereum.org/ko) and the Ethereum.org translation program, we’ve taken one more step toward reflecting the most important thing about our ecosystem -- our community.
 
