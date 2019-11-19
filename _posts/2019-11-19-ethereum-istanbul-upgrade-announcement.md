@@ -6,11 +6,11 @@ date: '2019-11-19'
 author: Hudson Jameson
 ---
 
-The Ethereum network will be undergoing a scheduled upgrade at **block number 9,069,000**, which was predicted to occur on **Wednesday, December 4, 2019** and is now predicted to occur on **Friday, December 6, 2019**. The exact date is subject to change due to variable block times. You can monitor the network upgrade in real time at http://forkmon.ethdevops.io/.
+The Ethereum network will be undergoing a scheduled upgrade at **block number 9,069,000**, which was predicted to occur on **Wednesday, December 4, 2019** and is now predicted to occur on **Friday, December 6, 2019**. The exact date is subject to change due to variable block times.
 
 ### **Please upgrade your node before Sunday, December 1, 2019 to account for the variable block times.**
 
-[ethernodes.org](https://ethernodes.org) has kindly provided Istanbul node statistics and a countdown timer located at <https://ethernodes.org/istanbul>.
+[ethernodes.org](https://ethernodes.org) has kindly provided Istanbul node statistics and a countdown timer located at <https://ethernodes.org/istanbul>. You can monitor the network upgrade in real time at http://forkmon.ethdevops.io/.
 
 # What is Istanbul?
 
