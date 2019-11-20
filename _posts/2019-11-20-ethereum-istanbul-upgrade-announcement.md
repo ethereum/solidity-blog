@@ -10,7 +10,7 @@ The Ethereum network will be undergoing a scheduled upgrade at **block number 9,
 
 ### **Please upgrade your node before Sunday, December 1, 2019 to account for the variable block times.**
 
-[Ethernodes.org](https://ethernodes.org) has kindly provided Istanbul node statistics and a countdown timer located at <https://ethernodes.org/istanbul>. You can monitor the network upgrade in real time at <http://forkmon.ethdevops.io/>.
+[Ethernodes.org](https://ethernodes.org) has kindly provided Istanbul node statistics and a countdown timer located at <https://ethernodes.org/istanbul>. [etherscan.io](https://etherscan.io/) has provided a countdown timer located at <https://etherscan.io/block/countdown/9069000>. You can monitor the network upgrade in real time at <http://forkmon.ethdevops.io/>.
 
 # What is Istanbul?
 
