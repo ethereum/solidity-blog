@@ -12,7 +12,7 @@ author: Ecosystem Support Team
 
 In the beginning, most Ethereum-related development and research occurred within the Ethereum Foundation. Today, the Ethereum ecosystem has grown from a small garden to a vast, vibrant rainforest. Along the way, the Ethereum Foundation’s role within the ecosystem has changed almost as much. However, supporting Ethereum to the best of our ability has remained constant as our number one goal.
 
-From DEV Grants, to scalability-focused grants, to general purpose support, grants have long been a large part of how we support Ethereum. Increasing the leverage of our grants program has compounding benefits. Accordingly, it’s one of our top priorities.
+From [DEV Grants](https://blog.ethereum.org/2015/04/07/devgrants-help/), to [scalability-focused grants](https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/)), to [general purpose support](https://blog.ethereum.org/2019/02/21/ethereum-foundation-grants-program-wave-5/), grants have long been a large part of how we support Ethereum. Increasing the leverage of our grants program has compounding benefits. Accordingly, it’s one of our top priorities.
 
 This year, the Ethereum Foundation grants team built up its capabilities, and shored up its weaknesses in order to become a true Ecosystem Support Program. Along the way, we have:
 
@@ -20,7 +20,7 @@ This year, the Ethereum Foundation grants team built up its capabilities, and sh
 * incorporated a much wider base of experts as part of the evaluation process
 * improved the applicant experience
 * proactively identified and established collaborations with people, projects, and entire domains where the Ethereum Foundation can be of help
-* … and more (such as our Local Grants Programs)!
+* … and more (such as our [Local Grants Programs](https://blog.ethereum.org/2019/11/14/Announcing-a-Taiwan-specific-Wave/))!
 
 Soon, we’ll debut an expanded [Ecosystem Support Program website](https://ecosystem.support). It’ll provide more details on all of the ways in which we can provide support, and make it easy for those details to be found in the future (after all, for every person in the Ethereum ecosystem, dozens more are on the way 😎). Using future blog posts and the Ecosystem Support Program website, we’ll provide a 2019 review of the projects and people that we’ve supported, how much money we have allocated, how we perform evaluations, and more.
 
