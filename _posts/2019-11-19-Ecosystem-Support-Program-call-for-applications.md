@@ -22,7 +22,7 @@ This year, the Ethereum Foundation grants team built up its capabilities, and sh
 * proactively identified and established collaborations with people, projects, and entire domains where the Ethereum Foundation can be of help
 * … and more (such as our Local Grants Programs)!
 
-Soon, we’ll debut an expanded Ecosystem Support Program website. It’ll provide more details on all of the ways in which we can provide support, and make it easy for those details to be found in the future (after all, for every person in the Ethereum ecosystem, dozens more are on the way 😎). Using future blog posts and the Ecosystem Support Program website, we’ll provide a 2019 review of the projects and people that we’ve supported, how much money we have allocated, how we perform evaluations, and more.
+Soon, we’ll debut an expanded [Ecosystem Support Program website](https://ecosystem.support). It’ll provide more details on all of the ways in which we can provide support, and make it easy for those details to be found in the future (after all, for every person in the Ethereum ecosystem, dozens more are on the way 😎). Using future blog posts and the Ecosystem Support Program website, we’ll provide a 2019 review of the projects and people that we’ve supported, how much money we have allocated, how we perform evaluations, and more.
 
 
 ### Call For Applications
@@ -47,4 +47,4 @@ The above list aims to convey the range of the Ecosystem Support Program, but th
 
 So please, don’t be shy if your project or idea doesn’t fall under one of the above application types. Whether it’s a big project, a small and precise idea, a team that knows exactly what they want to do, an individual with a rare skillset looking to apply it in the best way, or something that we haven’t even thought of yet, we’re interested in hearing from you.
 
-Head over to https://ecosystem.support to submit an inquiry.
+Head over to [https://ecosystem.support](https://ecosystem.support) to submit an inquiry.
