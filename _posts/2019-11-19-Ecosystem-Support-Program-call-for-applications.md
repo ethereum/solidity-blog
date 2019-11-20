@@ -10,7 +10,7 @@ author: Ecosystem Support Team
 
 ### Introducing the Ecosystem Support Program
 
-In the beginning, most Ethereum-related development and research occurred within the Ethereum Foundation. Today, the Ethereum ecosystem has grown from a small garden to a vast, vibrant rainforest. Along the way, the Ethereum Foundation’s role within the ecosystem has changed almost as much. However, supporting Ethereum to the best of our ability has remained as constant as our number one goal.
+In the beginning, most Ethereum-related development and research occurred within the Ethereum Foundation. Today, the Ethereum ecosystem has grown from a small garden to a vast, vibrant rainforest. Along the way, the Ethereum Foundation’s role within the ecosystem has changed almost as much. However, supporting Ethereum to the best of our ability has remained constant as our number one goal.
 
 From DEV Grants, to scalability-focused grants, to general purpose support, grants have long been a large part of how we support Ethereum. Increasing the leverage of our grants program has compounding benefits. Accordingly, it’s one of our top priorities.
 
