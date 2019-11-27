@@ -3,10 +3,10 @@ layout: post
 published: true
 title: 'Validated: Staking on eth2 #0'
 date: '2019-11-27'
-author: Carl
+author: Carl Beekhuizen
 ---
 
-![Eth wallpaper](https://blog.ethereum.org/img/2019/10/kumiko_background.jpeg)
+![00-Merkle-4K](https://blog.ethereum.org/img/2019/11/00-Merkle-4K.png)
 
 *Thanks to Danny and Joe for review.*
 
@@ -38,7 +38,7 @@ As their name suggests, *validator clients* (or just *clients*) handle the logic
 
 > If you are not running a validator, a beacon node contains all of the information you need to trustlessly interact with eth2, much like a full node in eth1.
 
-![](https://storage.googleapis.com/ethereum-hackmd/upload_c683a79143def12e4af4bb0f81f87733.png)
+![carlimg1](https://blog.ethereum.org/img/2019/11/carlimg1.png)
 
 Below are some of the many arguments for this separation:
 
