@@ -54,7 +54,7 @@ After the community comes to an agreement concerning which changes should be inc
 
 # What changes are going into Istanbul?
 
-Changes that are implemented in Istanbul are defined using EIPs. Ethereum Improvement Proposals (EIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards. Please [read this article from the Ethereum Cat Herders](https://medium.com/ethereum-cat-herders/istanbul-testnets-are-coming-53973bcea7df) that explains the EIPs going into Istanbul and the Ethereum testnets that are being upgraded to Istanbul.
+Changes that are implemented in Istanbul are defined using EIPs. Ethereum Improvement Proposals (EIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards. Please see the EIP which catalogs specific changes going into Istanbul at [EIP-1679](https://eips.ethereum.org/EIPS/eip-1679). Please also see [this article from the Ethereum Cat Herders](https://medium.com/ethereum-cat-herders/istanbul-testnets-are-coming-53973bcea7df) which summarizes all the changes and explains our extensive testing process.
 
 # Thank You!
 
