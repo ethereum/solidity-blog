@@ -437,7 +437,7 @@ More specifically, over the last few months we have:
 
 ## ZoKrates 
 
-Authored by Jacob Eberhardt
+_Authored by Jacob Eberhardt_
 
 We're excited to share a significant new update on progress toward making ZoKrates a powerful, yet user-friendly toolkit for zkSNARKs on Ethereum.
 
