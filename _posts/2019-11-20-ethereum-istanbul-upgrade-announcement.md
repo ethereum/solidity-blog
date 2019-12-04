@@ -34,7 +34,7 @@ Download the latest version of your Ethereum client:
 
 -   [Latest ethereumJS client (v4.0.2)](https://github.com/ethereumjs/ethereumjs-blockchain/releases/tag/v4.0.2)
 
--   [Latest Trinity client (v0.1.0-alpha.30)](https://github.com/ethereum/trinity/releases/tag/v0.1.0-alpha.30)
+-   [Latest Trinity client (v0.1.0-alpha.31)](https://github.com/ethereum/trinity/releases/tag/v0.1.0-alpha.31)
 
 -   [Latest Aleth Client (v1.7.1)](https://github.com/ethereum/aleth/releases/tag/v1.7.1)
 
