@@ -4,6 +4,7 @@ This is the repository for blog entries to [blog.ethereum.org](https://blog.ethe
 
 ## Current blog editors
 #### Hudson Jameson - @Souptacular in the EF Discord or hudson@ethereum.org
+#### Joseph Schweitzer - @Joseph in the EF DIscord or joe@ethereum.org
 
 ## Features
 Blogs need to be written in [Markdown format](https://guides.github.com/features/mastering-markdown/). If you are unfamiliar with Markdown, see the **Useful Markdown Links** section at the bottom.
