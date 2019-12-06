@@ -24,13 +24,13 @@ If you use an exchange (such as Coinbase, Kraken, or Binance), a web wallet serv
 
 Download the latest version of your Ethereum client:
 
--   [Latest geth client (v1.9.7)](https://github.com/ethereum/go-ethereum/releases/tag/v1.9.7)
+-   [Latest geth client (v1.9.8)](https://github.com/ethereum/go-ethereum/releases/tag/v1.9.8)
 
--   [Latest Parity client (v2.5.10-stable)](https://github.com/paritytech/parity-ethereum/releases/tag/v2.5.10)
+-   [Latest Parity client (v2.5.11-stable)](https://github.com/paritytech/parity-ethereum/releases/tag/v2.5.11)
 
--   [Latest Besu client (v1.3.4)](https://github.com/hyperledger/besu/releases/tag/1.3.4)
+-   [Latest Besu client (v1.3.6)](https://github.com/hyperledger/besu/releases/tag/1.3.6)
 
--   [Latest Nethermind client (v1.1.8)](https://github.com/NethermindEth/nethermind/releases/tag/1.1.8)
+-   [Latest Nethermind client (v1.2.3)](https://github.com/NethermindEth/nethermind/releases/tag/1.2.3)
 
 -   [Latest ethereumJS client (v4.0.2)](https://github.com/ethereumjs/ethereumjs-blockchain/releases/tag/v4.0.2)
 
