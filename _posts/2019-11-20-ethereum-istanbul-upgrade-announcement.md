@@ -24,7 +24,7 @@ If you use an exchange (such as Coinbase, Kraken, or Binance), a web wallet serv
 
 Download the latest version of your Ethereum client:
 
--   [Latest geth client (v1.9.8)](https://github.com/ethereum/go-ethereum/releases/tag/v1.9.8)
+-   [Latest geth client (v1.9.9)](https://github.com/ethereum/go-ethereum/releases/tag/v1.9.9)
 
 -   [Latest Parity client (v2.5.11-stable)](https://github.com/paritytech/parity-ethereum/releases/tag/v2.5.11)
 
