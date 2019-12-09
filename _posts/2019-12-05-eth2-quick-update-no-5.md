@@ -14,7 +14,7 @@ tldr;
 
 * Parity's [Shasper joins](https://twitter.com/sorpaas/status/1202651945430929409) Prysmatic's Sapphire testnet (the first public eth2 multi-client testnet)!
 * Multiple eth2 block explorers launch -- Bitfly's [beaconcha.in](https://beaconcha.in/) and [Etherscan](https://beacon.etherscan.io/)
-* First eth2 networking call to tackle _all_ the networkings -- [Ben's notes](https://hackmd.io/@benjaminion/H1J8vYLaS) and [Mamy's notes](https://gist.github.com/mratsim/b1fe4213ece4b60baa93be773715fd83)
+* First eth2 networking call to tackle _all_ the networkings -- [Ben's notes](https://hackmd.io/@benjaminion/BJ3YqrSTr) and [Mamy's notes](https://gist.github.com/mratsim/fef2b0a7c5a335ac6bc61c01592b3fea)
 * First [eth2 phase2 community call](https://github.com/ethereum/eth2.0-pm/issues/103) to rally the effort 
 * [Fix](https://github.com/ethereum/eth2.0-specs/pull/1495) to ensure fork choice head state matches FFG finality info
 * [Presentation](https://www.youtube.com/watch?v=dMFgaeRdsfU&feature=youtu.be&t=1009), [specification](https://github.com/ethereum/eth2.0-specs/pull/1499), and [implementation](https://github.com/ethereum/py_ecc/pull/79) of the new BLS standards
