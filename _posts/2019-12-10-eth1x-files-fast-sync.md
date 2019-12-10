@@ -32,7 +32,8 @@ Let's cover them one by one!
 
 ### Chain storage
 
-_<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">If anyone so much as utters a word about &quot;storage costs of blockchain,&quot; just send them to the Amazon Black Friday web page. 8TB for $125. There are real problems blockchains face. Storage costs are not one of them.</p>&mdash; Emin Gün Sirer (@el33th4xor) <a href="https://twitter.com/el33th4xor/status/1200477778463907841?ref_src=twsrc%5Etfw">November 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>_
+![EGSTweet](https://github.com/ethereum/blog/blob/master/img/2019/12/EGSTweet.png)
+
 
 Before a full node can become a first-class citizen of Ethereum, it must sync the entire history of the blockchain. The longer that history is, the more data there is to store. Currently, storage requirements are about 219 GB for a 'normal' full node in both parity and geth, and growing by 10-15 GB every month.
 
