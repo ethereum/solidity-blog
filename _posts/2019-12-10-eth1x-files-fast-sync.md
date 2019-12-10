@@ -1,16 +1,16 @@
 ---
 layout: post
 published: true
-title: 'Eth 1.x: a fast-sync'
+title: 'The 1.x Files: a fast-sync'
 date: '2019-12-10'
 author: Griffin Ichiba Hotchkiss
 ---
 
-![The 1.X Files](https://github.com/ethereum/blog/blob/master/img/2019/12/the1xfiles_black.png "The truth is out there.")
+![The 1.x Files](https://github.com/ethereum/blog/blob/master/img/2019/12/the1xfiles_black.png "The truth is out there.")
 
 # ETH 1.x: a fast sync
 
-The [new direction of ETH 1.X research](https://medium.com/@pipermerriam/stateless-clients-a-new-direction-for-ethereum-1-x-e70d30dc27aa) has begun proper, with a focus on moving the current Ethereum chain towards the 'stateless client' paradigm, with the eventual target being a smooth transition into an Eth 2.0 Execution Environment.
+The [new direction of ETH 1.x research](https://medium.com/@pipermerriam/stateless-clients-a-new-direction-for-ethereum-1-x-e70d30dc27aa) has begun proper, with a focus on moving the current Ethereum chain towards the 'stateless client' paradigm, with the eventual target being a smooth transition into an Eth 2.0 Execution Environment.
 
 The next call will be focused on collecting and organizing research topics and planning a more structured roadmap. The call is open for anyone to attend, and is scheduled for December 17th at 16:00 UTC -- if you would like to join, please DM Piper or James on the [ethresear.ch forum](https://ethresear.ch/t/eth1-x-call-2-tuesday-dec-17th-next-steps-and-collecting-research-topics/6512).
 
@@ -32,7 +32,7 @@ Let's cover them one by one!
 
 ### Chain storage
 
-_>> "If anyone so much as utters a word about &quot;storage costs of blockchain,&quot; just send them to the Amazon Black Friday web page. 8TB for $125. There are real problems blockchains face. Storage costs are not one of them.
+>> _"If anyone so much as utters a word about &quot;storage costs of blockchain,&quot; just send them to the Amazon Black Friday web page. 8TB for $125. There are real problems blockchains face. Storage costs are not one of them.
 --Emin Gün Sirer ([@el33th4xor](https://twitter.com/el33th4xor/status/1200477778463907841))_
 
 Before a full node can become a first-class citizen of Ethereum, it must sync the entire history of the blockchain. The longer that history is, the more data there is to store. Currently, storage requirements are about 219 GB for a 'normal' full node in both parity and geth, and growing by 10-15 GB every month.
