@@ -6,7 +6,7 @@ date: '2019-12-10'
 author: Griffin Ichiba Hotchkiss
 ---
 
-![The 1.x Files](https://github.com/ethereum/blog/blob/master/img/2019/12/the1xfiles_black.png "The truth is out there.")
+![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")
 
 # ETH 1.x: a fast sync
 
