@@ -67,6 +67,7 @@ Starting with the initial meeting in Prague, and continuing through 2019, variou
 ### Modest  optimizations and mitigations
 
 * **More aggressive pruning**. One way to manage storage requirements is to actively delete pieces of the chain that are no longer needed, such as transaction receipts, logs, and older historical blocks. An agreed upon time period (3-9 months) of historical data would be kept by full nodes, and then deleted after it expired, effectively capping the total storage needed to run a node. Péter Szilágyi provided a [comprehensive overview](https://gist.github.com/karalabe/60be7bef184c8ec286fc7ee2b35b0b5b#decentralized-archives) of chain pruning effects for long-term viability. TL;DR -- there are trade-offs, and one unsolved requirement is that historical data be available (somewhere), *and* in lieu of full chain history, nodes must maintain proofs for deleted chain segments.
+
 * **Block pre-announcement and state caching**. These relate to mitigating the effects of network latency. In block pre-announcement, the idea is that a miner announces a new block *before it is validated*, which gives listening clients a chance to guess at which parts of state will be affected and preemptively warn those caches for the next state. Similarly, clients could hold partial states in memory so that they don't have to start from scratch again if syncing the state fails. These optimizations are within reach currently, and variations on this theme are already employed by turbo-geth to improve performance.
 
 ### Big, hard-forking changes
