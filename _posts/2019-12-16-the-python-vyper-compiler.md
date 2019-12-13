@@ -9,7 +9,7 @@ author: Piper Merriam
 Earlier this year, a preliminary security audit was performed by the Consensys Diligence
 team on the Python-based Vyper compiler.  [You can read the results for yourself here](https://diligence.consensys.net/audits/2019/10/vyper/).
 
-I encourage you to read the report yourself, however, there are two main take
+We encourage you to read the report yourself, however, there are two main take
 aways.
 
 1. There are multiple serious bug in the Vyper compiler.
