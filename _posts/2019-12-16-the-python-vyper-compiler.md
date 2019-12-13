@@ -6,7 +6,7 @@ date: '2019-12-16'
 author: Piper Merriam
 ---
 
-Earlier this year a security audit was performed by the Consensys diligence
+Earlier this year, a preliminary security audit was performed by the Consensys Diligence
 team on the python based Vyper compiler.  [You can read the results for yourself here](https://diligence.consensys.net/blog/2019/09/vyper-here-be-snakes/)
 
 I encourage you to read the report yourself, however, there are two main take
