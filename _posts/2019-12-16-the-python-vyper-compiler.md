@@ -15,7 +15,7 @@ aways.
 1. There are multiple serious bugs in the Vyper compiler.
 2. The codebase has a sufficiently high level of technical debt that it's unlikely these issues can be resolved quickly.
 
-The existing maintainers of the python based Vyper compiler are intent on
+The existing maintainers of the Python-based Vyper compiler are intent on
 continuing with development of the project.  We wish them the best of luck.
 For those still interested in this project, you can now find it here under the
 `vyperlang` github organization.
