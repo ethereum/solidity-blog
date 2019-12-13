@@ -12,7 +12,7 @@ team on the Python-based Vyper compiler.  [You can read the results for yourself
 We encourage you to read the report yourself, however, there are two main take
 aways.
 
-1. There are multiple serious bug in the Vyper compiler.
+1. There are multiple serious bugs in the Vyper compiler.
 2. The codebase has a sufficiently high level of technical debt that it's unlikely these issues can be resolved quickly.
 
 The existing maintainers of the python based Vyper compiler are intent on
