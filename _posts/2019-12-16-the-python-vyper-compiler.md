@@ -30,7 +30,7 @@ behind the language was to develop something that was designed at the language
 level to naturally exhibit a high degree of safety.
 
 Shortly after its creation Vyper found itself without a dedicated maintainer.
-Luckily, there were entheusiastic community members that took up the torch and
+Luckily, there were enthusiastic community members that took up the torch and
 continued development of the project.  Starting in early 2019 the Ethereum
 Foundation python team re-involved itself in the project.  Over the course of
 this year we worked with the project maintainers to try and focus on improving
