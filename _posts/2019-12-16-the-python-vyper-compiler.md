@@ -13,13 +13,11 @@ We encourage you to read the report yourself, however, there are two main take
 aways.
 
 1. There are multiple serious bugs in the Vyper compiler.
-2. The codebase has a sufficiently high level of technical debt that it's unlikely these issues can be resolved quickly.
+2. The codebase has a high level of technical debt which will make addressing these issues complex.
 
-The existing maintainers of the Python-based Vyper compiler are intent on
-continuing with development of the project.  We wish them the best of luck.
-For those still interested in this project, you can now find it here under the
-`vyperlang` github organization.
+The existing maintainers of the Python-based Vyper compiler are planning to
+address the issues and we wish them the best of luck.  To continue following
+the project, you can now find it here under the `vyperlang` github
+organization.
 
 > https://github.com/vyperlang/vyper
-
-The Ethereum Foundation has no involvement in this project.
