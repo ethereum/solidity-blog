@@ -57,7 +57,7 @@ already suspected about the python codebase and seemed to validate the
 direction we'd taken.
 
 Upon speaking with the maintainers of the Python Vyper codebase we found they
-intended to continue with the project.  At this stage I decided it was best to
+intended to continue with the project.  At this stage we decided it was best to
 separate the project from the Ethereum Foundation since we didn't plan to have
 any continued involvement in the python codebase.  We didn't want the
 association with the Ethereum Foundation to inadvertantly be received as
