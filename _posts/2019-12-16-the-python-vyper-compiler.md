@@ -15,10 +15,12 @@ aways.
 1. There are multiple serious bugs in the Vyper compiler.
 2. The codebase has a high level of technical debt which will make addressing these issues complex.
 
-The existing maintainers of the Python-based Vyper compiler are planning to
-address the issues and we wish them the best of luck.  To continue following
-the project, you can now find it here under the `vyperlang` github
-organization.
+The Ethereum Foundation do not consider the existing Python-based Vyper
+implementation to be production ready, and will no longer be taking part in the
+development -- and thus it has been moved it out from the `ethereum` github
+organization into it's own organization: `vyperlang`. The existing maintainers
+are planning to address the issues, and we wish them the best of luck. To
+continue following the project, you can now find it here:
 
 > https://github.com/vyperlang/vyper
 
