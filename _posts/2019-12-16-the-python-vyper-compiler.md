@@ -51,7 +51,7 @@ EWASM compilation for free, only requiring the compiler to handle the
 transformation from a Vyper AST to YUL.
 
 Then, around Devcon, the Vyper audit linked above came out.  At this stage we
-were far along with our Rust based Vyper compiler that we were confident the
+were sufficiently far along with our Rust based Vyper compiler to be confident the
 direction was going to work well.  The audit mostly served to confirm things we
 already suspected about the python codebase and seemed to validate the
 direction we'd taken.
