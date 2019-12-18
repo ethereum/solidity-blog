@@ -17,8 +17,8 @@ aways.
 
 The Ethereum Foundation do not consider the existing Python-based Vyper
 implementation to be production ready, and will no longer be taking part in the
-development -- and thus it has been moved it out from the `ethereum` github
-organization into it's own organization: `vyperlang`. The existing maintainers
+development -- and thus it has been moved out of the `ethereum` github
+organization into its own organization: `vyperlang`. The existing maintainers
 are planning to address the issues, and we wish them the best of luck. To
 continue following the project, you can now find it here:
 
@@ -67,7 +67,7 @@ signalling that the project was safe to use.
 
 So at present there are currently two *"Vyper"* compilers.  We at the Ethereum
 Foundation are working towards building a compiler written in Rust to deliver
-on the original idea of Vyper.  The existing Vyper containers are continuing to
-work towards the same goals in the Python codebase.  We're hopefull that we can
-find a way to continue together towards a single "Vyper" with multiple
-implementations.
+on the original idea of Vyper.  The existing Vyper maintainers are continuing
+to work towards the same goals in the Python codebase.  We're hopeful that we
+can find a way to continue working together towards a single "Vyper" with
+multiple implementations.
