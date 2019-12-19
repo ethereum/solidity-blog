@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'Eth1x quick update no. 1'
-date: '2019-12-10'
+date: '2019-12-20'
 author: Griffin Ichiba Hotchkiss
 ---
 ![Eth wallpaper](https://blog.ethereum.org/img/2019/10/kumiko_background.jpeg)
