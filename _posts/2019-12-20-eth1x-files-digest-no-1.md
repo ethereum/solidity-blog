@@ -8,7 +8,7 @@ author: Griffin Ichiba Hotchkiss
 
 ![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")
 
-## December 17 TL;DC (too long, didn't call)
+## December 17 tl;dc (too long, didn't call)
 
 ***Disclaimer***: *This is a digest of the topics discussed in the recurring Eth1.x research call, and doesn't represent finalized plans or commitments to network upgrades.*
 
@@ -22,7 +22,7 @@ The main topic of discussion for this call and broader Eth1.x research is the fe
 
 * The next call is tentatively scheduled for mid-January 2020. As always, if you are interested in joining the call or the [telegram group](https://ethresear.ch/t/telegram-group-for-eth1x-stateless-client/6470/6), please [introduce yourself](https://ethresear.ch/t/introductions-for-the-eth1-x-research-group/6430/22) on the ethresearch forums.  
 
-* One area the working group is focusing on is maintaining a high level of communication with the broader Ethereum community. This includes speaking and answering questions at the many Ethereum conferences in 2020, but also includes explainers and these call updates. If you have feedback on Eth 1.x comms, want to find a speaker for an upcoming event, or have any questions, please reach out to @gichiba or @JHancock on twitter or the ethresearch forums.
+* One area that the working group is focusing on is maintaining a high level of communication with the broader Ethereum community. This includes speaking and answering questions at the many Ethereum conferences in 2020, but also includes explainers and these call updates. If you have feedback on Eth 1.x comms, want to find a speaker for an upcoming event, or have any questions, please reach out to @gichiba or @JHancock on twitter or the ethresearch forums.
 
 ### Technical discussion:
 
