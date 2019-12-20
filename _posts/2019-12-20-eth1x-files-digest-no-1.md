@@ -1,17 +1,28 @@
 ---
 layout: post
 published: true
-title: 'Eth1x quick update no. 1'
+title: 'The 1.x Files: December call digest'
 date: '2019-12-20'
 author: Griffin Ichiba Hotchkiss
 ---
-![Eth wallpaper](https://blog.ethereum.org/img/2019/10/kumiko_background.jpeg)
 
-December 17 TL;DC (too long, didn't call)
+![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")
+
+## December 17 TL;DC (too long, didn't call)
 
 ***Disclaimer***: *This is a digest of the topics discussed in the recurring Eth1.x research call, and doesn't represent finalized plans or commitments to network upgrades.*
 
 The main topic of discussion for this call and broader Eth1.x research is the feasibility of *stateless clients*. This week was largely about organizing and sizing up the various challenges the stateless client concept will need to overcome to be viable, and identifying some tangible objectives on the short-term (3 to 6 months) to focus on.
+
+### On the logistical side:
+
+* At this point there is not enough compiled content to warrant the creation of an Eth1x spec repo, but establishing a public repository for continued research will be revisited at the next call/meeting.
+
+* The Eth 1.x working group will be aiming to hold ~3 in-person meet-ups next year, with the first one tentatively-planned adjacent to EthCC, but as France is still on strike this is still uncertain.
+
+* The next call is tentatively scheduled for mid-January 2020. As always, if you are interested in joining the call or the [telegram group](https://ethresear.ch/t/telegram-group-for-eth1x-stateless-client/6470/6), please [introduce yourself](https://ethresear.ch/t/introductions-for-the-eth1-x-research-group/6430/22) on the ethresearch forums.  
+
+* One area the working group is focusing on is maintaining a high level of communication with the broader Ethereum community. This includes speaking and answering questions at the many Ethereum conferences in 2020, but also includes explainers and these call updates. If you have feedback on Eth 1.x comms, want to find a speaker for an upcoming event, or have any questions, please reach out to @gichiba or @JHancock on twitter or the ethresearch forums.
 
 ### Technical discussion:
 
@@ -29,13 +40,3 @@ The main topic of discussion for this call and broader Eth1.x research is the fe
   * There are complexities around gas and witness sizes that must be addressed for stateless clients to be workable. It's thought that Wei Tang's 'unGas' proposal is a potential solution, but even though it is not particularly complicated to implement within Ethereum, there are spillover effects (such as necessary changes to compilers, potential smart contract effects, etc) that complicate implementation. All these have yet to be thoroughly investigated.
 
 * The broader goal with this discussion is to focus and organize work in the short-term. This means prioritizing work on witness specification/implementation, beginning to outline some standard testing for cross-client sync, and collecting more data on modeling network requirements for witness propagation.
-
-### On the logistical side:
-
-* At this point there is not enough compiled content to warrant the creation of an Eth1x spec repo, but establishing a public repository for continued research will be revisited at the next call/meeting.
-
-* The Eth 1.x working group will be aiming to hold ~3 in-person meet-ups next year, with the first one tentatively-planned adjacent to EthCC, but as France is still on strike this is still uncertain.
-
-* The next call is tentatively scheduled for mid-January 2020. As always, if you are interested in joining the call or the [telegram group](https://ethresear.ch/t/telegram-group-for-eth1x-stateless-client/6470/6), please [introduce yourself](https://ethresear.ch/t/introductions-for-the-eth1-x-research-group/6430/22) on the ethresearch forums.  
-
-* One area the working group is focusing on is maintaining a high level of communication with the broader Ethereum community. This includes speaking and answering questions at the many Ethereum conferences in 2020, but also includes explainers and these call updates. If you have feedback on Eth 1.x comms, want to find a speaker for an upcoming event, or have any questions, please reach out to @gichiba or @JHancock on twitter or the ethresearch forums.
