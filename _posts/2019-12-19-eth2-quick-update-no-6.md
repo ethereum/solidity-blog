@@ -37,11 +37,11 @@ _P.S._ Sigma Prime is hiring a full-time __experienced Rust developer__ to work 
 
 ## Nimbus integrates native nim-libp2p
 
-Earlier this year, the Ethereum Foundation and Protocol Labs [co-funded a grant for Nimbus](https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/) to create a native [Nim language](https://nim-lang.org/) implementation of libp2p. [This implementation](https://github.com/status-im/nim-libp2p) was to be integrated into the nimbus eth2 client as well as to become a p2p networking option for resource restricted devices.
+Earlier this year, the Ethereum Foundation, Protocol Labs, and Status [co-funded a grant for Nimbus](https://blog.ethereum.org/2019/08/26/announcing-ethereum-foundation-and-co-funded-grants/) to create a native [Nim language](https://nim-lang.org/) implementation of libp2p. [This implementation](https://github.com/status-im/nim-libp2p) was to be integrated into the nimbus eth2 client as well as to become a p2p networking option for resource restricted devices.
 
 ![e2qu62](https://blog.ethereum.org/img/2019/12/e2qu62.jpg)
 
-We are pleased to announce that Nimbus just recently [integrated this native implementation](https://github.com/status-im/nim-beacon-chain/pull/632) into their codebase and plan on restarting their testnet with it this coming week. This is a huge milestone both for Nimbus and also for the p2p community at large due to Nim's ability to compile succinct and efficient code for most computer architectures. _P2P all the things!_
+We are pleased to announce that Nimbus just recently [integrated this native implementation](https://github.com/status-im/nim-beacon-chain/pull/632) into their codebase and plan on restarting their testnet with it this coming week. This is a huge milestone both for Nimbus and also for the p2p community at large due to Nim's ability to compile succinct and efficient code for most computer architectures. The Nimbus team continues to kill it -- they are truly a powerhouse of enginering! _P2P all the things!_
 
 ## beaconcha.in adds support for Lighthouse
 
