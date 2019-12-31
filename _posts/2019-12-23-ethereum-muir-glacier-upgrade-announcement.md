@@ -26,7 +26,7 @@ Download the latest version of your Ethereum client:
 
 -   [Latest geth client (v1.9.9)](https://github.com/ethereum/go-ethereum/releases/tag/v1.9.9)
 
--   [Latest Parity client (v2.5.12-stable)](https://github.com/paritytech/parity-ethereum/releases/tag/v2.5.12)
+-   [Latest Parity client (v2.6.8-beta)](https://github.com/paritytech/parity-ethereum/releases/tag/v2.6.8)
 
 -   [Latest Besu client (v1.3.7)](https://github.com/hyperledger/besu/releases)
 
