@@ -53,7 +53,7 @@ The process of traversing the trie, then, is more or less the same as the theore
 
 Computing the hash of each new block is largely the same process, but in reverse: Starting with all the edge nodes (accounts), the trie is built through successive hashings, until finally a new root hash is built and compared with the last agreed-upon block in the chain.
 
-Here's where that bit about the *apparent* efficiency of the state trie comes into play: re-building the whole trie is very intensive on disk, and the modified Merkle-Patricia trie structure used by Ethereum is more protocol efficient *at the cost of implimentation efficiency*. Those extra node types, leaf and extension, theoretically save on memory needed to store the trie, but they make the algorithms that *modify* the state inside the regular database more complex. Of course, a decently powerful computer can perform the process at blazing speed. Sheer processing power, however, only goes so far.
+Here's where that bit about the *apparent* efficiency of the state trie comes into play: re-building the whole trie is very intensive on disk, and the modified Merkle-Patricia trie structure used by Ethereum is more protocol efficient *at the cost of implementation efficiency*. Those extra node types, leaf and extension, theoretically save on memory needed to store the trie, but they make the algorithms that *modify* the state inside the regular database more complex. Of course, a decently powerful computer can perform the process at blazing speed. Sheer processing power, however, only goes so far.
 
 ### Sync, baby, sync
 
