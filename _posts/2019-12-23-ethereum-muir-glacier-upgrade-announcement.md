@@ -36,6 +36,8 @@ Download the latest version of your Ethereum client:
 
 -   [Latest Aleth Client (v1.8.0)](https://github.com/ethereum/aleth/releases/tag/v1.8.0)
 
+-   [Latest Trinity Client (v0.1.0-alpha.34)](https://github.com/ethereum/trinity/releases/tag/v0.1.0-alpha.34)
+
 NOTE: Harmony (ethereumJ) is now a deprecated client and will not be supporting Istanbul. Besu is a mainnet compatible Ethereum client written in Java.
 
 # Where can I learn more about this upgrade?
