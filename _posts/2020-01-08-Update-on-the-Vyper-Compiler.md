@@ -6,6 +6,8 @@ date: '2020-01-08'
 author: Piper Merriam
 ---
 
+![Eth wallpaper](https://blog.ethereum.org/img/2019/09/eth-wallpaper.jpg)
+
 The idea behind the Vyper Project was to develop something that was designed at the language level to naturally exhibit a high degree of safety. The project was originally authored by Vitalik as a proof-of-concept replacement for Serpent, its predecessor, but shortly after its creation Vyper found itself without a dedicated maintainer. Luckily, there were enthusiastic community members that took up the torch and continued development of the project, and we (the EF Python Team) became re-involved in the project for some time earlier this year.
 
 This fall, a preliminary security audit was performed by the Consensys Diligence team on the Python-based Vyper compiler. [You can read the results for yourself here](https://diligence.consensys.net/audits/2019/10/vyper/). 
