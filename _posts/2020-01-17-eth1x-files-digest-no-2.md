@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'The 1.x Files: January call digest'
-date: '2020-01-16'
+date: '2020-01-17'
 author: Griffin Ichiba Hotchkiss
 ---
 
@@ -55,7 +55,7 @@ There are different methods by which code can be broken up into chunks, and then
 ### (un)gas
 One open question is what changes would be necessary or desirable in gas scheduling with the introduction of block witnesses. Witness generation needs to be paid for in gas. If the code is chunked, within a block there would be some overlap where multiple transactions cover the same code, and thus parts of a block witness would be paid for more than once by all the included transactions in the block. It seems like a safe idea (and one that would be good for miners) would be to leave it to the poster of a transaction to pay the full cost of their own transaction's witness, and then let the miner keep the overpayment. This minimizes the need for changes in gas costs and incentivizes miners to produce witnesses, but unfortunately breaks the current security model of only trusting sub-calls (in a transaction) with a portion of the total committed gas. How that change to the security model is handled is something that needs to be considered fully and thoroughly. At the end of the day, the goal is to charge each transaction the cost of producing its own witness, proportional to the code it touches.
 
-[Wei Tang's UNGAS proposal](https://ethereum.corepaper.org/compatibility/forward/#remove-gas-observables-and-better-error-handling) might make any changes to the EVM easier to accomplish. It's not strictly necessary for stateless Ethereum, but it is an idea for how to make future breaking changes to gas schedules easier. The question to ask is "What do the changes look like both without and with UNGAS -- and those things considered does UNGAS actually make this stuff significantly easier to implement?". To answer this, we need experiments that run things with merklized code and new gas rules appled, and then see what should change with regard to cost and execution in the EVM.
+[Wei Tang's UNGAS proposal](https://ethereum.corepaper.org/compatibility/forward/#remove-gas-observables-and-better-error-handling) might make any changes to the EVM easier to accomplish. It's not strictly necessary for stateless Ethereum, but it is an idea for how to make future breaking changes to gas schedules easier. The question to ask is "What do the changes look like both without and with UNGAS -- and those things considered, does UNGAS actually make this stuff significantly easier to implement?". To answer this, we need experiments that run things with merklized code and new gas rules appled, and then see what should change with regard to cost and execution in the EVM.
 
 ### Pruning and data delivery
 In a stateless model, nodes that do not have some or all of the state need a way to signal to the rest of the network what data they have and what data they lack. This has implications for network topology -- stateless clients that lack data need to be able to reliably and quickly find the data they need somewhere on the network, as well as broadcast up-front what data they don't have (and might need). Adding such a feature to one of the chain-pruning EIPs is a networking (but not consensus) protocol change, and its something that also can be done now.
@@ -64,4 +64,4 @@ The second side of this problem is where to store the historical data, and the b
 
 ---
 
-As always, if you have questions about Eth1x efforts, requests for topics, or want to contribute, come introduce yourself on ethresear.ch or reach out to @gichiba and/or @JHancock on twitter.
+As always, if you have questions about Eth1x efforts, requests for topics, or want to contribute, attend an event, come introduce yourself on ethresear.ch or reach out to @gichiba and/or @JHancock on twitter.
