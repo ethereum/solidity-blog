@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'The 1.x Files: The Stateless Ethereum Tech Tree'
-date: '2020-01-27'
+date: '2020-01-28'
 author: Griffin Ichiba Hotchkiss
 ---
 ![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")
@@ -126,7 +126,7 @@ At the end of the day, it is not a *requirement* that the complete stateless pro
 
 Sync strategies are not primary to the network protocol, but instead are implementation details that affect how performant nodes are in enacting the protocol. Beam sync and Red Queen's sync are related strategies for building up a local copy of state from witnesses. Some effort should be invested in improving these strategies and adapting them for the final 'version' of the network protocol, when that is decided and implemented.
 
-For now, they are being left as 'bonus' items in the tech tree, because they can be developed in isolation of other issues, and because details of their implementation depend on more fundamental choices like witness format. Its worth noting that these extra-protocol topics are, by virtue of their independence from 'core' changes, a good vehicle for implementing and testing the more fundamental improvements on the left side of the tree. 
+For now, they are being left as 'bonus' items in the tech tree, because they can be developed in isolation of other issues, and because details of their implementation depend on more fundamental choices like witness format. Its worth noting that these extra-protocol topics are, by virtue of their independence from 'core' changes, a good vehicle for implementing and testing the more fundamental improvements on the left side of the tree.
 
 
 ## Wrapping up
