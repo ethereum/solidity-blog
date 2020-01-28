@@ -95,7 +95,7 @@ This diagram below represents a hypothetical network topology that could exist i
 
 ![semi-stateless-topology](https://blog.ethereum.org/img/2019/12/semi-stateless-topology.jpg)
 
-Improvements such as [EIP #2465](https://github.com/ethereum/EIPs/issues/2465) fall into this category: New message types in the network protocol that provide more information about what information nodes have, and define how that information is passed to other nodes in potentially awkward or limited network topologies.
+Improvements such as [EIP #2465](https://github.com/ethereum/EIPs/issues/2465) fall into the general category of network propagation rules: New message types in the network protocol that provide more information about what information nodes have, and define how that information is passed to other nodes in potentially awkward or limited network topologies.
 
 ### Data Delivery Model / DHT routing
 
@@ -126,7 +126,7 @@ At the end of the day, it is not a *requirement* that the complete stateless pro
 
 Sync strategies are not primary to the network protocol, but instead are implementation details that affect how performant nodes are in enacting the protocol. Beam sync and Red Queen's sync are related strategies for building up a local copy of state from witnesses. Some effort should be invested in improving these strategies and adapting them for the final 'version' of the network protocol, when that is decided and implemented.
 
-For now, they are being left as 'bonus' items in the tech tree, because they can be developed in isolation of other issues, but details of their implementation depend on more fundamental choices like witness format.
+For now, they are being left as 'bonus' items in the tech tree, because they can be developed in isolation of other issues, and because details of their implementation depend on more fundamental choices like witness format. Its worth noting that these extra-protocol topics are, by virtue of their independence from 'core' changes, a good vehicle for implementing and testing the more fundamental improvements on the left side of the tree. 
 
 
 ## Wrapping up
