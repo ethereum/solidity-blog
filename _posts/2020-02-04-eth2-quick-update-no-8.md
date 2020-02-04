@@ -115,3 +115,4 @@ Here is a glimpse of the many events slated to have solid eth2 representation:
 * [ETHNewYork](https://ethglobal.co) -- New York, USA - Dates TBD
 
 🚀
+
