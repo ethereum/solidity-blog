@@ -8,6 +8,8 @@ guid: https://blog.ethereum.org/?p=2736
 permalink: /2016/06/14/ethereum-welcomes-microsoft-devcon/
 dsq_thread_id:
   - "4908941637"
+categories:
+  - Devcon
 tags:
   - blockchain
   - ethereum

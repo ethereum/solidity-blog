@@ -4,6 +4,8 @@ published: true
 title: 'Announcing the Devcon Scholars Program'
 date: '2019-08-20'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 ![Devcon Horse Graphic](https://blog.ethereum.org/img/2019/07/horse-devcon.png)

@@ -4,6 +4,8 @@ published: true
 title: Devcon4 Call for Participation!
 date: '2018-07-30'
 author: Deva the Devcon Unicorn
+categories:
+  - Devcon
 ---
 
 When we asked many of you, “What are you most excited for at Devcon4?” most people replied: the people! This is the one time a year we all get together in one place. We don’t want to spend all of our time at Devcon sitting in a dark room, staring in silence at a person on a stage – we want to see, meet and talk with each other.

@@ -4,6 +4,8 @@ published: true
 title: Devcon4 Videos and Pictures Released!
 date: '2018-12-10'
 author: Deva the Devcon Unicorn
+categories:
+  - Devcon
 ---
 
 We're happy to announce that the presentation videos from Devcon4 are now available for viewing!
