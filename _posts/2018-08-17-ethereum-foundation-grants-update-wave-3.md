@@ -5,7 +5,7 @@ title: Ethereum Foundation Grants Update - Wave III
 date: '2018-08-17'
 author: Ethereum Team
 category:
-    - Ecosystem Support
+    - Ecosystem Support Program
 ---
 
 <center><img src="https://blog.ethereum.org/img/2018/08/grants_eth_logo.png" alt="Ethereum Logo Image" width="266"></center>

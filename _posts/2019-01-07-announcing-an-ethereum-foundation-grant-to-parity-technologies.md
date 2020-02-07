@@ -5,7 +5,7 @@ title: Announcing an Ethereum Foundation Grant to Parity Technologies
 date: '2019-01-07'
 author: Ethereum Team
 category:
-    - Ecosystem Support
+    - Ecosystem Support Program
 ---
 
 The Ethereum Foundation is thrilled to announce a scalability, usability and security grant of five million dollars (USD) to Parity Technologies.
