@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2052
 permalink: /2015/09/10/security-alert-previous-security-patch-can-lead-to-invalid-state-root-on-go-clients-with-a-specific-transaction-sequence-fixed-please-update/
 dsq_thread_id:
   - "4115787746"
+category: Security
 ---
 &nbsp;
 

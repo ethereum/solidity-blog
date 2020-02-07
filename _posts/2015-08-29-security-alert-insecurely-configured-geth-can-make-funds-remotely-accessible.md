@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2005
 permalink: /2015/08/29/security-alert-insecurely-configured-geth-can-make-funds-remotely-accessible/
 dsq_thread_id:
   - "4077755476"
+category: Security
 ---
 <strong>Insecurely configured Ethereum clients with no firewall and unlocked accounts can lead to funds being accessed remotely by attackers. </strong>
 

@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=3303
 permalink: /2016/10/27/security-alert-mist-can-vulnerable-navigating-malicious-dapps/
 dsq_thread_id:
   - "5257011974"
+category: Security
 ---
 Mist leaks some low level APIs, which Dapps could use to gain access to the computer's file system and read/delete files. This would only affect you if you navigate to an untrusted Dapp that knows about these vulnerabilities and specifically tries to attack users. Upgrading Mist is highly recommended to prevent exposure to attacks.
 

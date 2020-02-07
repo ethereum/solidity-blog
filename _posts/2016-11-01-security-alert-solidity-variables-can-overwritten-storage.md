@@ -6,6 +6,7 @@ author: Christian Reitwiessner
 layout: post
 guid: https://blog.ethereum.org/?p=3363
 permalink: /2016/11/01/security-alert-solidity-variables-can-overwritten-storage/
+category: Security
 ---
 <strong>Summary:</strong> In some situations, variables can overwrite other variables in storage.
 

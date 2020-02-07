@@ -6,6 +6,7 @@ author: Vitalik Buterin
 layout: post
 guid: https://blog.ethereum.org/?p=3516
 permalink: /2016/11/25/security-alert-11242016-consensus-bug-geth-v1-4-19-v1-5-2/
+category: Security
 ---
 <b>Security Alert</b><b>
 </b><b>

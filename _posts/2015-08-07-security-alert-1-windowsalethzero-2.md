@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=1928
 permalink: /2015/08/07/security-alert-1-windowsalethzero-2/
 dsq_thread_id:
   - "4012306944"
+category: Security
 ---
 This affects users of Alethzero GUI client on Windows. Users of eth CLI client or not on the Windows platform are unlikely to be affected but should take action detailed below. <em>Users of Frontier command line interface geth are unaffected</em>.
 
