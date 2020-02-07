@@ -4,6 +4,8 @@ published: true
 title: Ethereum Foundation Grants Update - Wave IV
 date: '2018-10-15'
 author: Ethereum Team
+category:
+    - Ecosystem Support
 ---
 
 <center><img src="https://blog.ethereum.org/img/2018/08/grants_eth_logo.png" alt="Ethereum Logo Image" width="266"></center>

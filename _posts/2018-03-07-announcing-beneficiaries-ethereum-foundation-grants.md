@@ -6,6 +6,8 @@ author: Ethereum Team
 layout: post
 guid: https://blog.ethereum.org/?p=4232
 permalink: /2018/03/07/announcing-beneficiaries-ethereum-foundation-grants/
+category:
+    - Ecosystem Support
 ---
 <span style="font-weight: 400;">We’re excited to share the results of the first wave of grants from the Ethereum Foundation.</span>
 
