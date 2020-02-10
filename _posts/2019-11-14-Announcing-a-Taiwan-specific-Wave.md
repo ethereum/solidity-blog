@@ -4,8 +4,7 @@ published: true
 title: 'Announcing a Taiwan-specific Wave of Grants'
 date: '2019-11-14'
 author: Ecosystem Support Team
-category:
-    - Ecosystem Support
+category: "Ecosystem Support Program"
 ---
 
 ![header](https://blog.ethereum.org/img/2019/11/header.png)
