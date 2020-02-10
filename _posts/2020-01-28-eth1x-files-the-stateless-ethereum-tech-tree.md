@@ -4,6 +4,7 @@ published: true
 title: 'The 1.x Files: The Stateless Ethereum Tech Tree'
 date: '2020-01-28'
 author: Griffin Ichiba Hotchkiss
+category: 'Research & Development'
 ---
 ![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")
 

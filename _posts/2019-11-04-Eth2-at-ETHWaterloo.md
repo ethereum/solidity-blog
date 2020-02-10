@@ -4,6 +4,7 @@ published: true
 title: 'Eth2 at ETHWaterloo: Prizes for Eth2 education, tooling, and research'
 date: '2019-11-04'
 author: Ethereum Foundation Team
+category: 'Research & Development'
 ---
 
 For the first time ever, the Ethereum Foundation will be sponsoring a range of hacker prizes related to Eth2 at a major hackathon.

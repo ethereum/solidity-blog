@@ -5,8 +5,7 @@ title: 'The Devcon5 Bible'
 subtitle: 'Important Things to Know'
 date: '2019-10-03'
 author: Devcon Team
-categories:
-  - Devcon
+category: Devcon
 ---
 
 ![Devcon5 Image](https://blog.ethereum.org/img/2019/10/devcon5.png)

@@ -4,6 +4,7 @@ published: true
 title: 'Validated: Staking on eth2 #0'
 date: '2019-11-27'
 author: Carl Beekhuizen
+category: 'Research & Development'
 ---
 
 ![00-Merkle-4K](https://blog.ethereum.org/img/2019/11/00-Merkle-4K.png)
