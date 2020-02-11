@@ -6,6 +6,8 @@ author: Hudson Jameson
 layout: post
 guid: https://blog.ethereum.org/?p=4286
 permalink: /2018/05/11/devcon4-announcement/
+categories:
+  - Devcon
 ---
 Přátelé,
 

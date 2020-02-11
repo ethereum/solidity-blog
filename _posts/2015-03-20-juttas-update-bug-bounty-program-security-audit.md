@@ -12,6 +12,7 @@ tags:
   - ethereum project
   - Security audit
   - update
+category: Security
 ---
 Hi, <a href="https://twitter.com/tajukahe">Jutta</a> writing again – I initially introduced myself when we started the bounty program earlier this year and I’m happy to provide you with an update on what’s happening on the security side prior and throughout launch.
 

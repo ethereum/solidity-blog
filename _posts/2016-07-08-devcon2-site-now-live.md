@@ -8,6 +8,8 @@ guid: https://blog.ethereum.org/?p=2854
 permalink: /2016/07/08/devcon2-site-now-live/
 dsq_thread_id:
   - "4969494451"
+categories:
+  - Devcon
 ---
 The Devcon2 web site is officially live now! You can find it at <a href="https://ethereumfoundation.org/devcon/">https://ethereumfoundation.org/devcon/</a>
 

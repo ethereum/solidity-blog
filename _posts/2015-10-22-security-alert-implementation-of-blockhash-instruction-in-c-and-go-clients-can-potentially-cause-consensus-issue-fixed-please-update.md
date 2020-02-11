@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2216
 permalink: /2015/10/22/security-alert-implementation-of-blockhash-instruction-in-c-and-go-clients-can-potentially-cause-consensus-issue-fixed-please-update/
 dsq_thread_id:
   - "4249046261"
+category: Security
 ---
 <b>Summary: </b>Erroneous implementation of BLOCKHASH can trigger a chain reorganisation leading to consensus problems
 

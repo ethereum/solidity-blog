@@ -6,6 +6,8 @@ author: Ming Chan
 layout: post
 guid: https://blog.ethereum.org/?p=4012
 permalink: /2017/11/26/devcon3-vids-available-now/
+categories:
+  - Devcon
 ---
 To accommodate the biggest post-devcon request, we're happy to announce that Devcon3 videos are now available for viewing!
 

@@ -4,6 +4,7 @@ published: true
 title: 'Validated, staking on eth2: #1 - Incentives'
 date: '2020-01-13'
 author: Carl Beekhuizen
+category: 'Research & Development'
 ---
 
 ![00-Merkle-4K](https://blog.ethereum.org/img/2019/11/00-Merkle-4K.png)

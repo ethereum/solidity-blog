@@ -8,6 +8,8 @@ guid: https://blog.ethereum.org/?p=2172
 permalink: /2015/09/24/devcon-is-back/
 dsq_thread_id:
   - "4162359480"
+categories:
+  - Devcon
 ---
 DevCon 1 will be happening in London on November 9-13, a little over one hundred days since the Ethereum network launched. Over the last months, we’ve seen the network grow from a few hundred nodes starting on that one exciting and special night to a very substantial, globally deployed stable platform with thousands of devs pushing towards the decentralization revolution which motivates and inspires us.
 

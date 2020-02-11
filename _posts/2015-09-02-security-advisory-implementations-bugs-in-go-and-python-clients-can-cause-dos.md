@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2021
 permalink: /2015/09/02/security-advisory-implementations-bugs-in-go-and-python-clients-can-cause-dos/
 dsq_thread_id:
   - "4090797185"
+category: Security
 ---
 <strong>State transition and consensus issue in geth client causes panic (crash) when processing a (valid) block with a specific combination of transactions, which may cause overall network instability if block is accepted and relayed by unaffected clients thus causing a DoS. This may happen in a block that contains transactions which suicide to the block reward address. </strong>
 

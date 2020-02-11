@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2706
 permalink: /2016/06/03/security-alert-cpp-ethereums-account-unlocking-problem-not-yet-fixed/
 dsq_thread_id:
   - "4881044956"
+category: Security
 ---
 <b>Affected configurations:</b> cpp-ethereum (eth, AlethZero, …) version 1.2.0 up to 1.2.<strong>6</strong>
 Note: Neither “geth” nor “Mist” nor the “Ethereum Wallet” (unless explicitly used together with cpp-ethereum) are affected by this, they lock accounts correctly again.

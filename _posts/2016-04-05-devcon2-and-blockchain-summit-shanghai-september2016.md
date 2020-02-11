@@ -8,6 +8,8 @@ guid: https://blog.ethereum.org/?p=2651
 permalink: /2016/04/05/devcon2-and-blockchain-summit-shanghai-september2016/
 dsq_thread_id:
   - "4721207622"
+categories:
+  - Devcon
 tags:
   - dev
   - DEVCON

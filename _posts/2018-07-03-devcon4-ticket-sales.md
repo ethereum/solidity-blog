@@ -4,6 +4,8 @@ published: true
 title: Devcon4 Ticket Sales
 date: '2018-07-03'
 author: Deva the Devcon Unicorn
+categories:
+  - Devcon
 ---
 
 <center><img src="https://blog.ethereum.org/img/2018/07/devcon4-logo.png" alt="Devcon4 Logo" width="300"></center>

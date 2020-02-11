@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=1963
 permalink: /2015/08/20/security-alert-consensus-issue/
 dsq_thread_id:
   - "4050696140"
+category: Security
 ---
 This alert is related to a consensus issue that occurred on the Frontier network at block 116,522, mined on 2015-08-20 at 14:59:16+02:00 – <b>Issue has been fixed, see "Fix" below.</b>
 

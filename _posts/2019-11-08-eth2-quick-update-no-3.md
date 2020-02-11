@@ -4,6 +4,7 @@ published: true
 title: 'eth2 quick update no. 3'
 date: '2019-11-08'
 author: Danny Ryan
+category: 'Research & Development'
 ---
 
 ![Eth wallpaper](https://blog.ethereum.org/img/2019/10/kumiko_background.jpeg)

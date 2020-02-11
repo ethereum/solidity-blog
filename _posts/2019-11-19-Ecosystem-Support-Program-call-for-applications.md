@@ -4,8 +4,7 @@ published: true
 title: Ecosystem Support Program call for applications
 date: '2019-11-19'
 author: Ecosystem Support Team
-category:
-    - Ecosystem Support Program
+category: ESP
 ---
 
 <center><img src="https://blog.ethereum.org/img/2019/06/devcon-banner.jpg" alt="Ethereum Devcon Header"></center>

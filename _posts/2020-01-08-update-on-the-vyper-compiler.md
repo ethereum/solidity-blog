@@ -4,6 +4,7 @@ published: true
 title: 'Update on the Vyper Compiler'
 date: '2020-01-08'
 author: Piper Merriam
+category: 'Research & Development'
 ---
 
 ![Eth wallpaper](https://blog.ethereum.org/img/2019/09/eth-wallpaper.jpg)
