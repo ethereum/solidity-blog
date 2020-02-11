@@ -4,6 +4,7 @@ published: true
 title: 'eth2 quick update'
 date: '2019-10-23'
 author: Danny Ryan
+category: 'Research & Development'
 ---
 
 Although the internet has been more quiet than usual, we've been super busy hacking away on eth2! Between Devcon5 and keeping our heads down to work, it seems we've left the community in the dark on a couple of items. Here's a quick update to fill in the gaps.

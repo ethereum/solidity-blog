@@ -4,6 +4,8 @@ published: true
 title: Devcon4 Application Deadlines Coming Soon
 date: '2018-07-19'
 author: Deva the Devcon Unicorn
+categories:
+  - Devcon
 ---
 
 Přátelé.

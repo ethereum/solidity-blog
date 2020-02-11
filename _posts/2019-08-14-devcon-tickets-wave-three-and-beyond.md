@@ -4,6 +4,8 @@ published: true
 title: 'Devcon Tickets: Wave 3 and beyond'
 date: '2019-08-14'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 ![Devcon Horse Graphic](https://blog.ethereum.org/img/2019/07/horse-devcon.png)

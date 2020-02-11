@@ -4,6 +4,8 @@ published: true
 title: 'Live: Devcon5 Final Ticket Appeals'
 date: '2019-09-03'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 ![Devcon Horse Graphic](https://blog.ethereum.org/img/2019/07/horse-devcon.png)

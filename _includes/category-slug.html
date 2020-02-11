@@ -1,0 +1,15 @@
+{%- comment -%}
+    This include defines a macro.
+    
+    Use:
+    include category-slug.html category='Research & Development'
+
+    Output will be: 
+    "research-and-development" 
+{%- endcomment -%}
+
+{%- if category -%}
+{{category | replace: '&', 'and' | slugify }}
+{%- else -%}
+    category-slug.html: You must define a category name to print its slug.
+{% endif %}

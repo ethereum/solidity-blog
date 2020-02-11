@@ -4,6 +4,8 @@ published: true
 title: An Update on Devcon4 Ticket Allocations & Sales
 date: '2018-07-17'
 author: Deva the Devcon Unicorn
+categories:
+  - Devcon
 ---
 
 Friends,

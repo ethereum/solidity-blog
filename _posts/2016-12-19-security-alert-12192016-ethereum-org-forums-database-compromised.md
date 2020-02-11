@@ -6,6 +6,7 @@ author: Hudson Jameson
 layout: post
 guid: https://blog.ethereum.org/?p=3629
 permalink: /2016/12/19/security-alert-12192016-ethereum-org-forums-database-compromised/
+category: Security
 ---
 On December 16, we were made aware that someone had recently gained unauthorized access to a database from [forum.ethereum.org](http://forum.ethereum.org/). We immediately launched a thorough investigation to determine the origin, nature, and scope of this incident. Here is what we know:
 <ul>

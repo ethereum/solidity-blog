@@ -4,6 +4,8 @@ published: true
 title: 'On Wave 1 and Devcon Ticketing'
 date: '2019-07-15'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 <center><img src="https://blog.ethereum.org/img/2019/06/devcon-banner.jpg" alt="Ethereum Devcon Header"></center>

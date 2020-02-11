@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2696
 permalink: /2016/05/17/security-alert-geth-suffers-from-a-very-low-probable-dos-attack-vector-update-immediately/
 dsq_thread_id:
   - "4834819226"
+category: Security
 ---
 <b>Affected configurations: </b><span style="font-weight: 400;">All</span> <span style="font-weight: 400;">Go client versions </span>
 

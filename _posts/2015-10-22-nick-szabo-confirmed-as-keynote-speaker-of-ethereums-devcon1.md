@@ -8,6 +8,8 @@ guid: https://blog.ethereum.org/?p=2242
 permalink: /2015/10/22/nick-szabo-confirmed-as-keynote-speaker-of-ethereums-devcon1/
 dsq_thread_id:
   - "4249970329"
+categories:
+  - Devcon
 ---
 <p class="p1"><span class="s1">London, United Kingdom, October 22nd - The Ethereum Foundation is pleased to announce the Keynote Speaker of Ethereum’s annual conference <a href="https://devcon.ethereum.org/">DΞVCON1</a>, Nick Szabo. Nick’s keynote will focus on the history of the blockchain, smart contracts and assets on the blockchain.</span></p>
 <p class="p1"><span class="s1">Nick is a computer scientist, legal scholar and cryptographer known for his research on digital contracts and digital currency. The phrase and concept of “smart contracts” was developed by Szabo with the intent of merging contract law into programming protocols on the Internet.</span></p>

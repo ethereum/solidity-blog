@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=3239
 permalink: /2016/09/18/security-alert-geth-nodes-crash-due-memory-bug/
 dsq_thread_id:
   - "5154420288"
+category: Security
 ---
 <span style="font-weight: 400;">Security Alert</span>
 

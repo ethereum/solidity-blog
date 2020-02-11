@@ -1,7 +1,6 @@
 ---
 layout: null
-permalink: /ecosystem-support-program.txt
-category: Ecosystem Support Program
+permalink: /esp.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -11,7 +10,7 @@ category: Ecosystem Support Program
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}{{ page.permalink }}" rel="self" type="application/rss+xml" />
     {% for category in site.categories %}
-      {% if category[0] == "Ecosystem Support Program" %}
+      {% if category[0] == "ESP" %}
         {% for post in category[1] limit:20 %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
