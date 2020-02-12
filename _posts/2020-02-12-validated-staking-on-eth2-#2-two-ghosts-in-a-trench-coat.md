@@ -62,7 +62,9 @@ FFG employs a clever trick. Votes actually consist of two sub-votes, one for the
 
 Consensus within eth2 relies on both LMD-GHOST – which adds new blocks and decides what the head of the chain is – and Casper FFG which makes the final decision on which blocks _are_ and _are not_ a part of the chain. GHOST’s favourable liveness properties allow new blocks to quickly and efficiently be added to the chain, while FFG follows behind to provide safety by finalising epochs.
 
-![Two ghosts in a trench coat](https://storage.googleapis.com/ethereum-hackmd/upload_84663daf63bd4ea84dc8dacce31625d0.png)
+<p align="center">
+   <img width="350" src="https://storage.googleapis.com/ethereum-hackmd/upload_84663daf63bd4ea84dc8dacce31625d0.png">
+</p>
 
 The two protocols are merged by running GHOST from the last finalised block as decided upon by FFG. By construction, the last finalised block is always a part of the chain which means GHOST doesn't need to consider earlier blocks.
 
