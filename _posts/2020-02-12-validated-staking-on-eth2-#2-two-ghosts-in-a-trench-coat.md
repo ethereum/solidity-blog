@@ -9,8 +9,6 @@ category: 'Research & Development'
 
 ![00-Merkle-4K](https://blog.ethereum.org/img/2019/11/00-Merkle-4K.png)
 
-# Validated, staking on eth1: #2 - Two ghosts in a trench coat
-
 *Special thanks to Sacha Yves Saint-Leger & Danny Ryan for review.*
 
 In this installment, we'll discuss the consensus mechanisms behind eth2. Eth2 has a novel approach to deciding which block is the head of the chain, along with which blocks _are_ and _are not_ a part of the chain.
