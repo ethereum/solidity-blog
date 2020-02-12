@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2750
 permalink: /2016/06/24/security-alert-smart-contract-wallets-created-in-frontier-are-vulnerable-to-phishing-attacks/
 dsq_thread_id:
   - "4935387322"
+category: Security
 ---
 <h1></h1>
 <b>Affected configurations:</b><span style="font-weight: 400"> All smart contract wallets created using <em>Ethereum Wallet  Frontier, version 0.4.0 (Beta 7) or earlier</em>. Wallets created with Ethereum Wallet 0.5.0 and all later versions released after March 3, 2016, are not affected.</span>

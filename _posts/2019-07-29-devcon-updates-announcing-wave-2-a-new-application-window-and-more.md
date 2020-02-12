@@ -4,6 +4,8 @@ published: true
 title: 'Devcon updates: Announcing Wave 2, a New Application window, and more!'
 date: '2019-07-29'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 ![Devcon Horse Graphic](https://blog.ethereum.org/img/2019/07/horse-devcon.png)

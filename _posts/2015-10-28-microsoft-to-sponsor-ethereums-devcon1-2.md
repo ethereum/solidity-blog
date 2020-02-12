@@ -8,6 +8,8 @@ guid: https://blog.ethereum.org/?p=2263
 permalink: /2015/10/28/microsoft-to-sponsor-ethereums-devcon1-2/
 dsq_thread_id:
   - "4268478942"
+categories:
+  - Devcon
 ---
 <div class="page" title="Page 1">
 <div class="section">

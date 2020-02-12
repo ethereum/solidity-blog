@@ -5,6 +5,8 @@ title: 'Devcon On-Chain Raffle & Auction Participants'
 subtitle: 'Ticket distribution details are here!'
 date: '2019-09-03'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 ![Devcon Horse Graphic](https://blog.ethereum.org/img/2019/07/horse-devcon.png)

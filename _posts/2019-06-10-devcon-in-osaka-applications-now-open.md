@@ -4,6 +4,8 @@ published: true
 title: 'Devcon in Osaka: Applications now open!'
 date: '2019-06-10'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 <center><img src="https://blog.ethereum.org/img/2019/06/devcon-banner.jpg" alt="Ethereum Devcon Header"></center>

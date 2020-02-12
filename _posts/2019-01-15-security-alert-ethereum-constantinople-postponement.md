@@ -4,6 +4,7 @@ published: true
 title: 'Security Alert: Ethereum Constantinople Postponement'
 date: '2019-01-15'
 author: Hudson Jameson
+category: Security
 ---
 
 The Ethereum Core Developers and the Ethereum Security Community were made aware of the potential Constantinople-related issues identified by [ChainSecurity](https://medium.com/chainsecurity/constantinople-enables-new-reentrancy-attack-ace4088297d9) on January 15, 2019. We are investigating any potential vulnerabilities and will follow with updates in this blog post and across social media channels.

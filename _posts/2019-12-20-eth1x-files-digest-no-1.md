@@ -4,6 +4,7 @@ published: true
 title: 'The 1.x Files: December call digest'
 date: '2019-12-20'
 author: Griffin Ichiba Hotchkiss
+category: 'Research & Development'
 ---
 
 ![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")

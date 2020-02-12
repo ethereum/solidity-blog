@@ -4,6 +4,8 @@ published: true
 title: 'Devcon5 On-Chain Ticket Sale'
 date: '2019-08-22'
 author: Devcon Team
+categories:
+  - Devcon
 ---
 
 Over the last few months, we've been coordinating with the talented team over at [ether.cards](https://ether.cards) to bring an NFT-based on-chain ticketing solution to the Ethereum community in time for Devcon5.

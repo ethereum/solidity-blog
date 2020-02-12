@@ -8,6 +8,7 @@ guid: https://blog.ethereum.org/?p=2034
 permalink: /2015/09/03/security-alert-implementation-bug-in-go-clients-causing-increase-in-difficulty-fixed-miners-check-and-update-go-clients-if-necessary/
 dsq_thread_id:
   - "4091864948"
+category: Security
 ---
 <strong>Implementation bug in the go client leads to steady increase of difficulty independent of hashing power.</strong>
 

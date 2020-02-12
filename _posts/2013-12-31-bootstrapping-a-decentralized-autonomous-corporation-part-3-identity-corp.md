@@ -8,6 +8,8 @@ guid: http://blog.ethereum.org/?p=74
 permalink: /2013/12/31/bootstrapping-a-decentralized-autonomous-corporation-part-3-identity-corp/
 dsq_thread_id:
   - "2790049937"
+categories: 
+  - Research & Development
 ---
 <img class="alignnone size-full wp-image-81" src="https://blog.ethereum.org/wp-content/uploads/2013/12/anon.jpg" alt="anon" width="392" height="196" />
 

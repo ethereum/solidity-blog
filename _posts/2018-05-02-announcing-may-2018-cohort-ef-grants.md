@@ -6,6 +6,7 @@ author: Ethereum Team
 layout: post
 guid: https://blog.ethereum.org/?p=4250
 permalink: /2018/05/02/announcing-may-2018-cohort-ef-grants/
+category: ESP
 ---
 <h2><a href="https://blog.ethereum.org/wp-content/uploads/2018/05/efg.png"><img src="https://blog.ethereum.org/wp-content/uploads/2018/05/efg.png" alt="efg"/></a></h2>
 <span style="font-weight: 400;">Thank you all for applying, and we’re excited to announce the latest Ethereum Foundation grants! We funded 22 recipients for a total of $2.84M.</span>
