@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'Validated, staking on eth2: #1 - Two ghosts in a trench coat'
+title: 'Validated, staking on eth2: #2 - Two ghosts in a trench coat'
 date: '2020-02-12'
 author: Carl Beekhuizen
 category: 'Research & Development'
@@ -49,7 +49,7 @@ The lack of safety presents itself in the form of reorgs where a chain can sudde
 
 A blockchain without any notion of safety is useless because no decisions could be reached and users could not agree on the state of the chain. Enter [Casper the Friendly Finality Gadget (Casper FFG)](https://arxiv.org/pdf/1710.09437.pdf). Casper FFG is a mechanism which favours safety over liveness when making decisions. This means that while the decisions it makes are final, under poor network conditions, it may not be able to decide on anything.
 
-![](https://storage.googleapis.com/ethereum-hackmd/upload_84ad2520a6a3370e4e841a969a5f1f62.png=350px)
+![](https://storage.googleapis.com/ethereum-hackmd/upload_84ad2520a6a3370e4e841a969a5f1f62.png)
 
 
 FFG is a crypto-economic adaption of the classic [Practical Byzantine Fault Tolerent (PBFT)](http://pmg.csail.mit.edu/papers/osdi99.pdf) which has phases where nodes first indicate that they'd like to agree on something (*justification*) and then agree that they've seen each other agreeing (*finalisation*).
