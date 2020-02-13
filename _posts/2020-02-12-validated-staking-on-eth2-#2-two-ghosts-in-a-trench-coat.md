@@ -7,6 +7,10 @@ author: Carl Beekhuizen
 category: 'Research & Development'
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ![00-Merkle-4K](https://blog.ethereum.org/img/2019/11/00-Merkle-4K.png)
 
 *Special thanks to Sacha Yves Saint-Leger & Danny Ryan for review.*
