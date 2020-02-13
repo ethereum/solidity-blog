@@ -7,6 +7,10 @@ author: Carl Beekhuizen
 category: 'Research & Development'
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ![00-Merkle-4K](https://blog.ethereum.org/img/2019/11/00-Merkle-4K.png)
 
 *Special thanks to Sacha Yves Saint-Leger & Danny Ryan for review.*
@@ -41,7 +45,7 @@ Under the rules of GHOST, validators/miners can always try to add a new block to
 ![GHOST Favours liveness over safety](https://storage.googleapis.com/ethereum-hackmd/upload_fb52a9383b8a39ae63929bb4b1c9436e.png)
 
 
-The lack of safety presents itself in the form of reorgs where a chain can suddenly switch between forks of abitrary depth. Obviously this is undesirable and eth1 deals with this by having users make assumptions about how long miners' blocks will take to be communicated with the rest of the network, this takes the form of waiting for $x$ confirmations. Eth2, by contrast, makes no such assumptions.
+The lack of safety presents itself in the form of reorgs where a chain can suddenly switch between forks of arbitrary depth. Obviously this is undesirable and eth1 deals with this by having users make assumptions about how long miners' blocks will take to be communicated with the rest of the network, this takes the form of waiting for $x$ confirmations. Eth2, by contrast, makes no such assumptions.
 
 ### The friendly finality gadget
 
@@ -54,7 +58,7 @@ FFG is a crypto-economic adaption of the classic [Practical Byzantine Fault Tole
 
 Eth2 does not try to justify and finalise every slot (the time when a block is expected to be produced), but instead only every 32 slots. Collectively, 32 slots is called an *epoch*. First, validators sign that they agree with all 32 blocks in an epoch. Then, if $\geq \frac{2}{3}$ do so, the block is justified. In a later epoch, validators get another chance to vote to indicate that they have seen the earlier justified epoch and if $\geq \frac{2}{3}$ do this, the epoch is finalised and is forever a part of the eth2 chain.
 
-FFG employs a clever trick. Votes actually consist of two sub-votes, one for the epoch that is attemping to be justified and another for an earlier epoch that is to become finalised. This saves a lot of extra communication between nodes and helps to achieve the goal of scaling to millions of validators.
+FFG employs a clever trick. Votes actually consist of two sub-votes, one for the epoch that is attempting to be justified and another for an earlier epoch that is to become finalised. This saves a lot of extra communication between nodes and helps to achieve the goal of scaling to millions of validators.
 
 ## Two ghosts in a trench coat
 
@@ -68,4 +72,4 @@ The two protocols are merged by running GHOST from the last finalised block as d
 
 In the normal case when blocks are being produced and $\geq \frac{2}{3}$  validators are voting on them, these blocks are added to the head of the chain by GHOST, and not long after justified and finalised by FFG (which considers the last few epochs).
 
-If there is an attack on the network and/or a large porportion of validators go offline, then GHOST continues adding new blocks. However, since GHOST is live, but not safe, it may change its mind about the head of the chain – this is because new blocks are continually added to the chain, which means nodes keep learning new information. FFG on the other hand, favours safety over liveness meaning that it stops finalising blocks until the network is stable enough for validators to vote consistently again.
+If there is an attack on the network and/or a large proportion of validators go offline, then GHOST continues adding new blocks. However, since GHOST is live, but not safe, it may change its mind about the head of the chain – this is because new blocks are continually added to the chain, which means nodes keep learning new information. FFG on the other hand, favours safety over liveness meaning that it stops finalising blocks until the network is stable enough for validators to vote consistently again.
