@@ -712,7 +712,7 @@ td.gutter pre {
   background-color: #fff;
 }
 .highlight > pre {
-  padding: 0;
+  padding: 0 0 0 8px;
 }
 td.code pre {
   border-width: 0 0 0 2px;
@@ -797,4 +797,18 @@ td.gutter {
   color: #808080;
   font-style: italic;
   font-size: 16px;
+}
+
+.archive-page ul {
+  list-style-type: none;
+  padding-inline-start: 11px; 
+}
+.archive-page a {
+  color: inherit;
+}
+.archive-page a:hover {
+  color: {{ site.hover-col }}
+}
+.archive-page ol li {
+  margin-bottom: .3em;
 }

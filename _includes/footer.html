@@ -24,27 +24,31 @@
           {%- endfor -%}
         </ul>
       <p class="copyright text-muted">
-      {{ site.author.name }}
-      &nbsp;&bull;&nbsp;
-      {{ site.time | date: '%Y' }}
+        {{ site.author.name }}
+        &nbsp;&bull;&nbsp;
+        {{ site.time | date: '%Y' }}
 
-      {% if site.url-pretty %}
-      &nbsp;&bull;&nbsp;
-      <a href="{{ site.url }}">{{ site.url-pretty }}</a>
-      {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
+        {% if site.url-pretty %}
+        &nbsp;&bull;&nbsp;
+        <a href="{{ site.url }}">{{ site.url-pretty }}</a>
         {% endif %}
-      {% endif%}
+
+        &nbsp;&bull;&nbsp;
+        <a href="/archive/">Blog Archive</a>
+
+        {% if site.matomo %}
+          {% if site.matomo.opt-out %}
+            &nbsp;&bull;&nbsp;
+            <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
+          {% endif %}
+        {% endif%}
+        
       </p>
-          <!-- Please don't remove this, keep my open source work credited :) -->
-    <p class="theme-by text-muted">
-      Theme by
-      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
-    </p>
+        <!-- Please don't remove this, keep my open source work credited :) -->
+        <p class="theme-by text-muted">
+          Theme by
+          <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+        </p>
       </div>
     </div>
   </div>
