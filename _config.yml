@@ -125,7 +125,8 @@ matomo:
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 80
+excerpt_separator: "##"
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
@@ -138,7 +139,7 @@ timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 
 kramdown:

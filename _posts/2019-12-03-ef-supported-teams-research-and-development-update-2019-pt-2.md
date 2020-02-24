@@ -5,6 +5,7 @@ title: 'EF-Supported Teams: Research & Development Update'
 subtitle: '2019 Pt. 2'
 date: '2019-12-03'
 author: Ethereum Foundation Team
+category: ESP
 ---
 
 <center><img src="https://blog.ethereum.org/img/2019/12/devcon-lights-edit.jpg" alt="Devcon Photo - Lights"></center>

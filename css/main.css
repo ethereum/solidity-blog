@@ -511,13 +511,13 @@ footer .theme-by {
   bottom: 0;
   display: none;
 }
-.post-heading .post-category-list {
+.post-category-list {
   list-style: none;
   padding: 0;
   margin: .5em 0;
 }
 
-.post-heading .post-category-list li {
+.post-category-list li {
   display: inline-block;
   margin-right: 6px;
   margin-bottom: 0.4em;
@@ -525,12 +525,17 @@ footer .theme-by {
 
 a[class^=category-] {
   display: inline-block;
+  font-size: 15px;
   border-radius: 6px;
   padding: 2px 9px 2px;
   background-color: #666;
   color: #fff;
   text-decoration: none;
 }
+a[class^=category-]:hover {
+  color: #fff
+}
+
 a.category-devcon                    { background-color: rgb(243, 206, 72); }
 a.category-esp                       { background-color: rgb(239,116,99); }
 a.category-organizational            { background-color: rgb(68,177,101); }
