@@ -7,7 +7,7 @@ meta_robots:  noindex
 ---
 
 <div class="posts-list">
-  {% assign sorted = (site.drafts | sort: 'date') | reverse %}
+  {% assign sorted = site.drafts | sort: 'date' | reverse %}
   {% for draft in sorted %}
     <div class="post">
     <a href="{{ draft.url | prepend: site.baseurl }}">
