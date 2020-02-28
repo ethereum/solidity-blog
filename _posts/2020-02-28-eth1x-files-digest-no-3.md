@@ -2,8 +2,9 @@
 layout: post
 published: true
 title: 'The 1.x Files: February call digest'
-date: '2020-02-27'
+date: '2020-02-28'
 author: Griffin Ichiba Hotchkiss
+category: 'Research & Development'
 ---
 
 ![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")
