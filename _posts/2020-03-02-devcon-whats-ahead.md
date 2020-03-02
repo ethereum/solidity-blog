@@ -1,14 +1,11 @@
 ---
 layout: post
 published: true
-title: 'Devcon: What's ahead?'
+title: 'Devcon: What is Ahead'
 date: '2020-03-02'
 author: Devcon Team
-categories:
-  - Devcon
+category: 'Devcon'
 ---
-
-# Devcon: What's ahead?
 
 ![Eth wallpaper](https://blog.ethereum.org/img/2019/09/eth-wallpaper.jpg)
 
