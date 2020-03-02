@@ -8,6 +8,8 @@ categories:
   - Devcon
 ---
 
+# Devcon: What's ahead?
+
 ![Eth wallpaper](https://blog.ethereum.org/img/2019/09/eth-wallpaper.jpg)
 
 ## What Devcon is all about
