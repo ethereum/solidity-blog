@@ -10,6 +10,8 @@ categories:
 
 ![Eth wallpaper](https://blog.ethereum.org/img/2019/09/eth-wallpaper.jpg)
 
+## What Devcon is all about
+
 Now that we’re well into the new year, our Devcon team wanted to share some of our thinking on what’s to come for Devcon this year. With new goals driving this year’s effort, we’ve learned from successes and challenges in recent years, and we’ll provide some early details on what’s ahead.
 
 For those that are new to the Ethereum family, Devcon is the only annual gathering held by the Ethereum Foundation, and it dates back to a small meetup in Berlin (ÐΞVcon-0) about a year prior to the launch of the network. For some members of the Ethereum ecosystem, Devcon is a family reunion of sorts, while for others it’s a large stage on which to speak to the latest breakthroughs on content ranging from technical research to application releases and more. 
