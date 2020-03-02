@@ -67,7 +67,7 @@ We’re well underway in planning for the first Devcon in which eth2’s beacon 
 
 As for this year’s region, the Devcon 6 search began prior to Devcon 5 with an understanding that the further ahead we are in terms of planning, the smoother the process will be for all attendees. After listening to community input, undergoing a thorough site-search in over 10 cities, we’re confident that we’ve landed a region and venue that are truly deserving of the event, and that accomplish every goal laid out above to help make this the best Devcon ever.
 
-**We’ll be announcing the location of Devcon 6 shortly --- keep an eye on the [EF Blog](blog.ethereum.org) for more on site-selection, and for early application information and more.** 
+**We’ll be announcing the location of Devcon 6 shortly --- keep an eye on the [EF Blog](https://blog.ethereum.org/) for more on site-selection, and for early application information and more.** 
 
 We hope that you’ll be as excited as we are and somewhat surprised when we share more information in the next Devcon update over the next few weeks 🌎. These updates will come a bit earlier than in previous years, so check back often!
 
