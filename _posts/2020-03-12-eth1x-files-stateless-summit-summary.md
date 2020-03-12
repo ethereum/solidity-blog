@@ -9,8 +9,6 @@ category: 'Research & Development'
 
 ![The 1.x Files](https://blog.ethereum.org/img/2019/12/the1xfiles_black.png "The truth is out there.")
 
-
-
 # The Stateless Ethereum Summit
 
 It'd be a fools errand to try and provide a representative or objective summary *immediately* following this week in Paris -- I and everyone else whom were present shall be spending the coming weeks refining our takeaways, and adjusting for the year ahead.
