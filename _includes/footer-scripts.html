@@ -18,7 +18,9 @@
 
 {% if layout.common-js %}
   {% for js in layout.common-js %}
+    {% comment %}
     <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    {% endcomment %}
     {% if js contains 'jquery' %}
       <script>
       	if (typeof jQuery == 'undefined') {
@@ -32,3 +34,4 @@
 {% endif %}
 
 {% include google_analytics.html %}
+{% include search-init.html %}

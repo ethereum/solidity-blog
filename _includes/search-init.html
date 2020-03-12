@@ -1,0 +1,87 @@
+<script>
+    function injectProperties(item) {
+        if (item.categories) {
+            item.categoriesMap = item.categories.map(e => {
+                return {
+                    name: e,
+                    slug: e.replace('&', 'and').replace(/\s+/g, '-').toLowerCase()
+                }
+            })
+        }
+
+        if (item.date) {
+            item.dateFormatted = new Date(item.date * 1000).toLocaleDateString()
+        }
+        console.log(item);
+        
+        return item
+    };
+
+    const search = instantsearch({
+        appId: '{{site.algolia.application_id}}',
+        apiKey: '{{site.algolia.api_key}}',
+        indexName: '{{site.algolia.index_name}}',
+        routing: true
+    });
+
+    // initialize SearchBox
+    search.addWidget(
+        instantsearch.widgets.searchBox({
+            container: '#search-box',
+            placeholder: 'Search for posts'
+        })
+    );
+
+    // initialize RefinementList
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+            container: '#search-refinement-list',
+            attributeName: 'categories'
+        })
+    );    
+    
+    // initialize currentRefinedValues
+    search.addWidget(
+        instantsearch.widgets.currentRefinedValues({
+        container: '#search-current-refined-values'
+        })
+    );
+
+    // initialize pagination
+    search.addWidget(
+        instantsearch.widgets.pagination({
+        container: '#search-pagination',
+        maxPages: 20,
+        })
+    );
+
+    {% raw %}
+    // initialize hits widget
+    search.addWidget(
+        instantsearch.widgets.hits({
+            // transformItems: c => {console.log(c); return c },
+            transformItems: c => c.map(e => injectProperties(e)),
+            container: '#search-hits',
+            templates: {
+                empty: 'No results',
+                item: `
+                    <h2><a href="{{url}}">{{{_highlightResult.title.value}}}</a></h2>
+                    <p>{{{_highlightResult.content.value}}}</p>
+                    <p class="post-meta">
+                        {{#categoriesMap}}
+                            <a href="/category/{{slug}}.html" class="category-{{slug}}">{{name}}</a>
+                        {{/categoriesMap}}
+                        {{#author}}
+                            <span><i class="fa fa-user-o" aria-hidden="true"></i> {{author}}</span>
+                        {{/author}}
+                        {{#dateFormatted}}
+                            <span><i class="fa fa-calendar-o"></i> {{dateFormatted}}</span>
+                        {{/dateFormatted}}
+                    </p>
+                `
+            }
+        })
+    );
+    {% endraw %}
+    search.start();
+</script>
