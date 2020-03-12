@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'The 1.x Files: Stateless Summit Summary'
-date: '2020-03-11'
+date: '2020-03-12'
 author: Griffin Ichiba Hotchkiss
 category: 'Research & Development'
 ---
