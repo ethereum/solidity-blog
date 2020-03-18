@@ -5,7 +5,7 @@ date:   2020-03-23
 author: Elena Gesheva
 ---
 
-In versions of Solidity before 0.6.x, developers typically used the fallback function to handle logic in two scenarios:
+In versions of Solidity before 0.6.x, developers typically used the [fallback function](https://solidity.readthedocs.io/en/v0.5.15/contracts.html#fallback-function) to handle logic in two scenarios:
 
  - contract received ether and no data
  - contract received data but no function matched the function called
@@ -49,7 +49,7 @@ outside the called contract. Sample implementation:
     }
 
 Calling the contract uses assembly code that we won't go into detail here,
-but you can read more in Zeppelin's documentation.
+but you can read more in [Zeppelin's documentation](https://docs.openzeppelin.com/upgrades/2.6/proxies).
 
 ## Splitting the fallback function
 
@@ -80,9 +80,9 @@ demonstrating this confusing behaviour is below.
         }
     }
 
-When calling CharitySplitter.donate() with a charity contract address,
-its processDonation function is correctly invoked to process the donation
-as expected. However if by mistake the Receiver contract address is passed,
+When calling `CharitySplitter.donate()` with a charity contract address,
+its `processDonation` function is correctly invoked to process the donation
+as expected. However if by mistake the `Receiver` contract address is passed,
 its fallback function ends up being called, swallowing the sent value.
 
     const goodCharity = await Charity.new();
@@ -103,22 +103,22 @@ confusion but can work in many cases.
 This is why in version 0.6.x, the fallback function was split into two
 separate functions:
 
- - `receive() external payable` — for empty calldata (and any value)
- - `fallback() external [payable]` — when no other function matches (not even the receive function). Optionally payable.
+ - [receive()](https://solidity.readthedocs.io/en/latest/contracts.html#receive-ether-function) `external payable` — for empty calldata (and any value)
+ - [fallback()](https://solidity.readthedocs.io/en/latest/contracts.html#fallback-function) `external payable` — when no other function matches (not even the receive function). Optionally `payable`.
 
 This separation provides an alternative to the fallback function for
 contracts that want to receive plain ether.
 
-## receive()
+### receive()
 
-A contract can now have only one receive function, declared with the syntax:
-`receive() external payable {…}` (without the function keyword).
+A contract can now have only one `receive` function, declared with the syntax:
+`receive() external payable {…}` (without the `function` keyword).
 
-It executes on calls to the contract with no data (calldata), e.g. calls made
+It executes on calls to the contract with no data (`calldata`), e.g. calls made
 via `send()` or `transfer()`.
 
 The function cannot have arguments, cannot return anything and must have
-external visibility and payable state mutability. To replicate the example
+`external` visibility and `payable` state mutability. To replicate the example
 above under 0.6.0, use the following code:
 
     pragma solidity ^0.5.0;
@@ -128,13 +128,13 @@ above under 0.6.0, use the following code:
         }
     }
 
-## fallback()
+### fallback()
 
 The fallback function now has a different syntax, declared using
-`fallback() external [payable] {…}` (without the function keyword). This
+`fallback() external [payable] {…}` (without the `function` keyword). This
 function cannot have arguments, cannot return anything and must have
-external visibility. The fallback function always receives data, but to
-also receive Ether, you should mark it as payable. To replicate the example
+`external` visibility. The fallback function always receives data, but to
+also receive Ether, you should mark it as `payable`. To replicate the example
 above under 0.6.0, use the following code:
 
     pragma solidity ^0.6.0;
@@ -156,7 +156,7 @@ above under 0.6.0, use the following code:
         }
     }
 
-## Migrated and fixed sample contract
+### Migrated and fixed sample contract
 
 Thus we translate the problematic contract to v0.6.x , having it declare a
 `receive()` function which only accepts incoming ether without data and
@@ -184,7 +184,7 @@ avoids the type confusion that led to the loss of value demonstrated above.
         }
     }
 
-The calls to the fixed contract will now revert when called with the Receiver contract address fails:
+The calls to the fixed contract will now revert when called with the `Receiver` contract address fails:
 
     // The following call now reverts
     await charitySplitter.donate(badCharity, { value: 10 });
