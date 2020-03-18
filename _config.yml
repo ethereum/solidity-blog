@@ -9,13 +9,13 @@
 
 # If you are building a GitHub project page then use these settings:
 # url: "https://ethereum.github.io/blog"
-url: "https://blog.ethereum.org"
+url: "https://solidity.ethereum.org"
 baseurl: ""
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Ethereum Blog
+title: "Solidity Blog"
 
 # Short description of your site
 description:
@@ -25,12 +25,12 @@ description:
 # List of links in the navigation bar
 navbar-links:
   Ethereum.org: "https://ethereum.org/"
-  Bug Bounty Program: "https://bounty.ethereum.org/"
+  Solidity Docs: "https://solidity.readthedocs.io/en/v0.6.4/"
   # Ethereum Research Forum: "https://ethresear.ch/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/avatar-icon.svg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -62,7 +62,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Ethereum Foundation
+  name: Solidity Team
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -70,15 +70,15 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "info@ethereum.org"
+  email: "solidity@ethereum.org"
   facebook: ethereumproject
   github: ethereum
-  twitter: ethereum
+  twitter: solidity_lang
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: ethereum
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+  stackoverflow: "https://ethereum.stackexchange.com/questions/tagged/solidity"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -111,10 +111,10 @@ url-pretty: "blog.ethereum.org"  # eg. "deanattali.com/beautiful-jekyll"
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
 
-matomo:
- site_id: "2"
- uri: "matomo.ethereum.org/piwik/"
- opt-out: true
+# matomo:
+#  site_id: "2"
+#  uri: "matomo.ethereum.org/piwik/"
+#  opt-out: true
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
@@ -243,12 +243,12 @@ collections:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-algolia
+  # - jekyll-algolia
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
-algolia:
-  application_id: DTH6Q9FCM4
-  index_name:     posts
-  api_key:        fdeaa347977a94617375900a9696e4ed
+# algolia:
+#   application_id: DTH6Q9FCM4
+#   index_name:     posts
+#   api_key:        fdeaa347977a94617375900a9696e4ed
