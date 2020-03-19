@@ -1,0 +1,3 @@
+[build]
+  # Build jekyll and updates search indexes
+  command = "jekyll build"
