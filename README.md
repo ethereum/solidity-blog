@@ -1,6 +1,6 @@
 # blog.ethereum.org
 
-This is the repository for blog entries to [blog.ethereum.org](https://blog.ethereum.org). A blog editor (currently Hudson Jameson) is required to approve draft posts and merge them into the gh-pages branch to be published on the live site. If these instructions are confusing to you or you'd rather just submit your blog directly to a blog editor instead of this repository reach out to the current editors.
+This is the repository for blog entries to [solidity.ethereum.org](https://solidity.ethereum.org). A blog editor is required to approve draft posts and merge them into the gh-pages branch to be published on the live site. If these instructions are confusing to you or you'd rather just submit your blog directly to a blog editor instead of this repository reach out to the current editors.
 
 ## Current blog editors
 #### Hudson Jameson - @Souptacular in the EF Discord or hudson@ethereum.org

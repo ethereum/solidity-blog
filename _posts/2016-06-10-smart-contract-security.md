@@ -4,10 +4,6 @@ title: Smart Contract Security
 date: 2016-06-10T18:27:17+00:00
 author: Christian Reitwiessner
 layout: post
-guid: https://blog.ethereum.org/?p=2729
-permalink: /2016/06/10/smart-contract-security/
-dsq_thread_id:
-  - "4899864711"
 ---
 Solidity was started in October 2014 when neither the Ethereum network nor the virtual machine had any real-world testing, the gas costs at that time were even drastically different from what they are now. Furthermore, some of the early design decisions were taken over from Serpent. During the last couple of months, examples and patterns that were initially considered best-practice were exposed to reality and some of them actually turned out to be anti-patterns. Due to that, we recently updated some of the <a href="https://solidity.readthedocs.org">Solidity documentation</a>, but as most people probably do not follow the stream of github commits to that repository, I would like to highlight some of the findings here.
 

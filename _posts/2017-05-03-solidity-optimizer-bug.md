@@ -4,8 +4,6 @@ title: Solidity optimizer bug
 date: 2017-05-03T15:21:57+00:00
 author: Martin Swende
 layout: post
-guid: https://blog.ethereum.org/?p=3831
-permalink: /2017/05/03/solidity-optimizer-bug/
 ---
 A bug in the Solidity optimizer was reported through the <a href="https://bounty.ethereum.org/" target="_blank">Ethereum Foundation Bounty program</a>, by Christoph Jentzsch. This bug is patched as of 2017-05-03, with the release of Solidity 0.4.11.
 <h3 id="background" class="part" data-startline="5" data-endline="5">Background</h3>
