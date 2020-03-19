@@ -1,141 +1,38 @@
-# blog.ethereum.org
 
-This is the repository for blog entries to [solidity.ethereum.org](https://solidity.ethereum.org). A blog editor is required to approve draft posts and merge them into the gh-pages branch to be published on the live site. If these instructions are confusing to you or you'd rather just submit your blog directly to a blog editor instead of this repository reach out to the current editors.
+## Welcome to GitHub Pages
 
-## Current blog editors
-#### Hudson Jameson - @Souptacular in the EF Discord or hudson@ethereum.org
-#### Joseph Schweitzer - @Joseph in the EF DIscord or joe@ethereum.org
+You can use the [editor on GitHub](https://github.com/ethereum/solidity-blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-## Features
-Blogs need to be written in [Markdown format](https://guides.github.com/features/mastering-markdown/). If you are unfamiliar with Markdown, see the **Useful Markdown Links** section at the bottom.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-You have the ability to embed images, YouTube videos, Twitter posts, code snippets, and GitHub gists into your blogs.
+### Markdown
 
-### Embed an image
-![alt text](https://github.com/ethereum/blog/blob/master/img/doge.jpg "Mouseover Text Here. Wow!")
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-Please put the image files in the `img/[YEAR]/[MONTH]` directory in the repo.
+```markdown
+Syntax highlighted code block
 
-```
-![alt text](https://github.com/ethereum/blog/blob/master/img/doge.jpg "Title Text Here. Wow!")
-```
+# Header 1
+## Header 2
+### Header 3
 
-If this step if confusing you can just send a blog editor the pictures and let them know where you want them in the blog.
+- Bulleted
+- List
 
-### Embed YouTube clips
-Paste the following into your blog entry, replacing T5RcjYPTG9g with the video ID found in the video URL.
+1. Numbered
+2. List
 
-`{% include youtubePlayer.html id="T5RcjYPTG9g" %}`
+**Bold** and _Italic_ and `Code` text
 
-### Embed Twitter posts
-Navigate to the Twitter post you want to embed. Clock on the arrow in the top-right corner of the tweet and click `Embed Tweet`. Copy the code and paste it into your blog.
-
-### Embed GitHub Gists
-Paste the following into your blog entry, replacing 8387126 with the Gist ID found in the Gist URL.
-
-`{% gist 8387126 %}`
-
-### Create a code snippet
-If you don't want to use a GitHub gist, you can highlight a code snippet. Replace "ruby" with a supported Rouge language.
-Visit [the Rouge site](http://rouge.jneen.net/) to see what languages are supported.
-
-```
-{% highlight ruby %}
-
-def foo
-
-  puts 'foo'
-
-end
-
-{% endhighlight %}
+[Link](url) and ![Image](src)
 ```
 
-or
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-\```
-code snippet goes here
-\```
+### Jekyll Themes
 
-## How to submit a blog post
-Create a .md document in the `_posts` folder in the `master branch` with a naming convention and header content (title, date, author, layout) similar to blog entries in the `_posts` folder (see examples below).
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ethereum/solidity-blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-You can create a new file by navigating to the `_posts` folder above and clicking `Create File`.
+### Support or Contact
 
-![Example create post](https://blog.ethereum.org/img/2019/readme/new_file.png)
-
-Trouble seeing the image or text? [Click here for the full size image.](https://blog.ethereum.org/img/2019/readme/new_file.png)
-
-### Naming convention and header content
-When naming a file use the following format:
-
-`YYYY-MM-DD-blog-title-in-all-lowercase-without-symbols.md`
-
-Example: `2019-09-19-example-title.md`
-
-When adding the header content use the following format:
-
-```
----
-layout: post
-published: true
-title: 'Example Title!'
-subtitle: 'Example subtitle!'
-date: '2019-09-19'
-author: Hudson Jameson
----
-```
-
-For an demonstration of the naming convention and the header content please see the GIF below:
-
-![Example post GIF](https://blog.ethereum.org/img/2019/readme/create_post_ani.gif)
-
-Trouble seeing the GIF or text? [Click here for the full size image.](https://blog.ethereum.org/img/2019/readme/create_post_ani.gif)
-
-Additionally please look at other blog posts in the `_posts` folder to make sure you are doing it correctly.
-
-## Publishing your blog post
-Once you create your blog post and put it in the `_posts` folder contact a blog editor who will look over the post to make sure it is formatted correctly. Once it is approved it will be merged into the `gh-pages` branch where it will be broadcast live to the interwebz. Only blog editors can push to that branch. It can take up to ten minutes for the blog post to propagate and display on [blog.ethereum.org](blog.ethereum.org). If you let Hudson Jameson or Joseph Schweitzer know ahead of time we can post a link to your blog on the official @ethereum Twitter, LinkedIn, Facebook, and /r/ethereum subreddit.
-
-## Useful Markdown links
-- [Markdown GitHub Page](https://guides.github.com/features/mastering-markdown/)
-- [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Alternative Markdown Editor (useful for creating tables)](https://hackmd.io/)
-
-## Local development
-
-### Prerequisites
-
-1. Open Terminal.
-
-2. Check whether you have Ruby 2.1.0 or higher installed:
-
-```
-$ ruby --version
-```
-
-3. If you don't have Ruby installed, install Ruby 2.1.0 or higher.
-
-4. Install Bundler:
-
-```
-$ gem install bundler
-```
-
-5. Install dependencies:
-
-```
-$ bundle install
-```
-
-## Build your local Jekyll site
-
-1. Bundle assets and start the server:
-
-```
-$ bundle exec jekyll serve
-```
-
-2. Preview your local Jekyll site in your web browser at `http://localhost:4000`.
-
-More information on Jekyll and Github pages [here](https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll).
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
