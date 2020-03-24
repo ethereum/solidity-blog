@@ -1,0 +1,10 @@
+{% for category in site.categories %}
+  {% if category[0] == include.category_name %}
+    <h3>All {{ category[0] }} posts:</h3>
+    <div class="posts-list">
+      {% for post in category[1] %}
+        {% include post-preview.html post=post %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
