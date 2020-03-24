@@ -6,6 +6,8 @@ jobs:
     <<: *defaults
     docker:
       - image: circleci/ruby:2.5
+    environment:
+      BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
       - restore_cache:
