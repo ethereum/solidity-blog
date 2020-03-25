@@ -70,14 +70,14 @@ author:
 social-network-links:
   rss: true
   email: "solidity@ethereum.org"
-  facebook: ethereumproject
+  # facebook: ethereumproject
   github: ethereum
   twitter: solidity_lang
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: ethereum
 #  xing: yourname
-  stackoverflow: "https://ethereum.stackexchange.com/questions/tagged/solidity"
+  # stackoverflow: "https://ethereum.stackexchange.com/questions/tagged/solidity"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
