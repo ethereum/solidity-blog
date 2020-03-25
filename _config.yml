@@ -243,12 +243,6 @@ collections:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  # - jekyll-algolia
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-# algolia:
-#   application_id: DTH6Q9FCM4
-#   index_name:     posts
-#   api_key:        fdeaa347977a94617375900a9696e4ed
