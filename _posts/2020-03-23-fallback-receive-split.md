@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Solidity 0.6.x features: fallback and receive functions"
-date:   2020-03-23
+date:   2020-03-26
 author: Elena Gesheva
 ---
 
