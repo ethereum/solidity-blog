@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://ethereum.github.io"
-baseurl: "/solidity-blog"
+url: "https://solidity.ethereum.org"
+baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
 #url: "https://solidity.ethereum.org"
@@ -29,7 +29,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.svg"
+avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -70,14 +70,14 @@ author:
 social-network-links:
   rss: true
   email: "solidity@ethereum.org"
-  facebook: ethereumproject
+  # facebook: ethereumproject
   github: ethereum
   twitter: solidity_lang
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: ethereum
 #  xing: yourname
-  stackoverflow: "https://ethereum.stackexchange.com/questions/tagged/solidity"
+  # stackoverflow: "https://ethereum.stackexchange.com/questions/tagged/solidity"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -243,12 +243,6 @@ collections:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  # - jekyll-algolia
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-# algolia:
-#   application_id: DTH6Q9FCM4
-#   index_name:     posts
-#   api_key:        fdeaa347977a94617375900a9696e4ed
