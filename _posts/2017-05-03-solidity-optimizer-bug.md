@@ -1,12 +1,12 @@
 ---
 id: 3831
-title: Solidity optimizer bug
+title: Solidity Optimizer Bug
 date: 2017-05-03T15:21:57+00:00
 author: Martin Swende
 layout: post
 ---
 A bug in the Solidity optimizer was reported through the <a href="https://bounty.ethereum.org/" target="_blank">Ethereum Foundation Bounty program</a>, by Christoph Jentzsch. This bug is patched as of 2017-05-03, with the release of Solidity 0.4.11.
-<h3 id="background" class="part" data-startline="5" data-endline="5">Background</h3>
+<h2 id="background" class="part" data-startline="5" data-endline="5">Background</h2>
 <p class="part" data-startline="7" data-endline="7">The bug in question concerned how the optimizer optimizes on constants in the byte code. By "byte code constants", we mean anything which is <code>PUSH</code>ed on the stack (not to be confused with Solidity constants). For example, if the value <code>0xfffffffffffffffffffffffffffffffffffffffffffffffe</code> is <code>PUSH</code>ed, then the optimizer can either do <code>PUSH32 0xfffffffffffffffffffffffffffffffffffffffffffffffe</code>, or choose to encode this as <code>PUSH1 1; NOT;</code>.</p>
 <p class="part" data-startline="9" data-endline="9">An error in the optimizer made optimizations of byte code constants fail for certain cases by producing a routine that did not properly recreate the original constant.</p>
 <p class="part" data-startline="11" data-endline="11">The behavior described in the reported bug was found in a contract in which one method ceased functioning when another - totally unrelated - method was added to the contract. After analysis, it was determined that a number of conditions must exist at once for the bug to trigger. Any combination of conditions that would trigger the bug would consistently have the following two conditions:</p>
