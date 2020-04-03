@@ -13,13 +13,14 @@ Another important bug has already been fixed in version 0.4.22 but it was only d
 Note that the Ethereum Foundation runs a [bounty program](https://bounty.ethereum.org/) for the code generator part of Solidity.
 
 ## Cleanup of Exponent in Exponentiation
+<br>
 
 * Likelihood of occurrence: very low
 * Exploitability: high
 * Discoverability by tests: low
 * Fixed in version: 0.4.25
 
-Summary: Using short types in the exponent of an exponentiation operation can lead to invalid results.
+**Summary:** Using short types in the exponent of an exponentiation operation can lead to invalid results.
 
 The Solidity language allows integer types that are shorter than 256 bits, even though the Ethereum Virtual Machine
 only knows types of exactly 256 bits. Because of that, higher order bits need to be set to zero from time to time.
@@ -41,6 +42,7 @@ This bug was found by [nweller](https://github.com/nweller).
 
 
 ## Memory Corruption in Multi-Dimensional Array Decoder
+<br>
 
 * Likelihood of occurrence: low
 * Exploitability: medium
@@ -48,7 +50,7 @@ This bug was found by [nweller](https://github.com/nweller).
 * Introduced in version: 0.1.4
 * Fixed in version: 0.4.22
 
-Summary: Calling functions of other contracts that return multi-dimensional fixed-size arrays results in memory corruption.
+**Summary:** Calling functions of other contracts that return multi-dimensional fixed-size arrays results in memory corruption.
 
 If Solidity code calls a function that returns a multi-dimensional fixed-size array,
 the returned ABI-encoded data has to be converted to Solidity's internal representation
@@ -65,6 +67,7 @@ that is returned from a function call from Solidity.
 This bug was found by [jmahhh](https://github.com/jmahhh).
 
 ## Invalid Encoding of Structs in Events
+<br>
 
 * Likelihood of occurrence: low
 * Exploitability: low
@@ -72,7 +75,7 @@ This bug was found by [jmahhh](https://github.com/jmahhh).
 * Introduced in version: 0.4.17
 * Fixed in version: 0.4.25
 
-Summary: Structs as event parameters are not handled properly.
+**Summary:** Structs as event parameters are not handled properly.
 
 Structs were not meant to be supported as event parameters without the new ABI encoder.
 The compiler did accept them nevertheless, but encoded their memory address instead of their actual value.
