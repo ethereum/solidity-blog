@@ -1,13 +1,11 @@
 ---
 layout: post
 published: true
-title: Solidity Optimizer and ABIEncoderV2 Bug
+title: Solidity Optimizer and ABIEncoderV2 Bugs
 subtitle:
 date: '2019-03-26'
 author: Solidity and Security Team
 ---
-
-# Solidity Optimizer and ABIEncoderV2 Bug Announcement
 
 Through the Ethereum bug bounty program, we received a report about a flaw within the new experimental ABI encoder (referred to as ABIEncoderV2). Upon investigation, it was found that the component suffers from a few different variations of the same type. The first part of this announcement explains this bug in detail. The new ABI encoder is still marked as experimental, but we nevertheless think that this deserves a prominent announcement since it is already used on mainnet.
 
@@ -81,20 +79,20 @@ The bug, when triggered, will under certain circumstances send corrupt parameter
 # Timeline
 
 
-2019-03-16:  
+#### 2019-03-16:  
 * Report via bug bounty, about corruption caused when reading from arrays of booleans directly from storage into ABI encoder.
 
-2019-03-16 to 2019-03-21:
+#### 2019-03-16 to 2019-03-21:
 * Investigation of root cause, analysis of affected contracts. An unexpectedly high count of contracts compiled with the experimental encoder were found deployed on mainnet, many without verified source-code.
 * Investigation of bug found more ways to trigger the bug, e.g. using structs. Furthermore, an array overflow bug was found in the same routine.
 * A handful of contracts found on Github were checked, and none were found to be affected. 
 * A bugfix to the ABI encoder was made.
 
-2019-03-20:
+#### 2019-03-20:
 * Decision to make information public.
 * Reasoning: It would not be feasible to detect all vulnerable contracts and reach out to all authors in a timely manner, and it would be good to prevent further proliferation of vulnerable contracts on mainnet.
 
-2019-03-26:
+#### 2019-03-26:
 * New compiler release, version 0.5.7.
 * This post released.
 
@@ -137,4 +135,4 @@ These two bugs have been identified through the recent addition of Solidity to [
 2. The optimizer incorrectly handles the ``byte`` opcode if the constant 31 is used as second argument. This can happen when performing index access on ``bytesNN`` types with a compile-time constant value (not index) of 31 or when using the byte opcode in inline assembly.
 
 
-This post was jointly composed by @axic, @chriseth, @holiman
+This post was jointly composed by @axic, @chriseth, @holiman.
