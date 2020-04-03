@@ -7,8 +7,6 @@ date: '2019-06-25'
 author: Solidity and Security Team
 ---
 
-# Solidity Storage Array Bug Announcement
-
 This blog post is about two bugs connected to storage arrays which are otherwise unrelated. Both have been present in the compiler for a long time and have only been discovered now even though a contract containing them should very likely show malfunctions in tests.
 
 [Daenam Kim](https://www.linkedin.com/in/daenamkim/) with help from [Nguyen Pham](https://www.linkedin.com/in/nguyen-pham-635748161/), both from [Curvegrid](https://www.curvegrid.com/) discovered an issue where invalid data is stored in connection with arrays of signed integers.
@@ -54,7 +52,6 @@ Which bits to zero out was incorrectly determined from the source and not the ta
 
 ## Who should be concerned
 
-
 If you have deployed contracts which use the experimental ABI encoder V2, then those might be affected. This means that only contracts which use the following directive within the source code can be affected:
 
 
@@ -63,9 +60,7 @@ If you have deployed contracts which use the experimental ABI encoder V2, then t
 
 Additionally, there are a number of requirements for the bug to trigger. See technical details further below for more information. 
 
-
 ## How to check if contract is vulnerable
-
 
 The bug only manifests itself when all of the following conditions are met:
 * Storage data involving arrays or structs is sent directly to an external function call, to ``abi.encode`` or to event data without prior assignment to a local (memory) variable AND
@@ -76,15 +71,12 @@ In addition to that, in the following situation, your code is NOT affected:
 
 ## Possible consequences
 
-
 Naturally, any bug can have wildly varying consequences depending on the program control flow, but we expect that this is more likely to lead to malfunction than exploitability. 
-
 
 The bug, when triggered, will under certain circumstances send corrupt parameters on method invocations to other contracts. 
 
 
 ## Technical details
-
 
 During the encoding process, the experimental ABI encoder does not properly advance to the next element in an array in case the elements occupy more than a single slot in storage.
 
@@ -93,4 +85,4 @@ This is only the case for elements that are structs or statically-sized arrays. 
 The specific effect you will see is that data is "shifted" in the encoded array: If you have an array of type ``uint[2][]`` and it contains the data
 ``[[1, 2], [3, 4], [5, 6]]``, then it will be encoded as ``[[1, 2], [2, 3], [3, 4]]`` because the encoder only advances by a single slot between elements instead of two.
 
-This post was jointly composed by @axic, @chriseth, @holiman
+This post was jointly composed by @axic, @chriseth, @holiman.
