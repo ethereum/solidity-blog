@@ -1,6 +1,6 @@
 ---
 id: 3363
-title: 'Security Alert &#8211; Solidity &#8211; Variables can be overwritten in storage'
+title: 'Security Alert: Variables can be overwritten in storage'
 date: 2016-11-01T08:40:44+00:00
 author: Christian Reitwiessner
 layout: post
