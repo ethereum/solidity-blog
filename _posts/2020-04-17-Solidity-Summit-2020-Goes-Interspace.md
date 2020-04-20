@@ -40,7 +40,7 @@ We would like to stress that this summit will be focusing especially on language
 
 There are two options how you can participate during the summit: 
 1. **Join the Jitsi video conference.** This option is recommended for speakers and people that would like to actively participate in the open discussion sessions.
-2. **Watch the livestream.** This option is recommended for attendees that would rather just listen in and allows to do other things at the same time (not recommended ;))/ saves CPU. Asking questions during Q&A will stil be possible using the chat. 
+2. **Watch the livestream.** This option is recommended for attendees that would rather just listen in and allows to do other things at the same time (not recommended ;))/ saves CPU. Asking questions during Q&A will be possible using the chat. 
 
 Unless you actively want to participate/ talk/ present during the respective session, we recommend using the livestream option to ensure a smooth experience for everyone.
 
