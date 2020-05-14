@@ -4,7 +4,7 @@ published: true
 title: 'Solidity 0.6.x features: Saving Storage Costs with Immutables'
 date: '2020-05-13'
 author: Daniel Kirchner
-category:
+category: Explainers
 ---
 
 With [version 0.6.5](https://github.com/ethereum/solidity/releases/tag/v0.6.5), Solidity introduced the 

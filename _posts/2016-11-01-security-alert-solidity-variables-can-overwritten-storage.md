@@ -1,12 +1,13 @@
 ---
-id: 3363
-title: 'Security Alert: Variables can be overwritten in storage'
-date: 2016-11-01T08:40:44+00:00
-author: Christian Reitwiessner
 layout: post
-guid: https://blog.ethereum.org/?p=3363
-permalink: /2016/11/01/security-alert-solidity-variables-can-overwritten-storage/
+published: true
+title: 'Security Alert: Variables can be overwritten in storage'
+date: '2016-11-01'
+author: Christian Reitwiessner
+category: Security Alerts
 ---
+_This post was originally published on the [Ethereum blog](https://blog.ethereum.org/2016/11/01/security-alert-solidity-variables-can-overwritten-storage/)._
+
 <strong>Summary:</strong> In some situations, variables can overwrite other variables in storage.
 
 <strong>Affected Solidity compiler versions: </strong>0.1.6 to 0.4.3 (including 0.4.4 pre-release versions)

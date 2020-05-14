@@ -1,8 +1,10 @@
 ---
 layout: post
+published: true
 title:  "Solidity Memory Array Creation Overflow Bug"
 date:   2020-04-06
 author: Solidity Team
+category: Security Alerts
 ---
 
 On the 28th of March, a bug in the Solidity code generator was reported through the

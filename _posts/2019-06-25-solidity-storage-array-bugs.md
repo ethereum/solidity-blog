@@ -1,11 +1,12 @@
 ---
 layout: post
 published: true
-title: Solidity Storage Array Bugs
-subtitle:
+title: 'Solidity Storage Array Bugs'
 date: '2019-06-25'
 author: Solidity and Security Team
+category: Security Alerts
 ---
+_This post was originally published on the [Ethereum blog](https://blog.ethereum.org/2019/06/25/solidity-storage-array-bugs/)._
 
 This blog post is about two bugs connected to storage arrays which are otherwise unrelated. Both have been present in the compiler for a long time and have only been discovered now even though a contract containing them should very likely show malfunctions in tests.
 
