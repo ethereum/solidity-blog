@@ -17,7 +17,7 @@ Please note that the three bugs outlined below have all been rated with a severi
 
 ### Incorrect Internal Escaping of String Literals
 
-**Problem**: When ABIEncoderV2 is enabled, string literals passed directly to encoding functions or external function calls are stored as strings in the intemediate code. Characters outside the printable range are handled correctly, but backslashes are not escaped in this procedure. This leads to double backslashes being reduced to single backslashes and consequently re-interpreted as escapes potentially resulting in a different string being encoded.
+**Problem**: When ABIEncoderV2 is enabled, string literals passed directly to encoding functions or external function calls are stored as strings in the intermediate code. Characters outside the printable range are handled correctly, but backslashes are not escaped in this procedure. This leads to double backslashes being reduced to single backslashes and consequently re-interpreted as escapes potentially resulting in a different string being encoded.
 
 **Solution**: String literals containing backslash characters are now properly escaped.
 
