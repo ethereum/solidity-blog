@@ -7,7 +7,7 @@ author: Solidity Team
 category: Announcements
 ---
 
-[Solidity v0.6.8](https://github.com/ethereum/solidity/releases/tag/v0.6.8) fixes three important bugs in the code generator and introduces a recommendation to use [SPDX license identifiers](https://https://spdx.dev/ids/#how). Furthermore, support for WebAssembly has been extended and it is now possible to access the `min` and `max` values of an integer type directly.
+[Solidity v0.6.8](https://github.com/ethereum/solidity/releases/tag/v0.6.8) fixes three important bugs in the code generator and introduces a recommendation to use [SPDX license identifiers](https://spdx.dev/ids/#how). Furthermore, support for WebAssembly has been extended and it is now possible to access the `min` and `max` values of an integer type directly.
 
 Please upgrade if you are using array slices, backslashes in string literals for ABIEncoderV2 or are concerned about non-payable constructors.
 
