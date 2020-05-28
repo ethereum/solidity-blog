@@ -1,10 +1,13 @@
 ---
-id: 3831
-title: Solidity Optimizer Bug
-date: 2017-05-03T15:21:57+00:00
-author: Martin Swende
 layout: post
+published: true
+title: 'Solidity Optimizer Bug'
+date: '2017-05-03'
+author: Martin Swende
+category: Security Alerts
 ---
+_This post was originally published on the [Ethereum blog](https://blog.ethereum.org/2017/05/03/solidity-optimizer-bug/)._
+
 A bug in the Solidity optimizer was reported through the <a href="https://bounty.ethereum.org/" target="_blank">Ethereum Foundation Bounty program</a>, by Christoph Jentzsch. This bug is patched as of 2017-05-03, with the release of Solidity 0.4.11.
 <h2 id="background" class="part" data-startline="5" data-endline="5">Background</h2>
 <p class="part" data-startline="7" data-endline="7">The bug in question concerned how the optimizer optimizes on constants in the byte code. By "byte code constants", we mean anything which is <code>PUSH</code>ed on the stack (not to be confused with Solidity constants). For example, if the value <code>0xfffffffffffffffffffffffffffffffffffffffffffffffe</code> is <code>PUSH</code>ed, then the optimizer can either do <code>PUSH32 0xfffffffffffffffffffffffffffffffffffffffffffffffe</code>, or choose to encode this as <code>PUSH1 1; NOT;</code>.</p>

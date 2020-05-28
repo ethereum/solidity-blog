@@ -4,7 +4,7 @@ published: true
 title: 'Solidity Summit 2020 Goes Interspace'
 date: '2020-04-17'
 author: Franziska Heintel
-category:
+category: Announcements
 ---
 
 **Tl;dr:** As already [announced on Twitter](https://twitter.com/solidity_lang/status/1244645576735690752?s=20), we transformed the Solidity Summit, which was initially planned to be an in-person meeting in Berlin, into an online event. Today, we are excited to share that the summit will be powered by [Interspace.Chat](https://github.com/interspacechat/interspace.chat). Interspace is a virtual meeting infrastructure based on self-hosted [Jitsi](https://jitsi.org/) video chat rooms. Check out the Solidity Summit's preliminary event agenda [here](https://docs.google.com/spreadsheets/d/1ylkaTYKx9TbAifCgyH2jN9SKJKrYfzab9zzTZgSL44g/edit#gid=2065734219) and make sure to [register](https://solidity-summit.ethereum.org/) if you want to partipate!

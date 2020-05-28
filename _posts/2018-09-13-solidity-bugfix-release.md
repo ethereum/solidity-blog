@@ -1,10 +1,12 @@
 ---
 layout: post
 published: true
-title: Solidity Bugfix Release
+title: 'Solidity Bugfix Release'
 date: '2018-09-13'
 author: Solidity Team
+category: Security Alerts
 ---
+_This post was originally published on the [Ethereum blog](https://blog.ethereum.org/2018/09/13/solidity-bugfix-release/)._
 
 The latest [version 0.4.25 release of Solidity](https://github.com/ethereum/solidity/releases/tag/v0.4.25) fixes
 two important bugs.

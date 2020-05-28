@@ -1,11 +1,12 @@
 ---
 layout: post
 published: true
-title: Solidity Optimizer and ABIEncoderV2 Bugs
-subtitle:
+title: 'Solidity Optimizer and ABIEncoderV2 Bugs'
 date: '2019-03-26'
 author: Solidity and Security Team
+category: Security Alerts
 ---
+_This post was originally published on the [Ethereum blog](https://blog.ethereum.org/2019/03/26/solidity-optimizer-and-abiencoderv2-bug/)._
 
 Through the Ethereum bug bounty program, we received a report about a flaw within the new experimental ABI encoder (referred to as ABIEncoderV2). Upon investigation, it was found that the component suffers from a few different variations of the same type. The first part of this announcement explains this bug in detail. The new ABI encoder is still marked as experimental, but we nevertheless think that this deserves a prominent announcement since it is already used on mainnet.
 

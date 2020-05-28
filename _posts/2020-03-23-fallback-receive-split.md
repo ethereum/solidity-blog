@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Solidity 0.6.x features: fallback and receive functions"
-date:   2020-03-26
+published: true
+title: 'Solidity 0.6.x features: fallback and receive functions'
+date: '2020-03-26'
 author: Elena Gesheva
+category: Explainers
 ---
 
 In versions of Solidity before 0.6.x, developers typically used the [fallback function](https://solidity.readthedocs.io/en/v0.5.15/contracts.html#fallback-function) to handle logic in two scenarios:
