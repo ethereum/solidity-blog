@@ -16,12 +16,14 @@ events or forward the ether. The function executes when a contract is called
 without any data e.g. via `.send()` or `.transfer()` functions. The 0.5.x
 syntax is:
 
+```solidity
     pragma solidity ^0.5.0;
     contract Charity {
         function() external payable {
             // React to receiving ether
         }
     }
+```
 
 The second use case was made popular by the "delegate proxy" pattern
 for implementing upgradable contracts. It has a simple Proxy contract that
@@ -30,13 +32,14 @@ function in the contract matches the function identifier in the call data.
 This permits the "delegate proxy" pattern where functionality is implemented
 outside the called contract. Sample implementation:
 
+```solidity
     pragma solidity ^0.5.0;
     contract DelegateProxy {
         address internal implementation;
-        
+
         function() external payable {
             address addr = implementation;
-        
+
             assembly {
                 calldatacopy(0, 0, calldatasize())
                 let result := delegatecall(gas(), addr, 0, calldatasize(), 0, 0)
@@ -47,6 +50,7 @@ outside the called contract. Sample implementation:
             }
         }
     }
+```
 
 Calling the contract uses assembly code that we won't go into detail here,
 but you can read more in [Zeppelin's documentation](https://docs.openzeppelin.com/upgrades/2.6/proxies).
@@ -59,6 +63,7 @@ it is also called when a function is missing from a contract. And confusingly,
 as this was expected behaviour, no error was reported. Example implementation
 demonstrating this confusing behaviour is below.
 
+```solidity
     pragma solidity ^0.5.0;
     contract Charity {
         mapping (address => uint256) public donations;
@@ -79,12 +84,14 @@ demonstrating this confusing behaviour is below.
             charity.processDonation.value(msg.value)(msg.sender);
         }
     }
+```
 
 When calling `CharitySplitter.donate()` with a charity contract address,
 its `processDonation` function is correctly invoked to process the donation
 as expected. However if by mistake the `Receiver` contract address is passed,
 its fallback function ends up being called, swallowing the sent value.
 
+```solidity
     const goodCharity = await Charity.new();
     const receiver = await Receiver.new();
     const badCharity = await Charity.at(receiver.address);
@@ -94,6 +101,7 @@ its fallback function ends up being called, swallowing the sent value.
     // Triggers the underlying Receiver fallback function
     // 10 wei is acquired and ValueReceived event emitted 
     await charitySplitter.donate(badCharity, { value: 10 });
+```
 
 Since the EVM is untyped, Solidity is unable to check the actual type of a
 contract from its address and has to rely on what the user supplies. The
@@ -121,12 +129,14 @@ The function cannot have arguments, cannot return anything and must have
 `external` visibility and `payable` state mutability. To replicate the example
 above under 0.6.0, use the following code:
 
+```solidity
     pragma solidity ^0.5.0;
     contract Charity {
         receive() external payable {
             // React to receiving ether
         }
     }
+```
 
 ### fallback()
 
@@ -137,6 +147,7 @@ function cannot have arguments, cannot return anything and must have
 also receive Ether, you should mark it as `payable`. To replicate the example
 above under 0.6.0, use the following code:
 
+```solidity
     pragma solidity ^0.6.0;
 
     contract DelegateProxy {
@@ -155,6 +166,7 @@ above under 0.6.0, use the following code:
             }
         }
     }
+```
 
 ### Migrated and fixed sample contract
 
@@ -162,6 +174,7 @@ Thus we translate the problematic contract to v0.6.x , having it declare a
 `receive()` function which only accepts incoming ether without data and
 avoids the type confusion that led to the loss of value demonstrated above.
 
+```solidity
     pragma solidity ^0.6.0;
     contract Charity {
         mapping (address => uint256) public donations;
@@ -183,10 +196,13 @@ avoids the type confusion that led to the loss of value demonstrated above.
             charity.processDonation{value:msg.value}(msg.sender);
         }
     }
+```
 
 The calls to the fixed contract will now revert when called with the `Receiver` contract address fails:
 
+```solidity
     // The following call now reverts
     await charitySplitter.donate(badCharity, { value: 10 });
+```
 
 We hope you find the logical division of the fallback function clearer for your design, and welcome any feedback you have on the new syntax.

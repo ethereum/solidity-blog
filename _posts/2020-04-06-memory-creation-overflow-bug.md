@@ -34,6 +34,7 @@ the transaction will revert with out-of-gas, since the array length is stored co
 
 Safe example:
 
+```solidity
     contract C {
         function f(uint length) public {
             uint[] memory x = new uint[](length);
@@ -44,9 +45,11 @@ Safe example:
             ...
         }
     }
+```
 
 Another safe example:
 
+```solidity
     contract C {
         uint[] x;
         function f(uint length) public {
@@ -56,9 +59,11 @@ Another safe example:
             ...
         }
     }
+```
 
 Potentially vulnerable example:
 
+```solidity
     contract C {
         function f(uint length, AnotherContract c, uint index) public {
             uint[] memory x = new uint[](length);
@@ -70,7 +75,7 @@ Potentially vulnerable example:
             c.h(y);
         }
     }
-
+```
 
 ## Technical details
 

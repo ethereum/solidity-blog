@@ -56,6 +56,3 @@ Once we're live, you'll be able to find all links you need in one place:
 To not miss any update on the Solidity Summit, follow us on [Twitter](https://twitter.com/solidity_lang).
 
 **Can't wait to see you in(ter)space soon!**
-
-
-
