@@ -50,6 +50,3 @@ Community:
 </ul>
 </div>
 </section>
-
-<div id="disqus_link_container"></div>
-<script>jQuery(document).ready(function() { EthBlogUtils.display_disqus_link();});</script>
