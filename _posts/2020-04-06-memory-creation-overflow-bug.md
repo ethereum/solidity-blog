@@ -8,8 +8,8 @@ category: Security Alerts
 ---
 
 On the 28th of March, a bug in the Solidity code generator was reported through the
-<a href="https://bounty.ethereum.org/">Ethereum Foundation Bounty program</a>,
-by John Toman of <a href="https://www.certora.com/">Certora</a>. The bug is fixed with version 0.6.5,
+[Ethereum Foundation Bounty program](https://bounty.ethereum.org/),
+by John Toman of [Certora](https://www.certora.com/). The bug is fixed with version 0.6.5,
 released on 2020-04-06.
 The bug is present in all prior versions of Solidity.
 
