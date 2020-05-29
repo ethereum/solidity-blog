@@ -11,8 +11,7 @@ category: Announcements
 your dapp today by leveraging the power of open source. Increase awareness and give more transparency on what users 
 are *actually* doing when interacting with your code on the blockchain, i.e. when signing a transaction, by publishing 
 the source code to this decentralized repository and using metadata files, which translate “random” hex strings into 
-human-readable language. Sourcify is a tool to help you do exactly that. If you want to upload your source code, either 
-visit verification.komputing.org, the [Sourcify Github repo](https://github.com/ethereum/sourcify) or use the Sourcify 
+human-readable language. Sourcify is a tool to help you do exactly that. If you want to upload your source code, either visit [verification.komputing.org](https://verification.komputing.org/), the [Sourcify Github repo](https://github.com/ethereum/sourcify) or use the Sourcify 
 plugin in Remix. To learn how Sourcify works and why it matters, read the whole blog post.
 
 You might already know Sourcify under the name “Source-Verify”/ ”Source-Verifier” - don’t despair, we just decided to give 
@@ -23,7 +22,7 @@ Think about the following: How many developers of the dapps you are using do you
 
 Let’s imagine you want to interact with a dapp using MetaMask and it shows you this dialogue: 
 
-![](https://i.imgur.com/CjzXm9p.png)
+![Yolo Signing](https://github.com/ethereum/solidity-blog/blob/master/img/2020/05/MetaMask_Yolosign.png "Yolo Signing is bad for you!)
 
 *You Only Live Once (YOLO)  Signing - confirm at your peril*
 
@@ -51,7 +50,7 @@ Sourcify tries to make the process of source verification (step 2 in the list ab
 how you can make use of the tool. 
 
 You can either...
-* Use the interface hosted on verification.komputing.org
+* Use the interface hosted on [verification.komputing.org](https://verification.komputing.org/)
 * Use [Remix](https://remix.ethereum.org/) plugins (we’ll show you a play by play in one of the following posts!)
 * Publish each source code file and the metadata file to [IPFS](https://docs.ipfs.io/concepts/what-is-ipfs/) manually 
 (Sourcify will then pick it up automatically around the time of deployment)
@@ -66,9 +65,9 @@ Sourcify is a project on the Ethereum blockchain that:
 * Checks that it is the same as the deployed code.
 * Permanently stores the source code, ABI and other metadata on IPFS.
 
-![](https://i.imgur.com/FewKPRF.png)
+![Sourcify Flowchart](https://github.com/ethereum/solidity-blog/blob/master/img/2020/05/Sourcify_Flowchart.png "Sourcify Verification Flow")
 
-*Source Verification Flow*
+*Sourcify Verification Flow*
 
 Sourcify has a monitoring service that listens to new blocks which are mined on an Ethereum blockchain. Currently it is 
 monitoring the Ethereum mainnet and the Rinkeby and Goerli testnets.
