@@ -23,7 +23,7 @@ Think about the following: How many developers of the dapps you are using do you
 
 Let’s imagine you want to interact with a dapp using MetaMask and it shows you this dialogue: 
 
-![Yolo Signing](img/2020/05/MetaMask_Yolosign.pngimg/2020/05/MetaMask_Yolosign.png)
+![Yolo Signing](img/2020/05/MetaMask_Yolosign.png)
 
 *You Only Live Once (YOLO)  Signing - confirm at your peril*
 
