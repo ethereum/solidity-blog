@@ -540,11 +540,10 @@ a[class^=category-]:hover {
   color: #fff
 }
 
-a.category-devcon                    { background-color: rgb(243, 206, 72); }
-a.category-esp                       { background-color: rgb(239,116,99); }
-a.category-organizational            { background-color: rgb(68,177,101); }
-a.category-research-and-development  { background-color: rgb(138,81,153); }
-a.category-security                  { background-color: rgb(25,158,201); }
+a.category-announcements   { background-color: #5D92E3 }
+a.category-explainers      { background-color: #CE66A4 }
+a.category-releases        { background-color: #F1C73F }
+a.category-security-alerts { background-color: #F0978B }
 
 @media only screen and (min-width: 768px) {
   .intro-header {
