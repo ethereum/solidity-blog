@@ -15,7 +15,6 @@ Another important bug has already been fixed in version 0.4.22 but it was only d
 Note that the Ethereum Foundation runs a [bounty program](https://bounty.ethereum.org/) for the code generator part of Solidity.
 
 ## Cleanup of Exponent in Exponentiation
-<br>
 
 * Likelihood of occurrence: very low
 * Exploitability: high
@@ -44,7 +43,6 @@ This bug was found by [nweller](https://github.com/nweller).
 
 
 ## Memory Corruption in Multi-Dimensional Array Decoder
-<br>
 
 * Likelihood of occurrence: low
 * Exploitability: medium
@@ -69,7 +67,6 @@ that is returned from a function call from Solidity.
 This bug was found by [jmahhh](https://github.com/jmahhh).
 
 ## Invalid Encoding of Structs in Events
-<br>
 
 * Likelihood of occurrence: low
 * Exploitability: low
