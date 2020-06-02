@@ -18,6 +18,7 @@ You might already know Sourcify under the name “Source-Verify”/ ”Source-Ve
 it a nicer name!
 
 ## YOLO Signing - One of Today’s Everyday Problems in Ethereum UX 🙈📝🧨
+
 Think about the following: How many developers of the dapps you are using do you know personally?
 
 Let’s imagine you want to interact with a dapp using MetaMask and it shows you this dialogue: 
