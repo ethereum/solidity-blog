@@ -23,7 +23,7 @@ Think about the following: How many developers of the dapps you are using do you
 
 Let’s imagine you want to interact with a dapp using MetaMask and it shows you this dialogue: 
 
-![Yolo Signing](https://github.com/ethereum/solidity-blog/blob/master/img/2020/05/MetaMask_Yolosign.png "Yolo Signing is bad for you!)
+![Yolo Signing](img/2020/05/MetaMask_Yolosign.png)
 
 *You Only Live Once (YOLO)  Signing - confirm at your peril*
 
@@ -66,7 +66,7 @@ Sourcify is a project on the Ethereum blockchain that:
 * Checks that it is the same as the deployed code.
 * Permanently stores the source code, ABI and other metadata on IPFS.
 
-![Sourcify Flowchart](https://github.com/ethereum/solidity-blog/blob/master/img/2020/05/Sourcify_Flowchart.png "Sourcify Verification Flow")
+![Sourcify Flowchart](img/2020/05/Sourcify_Flowchart.png)
 
 *Sourcify Verification Flow*
 
