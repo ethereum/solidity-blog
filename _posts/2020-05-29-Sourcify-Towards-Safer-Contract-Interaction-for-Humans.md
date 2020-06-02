@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'Sourcify: Towards Safer Contract Interaction for Humans'
-date: '2020-05-29'
+date: '2020-06-02'
 author: Edi Sinovčić, Franziska Heintel
 category: Announcements
 ---
@@ -12,12 +12,12 @@ your dapp today by leveraging the power of open source. Increase awareness and g
 are *actually* doing when interacting with your code on the blockchain, i.e. when signing a transaction, by publishing 
 the source code to this decentralized repository and using metadata files, which translate “random” hex strings into 
 human-readable language. Sourcify is a tool to help you do exactly that. If you want to upload your source code, either visit [verification.komputing.org](https://verification.komputing.org/), the [Sourcify Github repo](https://github.com/ethereum/sourcify) or use the Sourcify 
-plugin in Remix. To learn how Sourcify works and why it matters, read the whole blog post.
+plugin in Remix. And, to learn how Sourcify works and why it matters, simply keep on reading.
 
 You might already know Sourcify under the name “Source-Verify”/ ”Source-Verifier” - don’t despair, we just decided to give 
 it a nicer name!
 
-## YOLO Signing - One of Today’s Everyday Problems in Ethereum UX
+## YOLO Signing - One of Today’s Everyday Problems in Ethereum UX 🙈📝🧨
 Think about the following: How many developers of the dapps you are using do you know personally?
 
 Let’s imagine you want to interact with a dapp using MetaMask and it shows you this dialogue: 
@@ -44,9 +44,9 @@ Properly “verifying” your code involves two steps:
 Ethereum Natural Language Specification Format which describes functions, return values etc. in a friendly way.
 1. Publishing the dapp’s source code and its metadata to a decentralized network.
 
-## Meet Sourcify, a decentralized automated contract verifying service
+## Meet Sourcify, a decentralized automated contract verifying service 📝🔍✔️
 
-Sourcify tries to make the process of source verification (step 2 in the list above) easy for you. There are different ways 
+Sourcify tries to make the process of source verification (step 2 in the list above) easy and transparent. There are different ways 
 how you can make use of the tool. 
 
 You can either...
@@ -56,7 +56,7 @@ You can either...
 (Sourcify will then pick it up automatically around the time of deployment)
 * [Run](https://github.com/ethereum/sourcify) Sourcify yourself
 
-## How does Sourcify work under the hood?
+## How does Sourcify work under the hood? 📖
 
 Sourcify is a project on the Ethereum blockchain that:
 * Listens for the deployment of smart contracts.
@@ -82,7 +82,7 @@ metadata and code are a match, all of it gets indexed, pinned and stored (in a p
 And if you’d like to verify the verifier, no problem: Simply take the files from IPFS and recompile them yourself - 
 the necessary compiler options are also stored in the system.
 
-## Verify all the Sources - Are we there yet? 
+## Verify all the Sources - Are we there yet? ⛅
 
 **The bad news:** The road towards a more secure, more aware, educated and trustless UX for Ethereum dapps is certainly 
 still long. 
