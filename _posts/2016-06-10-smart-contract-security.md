@@ -24,7 +24,7 @@ contract auction {
   address highestBidder;
   uint highestBid;
   function bid() {
-    if (msg.value &lt; highestBid) throw;
+    if (msg.value < highestBid) throw;
     if (highestBidder != 0)
       highestBidder.send(highestBid); // refund previous bidder
     highestBidder = msg.sender;
@@ -51,9 +51,9 @@ The only way to prevent both situations is to convert the sending pattern into a
 contract auction {
   address highestBidder;
   uint highestBid;
-  mapping(address =&gt; uint) refunds;
+  mapping(address => uint) refunds;
   function bid() {
-    if (msg.value &lt; highestBid) throw;
+    if (msg.value < highestBid) throw;
     if (highestBidder != 0)
       refunds[highestBidder] += highestBid;
     highestBidder = msg.sender;
@@ -74,9 +74,9 @@ Having considered all this, the following code should be fine (of course it is s
 contract auction {
   address highestBidder;
   uint highestBid;
-  mapping(address =&gt; uint) refunds;
+  mapping(address => uint) refunds;
   function bid() {
-    if (msg.value &lt; highestBid) throw;
+    if (msg.value < highestBid) throw;
     if (highestBidder != 0)
       refunds[highestBidder] += highestBid;
     highestBidder = msg.sender;
@@ -114,7 +114,7 @@ There is a limit of how much gas can be spent in a single block. This limit is f
 ```solidity
 /// THIS IS STILL A NEGATIVE EXAMPLE! DO NOT USE!
 contract Voting {
-  mapping(address =&gt; uint) voteWeight;
+  mapping(address => uint) voteWeight;
   address[] yesVotes;
   uint requiredWeight;
   address beneficiary;
@@ -122,9 +122,9 @@ contract Voting {
   function voteYes() { yesVotes.push(msg.sender); }
   function tallyVotes() {
     uint yesVotes;
-    for (uint i = 0; i &lt; yesVotes.length; ++i)
+    for (uint i = 0; i < yesVotes.length; ++i)
       yesVotes += voteWeight[yesVotes[i]];
-    if (yesVotes &gt; requiredWeight)
+    if (yesVotes > requiredWeight)
       beneficiary.send(amount);
   }
 }
