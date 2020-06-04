@@ -38,7 +38,7 @@ contract C {
 }
 ```
 
-We especially thank Alex Groce (@agroce) who found the bug through fuzzing!
+We especially thank Alex Groce ([@agroce](https://github.com/agroce)) who found the bug through fuzzing!
 
 ### Array Slice Dynamically Encoded Base Type Bug
 
