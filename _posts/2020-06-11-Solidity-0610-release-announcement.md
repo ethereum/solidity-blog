@@ -9,7 +9,7 @@ category: Releases
 
 [Solidity v0.6.10](https://github.com/ethereum/solidity/releases/tag/v0.6.10) fixes an important bug that was introduced in the previous release and adds error codes.
 
-Please upgrade if you are using internal library functions with calldata paramaters in connection with ``using for``.
+Please upgrade if you are using internal library functions with calldata parameters in connection with ``using for``.
 
 ## Important Bugfixes
 
