@@ -103,6 +103,8 @@ We hope to see or hear many of you soon again, either in Gitter, Github issues, 
 In the meantime, please feel free to reach out to us with your ideas on how to improve the interaction between the Solidity team and the community at any time. 
 
 ---
-Follow us on [Twitter](https://twitter.com/solidity_lang)<br>
-Ask us anything on [Gitter](https://gitter.im/ethereum/solidity)<br>
-Check out Solidity on [GitHub](https://github.com/ethereum/solidity)<br>
+Follow us on [Twitter](https://twitter.com/solidity_lang)
+
+Ask us anything on [Gitter](https://gitter.im/ethereum/solidity)
+
+Check out Solidity on [GitHub](https://github.com/ethereum/solidity)

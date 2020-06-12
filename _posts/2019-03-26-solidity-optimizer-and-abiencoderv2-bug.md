@@ -136,4 +136,4 @@ These two bugs have been identified through the recent addition of Solidity to [
 2. The optimizer incorrectly handles the ``byte`` opcode if the constant 31 is used as second argument. This can happen when performing index access on ``bytesNN`` types with a compile-time constant value (not index) of 31 or when using the byte opcode in inline assembly.
 
 
-This post was jointly composed by @axic, @chriseth, @holiman.
+This post was jointly composed by [@axic](https://github.com/axic), [@chriseth](https://github.com/chriseth), [@holiman](https://github.com/holiman).
