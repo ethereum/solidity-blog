@@ -86,4 +86,4 @@ This is only the case for elements that are structs or statically-sized arrays. 
 The specific effect you will see is that data is "shifted" in the encoded array: If you have an array of type ``uint[2][]`` and it contains the data
 ``[[1, 2], [3, 4], [5, 6]]``, then it will be encoded as ``[[1, 2], [2, 3], [3, 4]]`` because the encoder only advances by a single slot between elements instead of two.
 
-This post was jointly composed by @axic, @chriseth, @holiman.
+This post was jointly composed by [@axic](https://github.com/axic), [@chriseth](https://github.com/chriseth), [@holiman](https://github.com/holiman).

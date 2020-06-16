@@ -117,4 +117,3 @@ Chat with us on [Gitter](https://gitter.im/ethereum/source-verify).
 Check out the Sourcify code on [Github](https://github.com/ethereum/sourcify). 
 
 Browse the verified contracts [here](https://contractrepo.komputing.org/). 
-

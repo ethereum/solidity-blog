@@ -8,7 +8,7 @@ category: Announcements
 ---
 _This post was originally published on the [Ethereum blog](https://blog.ethereum.org/2016/09/01/formal-methods-roadmap/)._
 
-Today, I am delighted to announce that Yoichi Hirai ([pirapira](https://github.com/pirapira) on github) is joining the Ethereum project as a formal verification engineer. He holds a PhD from the University of Tokyo on the topic of formalizing communicating parallel processes and created formal verification tools for Ethereum in his spare time.
+Today, I am delighted to announce that Yoichi Hirai ([@pirapira](https://github.com/pirapira) on github) is joining the Ethereum project as a formal verification engineer. He holds a PhD from the University of Tokyo on the topic of formalizing communicating parallel processes and created formal verification tools for Ethereum in his spare time.
 
 In his own words:
 

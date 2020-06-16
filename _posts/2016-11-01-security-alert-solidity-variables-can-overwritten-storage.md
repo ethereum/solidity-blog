@@ -38,4 +38,4 @@ bool, enums, uint8, ..., uint248, int8, ..., int248, address, any contract type
 - Recompile contracts that have not yet been deployed using at least Solidity release 0.4.4 (not the pre-release or nightly version).
 - Deactivate, remove funds from, or upgrade already deployed contracts.
 
-This vulnerability was found by [github.com/catageek](https://github.com/catageek): [https://github.com/ethereum/solidity/issues/1306](https://github.com/ethereum/solidity/issues/1306)
+This vulnerability was found by [@catageek](https://github.com/catageek): [https://github.com/ethereum/solidity/issues/1306](https://github.com/ethereum/solidity/issues/1306)

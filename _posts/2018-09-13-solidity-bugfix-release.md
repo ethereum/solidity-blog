@@ -39,7 +39,7 @@ and the same is true for data returned from functions of contracts deployed by m
 After having screened a large number of contracts, we deem this bug to affect only a very tiny number of
 smart contracts, if any at all, because the regular uses of the exponentiation operator do not lead to the bug.
 
-This bug was found by [nweller](https://github.com/nweller).
+This bug was found by [@nweller](https://github.com/nweller).
 
 
 ## Memory Corruption in Multi-Dimensional Array Decoder
@@ -64,7 +64,7 @@ if they are not used in a Solidity contract.
 The bug is only in the component that decodes a multi-dimensional fixed-size array
 that is returned from a function call from Solidity.
 
-This bug was found by [jmahhh](https://github.com/jmahhh).
+This bug was found by [@jmahhh](https://github.com/jmahhh).
 
 ## Invalid Encoding of Structs in Events
 
