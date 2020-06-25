@@ -8,7 +8,7 @@ category: Explainers
 ---
 
 Welcome to Sourcify's first short FAQ! If your questions around source verification haven't been answered after reading 
-this post, please feel free to drop by the [Sourcify Gitter channel](https://gitter.im/ethereum/sourcify) and ask us 
+this post, please feel free to drop by the [Sourcify Gitter channel](https://gitter.im/ethereum/source-verify) and ask us 
 any question there. Also stay tuned on more turorials and developer focused content to follow here and on the [Remix blog](https://medium.com/remix-ide)!
 
 ## Source Verification
