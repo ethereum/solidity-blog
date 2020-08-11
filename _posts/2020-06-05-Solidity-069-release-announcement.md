@@ -121,7 +121,7 @@ contract C {
   function checkUnique(address[] calldata _newOwners) internal pure {
     for (uint i = 0; i < _newOwners.length; i++)
       for (uint j = i + 1; i < _newOwners.length; j++)
-        require(_newOwners[i] != _newOwners[i]);
+        require(_newOwners[i] != _newOwners[j]);
   }
 }
 ```
