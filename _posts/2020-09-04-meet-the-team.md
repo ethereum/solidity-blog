@@ -9,11 +9,11 @@ category: Announcements
 
 As you might know, Solidity is an **open-source community project** mainly developed and maintained by a core team. 
 
-Today, we would like to introduce some of our team members and share insights into their professional background, which components of Solidity they mostly work on and more. Since most of our work happens on Github you can find each team member's Github handle next to their name. 
+Today, we would like to introduce some of our team members and share insights into their professional background, which components of Solidity they mostly work on and more. Since almost all of our work happens on Github you can find each team member's Github handle next to their name. 
 
-It should also be noted that we are incredibly grateful for all community contributions! Some of our core-team members even started out as community contributors and it's needless to say Solidity is truly depending its developer community for feedback, bug reports, feature requests, tooling and input on the language design.
+It should also be noted that we are incredibly grateful for all community contributions! Some of our core-team members even started out as community contributors and it's needless to say Solidity is truly depending on its developer and contributor community for feedback, bug reports, feature requests, tooling and input on the language design.
 
-But now, without further ado, please meet some of the faces behind Solidity! We are lucky to call this small but international group of friendly and bright minds our team:
+Without further ado, please meet some of the faces behind Solidity! We are lucky to call this small but international group of friendly and bright minds our team:
 
 ## Alex - [@aarlt](https://github.com/aarlt)
 
@@ -48,17 +48,13 @@ But now, without further ado, please meet some of the faces behind Solidity! We 
 
 *I enjoy finding security issues with popular open-source software implementations and blogging about my experiences on my personal blog over at https://bshastry.github.io/blog. I also enjoy tapping the closest piece of furniture to the beat of electronic music that is being played.*
 
-
 ## Christian - @christianparpart
 
 
-
-## Chris - @chriseth
-
+## Chris - [@chriseth](https://github.com/chriseth)
 
 
-## Daniel - @ekpyron
-
+## Daniel - [@ekpyron](https://github.com/ekpyron)
 
 
 ## Đorđe - [@mijovic](https://github.com/mijovic)
@@ -75,7 +71,6 @@ But now, without further ado, please meet some of the faces behind Solidity! We 
 
 *Working on an open-source project for the first time was very motivating for me, especially combined with such an exciting and high potential environment like the blockchain space.*
 
-
 ## Franzi - [@franzihei](https://github.com/franzihei)
 
 ### What's your professional background?
@@ -84,11 +79,11 @@ But now, without further ado, please meet some of the faces behind Solidity! We 
 
 ### What is your role in the Solidity team? On which parts of Solidity do you work the most?
 
-
+*I'm supporting the team with communications and project management. This includes maintaining all communication channels like the @solidity_lang Twitter and the Solidity blog, organizing conferences and hackathons like this year's Solidity Summit and the upcoming Solidity Underhanded Contest as well as exploring all kinds of tools which facilitate a better exchange between the Solidity core-team and the wider Solidity ecosystem. These efforts mostly focus on fostering the language design process, e.g. with language design discussions and updates via the solidity-users forum.*
 
 ### What would you like to see happening in the Solidity ecosystem in the future?
 
-
+*We're building a strong Solidity ecosystem of tool builders, auditors and security researchers, super users and contributors which all regularly contribute to language design relevant discussions. I would love to see this ecosystem steadily grow and hope we find good interaction modes to strengthen the exchange between the different stakeholders and help keep everybody updated. I also hope that we can together test and evaluate transparent and straightforward processes for the language design moving forward.*
 
 
 ## Hari - [@hrkrshnn](https://github.com/hrkrshnn)
@@ -106,6 +101,16 @@ But now, without further ado, please meet some of the faces behind Solidity! We 
 
 ## Kamil - @cameel
 
+### What's your professional background?
+*Over the years I worked in a variety of software projects and I don't really have one thing I could say I specialize in. My first job was at a video post-production company rolling out its own in-house editor for video post-processing and adding special effects. It was implemented in C++ and was one of the first programs of this type to take advantage of GPGPU capabilities back when it was still a novelty. Later on, I often worked on the backend side of multiple complex Python-based web apps, involving things like statistical modeling, video processing, chemical retrosynthesis or interfacing with blockchain. Along the way I had the chance to get familiar with network programming and admin/devops-oriented technologies, including shell scripting, web servers, containers and cloud services. Recently I've been particularly interested in blockchain-related technologies. So far, the biggest project in this space I took part in was a service designed and implemented for Golem. A few years ago I co-founded a software company called Code Poets where I'm currently responsible for the technological side. I still enjoy programming more than anything though. Having worked in various roles at different scales, I find that I like the low-level challenges much more than high-level system design or managing a project as a whole. Working as a part of the Solidity team is a good way for me to use my experience in a meaningful way while being able to learn more about the Ethereum ecosystem.*
+
+### What is your role in the Solidity team? On which parts of Solidity do you work the most?
+
+*My biggest task so far was implementing the yul-phaser - an internal tool based on genetic algorithms that will help us fine-tune the Yul optimizer once the code generator is complete and supports all Solidity features. Apart from that I'm trying to get familiar with all parts of the compiler. So far, I worked mostly on IR code generator, wasm code generator and also on the supporting infrastructure for the repository, including the overhaul of the way older compiler binaries are hosted and nightly builds.*
+
+### What do you think is Solidity's biggest challenge?
+
+*In my opinion one of the biggest challenges is getting a clear and cohesive vision of what the language should eventually look like. The language is still evolving and there are many planned features, some of which could fundamentally impact the way people write smart contracts. Templates/generics, contract invariants, Rust-style enums, variables being immutable by default, range types, range based loops, fixed point variables to name just a few. There are also some widely used patterns that may end up having support in the language at some point but right now it's still not clear if and how - upgradeable contracts are one example. Finalizing the language specification requires many tough decisions about what should and what shouldn't end up in it. Getting there will involve a huge amount of design work. Until it's done, we still rely heavily on being able to regularly introduce backwards-incompatible changes to avoid being left with a fossilized stub of a language where you have to fish for "the good parts" and ignore the rest. Fortunately, with the bigger team this year even the older design issues are finally getting some much needed attention and hopefully this gets us closer to releasing Solidity 1.0 in not so distant future.*
 
 ## Leo - [@leonardoalt](https://github.com/leonardoalt)
 
