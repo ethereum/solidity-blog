@@ -92,7 +92,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ### What is your role in the Solidity team? On which parts of Solidity do you work the most?
 
-*I'm a software developer at Solidity. Nowadays, I quite like working on the Yul optimizer. It is interesting since ultimately it's an open problem and allows for a lot of room for improvement.*
+*Nowadays, I quite like working on the Yul optimizer. It is interesting since ultimately it's an open problem and allows for a lot of room for improvement.*
 
 ### What would you like to see in the Solidity ecosystem in the future?
 
