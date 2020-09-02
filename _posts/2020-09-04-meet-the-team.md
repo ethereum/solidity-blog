@@ -83,8 +83,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ### What would you like to see happening in the Solidity ecosystem in the future?
 
-*We're building a strong Solidity ecosystem of tool builders, auditors and security researchers, super users and contributors which all regularly contribute to language design relevant discussions. I would love to see this ecosystem steadily grow and hope we find good interaction modes to strengthen the exchange between the different stakeholders and help keep everybody updated. I also hope that we can together test and evaluate transparent and straightforward processes for the language design moving forward.*
-
+*We're building a strong Solidity ecosystem of tool builders, auditors, security researchers, super users and contributors which all regularly contribute to relevant language design discussions. I would love to see this ecosystem steadily grow and hope we find good interaction modes to strengthen the exchange between the different stakeholders. I also hope that we'll manage to constantly evolve and eventually define a transparent and lightweight process for the language design, which allows for collaboration and innovation.*
 
 ## Hari - [@hrkrshnn](https://github.com/hrkrshnn)
 
