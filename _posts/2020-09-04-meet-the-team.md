@@ -56,6 +56,17 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Daniel - [@ekpyron](https://github.com/ekpyron)
 
+### What's your professional background?
+
+*I'm mathematician by training, but already during my studies I've started to work part-time as software developer. Among others I have built the 3D graphics engine for an interactive real-time visualization project for live electronic music and the engine for a 3D mobile game, but also worked on large-scale molecular dynamics simulation software and in machine learning, before I joined the Solidity team (while I'm still part-time writing my Ph.D. thesis).*
+
+### What is your role in the Solidity team? On which parts of Solidity do you work the most?
+
+*By now I think I have touched pretty much every single component of the compiler in one way or another. Lately, I have found myself reviewing more code than I actually write, but I still also like discussing and implementing new language features, helping in completing the new IR code generation path and in particular devising and implementing new optimizer steps for the Yul optimizer, but also basically anything else that comes up.*
+
+### What would you like to see in Solidity in the future?
+
+*The Ph.D. thesis I'm working on is in "computational metaphysics" (i.e. the application of automated, computerized formal reasoning techniques to abstract philosophical theories), so I'm basically doing Formal Verification for philosophers. Leo is currently pioneering the integration of formal methods directly into the Solidity compiler with the SMTChecker, but we're also considering to empower the Yul optimizer with formal reasoning and I think there lie more interesting innovations ahead in that area, both for provably correct optimization or maybe even code generation in the compiler, but also as constructs in the language that help in reasoning about it, so I'd like to see more of that. Also `copyof`. And feature-complete Yul IR codegen and Yul memory objects.*
 
 ## Đorđe - [@mijovic](https://github.com/mijovic)
 
