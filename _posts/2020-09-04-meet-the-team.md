@@ -149,5 +149,5 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 *I would love to see more attention on making the language more fun to work with while keeping it safe to use and easy to read and validate. Those two concepts sometimes clash with each other, but often they don't or a good compromise can be found.*
   
-Want to hear more from us?  
+**Want to hear more from us?**  
 Follow [@solidity-lang](https://twitter.com/solidity_lang) on Twitter | Join the [solidity-users](https://groups.google.com/g/solidity-users) forum
