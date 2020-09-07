@@ -48,7 +48,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 *I enjoy finding security issues with popular open-source software implementations and blogging about my experiences on my personal blog over at https://bshastry.github.io/blog. I also enjoy tapping the closest piece of furniture to the beat of electronic music that is being played.*
 
-## Christian - @christianparpart
+## Christian - [@christianparpart](https://github.com/christianparpart)
 
 
 ## Chris - [@chriseth](https://github.com/chriseth)
@@ -109,7 +109,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 *It would be really nice to see new programming languages created for the EVM that target Yul. This would mean that a lot of Yul tooling becomes more important. Additionally, it would be interesting to see external research on improving, say, the optimizer, among other things.*
 
-## Kamil - @cameel
+## Kamil - [@cameel](https://github.com/cameel)
 
 ### What's your professional background?
 *Over the years I worked in a variety of software projects and I don't really have one thing I could say I specialize in. My first job was at a video post-production company rolling out its own in-house editor for video post-processing and adding special effects. It was implemented in C++ and was one of the first programs of this type to take advantage of GPGPU capabilities back when it was still a novelty. Later on, I often worked on the backend side of multiple complex Python-based web apps, involving things like statistical modeling, video processing, chemical retrosynthesis or interfacing with blockchain. Along the way I had the chance to get familiar with network programming and admin/devops-oriented technologies, including shell scripting, web servers, containers and cloud services. Recently I've been particularly interested in blockchain-related technologies. So far, the biggest project in this space I took part in was a service designed and implemented for Golem. A few years ago I co-founded a software company called Code Poets where I'm currently responsible for the technological side. I still enjoy programming more than anything though. Having worked in various roles at different scales, I find that I like the low-level challenges much more than high-level system design or managing a project as a whole. Working as a part of the Solidity team is a good way for me to use my experience in a meaningful way while being able to learn more about the Ethereum ecosystem.*
@@ -148,3 +148,6 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 ### What would you like to see in Solidity in the future?
 
 *I would love to see more attention on making the language more fun to work with while keeping it safe to use and easy to read and validate. Those two concepts sometimes clash with each other, but often they don't or a good compromise can be found.*
+  
+Want to hear more from us?  
+Follow [@solidity-lang](https://twitter.com/solidity_lang) on Twitter | Join the [solidity-users](https://groups.google.com/g/solidity-users) forum
