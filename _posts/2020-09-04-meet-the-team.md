@@ -11,7 +11,7 @@ As you might know, Solidity is an **open-source community project** mainly devel
 
 Today, we would like to introduce some of our team members and share insights into their professional background, which components of Solidity they mostly work on and more. Since almost all of our work happens on Github you can find each team member's Github handle next to their name. 
 
-It should also be noted that we are incredibly grateful for all community contributions! Some of our core-team members even started out as community contributors and it's needless to say Solidity is truly depending on its developer and contributor community for feedback, bug reports, feature requests, tooling and input on the language design.
+It should be noted that we are incredibly grateful for all community contributions! Some of our core team members even started out as community contributors and it's needless to say Solidity is truly depending on its developer and contributor community for feedback, bug reports, feature requests, tooling and input on the language design.
 
 Without further ado, please meet some of the faces behind Solidity! We are lucky to call this small but international group of friendly and bright minds our team:
 
