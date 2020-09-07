@@ -58,11 +58,11 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ### What's your professional background?
 
-*I'm mathematician by training, but already during my studies I've started to work part-time as software developer. Among others I have built the 3D graphics engine for an interactive real-time visualization project for live electronic music and the engine for a 3D mobile game, but also worked on large-scale molecular dynamics simulation software and in machine learning, before I joined the Solidity team (while I'm still part-time writing my Ph.D. thesis).*
+*I'm a mathematician by training, but already during my studies I started to work part-time as a software developer. Among others, I built the 3D graphics engine for an interactive real-time visualization project for live electronic music and the engine for a 3D mobile game, but also worked on large-scale molecular dynamics simulation software and in machine learning, before I joined the Solidity team (while I'm still part-time writing my Ph.D. thesis).*
 
 ### What is your role in the Solidity team? On which parts of Solidity do you work the most?
 
-*By now I think I have touched pretty much every single component of the compiler in one way or another. Lately, I have found myself reviewing more code than I actually write, but I still also like discussing and implementing new language features, helping in completing the new IR code generation path and in particular devising and implementing new optimizer steps for the Yul optimizer, but also basically anything else that comes up.*
+*I think I have touched pretty much every single component of the compiler in one way or another by now. Lately, I have found myself reviewing more code than I actually write, but I still also like discussing and implementing new language features, helping in completing the new IR code generation path and in particular devising and implementing new optimizer steps for the Yul optimizer, but also basically anything else that comes up.*
 
 ### What would you like to see in Solidity in the future?
 
