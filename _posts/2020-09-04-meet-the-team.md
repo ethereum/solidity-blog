@@ -57,7 +57,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 *During my studies, I have worked on different small open source projects related to Wikipedia and biodiversity. After my PhD in Computational Complexity Theory, where I worked on multi-objective optimization and structural complexity theory, I gathered some experience in the classical closed-source software industry. In 2014, I started the Solidity project and really enjoy the open collaboration of the professional free software world that is very similar in spirit to the research community.*
 
-### What is your role in the Solidity team? On which parts of Solidity do you work the most? (describe your work a bit)
+### What is your role in the Solidity team? On which parts of Solidity do you work the most?
 
 *With help from Alex Beregszaszi I'm leading the Solidity team. This means that I'm doing a lot of code review and design work, but there is also enough time to write code. My favourite part of the project is the Yul optimizer because you can make a lot of impact with tiny but well-though-out components.*
 
