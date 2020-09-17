@@ -2,14 +2,14 @@
 layout: post
 published: true
 title: 'The Solidity Underhanded Contest is back!'
-date: '2020-08-09'
+date: '2020-09-18'
 author: Franziska Heintel
 category: Announcements
 ---
 
 We're excited to share that the [Solidity Underhanded Contest](https://underhanded.solidity.rocks/) is finally back!
 
-Inspired by the [Underhanded C Contest](http://www.underhanded-c.org/) and the first [Underhanded Solidity Contest](https://u.solidity.cc/), organized in 2017 by Nick Johnson, we decided it's time for a revival.
+Inspired by the [Underhanded C Contest](http://www.underhanded-c.org/) and the first [Underhanded Solidity Contest](https://u.solidity.cc/), organized in 2017 by Nick Johnson, we decided it is time for a much needed revival.
 
 ![Solidity Underhanded Contest](/img/2020/09/Underhanded_Solidity.gif)
 
@@ -60,7 +60,7 @@ Furthermore, the winners and all qualified submissions will receive a custom NFT
 
 Consider the following aspects and properties for your submissions:
 
-+ **Simplicity & Length**: Since it’s much easier to hide a vulnerability in complex and poorly written code, short and clean submissions will be scored higher than those that are lengthy and complicated.
++ **Simplicity & Briefness**: Since it’s much easier to hide a vulnerability in complex and poorly written code, short and clean submissions will be scored higher than those that are lengthy and complicated.
 + **Plausibility**: Code that drops down to inline assembly without any clear reason why will look immediately suspicious, no matter how cleverly written the assembly-level flaw is.
 + **Originality**: Truly original ideas will receive more points than making use of already well known exploit/backdoor mechanisms.
 
