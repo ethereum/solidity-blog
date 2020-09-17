@@ -27,7 +27,7 @@ By hosting such a contest we aim to:
 
 **This year's theme is upgradability of contracts, or, more specifically, upgrade mechanisms.**
 
-Contract upgrades or migrations can pose a big threat to users, especially since it appears that in many cases users are not even aware of what is happening, or, are made vaguely aware of it but cannot grasp the possible implications. The moment of the migration can be exploited to take over control. 
+Contract upgrades or migrations can pose a big threat to users, especially considering that in many cases it appears users are not even aware of what is happening, or, are made vaguely aware of it but cannot grasp the possible implications. The moment of the migration can be exploited to take over control. 
 
 Since a smart contract in which a single account is authorized to arbitrarily change its implementation defeats the idea of decentralization, submissions need to contain a mechanism where code can be upgraded but users are (seemingly) still in control. 
 
