@@ -60,7 +60,7 @@ Furthermore, the winners and all qualified submissions will receive a custom NFT
 
 Consider the following aspects and properties for your submissions:
 
-+ **Simplicity & Briefness**: Since it’s much easier to hide a vulnerability in complex and poorly written code, short and clean submissions will be scored higher than those that are lengthy and complicated.
++ **Simplicity & Briefness**: Since it's much easier to hide a vulnerability in complex and poorly written code, short and clean submissions will be scored higher than those that are lengthy and complicated.
 + **Plausibility**: Code that drops down to inline assembly without any clear reason why will look immediately suspicious, no matter how cleverly written the assembly-level flaw is.
 + **Originality**: Truly original ideas will receive more points than making use of already well known exploit/backdoor mechanisms.
 
