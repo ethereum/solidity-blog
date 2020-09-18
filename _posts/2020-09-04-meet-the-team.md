@@ -36,7 +36,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Bhargava - [@bshastry](https://github.com/bshastry)
 
-### What's your professional background?
+### What is your professional background?
 
 *I graduated from Technische Universitaet Berlin with a Ph.D. in computer science. My Ph.D. thesis focused on developing techniques to find security vulnerabilities quicker in open-source software.*
 
@@ -53,7 +53,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Chris - [@chriseth](https://github.com/chriseth)
 
-### What's your professional background?
+### What is your professional background?
 
 *During my studies, I have worked on different small open source projects related to Wikipedia and biodiversity. After my PhD in Computational Complexity Theory, where I worked on multi-objective optimization and structural complexity theory, I gathered some experience in the classical closed-source software industry. In 2014, I started the Solidity project and really enjoy the open collaboration of the professional free software world that is very similar in spirit to the research community.*
 
@@ -67,7 +67,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Daniel - [@ekpyron](https://github.com/ekpyron)
 
-### What's your professional background?
+### What is your professional background?
 
 *I'm a mathematician by training, but already during my studies I started to work part-time as a software developer. Among others, I built the 3D graphics engine for an interactive real-time visualization project for live electronic music and the engine for a 3D mobile game, but also worked on large-scale molecular dynamics simulation software and in machine learning, before I joined the Solidity team (while I'm still part-time writing my Ph.D. thesis).*
 
@@ -81,7 +81,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Đorđe - [@mijovic](https://github.com/mijovic)
 
-### What's your professional background?
+### What is your professional background?
 
 *My professional background is really interesting. I started at a small company developing casino games for the ItalyVLT market. Then I worked in the Microsoft Office Sway team. After that, I decided to try startup work environments in InsideMaps and Wolf3d. I have been working on computer vision algorithms in both companies. My blockchain journey started with joining the Solidity team in February 2020.*
 
@@ -95,7 +95,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Franzi - [@franzihei](https://github.com/franzihei)
 
-### What's your professional background?
+### What is your professional background?
 
 *After studying International Business Administration, I joined the innogy Innovation department working as a project manager and later portfolio manager with a focus on distributed technologies & blockchain (and what impact they can have on the energy sector). As part of that, I worked with several energy x blockchain projects like Co-tricity and Share&Charge. Following that, I became Head of Communications at brainbot, a blockchain development studio, after which I decided to join the Solidity team. :)*
 
@@ -122,7 +122,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Kamil - [@cameel](https://github.com/cameel)
 
-### What's your professional background?
+### What is your professional background?
 *Over the years I worked in a variety of software projects and I don't really have one thing I could say I specialize in. My first job was at a video post-production company rolling out its own in-house editor for video post-processing and adding special effects. It was implemented in C++ and was one of the first programs of this type to take advantage of GPGPU capabilities back when it was still a novelty. Later on, I often worked on the backend side of multiple complex Python-based web apps, involving things like statistical modeling, video processing, chemical retrosynthesis or interfacing with blockchain. Along the way I had the chance to get familiar with network programming and admin/devops-oriented technologies, including shell scripting, web servers, containers and cloud services. Recently I've been particularly interested in blockchain-related technologies. So far, the biggest project in this space I took part in was a service designed and implemented for Golem. A few years ago I co-founded a software company called Code Poets where I'm currently responsible for the technological side. I still enjoy programming more than anything though. Having worked in various roles at different scales, I find that I like the low-level challenges much more than high-level system design or managing a project as a whole. Working as a part of the Solidity team is a good way for me to use my experience in a meaningful way while being able to learn more about the Ethereum ecosystem.*
 
 ### What is your role in the Solidity team? On which parts of Solidity do you work the most?
@@ -135,7 +135,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Leo - [@leonardoalt](https://github.com/leonardoalt)
 
-### What's your professional background?
+### What is your professional background?
 *I have an academic background in logic and theoretical computer science. During my PhD I worked on SMT solvers and logics with applications to symbolic model checking. Before joining the Solidity team I worked on formal verification (FV) of microprocessors.*
 
 ### What is your role in the Solidity team? On which parts of Solidity do you work the most?
@@ -148,7 +148,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Mathias - [@marenz](https://github.com/marenz)
 
-### What's your professional background?
+### What is your professional background?
 
 *I worked nine years for a data analytics company, mostly in the D programming language. One of my main projects was writing & maintaining a software that handled lots of data in real time and aggregated it in a database.*
 
