@@ -17,7 +17,7 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Alex - [@aarlt](https://github.com/aarlt)
 
-### What's your professional background?
+### What is your professional background?
 
 *Before joining Solidity, I mainly worked for the automotive industry as a software engineer specialising in embedded systems. I worked on AUTOSAR - a standardised software architecture used within the automotive industry. I helped develop an AUTOSAR RTE - a runtime environment (or middleware) of AUTOSAR SWC’s (software components). I also implemented some basic AUTOSAR BSW modules. Beside this I worked on V2X based communication technologies. The term V2X is used to refer to “Vehicle to Everything” communication and includes vehicle-to-vehicle and vehicle-to-infrastructure and many more. These kind of communication technologies are particularly useful to increase safety and to support autonomous driving. With this technology vehicles are not just limited to use their own sensor data, but they can also access information sent by surrounding vehicles, infrastructure entities (e.g. traffic lights), pedestrians, etc.*
 
@@ -31,8 +31,21 @@ Without further ado, please meet some of the faces behind Solidity! We are lucky
 
 ## Alex - [@axic](https://github.com/axic)
 
+### What is your professional background?
 
+I have a long-standing interest in open source. Before my "professional career" I have been an early contributor to MPlayer and [FFmpeg](https://ffmpeg.org), and thus my first paid roles also revolved around multimedia. Video encoding and streaming, mostly on embedded resource-constrained devices, to be precise. At some point I made a switch to financial software (payment systems) for a good number of years, unfortunately in a closed-source setting. This was a good background for working on Bitcoin startups before finally arriving at Ethereum late 2015 after Frontier was launched.
 
+### What is your role in the Solidity team? On which parts of Solidity do you work the most?
+
+I keep myself busy mostly with design discussions and helping out on management related work as a *Co-Lead*. When time allows and I get the opportunity to code, then I usually find myself working on Yul or lately on the SMTChecker.
+
+Since I am involved with other parts of Ethereum, I try to bridge the gap between other technical teams and Solidity.
+
+### What would you like to see in Solidity in the future?
+
+Short-term: Compiling the Eth2 deposit contract, Uniswap V2, and Gnosis Safe with the new Yul IR, and to being able to "verify" them with the SMTChecker.
+
+Long-term: It would be nice for the language to move on from the inheritance centered design. I really like some aspects of Rust after working with it, especially traits, enums, and partially the module system. Late last year I shared some example code of a hybrid Rust-Solidity language, but it would not be wise to blatantly follow Rust, considering our special requirements. We already have plenty of discussions regarding these topics, so I am very hopeful.
 
 ## Bhargava - [@bshastry](https://github.com/bshastry)
 
