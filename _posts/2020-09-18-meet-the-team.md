@@ -57,7 +57,7 @@ Long-term: It would be nice for the language to move on from the inheritance cen
 
 #### What is your professional background?
 
-I graduated from Technische Universitaet Berlin with a Ph.D. in computer science. My Ph.D. thesis focused on developing techniques to find security vulnerabilities quicker in open-source software.
+I graduated from Technische Universität Berlin with a Ph.D. in computer science. My Ph.D. thesis focused on developing techniques to find security vulnerabilities quicker in open-source software.
 
 #### What is your role in the Solidity team? On which parts of Solidity do you work the most?
 
