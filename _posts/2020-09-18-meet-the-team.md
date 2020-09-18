@@ -77,7 +77,7 @@ During my studies, I have worked on different small open source projects related
 
 #### What is your role in the Solidity team? On which parts of Solidity do you work the most?
 
-With help from Alex Beregszaszi I'm leading the Solidity team. This means that I'm doing a lot of code review and design work, but there is also enough time to write code. My favourite part of the project is the Yul optimizer because you can make a lot of impact with tiny but well-though-out components.
+With help from Alex Beregszaszi I'm leading the Solidity team. This means that I'm doing a lot of code review and design work, but there is also enough time to write code. My favourite part of the project is the Yul optimizer because you can make a lot of impact with tiny but well-thought-out components.
 
 #### What would you like to see in Solidity in the future?
 
