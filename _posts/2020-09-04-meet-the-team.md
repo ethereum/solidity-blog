@@ -61,9 +61,6 @@ Long-term: It would be nice for the language to move on from the inheritance cen
 
 *I enjoy finding security issues with popular open-source software implementations and blogging about my experiences on my personal blog over at https://bshastry.github.io/blog. I also enjoy tapping the closest piece of furniture to the beat of electronic music that is being played.*
 
-## Christian - [@christianparpart](https://github.com/christianparpart)
-
-
 ## Chris - [@chriseth](https://github.com/chriseth)
 
 ### What is your professional background?
