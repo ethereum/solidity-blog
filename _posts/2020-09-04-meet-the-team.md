@@ -79,7 +79,7 @@ During my studies, I have worked on different small open source projects related
 
 With help from Alex Beregszaszi I'm leading the Solidity team. This means that I'm doing a lot of code review and design work, but there is also enough time to write code. My favourite part of the project is the Yul optimizer because you can make a lot of impact with tiny but well-though-out components.
 
-#### What would you like to see in Solidity in the future? (focus on Solidity)
+#### What would you like to see in Solidity in the future?
 
 To me, the biggest reward is seeing people building something helpful to humanity on top of your own work. By extension, I think we should make it easier to re-use safe and tested Solidity code created by others. Because of that, I think that features like generics or templates should be the next big focus for Solidity.
 
