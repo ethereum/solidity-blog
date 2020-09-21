@@ -41,21 +41,21 @@ Submissions are open from 1st of October until the 31st of October 2020. Anybody
 
 Judges will be presented with anonymised submissions. This year's submissions will be assessed by:
 
-+ Alex Beregszaszi, Solidity Co-Lead at Ethereum Foundation
-+ Austin Williams, Security Researcher at OpenZeppelin
-+ Christian Reitwiessner, Solidity Co-Lead at Ethereum Foundation
-+ Gonçalo Sá, Security Engineer at ConsenSys Diligence
-+ Stefan Beyer, Lead Auditor at Solidified
++ Alex Beregszaszi, Solidity Co-Lead at Ethereum Foundation.
++ Austin Williams, Security Researcher at OpenZeppelin.
++ Christian Reitwiessner, Solidity Co-Lead at Ethereum Foundation.
++ Gonçalo Sá, Security Engineer at ConsenSys Diligence.
++ Stefan Beyer, Lead Auditor at Solidified.
 
 Winners will be able to choose a prize of their choice from the prize pool. 
 
 The prize pool contains: 
 
-+ 1x Ticket to Devcon6
-+ 1x 1-year MythX Pro Plan 
-+ 1x 1-year MythX Dev Plan
-+ 1x Automatic acceptance into Solidified auditor pool & a paid audit with Solidified
-+ 1x 1-year subscription to OpenZeppelin's forthcoming security product
++ 1x Ticket to Devcon6.
++ 1x 1-year MythX Pro Plan.
++ 1x 1-year MythX Dev Plan.
++ 1x Automatic acceptance into Solidified auditor pool & a paid audit with Solidified.
++ 1x 1-year subscription to OpenZeppelin's forthcoming security product.
 
 Furthermore, the winners and all qualified submissions will receive a custom NFT.
 
