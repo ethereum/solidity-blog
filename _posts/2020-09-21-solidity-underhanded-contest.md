@@ -13,7 +13,7 @@ Inspired by the [Underhanded C Contest](http://www.underhanded-c.org/) and the f
 
 ![Solidity Underhanded Contest](/img/2020/09/Underhanded_Solidity.gif)
 
-The goal of this contest is to write innocent-looking Solidity code, which pretends to clear and straightforward, but actually contains malicious behavior or backdoors.
+The goal of this contest is to write innocent-looking Solidity code, which pretends to be clear and straightforward, but actually contains malicious behavior or backdoors.
 
 By hosting such a contest we aim to:
 
