@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'The Solidity Underhanded Contest is back!'
-date: '2020-09-18'
+date: '2020-09-21'
 author: Franziska Heintel
 category: Announcements
 ---
