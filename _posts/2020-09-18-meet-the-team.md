@@ -90,7 +90,7 @@ To me, the biggest reward is seeing people building something helpful to humanit
 #### What is your professional background?
 
 Over the years, I worked in various kinds of jobs, starting as a C++ developer in the printing world, to other languages, such as C#/.NET, C (on Solaris),
-and later Ruby, but then also linux data center related jobs, focusing on high availability related projects, and finally moving to mid-management.
+and later Ruby, but then also Linux data center related jobs, focusing on high availability related projects, and finally moving to mid-management.
 Programming in C++ and compiler related topics is what I always enjoyed the most. So it felt natural to what was about to come next. During that path, one of the things I did is implementing a proprietary command line interpreter, as well as domain specific languages from language design to compiler implementation to custom virtual machine. I really enjoyed that, and now, I am very pleased to work on the Solidity compiler.
 
 ### What is your role in the solidity team? On which parts of Solidity to you work the most?
