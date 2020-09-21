@@ -18,7 +18,7 @@ The goal of this contest is to write innocent-looking Solidity code, which prete
 By hosting such a contest we aim to:
 
 + Raise awareness about smart contract security.
-+ Uncover language design faults.
++ Uncover language design flaws.
 + Battle-test recently introduced language features and restrictions.
 + Highlight anti-patterns in smart contact development.
 + Establish new best practices for secure smart contract development.
