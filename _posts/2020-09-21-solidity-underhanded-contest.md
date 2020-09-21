@@ -7,7 +7,7 @@ author: Franziska Heintel
 category: Announcements
 ---
 
-We're excited to share that the [Solidity Underhanded Contest](https://underhanded.solidity.rocks/) is finally back!
+We're excited to share that the [Solidity Underhanded Contest](https://underhanded.soliditylang.org/) is finally back!
 
 Inspired by the [Underhanded C Contest](http://www.underhanded-c.org/) and the first [Underhanded Solidity Contest](https://u.solidity.cc/), organized in 2017 by Nick Johnson, we decided it is time for a much needed revival.
 
@@ -37,7 +37,7 @@ Note that **the flaw should be in the upgrade mechanism**, not in the main contr
 
 ## The Contest Details 🧑‍💻
 
-Submissions are open from 1st of October until the 31st of October 2020. Anybody, with the exception of judges, can participate (for details about submissions and participation please see the [contest website](https://underhanded.solidity.rocks/)).
+Submissions are open from 1st of October until the 31st of October 2020. Anybody, with the exception of judges, can participate (for details about submissions and participation please see the [contest website](https://underhanded.soliditylang.org/)).
 
 Judges will be presented with anonymised submissions. This year's submissions will be assessed by:
 
@@ -73,7 +73,7 @@ Consider the following aspects and properties for your submissions:
 
 **Solidity Version**: Please use Solidity v0.7.0 or newer.
 
-Submissions open on 1st of October 2020. Email your submissions before the deadline (2020-10-31) to `sol_underhanded@ethereum.org`. Entries should consist of a ZIP file containing a README describing your submission and how it works (spoilers included), and one or more Solidity files. For details of the submission process, please refer to the [contest website](https://underhanded.solidity.rocks/).
+Submissions open on 1st of October 2020. Email your submissions before the deadline (2020-10-31) to `sol_underhanded@ethereum.org`. Entries should consist of a ZIP file containing a README describing your submission and how it works (spoilers included), and one or more Solidity files. For details of the submission process, please refer to the [contest website](https://underhanded.soliditylang.org/).
 
 
 ## Thank you to our supporters! 🥰
