@@ -27,11 +27,11 @@ By hosting such a contest we aim to:
 
 **This year's theme is upgradability of contracts, or, more specifically, upgrade mechanisms.**
 
-Contract upgrades or migrations can pose a big threat to users, especially considering that in many cases it appears users are not even aware of what is happening, or, are made vaguely aware of it but cannot grasp the possible implications. The moment of the migration can be exploited to take over control. 
+In order to fix bugs in smart contracts, it is often necessary to perform upgrades. The problem with upgrades is that there is no feasible automatic mechanism to control that the new code still does what the old code intended to do. Because of that, upgrade mechanisms are often designed such that a single account has the ability to change the code arbitrarily.
 
-Since a smart contract in which a single account is authorized to arbitrarily change its implementation defeats the idea of decentralization, submissions need to contain a mechanism where code can be upgraded but users are (seemingly) still in control. 
+Since a smart contract in which a single account is authorized to arbitrarily change its implementation defeats the idea of decentralization, we would like to use this contest to find mechanisms that are better suited, be it via an opt-out mechanism, a way to split the contract or whatever else you can come up with.
 
-This can be realized via an opt-out mechanism, a way to split the contract or whatever else you can come up with. The main requirement is that this mechanism has to be flawed such that there actually is a single account in control, even if it does not seem like it.
+At the same time, this mechanism has to have a flaw or backdoor that is not easy to discover so that in the end, there is still a single account in control, even if it does not seem like it.
 
 Note that **the flaw should be in the upgrade mechanism**, not in the main contract. Hence, the contract that is actually to be upgraded should be very small, e.g. an ERC20 contract or a simple registry. You do not need to come up with a reason to actually upgrade the contract. Of course a little story around your submission is a nice-to-have, but it's not mandatory.
 
