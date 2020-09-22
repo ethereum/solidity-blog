@@ -93,13 +93,13 @@ Over the years, I worked in various kinds of jobs, starting as a C++ developer i
 and later Ruby, but then also Linux data center related jobs, focusing on high availability related projects, and finally moving to mid-management.
 Programming in C++ and compiler related topics is what I always enjoyed the most. So it felt natural to what was about to come next. During that path, one of the things I did is implementing a proprietary command line interpreter, as well as domain specific languages from language design to compiler implementation to custom virtual machine. I really enjoyed that, and now, I am very pleased to work on the Solidity compiler.
 
-### What is your role in the solidity team? On which parts of Solidity to you work the most?
+#### What is your role in the solidity team? On which parts of Solidity to you work the most?
 
 While bug-fixing is always important, what I enjoy the most is the syntactical analysis. Also, the Yul IR is very interesting and I am looking forward to help pushing forward our Yul code generator. There were quite some house-keeping tickets that were fun touching,
 but also moving the Compiler's C++ standard from C++11 to C++14, and just by the end of last year to C++17 was quite a push.
 Besides that, I developed a proof-of-concept Solidity language server that I would love to be an official part of the Solidity project some time in the future.
 
-### What would you like to see in Solidity in the future?
+#### What would you like to see in Solidity in the future?
 
 In the past years, I had a dive into functional languages, especially F#. This experience deeply changed the way I am programming C++ today.
 I would like to see some of the features that are usually found in functional languages to be also be present in Solidity, too,
