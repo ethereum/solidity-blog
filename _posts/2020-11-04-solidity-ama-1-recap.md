@@ -98,7 +98,7 @@ Let's tackle the mentioned issues step-by-step:
 
     The additional complication in the GovernMental attack was that the contract author was the attacker. So preventing it would not just be a matter of providing better features and ergonomics but actively restricting the programmer. As a general rule we try to provide as much safety as possible at Solidity level but still let you go down to the inline assembly level and do pretty much anything you want. Block timestamp has a lot more legitimate uses than malicious ones so going so far as to stop you from using it at all would be simply unacceptable.
 
-8. **Short address attack**: Since Solidity 5.0 there's a built-in protection that will revert the transaction if the calldata is too short. If you use ABIEncoderV2 you are even protected against to inputs that do not fit the provided type.
+8. **Short address attack**: Since Solidity 5.0 there's a built-in protection that will revert the transaction if the calldata is too short. If you use ABIEncoderV2 you are even protected against inputs that do not fit the provided type.
 
     Also, please note that Solidity ABI **is** strongly typed and that this alone cannot protect you if the ABI definition used by the client does not match the actual ABI of the contract or if the client has a bug and is not actually following it.
 
