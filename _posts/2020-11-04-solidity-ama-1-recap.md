@@ -87,7 +87,7 @@ The optimization step can correctly identify that the `arr.length` remains invar
 
 To understand if you need to manually cache length, or any other storage/memory value inside a loop, we'll describe how the step works.
 
-1. The step only deals with expressions that remains the same or invariant, so in the above example, `arr[i]` will not even be considered for moving.
+1. The step only deals with expressions that remain the same or invariant, so in the above example, `arr[i]` will not even be considered for moving.
 2. If such expressions are movable, i.e., the expression does not have any side effects, they are moved outside right away.  Examples of such instructions would be arithmetic operations such as `add` or instructions that do not read/modify memory, storage or blockchain state, e.g., `address`. Non-examples would be `keccak256` (reads from memory), `sload` (reads from storage), `call` (can modify blockchain state and contract storage.)
 3. If such expressions have side effects, but only the *read* kind, i.e., reading from storage or memory, e.g., `sload`, `mload`, `extcodesize`, etc., then they can be moved out of the loop if the loop does not write to the corresponding location. In the above example, even though `arr.length` reads from storage, since no other expression in the loop can write to storage, we can move `arr.length` outside the loop. Note that the step cannot reason about fine-grained storage or memory locations. i.e., writing to storage slot, say `0`, will mean that `sload(1)` cannot be moved outside. This may be improved in the future.
 
