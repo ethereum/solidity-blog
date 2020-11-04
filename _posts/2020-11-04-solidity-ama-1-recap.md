@@ -65,7 +65,7 @@ Generally, the most visible difference would be constant expressions getting eva
 
 #### How is optimization affected by the number of runs (`--optimize-runs`) and is there a maximum number above which it stops mattering, or is `--optimize-runs=20000` less efficient than `--optimize-runs=500000`?
 
-The parameter specifies roughly how often each opcode of the deployed code will be executed across the life-time of the contract. A "runs" parameter of "1" will produce long but cheap code. The largest value is ``2**64-1``.
+The parameter specifies roughly how often each opcode of the deployed code will be executed across the life-time of the contract. A "runs" parameter of "1" will produce short but expensive code. The largest value is ``2**64-1``.
 
 #### When multiple small variables are packed into a single storage slot, how can we be sure accessing them both is done with a single SSTORE/SLOAD? How "nearby" do the accesses have to be each-other, and is there any better way to ensure this than inspecting the assembly?
 
