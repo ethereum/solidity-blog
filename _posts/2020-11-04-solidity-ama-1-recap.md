@@ -97,7 +97,7 @@ In short, for the new code generator, one does not need to cache reads from a st
     // Example where caching is helpful:
     // uint len = arr1.length
     // and replacing arr1.length with len will save gas
-     for(uint i = 0; i < arr1.length; ++i)
+    for(uint i = 0; i < arr1.length; ++i)
     {
         arr2[i] = arr1[i];
     }
