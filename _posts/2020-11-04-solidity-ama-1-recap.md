@@ -106,7 +106,7 @@ Please note that the new code generator is not active yet. For the old generator
 
 #### Does the compiler ever inline functions? Does it make sense for the user to be able to request the compiler to do this? Even if it's not worth it to reduce call overhead, this may allow new opportunities for constant folding.
 
-The current code generator does not inline function, but the new one will, exactly for that purpose.
+The current code generator does not inline function, but the new one will, exactly for that purpose. We do not plan to make those user-controllable. It might also make sense to inline the function depending on how it is called, but in general, small functions are very likely to be inlined.
 
 #### Why do you think people are generally suspicious of the optimizer, and are they right to be?
 
