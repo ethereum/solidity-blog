@@ -15,7 +15,7 @@ If you are interested in going through the full AMA thread you can do so [here](
 
 #### Roadmap Outlook: What does the Solidity team see as its most important feature goals in the medium-long term and what are the biggest blockers to achieving those goals?
 
-As far as the compiler is concerned, the currently biggest task is getting the Yul IR to 100% coverage, something we should be able to complete towards the end of the year. Consequently, we should have two equal compiler pipelines towards mid-2021.
+As far as the compiler is concerned, currently the biggest task is getting the Yul IR to 100% coverage, something we should be able to complete towards the end of the year. Consequently, we should have two equal compiler pipelines towards mid-2021.
 
 As far as language features are concerned we can list a few prominent topics and their current implementation hurdles: We would like to support templates (blocker: complexity), make copies and references more explicit (blocker: acceptance), move more towards functional programming (immutable by default, range-based loops, algebraic data-types, ...), make more efficient use of memory (eliminate "stack too deep", de-allocate memory), provide better data about internal structures for debuggers, and use SMT solvers and other powerful tools in the optimizer (blocker: ensuring correctness).
 
