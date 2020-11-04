@@ -60,7 +60,7 @@ References:
 
 Generally, the most visible difference would be constant expressions getting evaluated. When it comes to the ASM output, one can also notice reduction of equivalent/duplicate "code blocks" (compare the output of the flags `--asm` and `--asm --optimize`). However, when it comes to the Yul/intermediate-representation, there can be significant differences, for example, functions can get inlined, combined, rewritten to eliminate redundancies, etc. (compare the output between the flags `--ir` and `--optimize --ir-optimized`).
 
-#### How is optimization affected by the number of run (`--optimize-runs`) and is there a maximum number above which it stops mattering, or is `--optimize-runs=20000` less efficient than `--optimize-runs=500000`?
+#### How is optimization affected by the number of runs (`--optimize-runs`) and is there a maximum number above which it stops mattering, or is `--optimize-runs=20000` less efficient than `--optimize-runs=500000`?
 
 The parameter specifies roughly how often each opcode of the deployed code will be executed across the life-time of the contract. A "runs" parameter of "1" will produce long but cheap code. The largest value is ``2**64-1``.
 
