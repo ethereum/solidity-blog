@@ -73,38 +73,35 @@ As long as this still uses the non-yul code generator, it is actually rather lim
 
 #### Does it make sense to cache ``arr.length`` in a stack variable when looping over an array from front to back, or will it SLOAD/MLOAD that only once if it sees it won't change in the loop body?
 
-In the Yul optimizer, there is an optimization step called **LoopInvariantCodeMotion** designed to detect expressions that remain invariant in the loop and move them outside the loop. Take the following solidity example that finds the sum of a dynamic integer array.
- 
-```solidity
-uint sum = 0;
-for (uint i = 0; i < arr.length; ++i)
-{
-    sum += arr[i];
-}
-```
-    
+In the Yul optimizer (for the new code generator), there is an optimization step called LoopInvariantCodeMotion which is designed to detect expressions that remain invariant in the loop and move them outside the loop. Take the following Solidity example that finds the sum of a dynamic integer array in storage.
+
+    uint sum = 0;
+     for (uint i = 0; i < arr.length; ++i)
+     {
+        sum += arr[i];
+     }
+
 The optimization step can correctly identify that the `arr.length` remains invariant and will move it outside the loop. So there is no need for manually caching the length for this example.
-    
+
 To understand if you need to manually cache length, or any other storage/memory value inside a loop, we'll describe how the step works.
-    
+
 1. The step only deals with expressions that remains the same or invariant, so in the above example, `arr[i]` will not even be considered for moving.
-2. If such expressions are movable, i.e., the expression does not have any side effects, they are moved outside right away. 
- Examples of such instructions would be arithmetic operations such as `add` or instructions that do not read/modify memory, storage or blockchain state, e.g., `address`. Non-examples would be `keccak256` (reads from memory), `sload` (reads from storage), `call` (can modify blockchain state and contract storage.)
-3. If such expressions have side effects, but only the *read* kind, i.e., reading from storage or memory, e.g., `sload`, `mload`, `extcodesize`, etc., then they can be moved out of the loop if the loop does not write to the corresponding location.
-In the above example, even though `arr.length` reads from storage, since no other expression in the loop can write to storage, we can move `arr.length` outside the loop.
-    
- In short, one does not need to cache reads from a storage (or memory) if there are no writes to storage (or memory.) Manual caching will only be beneficial in the following situation: if the loop contains a write, but if the contract author can reason that the write does not modify a variable that was read. An example of this situation would be the following:
-    
-```solidity
-// Copying arr1 into arr2, assuming arr2 is big enough.
-// Example where caching is helpful:
-// uint len = arr1.length
-// and replacing arr1.length with len will save gas
-for(uint i = 0; i < arr1.length; ++i)
-{
-    arr2[i] = arr1[i];
-}
-```
+2. If such expressions are movable, i.e., the expression does not have any side effects, they are moved outside right away.  Examples of such instructions would be arithmetic operations such as `add` or instructions that do not read/modify memory, storage or blockchain state, e.g., `address`. Non-examples would be `keccak256` (reads from memory), `sload` (reads from storage), `call` (can modify blockchain state and contract storage.)
+3. If such expressions have side effects, but only the *read* kind, i.e., reading from storage or memory, e.g., `sload`, `mload`, `extcodesize`, etc., then they can be moved out of the loop if the loop does not write to the corresponding location. In the above example, even though `arr.length` reads from storage, since no other expression in the loop can write to storage, we can move `arr.length` outside the loop. Note that the step cannot reason about fine-grained storage or memory locations. i.e., writing to storage slot, say `0`, will mean that `sload(1)` cannot be moved outside. This may be improved in the future.
+
+In short, for the new code generator, one does not need to cache reads from a storage (or memory) if there are no writes to storage (or memory). Manual caching will only be beneficial in the following situation: if the loop contains a write, but if the contract author can reason that the write does not modify a variable that was read. An example of this situation would be the following:
+
+    // Copying storage arrays arr1 into arr2, assuming arr2 is big enough.
+    // Example where caching is helpful:
+    // uint len = arr1.length
+    // and replacing arr1.length with len will save gas
+     for(uint i = 0; i < arr1.length; ++i)
+    {
+        arr2[i] = arr1[i];
+    }
+
+Please note that the new code generator is not active yet. For the old generator, there are some inefficiencies and it is hence probably cheaper to cache the length on the stack.
+
 #### Does the compiler ever inline functions? Does it make sense for the user to be able to request the compiler to do this? Even if it's not worth it to reduce call overhead, this may allow new opportunities for constant folding.
 
 The current code generator does not inline function, but the new one will, exactly for that purpose.
