@@ -77,11 +77,13 @@ As long as this still uses the non-yul code generator, it is actually rather lim
 
 In the Yul optimizer (for the new code generator), there is an optimization step called LoopInvariantCodeMotion which is designed to detect expressions that remain invariant in the loop and move them outside the loop. Take the following Solidity example that finds the sum of a dynamic integer array in storage.
 
-    uint sum = 0;
-     for (uint i = 0; i < arr.length; ++i)
-     {
-        sum += arr[i];
-     }
+```solidity
+uint sum = 0;
+for (uint i = 0; i < arr.length; ++i)
+{
+    sum += arr[i];
+}
+```
 
 The optimization step can correctly identify that the `arr.length` remains invariant and will move it outside the loop. So there is no need for manually caching the length for this example.
 
@@ -93,14 +95,16 @@ To understand if you need to manually cache length, or any other storage/memory 
 
 In short, for the new code generator, one does not need to cache reads from a storage (or memory) if there are no writes to storage (or memory). Manual caching will only be beneficial in the following situation: if the loop contains a write, but if the contract author can reason that the write does not modify a variable that was read. An example of this situation would be the following:
 
-    // Copying storage arrays arr1 into arr2, assuming arr2 is big enough.
-    // Example where caching is helpful:
-    // uint len = arr1.length
-    // and replacing arr1.length with len will save gas
-    for(uint i = 0; i < arr1.length; ++i)
-    {
-        arr2[i] = arr1[i];
-    }
+```solidity
+// Copying storage arrays arr1 into arr2, assuming arr2 is big enough.
+// Example where caching is helpful:
+// uint len = arr1.length
+// and replacing arr1.length with len will save gas
+for (uint i = 0; i < arr1.length; ++i)
+{
+    arr2[i] = arr1[i];
+}
+````	
 
 Please note that the new code generator is not active yet. For the old generator, there are some inefficiencies and it is hence probably cheaper to cache the length on the stack.
 
