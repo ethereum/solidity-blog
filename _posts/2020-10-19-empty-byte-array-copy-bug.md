@@ -32,7 +32,7 @@ The read operation can result in the new byte array elements being non-zero.
 
 ## Example of the bug
 
-```
+```solidity
 contract C {
     bytes data;
     function f() public returns (bytes memory) {
