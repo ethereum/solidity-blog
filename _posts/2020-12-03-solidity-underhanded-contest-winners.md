@@ -91,7 +91,7 @@ Props for the witty and detailed storytelling and documentation!
 
 This submission shows the social aspect of trusting “audited” upgradable contracts: unless someone verifies every single on-chain executed upgrade (plus the initialization), none of the audits matter. *Not even the one from Open Trail of Diligence! ;)*
 
-### 🐛 [Luiz Soares](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission9_LuizSoares)' Superior Proxy
+### 🐛 [Luiz Soares & Boris Breslav](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission9_LuizSoares)'s Superior Proxy
 
 This submissions exploits a Solidity compiler bug, namely the [Solidity Dynamic Array Cleanup Bug](https://blog.soliditylang.org/2020/10/07/solidity-dynamic-array-cleanup-bug/), which was fixed with Solidity v0.7.3. Using this bug is a great idea in theory, however, the implementation is suspicious and would raise eyebrows.
 
