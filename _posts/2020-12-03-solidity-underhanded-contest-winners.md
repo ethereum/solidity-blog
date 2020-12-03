@@ -17,7 +17,7 @@ Now, let's have a look at this year's winners, starting from the 5th place!
 
 ## Solidity Underhanded Contest 2020 Winners
 
-### 5️⃣ th Place: [Marius van der Wijden](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission14) 
+### 5️⃣ th Place: [Marius van der Wijden](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission14_MariusVanDerWijden) 
 
 _commentary by [Alex Beregszaszi](https://twitter.com/alexberegszaszi)_
 
@@ -31,13 +31,13 @@ While the submission is written clearly and the issue is not obvious without dis
 1. Append only data structures are not commonly used and there have been various published bugs about clearing them.
 2. Awareness about `ECDSA.recover` was raised recently, and thus one would expect a more thorough review of its applications. The submission used the version from OpenZeppelin 2.5.0.
 
-### 4️⃣ th Place: [Richard Moore](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission8)
+### 4️⃣ th Place: [Richard Moore](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission8_RichardMoore)
 
 _commentary by [Stefan Beyer](https://twitter.com/beyer_st)_
 
 The submission exploits `CREATE2` to hijack a multisig contract that controls upgradability. Whilst this is a known issue, the scenario demonstrates the impact of `CREATE2` in combination with self-destruct and shows the importance of assessing the contracts deployment procedure in a security analysis. 
 
-### 3️⃣ rd Place: [Cory Dickson](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission1)
+### 3️⃣ rd Place: [Cory Dickson](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission1_CoreyDickson)
 
 _commentary by [Goncalo Sá](https://twitter.com/GNSPS)_
  
@@ -57,7 +57,7 @@ Its simplicity is really good. The attack could not have been more straight-forw
 
 Reiterating the answer to the previous question, this extreme simplicity is also a reason for it to not be the strongest of submissions. Some more context would’ve been welcomed.
 
-### 2️⃣ nd Place: [Jaime Iglesias](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission4)
+### 2️⃣ nd Place: [Jaime Iglesias](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission4_JaimeIglesias)
 
 _commentary by [Austin Williams](https://twitter.com/onewayfunction)_
 
@@ -68,7 +68,7 @@ The `_optIn` storage variable is stored in storage slot `0x7b191067458f5b5c0c36f
 In this way, the back door can be unlocked and locked simply by sending tokens to and from some address that is controlled by the admin.
 
 
-### 1️⃣ st Place: [Robert M C Forster](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission11)
+### 1️⃣ st Place: [Robert M C Forster](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission11_RobertMCForster)
 
 _commentary by [Chris Reitwiessner](https://twitter.com/ethchris)_
 
@@ -79,19 +79,19 @@ The exploit is very well hidden and makes use of special unicode symbols that ch
 
 Since multi-line comments work in the same way when read from left to right as well as from right to left, the submission is able to terminate the comment "from right to left" and switches into code mode which is then displayed in the "wrong" order. This causes the day and month variables to be swapped unnoticed and the upgrade is performed much earlier than expected.
 
-You can see the direction change in action by selecting [part of line 65](https://github.com/ethereum/solidity-underhanded-contest/blob/master/submissions_2020/submission11/contracts/TimelockUpgrade.sol#L65) in the submission.
+You can see the direction change in action by selecting [part of line 65](https://github.com/ethereum/solidity-underhanded-contest/blob/master/submissions_2020/submission11_RobertMCForster/contracts/TimelockUpgrade.sol#L65) in the submission.
 
 This is a flaw that can be prevented at the level of Solidity by disallowing text direction changes to flow across comments (https://github.com/ethereum/solidity/issues/10254), but I would also call this to the attention of IDE, highlighter and linter developers. I am not sure how a linter would handle such a situation, but if a linter marks superfluous whitespace at the end of a line, it should certainly mark a text direction change flowing out of a comment.
 
 ## Honorable Mentions
 
-### 🦇 [Chris Whinfrey](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission15)'s VampireSwap
+### 🦇 [Chris Whinfrey](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission15_ChrisWhinfrey)'s VampireSwap
 
 Props for the witty and detailed storytelling and documentation!
 
 This submission shows the social aspect of trusting “audited” upgradable contracts: unless someone verifies every single on-chain executed upgrade (plus the initialization), none of the audits matter. *Not even the one from Open Trail of Diligence! ;)*
 
-### 🐛 [Luiz Soares](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission9)' Superior Proxy
+### 🐛 [Luiz Soares](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission9_LuizSoares)' Superior Proxy
 
 This submissions exploits a Solidity compiler bug, namely the [Solidity Dynamic Array Cleanup Bug](https://blog.soliditylang.org/2020/10/07/solidity-dynamic-array-cleanup-bug/), which was fixed with Solidity v0.7.3. Using this bug is a great idea in theory, however, the implementation is suspicious and would raise eyebrows.
 
