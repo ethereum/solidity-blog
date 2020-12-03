@@ -28,7 +28,7 @@ Using this validation shortcoming, the submission allows anyone to create unlimi
 Solidity has always supported multiple return values which allows returning a status/error code and data separately, but more importantly the established best practice is to use `require` statements for validation, which most `ecrecover` use cases follow today.
 
 While the submission is written clearly and the issue is not obvious without dissection both the `closeVote` and the *trusted* `ECDSA.recover` functions, in our opinion there are two shortcomings raising suspicion:
-1. Append only data structures are not commonly used and there have been various published bugs about clearing them.
+1. Append only data structures are not commonly used.
 2. Awareness about `ECDSA.recover` was raised recently, and thus one would expect a more thorough review of its applications. The submission used the version from OpenZeppelin 2.5.0.
 
 ### 4️⃣ th Place: [Richard Moore](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission8_RichardMoore)
