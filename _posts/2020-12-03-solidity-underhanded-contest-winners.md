@@ -27,7 +27,7 @@ Using this validation shortcoming, the submission allows anyone to create unlimi
 
 Solidity has always supported multiple return values which allows returning a status/error code and data separately, but more importantly the established best practice is to use `require` statements for validation, which most `ecrecover` use cases follow today.
 
-While the submission is written clearly and the issue is not obvious without dissection both the `closeVote` and the *trusted* `ECDSA.recover` functions, in our opinion there are two shortcomings raising suspicion:
+While the submission is written clearly and the issue is not obvious without dissecting both the `closeVote` and the *trusted* `ECDSA.recover` functions, in our opinion there are two shortcomings raising suspicion:
 1. Append only data structures are not commonly used.
 2. Awareness about `ECDSA.recover` was raised recently, and thus one would expect a more thorough review of its applications. The submission used the version from OpenZeppelin 2.5.0.
 
@@ -79,7 +79,7 @@ The exploit is very well hidden and makes use of special unicode symbols that ch
 
 Since multi-line comments work in the same way when read from left to right as well as from right to left, the submission is able to terminate the comment "from right to left" and switches into code mode which is then displayed in the "wrong" order. This causes the day and month variables to be swapped unnoticed and the upgrade is performed much earlier than expected.
 
-You can see the direction change in action by selecting [part of line 65](https://github.com/ethereum/solidity-underhanded-contest/blob/master/submissions_2020/submission11_RobertMCForster/contracts/TimelockUpgrade.sol#L65) in the submission.
+You can see (*or not, depending on your editor 😬*) the direction change in action by selecting [part of line 65](https://github.com/ethereum/solidity-underhanded-contest/blob/master/submissions_2020/submission11_RobertMCForster/contracts/TimelockUpgrade.sol#L65) in the submission.
 
 This is a flaw that can be prevented at the level of Solidity by disallowing text direction changes to flow across comments (https://github.com/ethereum/solidity/issues/10254), but I would also call this to the attention of IDE, highlighter and linter developers. I am not sure how a linter would handle such a situation, but if a linter marks superfluous whitespace at the end of a line, it should certainly mark a text direction change flowing out of a comment.
 
