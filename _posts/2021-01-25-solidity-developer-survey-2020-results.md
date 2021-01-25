@@ -30,7 +30,7 @@ Firstly, let's have a look at the developers that participated in the survey. In
 
 #### Residency
 
-⚠️ Note that the fact that this survey has only been shared in English is an important factor to consider when interpreting results regarding language and country of residency.
+⚠️ _Note that the fact that this survey has only been shared in English is an important factor to consider when interpreting results regarding language and country of residency._
 
 The respondents stated to live in Algeria, Argentina, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, China, Costa Rica, Denmark, Finland, France, Germany, Ghana, Greece, Honduras, Hong Kong, India, Indonesia, Iran, Ireland, Israel, Italy, Japan, Lithuania, Malaysia, Mexico, Netherlands, New Zealand, Nigeria, Pakistan, Philippines, Poland, Portugal, Romania, Russia, Serbia, Singapore, South Africa, Spain, Switzerland, Taiwan, Thailand, Timor-Leste, Ukraine, United Kingdom and United States of America. 
 
@@ -40,13 +40,13 @@ With roughly 20%, the big majority of respondents live in the United States of A
 
 #### Language
 
-The developers speak a wide variety of different languages as their primary spoken language, with English being by far the most popular one. German, Spanish, Russian and French follow with similar levels.
+The developers speak a wide variety of different languages as their primary language, with English being by far the most popular one. German, Spanish, Russian and French follow with similar levels.
 
 ![Primary Language](/img/2021/01/langprimary.png)
 
-With 86% the vast majority of respondents speak English at work. 
+With 86%, the vast majority of respondents speak English at work. 
 
-Almost 90% of respondents are okay with reading the Solidity documentation in English while roughly 10% would prefer it to be translated into their native language. Some of the respondents who chose "native language" stated English as their primary spoken language, which results in 95% of participants preferring English for the documentation.
+Almost 90% of respondents are okay with reading the Solidity documentation in English while roughly 10% would prefer it to be translated into their native language. Some of the respondents who chose "native language" stated English as their primary spoken language though, which results in 95% of participants preferring English for the documentation.
 
 Bear in mind that this survey has only been conducted in English, which heavily influences the outcome of this question. This result will hence not have too much influence on the revamped translation efforts for the Solidity documentation and we will further investigate this topic.
 
@@ -61,6 +61,8 @@ Bear in mind that this survey has only been conducted in English, which heavily 
 
 ![Employment Status](/img/2021/01/employment.png)
 
+#### Industry
+
 The majority of respondents (68%) said they work in the technology industry. 14% work in the financial services industry. Less relevant, but also selected several times, were the energy sector, health care, creative, media & gaming and transportation.
 
 ![Industry Overview](/img/2021/01/industry.png)
@@ -73,7 +75,7 @@ The overall, non-Solidity-related, professional coding experience of respondents
 
 #### Operating System
 
-Interestingly, Linux and macOS seem equally popular, both getting roughly 40% of the repondents' votes. Circa 18% use Windows, while several of a share of those users also state to use another OS in addition to Windows. There are also several developers using both Linux and macOS.
+Interestingly, Linux and macOS seem equally popular, both getting roughly 40% of the repondents' votes. Circa 18% use Windows, while a part of those users also state to use another OS in addition to Windows. There are also several developers using both Linux and macOS, or even all three operating systems.
 
 ![Operating System](/img/2021/01/operatingsystem.png)
 
@@ -168,7 +170,7 @@ Looking at the overall coding seniority of the respondents this data could be in
 
 ![Solidity Usage](/img/2021/01/usingsol.png)
 
-43% of respondents rate themselves Solidity experts with an expertise level of 8 or higher (out of 10). Only 10% rank themselves in the beginner stages with an expertise level of 3 or lower.
+43% of respondents rate themselves Solidity experts with an expertise level of 8 (out of 10) or higher. Only 10% rank themselves in the beginner stages with an expertise level of 3 or lower.
 
 ![Expertise](/img/2021/01/solexpertise.png)
 
@@ -180,14 +182,14 @@ Most respondents are currently using 0.6.x or 0.7.x versions of Solidity. A smal
 
 A few people are not aware of the version they are using or are still using very old versions from the 0.4.x series. 
 
-Reminder: Please make sure to frequently update your code since several important bug fixes and security improvements have been added since 0.4.x!
+🚨 Please make sure to frequently update your code since several important bug fixes and security improvements have been added since 0.4.x!
 
 ![Versions Used](/img/2021/01/solidityversion.png)
 
 
 #### IDEs / Tooling
 
-50% of respondents stated they are using VSCode as a preferred editor to write Solidity. The second favorite editors was Vim (12.6%), followed by Remix (9.2%), IntelliJ (8.8%) and Atom (7.1%).
+50% of respondents stated they are using VSCode as a preferred editor to write Solidity. The second favorite editor was Vim (12.6%), followed by Remix (9.2%), IntelliJ (8.8%) and Atom (7.1%).
 
 ![IDEs / Tooling](/img/2021/01/ide.png)
 
@@ -201,15 +203,17 @@ When asked if they are using an Ethereum-specific development environment only 3
 
 ![Overall Developer Experience](/img/2021/01/devexperience.png)
 
-The biggest challenge/problem in developer experience for most respondents is the availability and quality of tooling. 
+The biggest challenge or problem in developer experience for most respondents is the availability and quality of tooling. 
 
 Also seen as critical aspects in order to foster adoption are error handling, IDE integrations and better documentation. 
 
-Less often voted but still relevant are the increasing complexity of the language, availability of generics, improvements in compilation time and debugging as well as improvements in gas cost, storage handling and security.
+Less often voted for but still relevant are the increasing complexity of the language, availability of generics, improvements in compilation time and debugging as well as improvements in gas cost, storage handling and security.
 
 ![Solidity's Challenges](/img/2021/01/challenges.png)
 
 #### Importance Ranking of Future Features
+
+We've asked the participants of the survey to rank selected features under discussion according to their importantance.
 
 Gas optimizations were ranked as most important, followed by interfaces to external debugging tools. The SMTChecker, generics and fixed point types are ranked similarly important. 
 
@@ -221,7 +225,7 @@ Explicitly copying semantics, enums with data, functions at file level and WebAs
 
 We've asked survey participants what they like and dislike most about Solidity and what they would like to see most in upcoming Solidity versions. Those questions had free-text reply fields so we've summarized the replies and are listing the most mentioned features and aspects below.
 
-#### Most liked features
+#### Most Liked Features
 
 Simplicity and cleanliness has been the number one most mentioned aspect the participants value about Solidity. 
 
@@ -253,7 +257,7 @@ Other features and aspects that have been mentioned repeatedly as cherished and 
 - Steady improvement of the language
 
 
-#### Most dreaded or unliked features
+#### Most Dreaded or Disliked Features
 
 The currently most dreaded aspect about Solidity is clearly debugging, followed by a lack of Solidity libraries. 
 
@@ -275,11 +279,13 @@ Other aspects and features that have been mentioned repeatedly as dreaded or dis
 - Dynamic array handling
 - Testing
 
-#### Most anticipated features
+#### Most Anticipated Features
 
-The most anticipated feature by far was "no more SafeMath". SafeMath by default has been introduced with 0.8.0 and hence is not an issue anymore. 🥳
+The most anticipated feature by far was "no more SafeMath". SafeMath by default has been [introduced with 0.8.0](https://blog.soliditylang.org/2020/12/16/solidity-v0.8.0-release-announcement/) and hence is not an issue anymore. 🥳
 
-The second most mentioned anticipated feature are better debugging features and debugging tools. Also ranked as important were better documentation, especially with a focus on more tutorials and code examples.
+The second most anticipated feature is better debugging and more debugging tools. 
+
+Also ranked high was better documentation, especially with a focus on more tutorials and code examples.
 
 Other anticipated and frequently mentioned features were:
 - Gas efficiency optimization features
@@ -304,7 +310,7 @@ Other anticipated and frequently mentioned features were:
 
 ### (5) Community
 
-More than 55% of respondents interact with other Solidity devs on a regular basis, while 27% only claim to do so rarely. Almost 17% do not interact with other Solidity developers at all.
+More than 55% of respondents interact with other Solidity developers on a regular basis, while 27% only claim to do so rarely. Almost 17% do not interact with other Solidity developers at all.
 
 ![Developer Interaction](/img/2021/01/devinteraction.png)
 
@@ -316,7 +322,7 @@ Only 22% fully agree that the Solidity team understands their needs. 14% state t
 
 The process of how to contribute to Solidity is clear or somewhat clear to 41% of respondents while 32% do not agree and hence say that the contribution process is unclear to them. 
 
-⚠️ There was a comparatively high share of "I don't know" replies to the last three statements.
+⚠️ _Note that there was a comparatively high share of "I don't know" replies to the last three statements._
 
 ![Community Statements](/img/2021/01/communitystatements.png)
 
@@ -343,5 +349,7 @@ Some of the participants claiming to not do any of the above explained they most
 ### THANK YOU! 💙
 
 As a wrap up question we asked participants if there was anything else that they’d like to tell us. We did not expect that amount of good vibes and want to say thank you to each of you! Reading your uplifting and warm comments was pure joy.
+
+We will continue our quest to further enhance and shape Solidity and are looking forward to the next survey to check in with you again!
 
 Feel free to reach out to us [via email](mailto:solidity@ethereum.org) or [chat with us](https://gitter.im/ethereum/solidity-dev) should you have any further questions about details of the survey results. 
