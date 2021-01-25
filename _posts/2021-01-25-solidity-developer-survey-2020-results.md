@@ -32,7 +32,7 @@ Firstly, let's have a look at the developers that participated in the survey. In
 
 ⚠️ Note that the fact that this survey has only been shared in English is an important factor to consider when interpreting results regarding language and country of residency.
 
-The respondents stated to live in Algeria, Austria, Belgium, Costa Rica, Denmark, Finland, Ghana, Greece, Honduras, Hong Kong, Iran, Israel, Italy, Lithuania, Mexico, New Zealand, South Africa, Taiwan, Thailand, Timor-Leste, Bulgaria, Indonesia, Ireland, Malaysia, Netherlands, Pakistan, Singapore, Canada, China, Nigeria, Portugal, Romania, Brazil, Japan, Philippines, Serbia, Spain, Switzerland, Ukraine, United Kingdom, Argentina, Poland, Australia, Russia, France, Germany, India, and the United States of America. 
+The respondents stated to live in Algeria, Argentina, Australia, Austria, Belgium, Brazil, Bulgaria, Canada, China, Costa Rica, Denmark, Finland, France, Germany, Ghana, Greece, Honduras, Hong Kong, India, Indonesia, Iran, Ireland, Israel, Italy, Japan, Lithuania, Malaysia, Mexico, Netherlands, New Zealand, Nigeria, Pakistan, Philippines, Poland, Portugal, Romania, Russia, Serbia, Singapore, South Africa, Spain, Switzerland, Taiwan, Thailand, Timor-Leste, Ukraine, United Kingdom and United States of America. 
 
 With roughly 20%, the big majority of respondents live in the United States of America, followed by India (8%) and Germany (7%).
 
@@ -73,9 +73,9 @@ The overall, non-Solidity-related, professional coding experience of respondents
 
 #### Operating System
 
-Interestingly, exactly 40% of respondents use macOS and 40% Linux as their operating system of choice. 16% use Windows while the rest is split between a combination of the different OS.
+Interestingly, Linux and macOS seem equally popular, both getting roughly 40% of the repondents' votes. Circa 18% use Windows, while several of a share of those users also state to use another OS in addition to Windows. There are also several developers using both Linux and macOS.
 
-![Operating System](/img/2021/01/os.png)
+![Operating System](/img/2021/01/operatingsystem.png)
 
 #### Solidity Usage
 
@@ -103,7 +103,7 @@ Less frequently mentioned, but still relevant, were descriptive error messages /
 
 Other aspects that were brought up several times were usability, productivity/efficiency, convenience, expressiveness, maintenance & support, simplicity, good developer experience and robustness (at scale).
 
-![Coding Preferences](/img/2021/01/choosingprogramminglang.png)
+![Coding Preferences](/img/2021/01/chooseprogramminglang.png)
 
 #### Favorite Programming Language
 
