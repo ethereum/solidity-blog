@@ -18,17 +18,17 @@ Please note that none of the questions in the survey were mandatory. Hence, the 
 ### Summary & Notable Insights
 
 - **Survey Audience**: 193 developers from all over the world replied to this survey, calling 48 different countries their current home. With roughly 20%, the big majority of respondents live in the United States of America, followed by India (8%) and Germany (7%). The majority of respondents speaks English at work.
-- **Developer Profiles**: Roughly 65% of respondents have been using Solidity for more than a year, with 43% being "Solidity pros" with 2 or more years of experience with the language. Looking at the overall coding seniority of the respondents it appears as if rather experienced developers start learning Solidity as opposed to code newbies starting to learn Solidity from scratch.
+- **Developer Profiles**: Roughly 65% of respondents have been using Solidity for more than a year, with 43% being "Solidity pros" with 2 or more years of experience with the language. Looking at the overall coding seniority of the respondents it appears that a significant number of Solidity users are experienced in other programming languages, as opposed to learning to program for the first time using Solidity.
 - **Solidity Experience**: 43% of respondents rate themselves as Solidity experts with an expertise level of 8 (out of 10) or higher.
 - **Solidity Developer Experience**: While noting many things that could still improve, there was an overall positive/good sentiment towards Solidity. Most respondents believed that the Solidity developer experience had some or much improvement over the last year.
-- **Solidity's Challenges**: The biggest challenge or problem in developer experience for most respondents is the availability and quality of tooling. Also seen as critical aspects in order to foster adoption are error handling, IDE integrations and better documentation.
-- **Most Liked, Dreaded and Anticipated**: Topics with room for imporovement that came up a lot: Error handling, debugging, the need for more tools and libraries, breaking dependencies.
-- **Contributing and Language Design**: There was surprisingly little interest and engagement in language design topics, partly because developers didn't know how to get involved, partly because they were not interested. (We will work on this! Efforts to foster collaborative language design are under way, we'll share more soon.)
+- **Solidity's Challenges**: The biggest challenge in developer experience for most respondents is the availability and quality of tooling. Also seen as critical aspects in order to foster adoption are error handling, IDE integrations and better documentation.
+- **Most Liked, Dreaded and Anticipated**: Topics with room for imporovement that came up a lot: Error handling, debugging, the need for more tools and libraries, and breaking dependencies.
+- **Contributing and Language Design**: There was surprisingly little interest and engagement in language design topics, partly because developers didn't know how to get involved, or because they were not interested. (We will work on this! Efforts to foster collaborative language design are under way, we'll share more soon.)
 - **Community**: Almost 17% of participants in this survey do not interact with other Solidity developers at all!
 
 ### (1) Survey Audience and Developer Profiles
 
-Firstly, let's have a look at the developers that participated in the survey. In total, we received **193 responses from 48 different countries**. 
+First, let's have a look at the developers that participated in the survey. In total, we received **193 responses from 48 different countries**. 
 
 ![Survey Participants World Map](/img/2021/01/world.png)
 
@@ -67,19 +67,19 @@ Bear in mind that this survey has only been conducted in English, which heavily 
 
 #### Industry
 
-The majority of respondents (68%) said they work in the technology industry. 14% work in the financial services industry. Less relevant, but also selected several times, were the energy sector, health care, creative, media & gaming and transportation.
+The majority of respondents (68%) said they work in the technology industry. 14% work in the financial services industry. Less dominant, but also selected several times, were the energy sector, health care, creative, media & gaming and transportation.
 
 ![Industry Overview](/img/2021/01/industry.png)
 
 #### Coding Experience
 
-The overall, non-Solidity-related, professional coding experience of respondents was impressive. 48% of respondents said they coded as part of their jobs for 6 years or more. Only roughly 7% stated that they have less than 1 year of coding experience. 
+The overall, non-Solidity-related, professional coding experience of respondents was impressive. Around 48% of respondents said they coded as part of their jobs for 6 years or more. Only roughly 7% stated that they have less than 1 year of coding experience. 
 
 ![Professional Coding Experience](/img/2021/01/codingexperience.png)
 
 #### Operating System
 
-Interestingly, Linux and macOS seem equally popular, both getting roughly 40% of the repondents' votes. Circa 18% use Windows, while a part of those users also state to use another OS in addition to Windows. There are also several developers using both Linux and macOS, or even all three operating systems.
+Interestingly, Linux and macOS seem equally popular, both getting roughly 40% of the repondents' votes. Around 18% use Windows, although a part of these users also state to use another OS in addition to Windows. There are also several developers using both Linux and macOS, or even all three operating systems.
 
 ![Operating System](/img/2021/01/operatingsystem.png)
 
@@ -101,7 +101,7 @@ Strikingly, the majority of respondents (61%) only infrequently or even never co
 
 We've asked the participants what is most important to them when choosing a programming language. The question had a free text reply field, hence we clustered the responses into overarching categories. 
 
-The most important aspect, stated by many respondents, was the fact that the programming language has to fit the task, it has to "get the job done".
+The most important aspect, stated by many respondents, was the fact that the programming language has to fit the task, and it has to "get the job done".
 
 Also ranked very highly were tooling, documentation and community, followed by security of the language, libraries, availability of good resources and learning material as well as a clear or familiar syntax. 
 
@@ -151,7 +151,7 @@ Other popular solutions are asking friends or coworkers for help, watching tutor
 
 ![Problem Solving](/img/2021/01/solidityproblem.png)
 
-When asked if developers encounter similar issues repeatedly, most responded with "no" or explained that with experience and more usage a learning effect happened and once they knew how to solve the problem they would not encounter the same issues frequently anymore. 
+When asked if developers encounter similar issues repeatedly, most responded with "no" or explained that with experience and usage, once they knew how to solve the problem they did not encounter the same issues repeatedly.
 
 The following issues have been mentioned to still pop up regularly or to be annoying:
 - Stack too deep.
@@ -170,15 +170,15 @@ Roughly 65% of respondents have been using Solidity for more than a year, with 4
 
 It's interesting to see that a fair share of 35% is just getting started with Solidity and has only been using it for under 12 months. 
 
-Looking at the overall coding seniority of the respondents this data could be interpreted such as experienced developers are starting to learn Solidity, rather than people that are new to coding getting started with Solidity from scratch.
+Looking at the overall coding seniority of the respondents, this data shows us that a majority of Solidity developers are developers with experience in other programming languages, rather than someone learning to program for the first time in Solidity.
 
 ![Solidity Usage](/img/2021/01/usingsol.png)
 
-43% of respondents rate themselves Solidity experts with an expertise level of 8 (out of 10) or higher. Only 10% rank themselves in the beginner stages with an expertise level of 3 or lower.
+43% of respondents rate themselves Solidity experts with an expertise level of 8 (out of 10) or higher. Only 10% rank themselves at the beginner stages with an expertise level of 3 or lower.
 
 ![Expertise](/img/2021/01/solexpertise.png)
 
-The majority of respondents use Solidity on a weekly (31%) or even daily basis (41%). Almost 18% use it monthly, while the remaining 9% stated to rarely code in Solidity.
+The majority of respondents use Solidity on a weekly (31%) or even daily basis (41%). Almost 18% use it monthly, while the remaining 9% stated that they rarely code in Solidity.
 
 ![Frequency of Usage](/img/2021/01/howoftensol.png)
 
@@ -186,7 +186,7 @@ Most respondents are currently using 0.6.x or 0.7.x versions of Solidity. A smal
 
 A few people are not aware of the version they are using or are still using very old versions from the 0.4.x series. 
 
-🚨 Please make sure to frequently update your code since several important bug fixes and security improvements have been added since 0.4.x!
+🚨 Please make sure to frequently update your code since [several important bug fixes](https://github.com/ethereum/solidity/blob/develop/docs/bugs_by_version.json#L922) and security improvements have been added since 0.4.x!
 
 ![Versions Used](/img/2021/01/solidityversion.png)
 
@@ -197,17 +197,17 @@ A few people are not aware of the version they are using or are still using very
 
 ![IDEs / Tooling](/img/2021/01/ide.png)
 
-When asked if they are using an Ethereum-specific development environment only 3% say that they are not using one. Truffle is most prominent with 35%, closely followed by Remix (29%) and Hardhat (23%).
+When asked if they are using an Ethereum-specific development environment, only 3% say that they are not using one. Truffle is the most prominent with 35%, closely followed by Remix (29%) and Hardhat (23%).
 
 ![Ethereum-specific IDEs / Tooling](/img/2021/01/ethide.png)
 
 #### Overall Solidity Developer Experience
 
-62% believe that the Solidity developer experience had some or even a lot of improvement in the last year. 15% saw a slight improvement while 9% thought that there was no change or that the Solidity developer experience got worse.
+Around 62% believe that the Solidity developer experience had some or even a lot of improvement in the last year. 15% saw a slight improvement while 9% thought that there was no change or that the Solidity developer experience got worse.
 
 ![Overall Developer Experience](/img/2021/01/devexperience.png)
 
-The biggest challenge or problem in developer experience for most respondents is the availability and quality of tooling. 
+The biggest challenge in developer experience for most respondents is the availability and quality of tooling. 
 
 Also seen as critical aspects in order to foster adoption are error handling, IDE integrations and better documentation. 
 
@@ -219,27 +219,27 @@ Less often voted for but still relevant are the increasing complexity of the lan
 
 We've asked the participants of the survey to rank selected features under discussion according to their importantance.
 
-Gas optimizations were ranked as most important, followed by interfaces to external debugging tools. The SMTChecker, generics and fixed point types are ranked similarly important. 
+Gas optimizations were ranked as most important, followed by interfaces to external debugging tools. The SMTChecker, generics and fixed point types were ranked similarly important. 
 
-Explicitly copying semantics, enums with data, functions at file level and WebAssembly output seem to be evaluated as less critical by the participants.
+Explicitly copying semantics, enums with data, functions at file level and WebAssembly output were evaluated as less critical by the participants.
 
 ![Future Features Ranking](/img/2021/01/futurefeatures.png)
 
 ### (4) Most Liked, Dreaded and Anticipated Features
 
-We've asked survey participants what they like and dislike most about Solidity and what they would like to see most in upcoming Solidity versions. Those questions had free-text reply fields so we've summarized the replies and are listing the most mentioned features and aspects below.
+We've asked survey participants what they like and dislike most about Solidity and what they would like to see the most in upcoming Solidity versions. Those questions had free-text reply fields so we've summarized the replies and are listing the most mentioned features and aspects below.
 
 #### Most Liked Features
 
-Simplicity and cleanliness has been the number one most mentioned aspect the participants value about Solidity. 
+Simplicity and cleanliness has been the number one aspect that the participants value about Solidity. 
 
 Furthermore, the developers appreciated the improvements in available tooling, especially highlighting Remix and Hardhat several times. 
 
 Another aspect the respondents appreciate is that Solidity is "easy to learn" and "simple to code".
 
-Several people stated that Solidity would be the right tool for what they are working on and they would like the focus on smart contracts and Solidity being a "special purpose tool" for it.
+Several people stated that Solidity is the right tool for what they are working on and that they like the focus on smart contracts and Solidity being a "special purpose tool" for it.
 
-Other features and aspects that have been mentioned repeatedly as cherished and appreciated:
+Other features and aspects that have been mentioned repeatedly as cherished and appreciated are:
 - Mappings
 - Human readability
 - Structs
@@ -287,7 +287,7 @@ Other aspects and features that have been mentioned repeatedly as dreaded or dis
 
 The most anticipated feature by far was "no more SafeMath". SafeMath by default has been [introduced with 0.8.0](https://blog.soliditylang.org/2020/12/16/solidity-v0.8.0-release-announcement/) and hence is not an issue anymore. 🥳
 
-The second most anticipated feature is better debugging and more debugging tools. 
+The second most anticipated feature was better debugging and more debugging tools. 
 
 Also ranked high was better documentation, especially with a focus on more tutorials and code examples.
 
@@ -332,7 +332,7 @@ The process of how to contribute to Solidity is clear or somewhat clear to 41% o
 
 #### Language Design
 
-Almost 85% of respondents state that they have never participated in any Solidity language design related activity. 2/3 of them say they didn't do so because they don't know how, while 1/3 is simply not interested in it.
+Almost 85% of respondents state that they have never participated in any Solidity language design related activity. Around two third of them say they didn't do so because they don't know how, while one third is simply not interested in it.
 
 7-8% said that they are part of the language design mailing list, have joined one or more language design discussion calls and/or have proposed features or changes to the language by filing GitHub issues.
 
@@ -346,7 +346,7 @@ Almost 85% of respondents state that they have never participated in any Solidit
 
 To stay in the loop with Solidity updates like new releases, security alerts and announcements, most respondents said they follow Solidity on Twitter, follow the Solidity GitHub release page and/or the Solidity blog. Also mentioned but less popular are the r/ethdev Reddit, the Solidity documentation and the Week in Ethereum newsletter.
 
-Some of the participants claiming to not do any of the above explained they mostly get informed by colleagues or friends or simply don't stay up-to-date at all.
+Some of the participants claiming to not do any of the above explained that they mostly get informed by colleagues or friends or simply don't stay up-to-date at all.
 
 ![Staying Up-To-Date 2](/img/2021/01/uptodatesol.png)
 
