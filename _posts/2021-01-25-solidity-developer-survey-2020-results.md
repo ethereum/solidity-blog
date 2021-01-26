@@ -19,7 +19,7 @@ Please note that none of the questions in the survey were mandatory. Hence, the 
 
 - **Survey Audience**: 193 developers from all over the world replied to this survey, calling 48 different countries their current home. With roughly 20%, the big majority of respondents live in the United States of America, followed by India (8%) and Germany (7%). The majority of respondents speaks English at work.
 - **Developer Profiles**: Roughly 65% of respondents have been using Solidity for more than a year, with 43% being "Solidity pros" with 2 or more years of experience with the language. Looking at the overall coding seniority of the respondents it appears as if rather experienced developers start learning Solidity as opposed to code newbies starting to learn Solidity from scratch.
-- **Solidity Experience**: 43% of respondents rate themselves Solidity experts with an expertise level of 8 (out of 10) or higher.
+- **Solidity Experience**: 43% of respondents rate themselves as Solidity experts with an expertise level of 8 (out of 10) or higher.
 - **Solidity Developer Experience**: While noting many things that could still improve, there was an overall positive/good sentiment towards Solidity. Most respondents believed that the Solidity developer experience had some or much improvement over the last year.
 - **Solidity's Challenges**: The biggest challenge or problem in developer experience for most respondents is the availability and quality of tooling. Also seen as critical aspects in order to foster adoption are error handling, IDE integrations and better documentation.
 - **Most Liked, Dreaded and Anticipated**: Topics with room for imporovement that came up a lot: Error handling, debugging, the need for more tools and libraries, breaking dependencies.
