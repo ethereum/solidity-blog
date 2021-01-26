@@ -22,7 +22,7 @@ Please note that none of the questions in the survey were mandatory. Hence, the 
 - **Solidity Experience**: 43% of respondents rate themselves as Solidity experts with an expertise level of 8 (out of 10) or higher.
 - **Solidity Developer Experience**: While noting many things that could still improve, there was an overall positive/good sentiment towards Solidity. Most respondents believed that the Solidity developer experience had some or much improvement over the last year.
 - **Solidity's Challenges**: The biggest challenge in developer experience for most respondents is the availability and quality of tooling. Also seen as critical aspects in order to foster adoption are error handling, IDE integrations and better documentation.
-- **Most Liked, Dreaded and Anticipated**: Topics with room for imporovement that came up a lot: Error handling, debugging, the need for more tools and libraries, and breaking dependencies.
+- **Most Liked, Dreaded and Anticipated**: Topics with room for improvement that came up a lot: Error handling, debugging, the need for more tools and libraries, and breaking dependencies.
 - **Contributing and Language Design**: There was surprisingly little interest and engagement in language design topics, partly because developers didn't know how to get involved, or because they were not interested. (We will work on this! Efforts to foster collaborative language design are under way, we'll share more soon.)
 - **Community**: Almost 17% of participants in this survey do not interact with other Solidity developers at all!
 
@@ -85,7 +85,7 @@ Interestingly, Linux and macOS seem equally popular, both getting roughly 40% of
 
 #### Solidity Usage
 
-Almost all of the respondents use Solidity for personal projects outside of work (93%), while 68% say they also use Solidity at work and code in another programming language at work. 
+Almost all of the respondents use Solidity for personal projects outside of work (93%). More than half of the respondents (68%) also say they use Solidity at work and/or code in another programming language at work. 
 
 27% of respondents stated to be managing a programming team while 8% are students.
 
@@ -131,15 +131,15 @@ As the next step, we wanted to learn more about the individual learning journey 
 
 #### Learning 
 
-The Solidity documentation is the most prominent learning material and primary resource for most respondents to learn Solidity. 
+The [Solidity documentation](https://docs.soliditylang.org/en/latest/) is the most prominent learning material and primary resource for most respondents to learn Solidity. 
 
 The practices of reading the open-source Solidity code of big projects as well as watching coding tutorial videos were frequently mentioned.
 
-Another prominent way to get started learning Solidity is the CryptoZombies coding game. 
+Another prominent way to get started learning Solidity is the [CryptoZombies](https://cryptozombies.io/) coding game. 
 
-Many respondents used the Ethereum StackExchange to find answers to their questions. 
+Many respondents used the [Ethereum StackExchange](https://ethereum.stackexchange.com/) to find answers to their questions. 
 
-Massive open online courses (MOOCs) like Udacity, Udemy and university courses were mentioned by several respondents followed by active coding approaches like "learning by coding" using Remix and the OpenZeppelin contracts as well as by going through the ConsenSys Academy. 
+Massive open online courses (MOOCs) like Udacity, Udemy and university courses were mentioned by several respondents followed by active coding approaches like "learning by coding" using [Remix](https://remix.ethereum.org/) and the [OpenZeppelin contracts](https://openzeppelin.com/contracts/) as well as by going through the [ConsenSys Academy](https://consensys.net/academy). 
 
 ![Primary Learning Resources](/img/2021/01/PrimaryResource.png)
 
@@ -154,7 +154,7 @@ Other popular solutions are asking friends or coworkers for help, watching tutor
 When asked if developers encounter similar issues repeatedly, most responded with "no" or explained that with experience and usage, once they knew how to solve the problem they did not encounter the same issues repeatedly.
 
 The following issues have been mentioned to still pop up regularly or to be annoying:
-- Stack too deep.
+- Stack too deep errors.
 - Error messages that don't point to the cause of the issue.
 - Out of gas errors.
 - Compilation errors.
@@ -203,13 +203,13 @@ When asked if they are using an Ethereum-specific development environment, only 
 
 #### Overall Solidity Developer Experience
 
-Around 62% believe that the Solidity developer experience had some or even a lot of improvement in the last year. 15% saw a slight improvement while 9% thought that there was no change or that the Solidity developer experience got worse.
+Around 62% believe that the Solidity developer experience had some or even a lot of improvement in the last year. 15% saw a slight improvement while only 9% thought that there was no change or that the Solidity developer experience got worse.
 
 ![Overall Developer Experience](/img/2021/01/DevExperience.png)
 
 The biggest challenge in developer experience for most respondents is the availability and quality of tooling. 
 
-Also seen as critical aspects in order to foster adoption are error handling, IDE integrations and better documentation. 
+Other aspects seen as critical in fostering language adoption are: Error handling, IDE integrations and better documentation. 
 
 Less often voted for but still relevant are the increasing complexity of the language, availability of generics, improvements in compilation time and debugging as well as improvements in gas cost, storage handling and security.
 
@@ -217,7 +217,7 @@ Less often voted for but still relevant are the increasing complexity of the lan
 
 #### Importance Ranking of Future Features
 
-We've asked the participants of the survey to rank selected features under discussion according to their importantance.
+We've asked the participants of the survey to rank selected features under discussion according to their importance.
 
 Gas optimizations were ranked as most important, followed by interfaces to external debugging tools. The SMTChecker, generics and fixed point types were ranked similarly important. 
 
@@ -227,7 +227,7 @@ Explicitly copying semantics, enums with data, functions at file level and WebAs
 
 ### (4) Most Liked, Dreaded and Anticipated Features
 
-We've asked survey participants what they like and dislike most about Solidity and what they would like to see the most in upcoming Solidity versions. Those questions had free-text reply fields so we've summarized the replies and are listing the most mentioned features and aspects below.
+We've asked survey participants what they like and dislike most about Solidity and what they would like to see the most in upcoming Solidity versions. Those questions had free-form reply fields so we've summarized the replies and are listing the most mentioned features and aspects below.
 
 #### Most Liked Features
 
@@ -240,47 +240,47 @@ Another aspect the respondents appreciate is that Solidity is "easy to learn" an
 Several people stated that Solidity is the right tool for what they are working on and that they like the focus on smart contracts and Solidity being a "special purpose tool" for it.
 
 Other features and aspects that have been mentioned repeatedly as cherished and appreciated are:
-- Mappings
-- Human readability
-- Structs
-- Modifiers
-- Strong-typing
-- JS-likeness
-- Assembly access
-- SafeMath by default
-- Good library support
-- C++-likeness
-- SMTChecker
-- Composability
-- Immutability
-- ABI Encoder V2
-- Explicitness
-- Inheritance
-- Compact code size
-- Syntax
-- Steady improvement of the language
+- Mappings.
+- Human-readability.
+- Structs.
+- Modifiers.
+- Strong-typing.
+- JS-likeness.
+- Assembly access.
+- SafeMath by default.
+- Good library support.
+- C++-likeness.
+- SMTChecker.
+- Composability.
+- Immutability.
+- ABI Encoder V2.
+- Explicitness.
+- Inheritance.
+- Compact code size.
+- Syntax.
+- Steady improvement of the language.
 
 
 #### Most Dreaded or Disliked Features
 
-The currently most dreaded aspect about Solidity is clearly debugging, followed by a lack of Solidity libraries. 
+The currently most dreaded aspect of Solidity is clearly debugging, followed by a lack of Solidity libraries. 
 
 Respondents also complain about inheritance conflicts and the need to write more specific code in assembly / low-level code. 
 
 Other aspects and features that have been mentioned repeatedly as dreaded or disliked are:
-- Error handling
-- Memory management
-- Frequency of breaking changes and dependencies breaking
-- Contract & stack size limits
-- Inconsistency with other languages
-- ABI encode
-- Unclear gas usage / gas inefficiency
-- Tooling
-- Complexity
-- Recompiles failing due to metadata
-- Verbosity
-- Dynamic array handling
-- Testing
+- Error handling.
+- Memory management.
+- Frequency of breaking changes and dependencies breaking.
+- Contract & stack size limits.
+- Inconsistency with other languages.
+- ABI encoding.
+- Unclear gas usage / gas inefficiency.
+- Tooling.
+- Complexity.
+- Recompiles failing due to metadata.
+- Verbosity.
+- Dynamic array handling.
+- Testing.
 
 #### Most Anticipated Features
 
@@ -291,29 +291,26 @@ The second most anticipated feature was better debugging and more debugging tool
 Also ranked high was better documentation, especially with a focus on more tutorials and code examples.
 
 Other anticipated and frequently mentioned features were:
-- Gas efficiency optimization features
-- Generics
-- console.log()
-- Dynamic arrays
-- Better tooling
-- Better IDEs
-- LSP support
-- Structs
-- Rich revert reasons/ error codes
-- Standard library
-- Custom optimization features
-- Release v.1.0.0
-- SMTChecker
-- Stable ABIEncoderV2
-- No more stack too deep
-- Decimals
-- Over- and underflow handling
-- Fixed point types
-- WASM
+- Gas efficiency optimization features.
+- Generics.
+- console.log().
+- Dynamic arrays.
+- Better tooling.
+- Better IDEs.
+- LSP support.
+- Rich revert reasons / error codes.
+- Standard library.
+- Custom optimization features.
+- Release v1.0.0.
+- SMTChecker.
+- Stable ABIEncoderV2.
+- No more stack too deep.
+- Decimals / fixed point types.
+- WASM.
 
 ### (5) Community
 
-More than 55% of respondents interact with other Solidity developers on a regular basis, while 27% only claim to do so rarely. Almost 17% do not interact with other Solidity developers at all.
+More than 55% of respondents interact with other Solidity developers on a regular basis, while 27% claim to do so only rarely. Almost 17% do not interact with other Solidity developers at all.
 
 ![Developer Interaction](/img/2021/01/DevInteraction.png)
 
@@ -331,7 +328,7 @@ The process of how to contribute to Solidity is clear or somewhat clear to 41% o
 
 #### Language Design
 
-Almost 85% of respondents state that they have never participated in any Solidity language design related activity. Around two third of them say they didn't do so because they don't know how, while one third is simply not interested in it.
+Almost 85% of respondents state that they have never participated in any Solidity language design related activity. Around two thirds of them say they didn't do so because they don't know how, while one third is simply not interested in it.
 
 7-8% said that they are part of the language design mailing list, have joined one or more language design discussion calls and/or have proposed features or changes to the language by filing GitHub issues.
 
@@ -343,7 +340,7 @@ Almost 85% of respondents state that they have never participated in any Solidit
 
 ![Staying Up-To-Date](/img/2021/01/UpToDate.png)
 
-To stay in the loop with Solidity updates like new releases, security alerts and announcements, most respondents said they follow Solidity on Twitter, follow the Solidity GitHub release page and/or the Solidity blog. Also mentioned but less popular are the r/ethdev Reddit, the Solidity documentation and the Week in Ethereum newsletter.
+To stay in the loop with Solidity updates like new releases, security alerts and announcements, most respondents said they follow [Solidity on Twitter](https://twitter.com/solidity_lang), follow the [Solidity GitHub release page](https://github.com/ethereum/solidity/releases) and/or the [Solidity blog](https://blog.soliditylang.org/). Also mentioned but less popular are the [r/ethdev Reddit](https://www.reddit.com/r/ethdev/), the [Solidity documentation](https://docs.soliditylang.org/en/latest/) and the [Week in Ethereum newsletter](https://weekinethereumnews.com/).
 
 Some of the participants claiming to not do any of the above explained that they mostly get informed by colleagues or friends or simply don't stay up-to-date at all.
 
