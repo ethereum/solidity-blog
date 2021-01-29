@@ -314,7 +314,7 @@ More than 55% of respondents interact with other Solidity developers on a regula
 
 ![Developer Interaction](/img/2021/01/DevInteraction.png)
 
-The majority of respondents feels welcome in the Solidity community and is confident in the work of the Soldity core team. 
+The majority of respondents feels welcome in the Solidity community and is confident in the work of the Solidity core team. 
 
 71% agree or somewhat agree to feeling welcome to contributing to Solidity.
 
