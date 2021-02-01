@@ -38,11 +38,6 @@ We are launching the forum with an initial selection of categories which can be 
 
 📮 Subscribe to this category if you want to be kept in the loop about releases, security updates and Solidity-relevant feedback surveys, news and events.
 
-#### → Solidity Compiler
-[“Solidity Compiler”](https://forum.soliditylang.org/c/solidity-compiler/6) is a category for discussions and feedback about the Solidity compiler.
-
-⚠️ Please do not use the forum to report issues. Please report issues directly via the [Solidity Issue Tracker](https://github.com/ethereum/solidity/issues/new/choose) in Github.
-
 #### → Language Design
 [“Language Design”](https://forum.soliditylang.org/c/language-design/9) is the dedicated place for proposals and discussion on new language features and their implementation in the early stages of ideation or modifications of existing features. This is the place to discuss the soundness of proposals and define them further. As soon as proposals get more tangible their implementation will also be discussed in the Solidity GitHub organisation in the form of GitHub issues.
 
