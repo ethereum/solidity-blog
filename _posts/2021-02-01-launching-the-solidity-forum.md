@@ -29,36 +29,36 @@ The Solidity forum is based on [Discourse](https://www.discourse.org/about), an 
 
 If you are new to Discourse consider having a look at this [“Unofficial Discourse User Reference Guide”](https://forum.digikey.com/t/an-unofficial-discourse-user-reference-guide/1125), which summarizes useful tips on how to use Discord, text formatting, images, LaTex and more.
  
-### A Quick Guide to the Solidity Forum Categories
+### A Quick Guide to the Solidity Forum Categories 🔖
 
 We are launching the forum with an initial selection of categories which can be adjusted and extended over time. To propose a new category, or the change of an existing one, please post your suggestions in the [“Site Feedback”](https://forum.soliditylang.org/c/site-feedback/2) category. 
 
-#### Announcements
+#### → Announcements
 [”Announcements”](https://forum.soliditylang.org/c/announcements/5) is a low-traffic category for important announcements about the Solidity language and compiler.
 
 📮 Subscribe to this category if you want to be kept in the loop about releases, security updates and Solidity-relevant feedback surveys, news and events.
 
-#### Solidity Compiler
+#### → Solidity Compiler
 [“Solidity Compiler”](https://forum.soliditylang.org/c/solidity-compiler/6) is a category for discussions and feedback about the Solidity compiler.
 
 ⚠️ Please do not use the forum to report issues. Please report issues directly via the [Solidity Issue Tracker](https://github.com/ethereum/solidity/issues/new/choose) in Github.
 
-#### Language Design
+#### → Language Design
 [“Language Design”](https://forum.soliditylang.org/c/language-design/9) is the dedicated place for proposals and discussion on new language features and their implementation in the early stages of ideation. As soon as proposals get more tangible their implementation will also be discussed in the Solidity GitHub organisation in form of issues.
 
 ℹ️ You can follow the implementation status of new features in the [Solidity Github project](https://github.com/ethereum/solidity/projects/43). Issues in the design backlog need further specification and will either be discussed in a language design call or in a regular team call. You can see the upcoming changes for the next breaking release by changing from the default branch (develop) to the [breaking branch](https://github.com/ethereum/solidity/tree/breaking).
 
-#### Tools & Infrastructure
+#### → Tools & Infrastructure
 [“Tools & Infrastructure”](https://forum.soliditylang.org/c/tooling-infrastructure/10) is the category for meta discussion about developer tooling, e.g. IDEs, debuggers, development frameworks, security tools, and infrastructure with a focus on the interactions and improvements between tooling and Solidity.
 
 ℹ️ This category is not meant for reporting bugs in tools or proposing new tooling features. To do that, please refer to the respective GitHub organisations of the individual projects.
 
-#### Documentation
+#### → Documentation
 Meta discussion about the documentation and its translations can take place in the [“Documentation”](https://forum.soliditylang.org/c/documentation/8) category.
 
 ⚠️ Again, please do not use the forum to report issues (e.g. typos or broken links in the documentation). Please report issues directly via the [Solidity Issue Tracker](https://github.com/ethereum/solidity/issues/new/choose) in Github.
 
-#### Code Wizards
+#### → Code Wizards
 In ["Code Wizards"](https://forum.soliditylang.org/c/code-wizards/7) you can get help with your Solidity code or share useful tips or code snippets you came up with that are worth spreading.
 
 ℹ️ The Solidity forum will not the place for ad-hoc support questions. For urgent Solidity support questions, please use the [Solidity Gitter chat](https://gitter.im/ethereum/solidity) or consider checking out the [Ethereum StackExchange](https://ethereum.stackexchange.com/).
@@ -67,6 +67,6 @@ In ["Code Wizards"](https://forum.soliditylang.org/c/code-wizards/7) you can get
 
 To stay up-to-date about things without the need to constantly check the forum, you can get notifications via email! To edit your email preferences and enable the mailing list feature, visit your Profile → Preferences and scroll to Email. In the email settings you can define how often you’d like to receive emails. You can mute all topics and categories you are not interested in.
 
-### See You There!
+### See You There! 👋
 
 Without further ado, let’s kick off some discussions in the [forum](https://forum.soliditylang.org/). We're looking forward to seeing you there!
