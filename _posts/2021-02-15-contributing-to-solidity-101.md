@@ -18,7 +18,7 @@ There are plenty of options how you can contribute to Solidity.
 In particular, we appreciate support in the following areas:
 
 - **Issues**: Help with reporting or fixing issues.
-- **Testing**: Run the compiler tests or help with fuzz testing.
+- **Testing**: Test new versions and provide feedback.
 - **Documentation**: Improve or translate the documentation.
 - **Community**: Help others by answering their questions.
 - **Language Design**: Propose language changes or new features and provide feedback.
@@ -45,9 +45,11 @@ Reducing the source code that caused the issue to a bare minimum is always very 
 
 If you want to fix or respond to Solidity’s GitHub issues, we recommend to get started by looking into issues tagged as [``good first issue``](https://github.com/ethereum/solidity/labels/good%20first%20issue), which are meant as introductory issues for external contributors. In order to contribute, please fork off the ``develop`` branch and make your changes there. Then, please follow the [workflow for pull requests](https://docs.soliditylang.org/en/latest/contributing.html#workflow-for-pull-requests) as outlined in the Solidity documentation.
 
-### (2) Run the Solidity Compiler Tests
+### (2) Test New Solidity Versions
 
-DOES IT MAKE SENSE TO ADD THIS?
+You can help us finding issues by testing out new compiler versions, preferrably the nightly development builds, on your code and reporting any issues you might encounter. 
+
+You can find all information on how to access the nightly builds in the ["Installing the Solidity Compiler"](https://docs.soliditylang.org/en/latest/installing-solidity.html) chapter of the documentation.
 
 ### (3) Improve the Documentation
 
