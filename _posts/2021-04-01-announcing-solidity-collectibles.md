@@ -7,9 +7,11 @@ author: Franziska Heintel
 category: Announcements
 ---
 
+> **⚠️ Attention: This post is an April Fools' Day joke. Please consume it at your own risk. We will not distribute any Solidity  NFTs in the foreseeable future. Stay safe.**
+
 Today, we are excited to announce a little surprise we’ve been working on silently for the last couple of weeks. We heard that you really like crypto-related collectibles and we listened.
 
-**You will soon be able to own a digital piece of Solidity’s history: We’re tokenizing each Solidity version as an NFT!** 🥳
+You will soon be able to own a digital piece of Solidity’s history: We’re tokenizing each Solidity version as an NFT! 🥳
 
 Every release will be minted exactly one time only and hence will be truly unique. You’ll be able to bid on each version’s NFT. The means collected from this process will go into a dedicated pool which will be used to fund Solidity-related development that the owner of the NFTs, will be able to vote on (more on this below!).
 
