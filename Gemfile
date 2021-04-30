@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 #gem "jekyll", "~> 3.6"
 
 group :jekyll_plugins do 
-  gem "github-pages", "207"
+  gem "github-pages", "214"
   gem "jekyll-paginate"
 end
 
