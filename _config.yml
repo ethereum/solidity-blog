@@ -24,7 +24,7 @@ description:
 # List of links in the navigation bar
 navbar-links:
   Releases: "https://github.com/ethereum/solidity/releases"
-  Documentation: "https://solidity.readthedocs.io/"
+  Documentation: "https://docs.soliditylang.org/"
   Language Portal: "https://soliditylang.org/"
   # Ethereum Research Forum: "https://ethresear.ch/"
 
