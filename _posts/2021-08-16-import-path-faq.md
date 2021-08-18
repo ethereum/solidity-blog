@@ -312,39 +312,215 @@ ParserError: Source "util.sol" not found: File import callback not supported
 ```
 
 ### Q: Why do my paths only work/break on Windows/macOS
-#### Case-sensitivity
-TODO
-#### Restricted characters
-TODO
-#### Unicode characters
-TODO
+Since source unit names can contain arbitrary characters, Standard JSON input is platform-independent as long as it is self-contained and no additional files need to be loaded using an import callback.
+If you do rely on an import callback, however, you have to ensure that it can match your imports to files on disk.
+In case of the default callback it means that they must look like paths that are valid on that platform.
+This is also true if instead of a callback you rely on a framework to find the files for you and build Standard JSON input, if the tool uses paths as source unit names.
+
+Fortunately there is a common subset of paths that is valid on all common platforms.
+Below we'll go through the common differences you might encounter.
+We'll also see how to use platform-specific paths correctly if you do decide to use them.
+
 #### Path separators
-TODO
+##### On the command line
+All paths given on the command line are intepreted in a platform-specific way.
+Invoking the compiler with a path like `contracts\token.sol` on Windows is completely fine and expected.
+The compiler will internally convert `\` to `/` when assigning source unit name to the file.
+
+If you are using Bash and common Linux tools on Windows (e.g. those installed with [Git for Windows](https://gitforwindows.org)) you should be aware of the [Automatic Unix ⟶ Windows Path Conversion](https://www.msys2.org/docs/filesystem-paths/#automatic-unix-windows-path-conversion).
+The conversion results in any arguments that look like UNIX paths being replaced with platform-specific equivalents.
+For example if you have git installed in `C:\Program Files\Git\`, invoking `solc.exe /projects/contract.sol` will result in the compiler receiving `C:\Program Files\Git\projects\contract.sol` as the input path.
+This is likely not the path you expect.
+For this reason it's recommended to use paths in the native format when invoking the compiler on the command line.
+This behavior can also be disabled by setting the `MSYS_NO_PATHCONV` environment variable.
+
+##### In the default import callback
+Path separators in source unit names are intepreted in a platform-specific way when passed to the default import callback.
+On Windows both forward- and backslashes are treated as separators while on Linux and macOS this behavior is limited to forward slahes.
+For this reason the use of backslashes in imports, while allowed, is highly discouraged.
+
+Note that to use a forward slash in a Solidity import you have to escape it.
+For example `import "C:\Users\test\contract.sol"` refers to `C:Users	estcontract.sol` because `\U`, `\c` and `\t` are escape sequences.
+`\U` and `\c` are equivalent to just `U` and `c`, and `\t` represents a tab character.
+To actually use a path with forward slashes the import must look like this: `import "C:\\Users\\test\\contract.sol"`.
+
+##### In relative imports
+At the VFS level the only situation where path separators matter is the resolution of relative imports.
+These expect forward slashes on all platforms.
+Backslashes are treated as a part of the file name in such imports, even on Windows.
+In particular imports starting with `.\` or `..\` are **not** recognized as relative imports at all.
+for example `import ".\\contract.sol"` is a direct import and the resulting source unit name is always `.\contract.sol`.
+
 #### Drive letters
-TODO
+Having multiple drives with separate directory tries is a feature unique to Windows.
+The situation is very similar to that with path separators - the recommended alternative is to refer the filesystem root as `/`.
+For this to work you need to ensure that all source files are on a single drive and that the compiler's working directory is also located on that drive.
+If you want to keep some of the files on another drive, you can still avoid referring to that drive directly by creating symbolic links (if your version of Windows supports them).
+
+##### On the command line
+In the current version of the compiler absolute paths specified on the command line are not normalized and made relative when source unit names are assigned in the VFS.
+For example running `solc.exe C:\Users\test\contract.sol` will make the compiler use `C:/Users/test/contract.sol` as the name.
+This means that on Windows if you include the drive letter, it will end up in your contract metadata.
+This behavior is going to change in the next release and the compiler will instead attempt to use paths relative to [base path](https://docs.soliditylang.org/en/latest/path-resolution.html#base-path) whenever possible.
+For the time being, you should avoid using absolute paths on the command line.
+
+Another thing worth pointing out is that the drive letter alone is not a valid directory name on Windows.
+For example passing `--allow-paths C:` option to the compiler will not whitelist the whole drive.
+You need `--allow-paths C:\` instead.
+Or just `--allow-paths \` if it's the current drive.
+
+#### Restricted characters
+The only restriction on source unit names is that they cannot contain the `\0` character (a byte with a value of zero).
+Actual filesystems often have many more restrictions:
+- A wider range of disallowed characters.
+    This varies greatly but many filesystems disallow at least `/`.
+- Characters invalid at certain positions.
+    For example on Windows file names cannot end with a dot.
+- File names or paths as a whole may have a maximum length.
+    Limits are not consistent across different filesystems.
+
+For a more complete list see the Wikipedia article for [Filename](https://en.wikipedia.org/wiki/Filename).
+
+The general recommendation is to avoid names that are excessively long or contain characters other than letters and some commonly used safe symbols like `_`.
+
+#### Case-sensitivity
+Compiler's VFS is case-sensitive.
+Even if your filesystem is case-insensitive (usually the case on Windows and macOS), you should consistently refer to files using the same case.
+Otherwise each case variant will be seen as a different source unit and compiled separately.
+
+For example the default import callback will be able to locate source code for both `import "Contract.sol"` and `import "contract.sol"` but you will get two separate entries in the VFS.
+Also `solc.exe Contract.sol contract.sol` will result in the contract being compiled twice.
+This will remain true even after the compiler starts normalizing the paths specified on the command line, though using inconsistent case might start producing a warning in future releases.
+
+#### Unicode characters
+The compiler does not make any assumptions about the encoding of characters used in source unit names.
+For example any UTF-8 encoded text is valid and bytes that represent ill-formed UTF-8 character sequences are accepted as well.
+
+The import syntax is more restrictive though.
+The import statement requires a string literal and [unicode literals](https://docs.soliditylang.org/en/latest/types.html#unicode-literals) are not accepted, which means that any non-ASCII characters must be escaped.
+
+**Example**: To import a file called `ユニコーン.sol` you need `import "\u30e6\u30cb\u30b3\u30fc\u30f3.sol"`.
+
+Some filesystems perform [Unicode normalization](https://en.wikipedia.org/wiki/Unicode_equivalence#Errors_due_to_normalization_differences), which poses a problem similar to case-sensitivity.
+HFS+ used on macOS is an example of such a filesystem.
+The normalization means that some multiple byte sequences can be treated as representing same name while on other systems they would be all considered different.
+This complication is yet another reason to avoid non-ASCII characters in file names.
+
 #### UNC paths
-TODO
+On Windows paths starting with `\\` or `//` followed by a host name ([UNC paths](https://en.wikipedia.org/wiki/Path_(computing\)#UNC)) are used to represent shared network resources.
+On UNIX-like systems such paths have no special meaning but are often still treated as distinct from normal paths.
+
+**Example**: `/home/user/`, `//home/user/`, `///home/user/` on Linux all refer to user's home directory, but `///home/user/` gets normalized into `/home/user/`, while `//home/user/` does not.
+
+Making UNC paths relative is especially problematic since they cannot reliably be used as the working directory.
+The `cmd.exe` shell does not allow changing the directory to an UNC paths without resorting to tricks.
+The compiler does work with absolute UNC paths but they are not recommended for the same reason any other absolute paths are.
+
 #### Symbolic links
-TODO
+Symbolic links have been [supported on Windows](https://en.wikipedia.org/wiki/Symbolic_link#Microsoft_Windows) for quite some time.
+There are, however, important differences compared to how they work on UNIX-like systems.
+Most importantly, on Windows you have to indicate whether the link is pointing at a file or a directory and using the wrong type will make it non-functional.
+Also forward slashes do not work reliably when used in the target path so it's recommended to use the native path separator instead.
+
 ### Q: Why are absolute import paths bad? What does it have to do with source code verification?
-TODO
+The problem is not the form of the path on its own but rather the superflous information that ends up being included when the path is made absolute.
+It's completely fine to use an absolute path in a generic and reproducible environment like a Docker image where it can remain constant no matter where the environment is deployed.
+
+An important factor is that you might be building your contract with absolute paths even if you do not put them directly in your imports.
+Frameworks and tools, which construct the Standard JSON input are free to use anything for source unit names and they might choose to use absolute paths for that.
+If you're only using relative imports, you won't see them unless you inspect the compiler input or contract metadata.
+
+Another way to end up with absolute paths is using them as [import remapping](https://docs.soliditylang.org/en/latest/path-resolution.html#import-remapping) targets.
+Remappings do not simply tell the compiler where to find the files on disk, they affect source unit names.
+Even if your import is a clean `import "@openzeppelin/contracts/utils/Array.sol"`, by compiling the contract with `solc contract.sol @openzeppelin/=/home/user/.packages/OpenZeppelin/`, you end up with `/home/user/.packages/OpenZeppelin/` in your contract metadata.
+
+Finally, using absolute paths on the command line currently results in them being used for source unit names too, though this is going change in the upcoming release.
+
+Using absolute paths hurts bytecode reproducibility.
+Source unit names are included in contract metadata and a hash of the metadata is always appended to the bytecode.
+Just having absolute paths in the Standard JSON input constructed by the tool you are using means that you are likely to obtain different bytecode in different environments.
+If files are stored inside home directory, the paths include the username is usually different on different machines.
+On Windows the paths may also include the drive letter.
+
+To deal with this problem verification tools often completely strip metadata hash from the bytecode.
+This, unfortunately, weakens the guarantees you get from verification.
+Without ensuring that metadata is the same, the tool allows submitting modified source code as long as it produces the same bytecode.
+It may have different comments, internal functions, local variable names or be laid out in files completely differently (which is why flattening works at all).
+While such differences cannot affect the behavior of the contract, they may still obscure how the contract really works and mislead users into believing that it's safe.
+Ignoring them also allows anyone who has access to the source code to modify the licensing or authorship information and submit such modified source before the contract author.
+
+Another downside of using absolute paths is that they may contain information you do not want to be leaked to the blockchain.
+The most obvious example is the local username being exposed as a part of the path to the home directory.
+
 ### Q: What is the purpose of `--base-path`? Why does the compiler prepend it even to absolute paths?
-TODO
-### Q: Why the absolute paths I specify in `sources.urls` in Standard JSON do not work?
-TODO
-### Q: What is the right way to import files from packages?
-TODO
-### Q: Why can't I remap a relative import?
-TODO
-### Q: Why paths remapped to start with `./` or `../` do not behave like relative imports
-TODO
-### Q: Why can't I remap base path?
-TODO
-### Q: What happens if my path has too many `..` segments?
-TODO
-### Q: Why is the compiler telling me that my path is not allowed even though I'm using `--allow-paths`?
-TODO
-### Q: How is the file identified if I pass it on compiler's standard input? How do relative imports work there?
-TODO
-### Q: Why do Hardhat and Truffle not produce the same exact bytecode when compiling the same project?
-TODO
+Base path is a mechanism that was originally introduced in an attempt to make it easy to use relative paths to refer to project files.
+
+By default base path is empty, which means that source unit names are directly interpreted as paths.
+Absolute ones remain absolute while relative ones are relative to the working directory.
+For example, assuming that the working directory is `/home/user/`:
+
+| Source unit name                          | Filesystem path                                      |
+|-------------------------------------------|------------------------------------------------------|
+| `contracts/file.sol`                      | `/home/user/contracts/file.sol`                      |
+| `/home/user/contracts/file.sol`           | `/home/user/contracts/file.sol`                      |
+| `@openzeppelin/contracts/utils/Array.sol` | `/home/user/@openzeppelin/contracts/utils/Array.sol` |
+
+
+When set to a non-empty value, base path is instead automatically prepended to all source unit names.
+This turns both absolute and relative paths into ones relative to base path.
+For example, assuming that the project is compiled with `--base-path=project/`:
+
+| Source unit name                          | Filesystem path                                              |
+|-------------------------------------------|--------------------------------------------------------------|
+| `contracts/file.sol`                      | `/home/user/project/contracts/file.sol`                      |
+| `/home/user/contracts/file.sol`           | `/home/user/project/home/user/contracts/file.sol`            |
+| `@openzeppelin/contracts/utils/Array.sol` | `/home/user/project/@openzeppelin/contracts/utils/Array.sol` |
+
+In effect, base path represents the project root.
+Making the leading `/` in direct imports refer to project root reinforces the idea that they are not relative to the location of the source file containing them but rather to some fixed point in the filesystem.
+
+### Q: What is the right way to import files from packages when using `--base-path`?
+Unfortunately the base path mechanism on its own is not enough to support imports from packages installed in arbitrary locations in the filesystem.
+This is not an obstacle for frameworks because many of them have their own mechanisms for locating files and can place them under the right names in the Standard JSON input.
+It's still a problem in situations where files are loaded using the default import callback.
+
+For this very reason the upcoming release will introduce the `--include-path` option, which will allow specifying extra directories to be searched by the default import callback.
+For example `--include-path node_modules/` will make `import "@openzeppelin/contracts/utils/Array.sol"` just work as long as OpenZeppelin is installed using npm.
+
+Until then there are several ways to work around this problem:
+
+1. Use [import remapping](https://docs.soliditylang.org/en/latest/path-resolution.html#import-remapping).
+    For example `solc @openzeppelin=node_modules/@openzeppelin contract.sol`.
+    As long as the remapping target is not an absolute path, this keeps the project portable.
+    The downside is the need to remap libraries individually.
+2. Create symbolic links inside the base path.
+    For example a link named `@openzeppelin` pointing at `node_modules/@openzeppelin`.
+    This method is recommended if the libraries are installed outside of base path because the link target path is not included in contract metadata.
+
+    This is the convention used by dapp-tools.
+    Your own contracts reside in `src/` subdirectory while libraries are git submodules inside `lib/`.
+
+### Q: What happens if my path has so many `..` segments that it crosses the filesystem boundary?
+In the shell absolute paths with extra leading `..` segments (e.g. `/../../project/contract.sol`) are valid.
+There's no directory above `/` so the extra segments are simply removed (`/project/contract.sol`).
+The same thing happens with internal `..` segments.
+E.g. `/home/user/../../../project/contract.sol` is just `/project/contract.sol`.
+This is the behavior you can expect when passing paths to the compiler on the command line.
+
+The same principle applies to imports except you have to remember that there are two different filesystem boundaries: in the VFS and in the actual filesystem.
+
+**Example**: Let's consider the following imports placed in a source unit named `contract.sol` loaded from `/home/user/project/`:
+```solidity
+import "../node_modules/@openzeppelin/contracts/utils/Array.sol";
+import "utils/../../node_modules/@openzeppelin/contracts/utils/Array.sol";
+```
+Assuming that the `utils/` directory exists, it might seem that both should result in the same file being loaded by the default import callback.
+This is, however, not the case.
+Since there are no path separators in `contract.sol`, the importing source unit name used to resolve the first import is empty.
+As a result the `../` segment crosses the VFS boundary and is ignored.
+The resulting source unit name is `node_modules/@openzeppelin/contracts/utils/Array.sol` and the callback will expect to find it in `/home/user/project/node_modules/@openzeppelin/contracts/utils/Array.sol`.
+The second import is a direct one so the source unit name passed to the callback unchanged.
+Since it is being resolved in the actual filesystem, the resulting path is `/home/user/node_modules/@openzeppelin/contracts/utils/Array.sol`.
+
+While it is usually easy for the user to notice that something is wrong with a relative import that crosses the VFS boundary due to resulting errors, the cause not necessarily obvious.
+The compiler might start issuing warning about such imports in the future.
