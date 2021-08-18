@@ -311,34 +311,6 @@ ParserError: Source "util.sol" not found: File import callback not supported
   | ^^^^^^^^^^^^^^^^^^
 ```
 
-### Q: Why can I import from URLs in Remix IDE but not in my favorite framework?
-The simple answer is: because the framework decided not to provide support for it.
-Most do not.
-There are however multiple factors influencing that decision.
-
-First of all, the compiler does not support importing from URLs out of the box.
-It is possible to support them by supplying a custom import callback but not when using native binaries.
-Another option is to use [import remapping](https://docs.soliditylang.org/en/latest/path-resolution.html#import-remapping) to map URLs to local files but this requires mapping each URL individually.
-
-Remix IDE does support URLs since it works in the browser where URL use is very natural and comes with much fewer hurdles than disk access.
-It also uses [JavaScript interface](https://github.com/ethereum/solc-js) which allows providing a custom import callback.
-An important factor is also that Remix is often used as quick way to start developing a contract without extra setup.
-The convenience of being able to just paste an URL into an import does matter a lot for that.
-
-Frameworks like Truffle or Hardhat, on the other hand, work in an environment where source code resides on disk so user expectations are different.
-Dependencies are either packaged or at least stored in the repository along with the rest of project code.
-Such tools could easily download files automatically and include them in compiler input but not doing it is often a conscious design choice.
-Packages are simply a much better way to distribute libraries.
-Even in Remix you can now [import from npm packages](https://remix-ide.readthedocs.io/en/latest/import.html#import-from-npm).
-
-URLs can break.
-The files they refer to can change unless special care is taken to ensure that they are versioned on the server and that the link does not simply lead to the latest version.
-
-Often special support is required for specific hosts.
-For example users expect to be able to use github URLs like https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Address.sol directly but these URLs lead to a HTML page that includes Github UI and the tool has to know how to obtain the address that leads to the raw source code.URL to the source code (which is https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/utils/Address.sol in this case).
-
-Overall, the compiler is and will be providing the mechanism that allows importing from URLs but the ecosystem, for good reasons, is not eager to treat them on par with packages so you should treat them only as a convenience.
-
 ### Q: Why do my paths only work/break on Windows/macOS
 #### Case-sensitivity
 TODO
