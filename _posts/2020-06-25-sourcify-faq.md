@@ -71,8 +71,8 @@ To achieve this goal, Sourcify supports several efforts to foster adoption of op
 and NatSpec comments.
 
 At its core, Sourcify currently maintains
-- an [interface](https://verification.komputing.org/) that helps developers to verify metadata and contract source code.
-- a [contract repository](https://contractrepo.komputing.org/) of all verified contracts.
+- an [interface](https://sourcify.dev/) that helps developers to verify metadata and contract source code.
+- a [contract repository](https://repo.sourcify.dev/) of all verified contracts.
 - a [monitoring & verifier service](https://github.com/ethereum/sourcify) that checks for new contracts on Ethereum blockchains 
 (mainnet and testnets) and tries to verify them automatically.
 
@@ -128,9 +128,9 @@ It's simple:
 
 ### How decentralized is Sourcify?
 
-- Contract repo: The Sourcify contract repository is published both via [HTTPS](https://contractrepo.komputing.org/) as well 
+- Contract repo: The Sourcify contract repository is published both via [HTTPS](https://repo.sourcify.dev/) as well 
 as on [IPFS](https://gateway.ipfs.io/ipns/QmNmBr4tiXtwTrHKjyppUyAhW1FQZMJTdnUrksA9hapS4u).
-- [Interfaces](https://verification.komputing.org/): If you are using the Sourcify UI then you are 
+- [Interfaces](https://sourcify.dev/): If you are using the Sourcify UI then you are 
 verifying via our verification service backend. However, you could also run this service yourself. All code is available in the
 [EF Sourcify repository](https://github.com/ethereum/sourcify) and the [Sourcify GitHub organization](https://github.com/sourcifyeth). 
 Additionally, the Sourcify CLI will soon be [published](https://github.com/ethereum/sourcify/pull/184).
@@ -160,7 +160,7 @@ the contract interaction.
 Currently, contracts that have been verified via Sourcify don't yet get a special label or tag on wallets or interfaces 
 (like blockexplorers). It would be great it that were the case in future though! 
 
-For now, you can use the Sourcify contract repository. It can be accessed via [HTTPS](https://contractrepo.komputing.org/) 
+For now, you can use the Sourcify contract repository. It can be accessed via [HTTPS](https://repo.sourcify.dev/) 
 or [IPFS](https://gateway.ipfs.io/ipns/QmNmBr4tiXtwTrHKjyppUyAhW1FQZMJTdnUrksA9hapS4u).
 
 Use the contract's address and search for it in the repository. If it is there, it is a match (aka verified). 🎉
