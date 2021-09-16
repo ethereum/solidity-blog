@@ -15,7 +15,7 @@ when using inheritance with NatSpec comments and introduces many small improveme
 
 ### NatSpec Inheritance
 
-As explained in the [Solidity 0.6.11 release announcement](https://solidity.ethereum.org/2020/07/07/solidity-0611-release-announcement/),
+As explained in the [Solidity 0.6.11 release announcement](https://blog.soliditylang.org/2020/07/07/solidity-0611-release-announcement/),
 NatSpec comments are now inherited automatically if you do not provide any
 NatSpec in the derived function. Starting from Solidity 0.6.12, you can
 explicitly inherit comments from a base contract using the tag ``@inheritdoc``

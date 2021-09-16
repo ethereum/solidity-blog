@@ -21,7 +21,7 @@ And in case you missed the event, don't worry! You can still find recordings of 
 
 Initially, the Solidity Summit was planned to be a small, language design focused in-person gathering in Berlin with a expected participant count of 100-150 people.
 
-Since the global circumstances forced us to [transform it into an online event](https://solidity.ethereum.org/2020/04/17/solidity-summit-2020-goes-interspace/), there was luckily no need for limits on participation required anymore. The event was free of charge and the livestreams were publicly accessible for anybody to join.
+Since the global circumstances forced us to [transform it into an online event](https://blog.soliditylang.org/2020/04/17/solidity-summit-2020-goes-interspace/), there was luckily no need for limits on participation required anymore. The event was free of charge and the livestreams were publicly accessible for anybody to join.
 
 **Solidity Summit 2020 by the numbers..**
 * Prior to the event, we received roughly 250 applications via the signup form.

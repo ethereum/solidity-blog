@@ -55,7 +55,7 @@ To summarize: Building Ethereum is a (learning) journey. And so is building Soli
 
 So far, questions around new features and implementation details have mostly been discussed in [Github issues](https://github.com/ethereum/solidity/issues), the solidity-dev [Gitter channel](https://gitter.im/ethereum/solidity-dev), and during the public Solidity development team meetings.
 
-The first [Solidity Summit](https://solidity.ethereum.org/2020/06/09/solidity-summit-recap/), which was held virtually in May this year, was the next step to further expand the language design discussions and invite and engage a broader circle of experts, ranging from tool developers to Solidity power users, contributors, security researchers and auditors.
+The first [Solidity Summit](https://blog.soliditylang.org/2020/06/09/solidity-summit-recap/), which was held virtually in May this year, was the next step to further expand the language design discussions and invite and engage a broader circle of experts, ranging from tool developers to Solidity power users, contributors, security researchers and auditors.
 
 Currently, we're exploring more ways to interact with the aforementioned groups and include them better into the language design process. 
 - We revived the solidity-users forum, where proposals for new language features and qualities of existing aspects of the language can be discussed.

@@ -8,7 +8,7 @@ category: Security Alerts
 ---
 _This post was originally published on the [Ethereum blog](https://blog.ethereum.org/2016/11/09/analysis-storage-corruption-bug/)._
 
-This blog post provides an update on our findings following the discovery of the [storage corruption bug last week](https://solidity.ethereum.org/2016/11/01/security-alert-solidity-variables-can-overwritten-storage/). 
+This blog post provides an update on our findings following the discovery of the [storage corruption bug last week](https://blog.soliditylang.org/2016/11/01/security-alert-solidity-variables-can-overwritten-storage/). 
 In summary, the bug was much less severe than we initially thought. The small number of affected contracts we found is either only exploitable by the owner, or the exploit can only cause a disruption in the user interface and not in the actual contract logic. All exploitable contracts/dapps we reviewed can be fixed without having to upgrade the contract itself. Of course, please still check your contracts to be safe.
 
 Following the discovery of the storage corruption bug in the Solidity compiler and the realization that it may have serious effects on already-deployed contracts that cannot be updated, we started analyzing how common the bug is and how exploitable contracts can be addressed.
