@@ -25,7 +25,7 @@ Please note that no copy from calldata to memory is performed.
 You can use the slice syntax on variables, but also with ``msg.data``.
 
 Array slices can be especially useful in combination with ``abi.decode`` in the 
-[fallback function](https://solidity.ethereum.org/2020/03/26/fallback-receive-split/):
+[fallback function](https://blog.soliditylang.org/2020/03/26/fallback-receive-split/):
 
 
 ```solidity

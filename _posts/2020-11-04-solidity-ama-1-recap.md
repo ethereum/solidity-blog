@@ -128,7 +128,7 @@ Let's tackle the mentioned issues step-by-step:
      
 2. **Access Control**: Visibility has been solved years ago by making it explicit. In recent Solidity versions, you can even move functions to the file level (outside of contracts) where it is obvious that they cannot be called from outside and that they cannot access storage variables (unless explicitly provided as arguments).
 
-3. **Overflow and Underflow**: Safe math as a languge feature is already done and is going to become the default in the next breaking release (see [Solidity 0.8.x Preview Release](https://solidity.ethereum.org/2020/10/28/solidity-0.8.x-preview/)).
+3. **Overflow and Underflow**: Safe math as a languge feature is already done and is going to become the default in the next breaking release (see [Solidity 0.8.x Preview Release](https://blog.soliditylang.org/2020/10/28/solidity-0.8.x-preview/)).
    
 4. **Unchecked Return Values For Low Level Calls**: The compiler has been flagging unchecked low-level calls for years.
 
