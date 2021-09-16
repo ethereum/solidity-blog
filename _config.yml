@@ -3,13 +3,8 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://solidity.ethereum.org"
+url: "https://blog.soliditylang.org"
 baseurl: ""
-
-# If you are building a GitHub project page then use these settings:
-#url: "https://solidity.ethereum.org"
-#baseurl: ""
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -98,7 +93,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "solidity.ethereum.org"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "blog.soliditylang.org"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
