@@ -81,7 +81,7 @@ Since multi-line comments work in the same way when read from left to right as w
 
 You can see (*or not, depending on your editor 😬*) the direction change in action by selecting [part of line 65](https://github.com/ethereum/solidity-underhanded-contest/blob/master/submissions_2020/submission11_RobertMCForster/contracts/TimelockUpgrade.sol#L65) in the submission.
 
-This is a flaw that can be prevented at the level of Solidity by disallowing text direction changes to flow across comments (https://github.com/ethereum/solidity/issues/10254), but I would also call this to the attention of IDE, highlighter and linter developers. I am not sure how a linter would handle such a situation, but if a linter marks superfluous whitespace at the end of a line, it should certainly mark a text direction change flowing out of a comment.
+This is a flaw that can be prevented at the level of Solidity by disallowing text direction changes to flow across comments ([issue tracker](https://github.com/ethereum/solidity/issues/10254)), but I would also call this to the attention of IDE, highlighter and linter developers. I am not sure how a linter would handle such a situation, but if a linter marks superfluous whitespace at the end of a line, it should certainly mark a text direction change flowing out of a comment.
 
 ## Honorable Mentions
 
