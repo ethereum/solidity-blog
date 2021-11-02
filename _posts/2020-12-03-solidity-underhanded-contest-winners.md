@@ -9,6 +9,8 @@ category: Announcements
 
 After thorough assessment of all submissions, we are happy to share the winners of this year's [Solidity Underhanded Contest](https://underhanded.soliditylang.org/)!
 
+If you are not familiar with it, please read [the announcement](https://blog.soliditylang.org/2020/09/21/solidity-underhanded-contest/) from September.
+
 Before we dive into the winning submissions, we'd like to thank all participants for taking part. In total, we received 16 qualifying submissions which you can find in [this repo](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020). All 16 submissions are eligible for a "qualified submission" Solidity Underhanded POAP NFT - winners will receive an additional "Winners" POAP NFT.
 
 We will be in touch with all participants shortly with details on the claiming process for the NFTs as well as the main prizes.
