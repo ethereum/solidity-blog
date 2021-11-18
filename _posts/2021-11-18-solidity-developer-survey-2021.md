@@ -13,7 +13,7 @@ This marks the second time we are conducting a structured big developer survey. 
 
 ## Shape the Future of Solidity 🔮
 
-The survey helps us to further improve the Solidity language and compiler and shape the future roadmap of Solidity. We can't wait to hear your thoughts on the priotization of new features, what you like and dislike about Solidity and learn about your coding preferences!
+The survey helps us to further improve the Solidity language and compiler and shape the future roadmap of Solidity. We can't wait to hear your thoughts on the prioritization of new features, what you like and dislike about Solidity and learn about your coding preferences!
 
 Your replies are invaluable for the Solidity project to understand your needs, the current strengths and weaknesses of the language and will contribute towards establishing development priorities for the future. This will ultimatively result in improving the Solidity developer experience as a whole.
 
