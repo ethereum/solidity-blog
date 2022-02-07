@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'Solidity Developer Survey 2021 Results'
-date: '2022-02-03'
+date: '2022-02-07'
 author: Franziska Heintel
 category: Announcements
 ---
