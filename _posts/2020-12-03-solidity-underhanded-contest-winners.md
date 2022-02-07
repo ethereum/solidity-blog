@@ -1,23 +1,23 @@
 ---
 layout: post
 published: true
-title: 'Announcing the Winners of the Solidity Underhanded Contest 👨‍💻🏅'
+title: 'Announcing the Winners of the Underhanded Solidity Contest 👨‍💻🏅'
 date: '2020-12-03'
 author: Franziska Heintel
 category: Announcements
 ---
 
-After thorough assessment of all submissions, we are happy to share the winners of this year's [Solidity Underhanded Contest](https://underhanded.soliditylang.org/)!
+After thorough assessment of all submissions, we are happy to share the winners of this year's [Underhanded Solidity Contest](https://underhanded.soliditylang.org/)!
 
 If you are not familiar with it, please read [the announcement](https://blog.soliditylang.org/2020/09/21/solidity-underhanded-contest/) from September.
 
-Before we dive into the winning submissions, we'd like to thank all participants for taking part. In total, we received 16 qualifying submissions which you can find in [this repo](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020). All 16 submissions are eligible for a "qualified submission" Solidity Underhanded POAP NFT - winners will receive an additional "Winners" POAP NFT.
+Before we dive into the winning submissions, we'd like to thank all participants for taking part. In total, we received 16 qualifying submissions which you can find in [this repo](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020). All 16 submissions are eligible for a "qualified submission" Underhanded Solidity POAP NFT - winners will receive an additional "Winners" POAP NFT.
 
 We will be in touch with all participants shortly with details on the claiming process for the NFTs as well as the main prizes.
 
 Now, let's have a look at this year's winners, starting from the 5th place!
 
-## Solidity Underhanded Contest 2020 Winners
+## Underhanded Solidity Contest 2020 Winners
 
 ### 5️⃣ th Place: [Marius van der Wijden](https://github.com/ethereum/solidity-underhanded-contest/tree/master/submissions_2020/submission14_MariusVanDerWijden) 
 
@@ -97,8 +97,8 @@ This submission shows the social aspect of trusting “audited” upgradable con
 
 This submissions exploits a Solidity compiler bug, namely the [Solidity Dynamic Array Cleanup Bug](https://blog.soliditylang.org/2020/10/07/solidity-dynamic-array-cleanup-bug/), which was fixed with Solidity v0.7.3. Using this bug is a great idea in theory, however, the implementation is suspicious and would raise eyebrows.
 
-## See you at the next Solidity Underhanded Contest!
+## See you at the next Underhanded Solidity Contest!
 
 We would like to thank ConsenSys Diligence, Solidified, OpenZeppelin, and the Ethereum Foundation for contributing prizes and our judges Alex Beregszaszi, Austin Williams, Christian Reitwiessner, Gonçalo Sá, and Stefan Beyer for their assessments and support!
 
-Would you like to propose a topic for the next Solidity Underhanded Contest, provide feedback, sponsor a prize, or help with judging the next time? Then feel free to reach out to us at sol_underhanded@ethereum.org!
+Would you like to propose a topic for the next Underhanded Solidity Contest, provide feedback, sponsor a prize, or help with judging the next time? Then feel free to reach out to us at sol_underhanded@ethereum.org!

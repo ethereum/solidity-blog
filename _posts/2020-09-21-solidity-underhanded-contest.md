@@ -1,17 +1,17 @@
 ---
 layout: post
 published: true
-title: 'The Solidity Underhanded Contest is back!'
+title: 'The Underhanded Solidity Contest is back!'
 date: '2020-09-21'
 author: Franziska Heintel
 category: Announcements
 ---
 
-We're excited to share that the [Solidity Underhanded Contest](https://underhanded.soliditylang.org/) is finally back!
+We're excited to share that the [Underhanded Solidity Contest](https://underhanded.soliditylang.org/) is finally back!
 
 Inspired by the [Underhanded C Contest](http://www.underhanded-c.org/) and the first [Underhanded Solidity Contest](https://u.solidity.cc/), organized in 2017 by Nick Johnson, we decided it is time for a much needed revival.
 
-![Solidity Underhanded Contest](/img/2020/09/Underhanded_Solidity.gif)
+![Underhanded Solidity Contest](/img/2020/09/Underhanded_Solidity.gif)
 
 The goal of this contest is to write innocent-looking Solidity code, which pretends to be clear and straightforward, but actually contains malicious behavior or backdoors.
 
