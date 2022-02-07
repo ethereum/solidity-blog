@@ -21,8 +21,8 @@ Your input is invaluable to us and plays a crucial role in helping to continuous
 - **Solidity Expertise**: Most respondents deem themselves Solidity experts, with a self rating in expertise of 7 or higher (scale of 10). 4.2% rate their expertise as a 10/10. 80% of respondents use Solidity for their personal projects, roughly 60% also use it at work. More than half of all respondents have been using Solidity for less than a year.
 - **Developer Experience**: The majority (+70%) believes that the Solidity developer experience improved in the last year. Only 1.6% are of the opinion it got worse.
 - **Language Restrictiveness**: More than 60% of respondents wish that Solidity becomes more restrictive/explicit (having more checks). 26% would prefer it to remain as is.
-- **Future Features**: A more efficient optimizer and the ability to catch custom errors are ranked as most important future features under discussion. Moreover, floating point support, better array management and fixing stack too deep are among the most mentioned anticipated features.
-- **Liked & Dreaded Features**: Respondents most like Solidity's simplicity, the "easy to learn" aspect of it, SafeMath by default and modifiers. Dreaded topics are debugging, the stack too deep error and missing support for floating points.
+- **Future Features**: A more efficient optimizer and the ability to catch custom errors are ranked as most important future features under discussion. Moreover, support for fractional numbers, better array management and fixing stack too deep are among the most mentioned anticipated features.
+- **Liked & Dreaded Features**: Respondents most like Solidity's simplicity, the "easy to learn" aspect of it, SafeMath by default and modifiers. Dreaded topics are debugging, the stack too deep error and missing support for fractional numbers.
 - **Community**: Less than a third of respondents ever participated in Solidity language design related efforts.
 
 ## [1] Survey Audience
@@ -180,11 +180,13 @@ A more efficient optimizer and the ability to catch custom errors are ranked as 
 
 ![Future Feature Priority Ranking](/img/2022/02/future_features_rank.png)
 
-Moreover, floating point support, better array management and fixing stack too deep are among the most mentioned anticipated features.
+Moreover, support for fractional numbers, better array management and fixing stack too deep are among the most mentioned anticipated features.
+
+_⚠️ We noted that respondents were using various different terms like "floats", "floating point arithmetic", "floating point number", "fixed point numbers", "fixed point math". We categorized those as "factional numbers" and assume that all of the above ultimatively aims to describe "fixed point math"._
 
 Most mentioned anticipated features in descending order:
 
-* floats
+* "floats"
 * better array management / more functions for array & mappings
 * fix stack too deep
 * gas optimizations / optimizer improvements
@@ -234,7 +236,7 @@ Most mentioned liked features in descending order:
 * language safety
 * object orientation
 
-Most dreaded topics are debugging, the stack too deep error and missing support for floating points.
+Most dreaded topics are debugging, the stack too deep error and missing support for fractional numbers.
 
 Dreaded features in descending order:
 
