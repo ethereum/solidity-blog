@@ -52,7 +52,7 @@ Judges are presented with anonymised submissions. This year, the submissions wil
 
 Rember to consider the following aspects and properties for your submissions:
 
-+ **Simplicity & Briefness**: Since it’s much easier to hide a vulnerability in complex and poorly written code, short and clean submissions will be scored higher than those that are lengthy and complicated.
++ **Simplicity & Conciseness**: Since it's much easier to hide a vulnerability in complex and poorly written code, short and clean submissions will be scored higher than those that are lengthy and complicated.
 + **Plausibility**: Code that drops down to inline assembly without any clear reason why will look immediately suspicious, no matter how cleverly written the assembly-level flaw is.
 + **Originality**: Truly original ideas will receive more points than making use of already well known exploit/backdoor mechanisms.
 
@@ -71,14 +71,14 @@ The winners and all qualified submissions will receive a custom Underhanded Soli
 
 ## The Submission 📨
 
-Before you submitting your code ensure that:
+Before submitting your code ensure that:
 + The entirety of your submission is licensed under an open-source license.
 + In your submission you use Solidity v0.8.0 or newer.
 + You have carefully read the [Coding Brief](https://underhanded.soliditylang.org/#coding-brief).
 
-Please email your submissions before the deadline [2022-03-16] to ``sol_underhanded@ethereum.org``. Entries should consist of a ZIP file containing a README describing your submission and how it works, and one or more Solidity files.
+Please email your submissions before the deadline [2022-03-16, 11:59PM UTC] to ``sol_underhanded@ethereum.org``. Entries should consist of a ZIP file containing a README describing your submission and how it works, a separate file for spoilers, and one or more Solidity files.
 
-Each person can only enter one submission. If you want to make a team submission, nominate a single person to submit on your team’s behalf. Since entries will be forwarded to the judges and assessed anonymously, please do not include identifying information in the ZIP file.
+Each person can only enter one submission. If you want to make a team submission, nominate a single person to submit on your team's behalf. Since entries will be forwarded to the judges and assessed anonymously, please do not include identifying information in the ZIP file.
 
 ## The Deadline ⏳
 
