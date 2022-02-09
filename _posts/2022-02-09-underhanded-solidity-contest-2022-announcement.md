@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'Underhanded Solidity Contest 2022'
-date: '2022-02-08'
+date: '2022-02-09'
 author: Franziska Heintel
 category: Announcements
 ---
