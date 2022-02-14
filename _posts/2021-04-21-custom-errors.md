@@ -157,6 +157,6 @@ mstore(add(free_mem_ptr, 68), "Unauthorized")
 revert(free_mem_ptr, 100)
 ```
 
-Here `0x08c379a` is the 'selector' of `Error(string)`. In this comparison, one can see that custom
+Here `0x08c379a0` is the 'selector' of `Error(string)`. In this comparison, one can see that custom
 errors decrease both deploy and runtime gas costs. Note that runtime gas cost is only relevant when
 the revert condition is met.
