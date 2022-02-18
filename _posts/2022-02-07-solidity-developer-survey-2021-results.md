@@ -138,13 +138,13 @@ Compared to 2020, IntelliJ, Atom, Vim and Sublime are used less in 2021.
 
 ![Editor Overview](/img/2022/02/ide.png)
 
-Hardhat becomes the most popular Ethereum-specific development environment with almost 45% of all respondents using it.
+Hardhat becomes the most popular Ethereum-specific development environment with ~65% of all respondents using it (from 38.6% in 2020).
 
-Truffle and Remix follow with a user share of roughly 17% each. Rather "niche" Ethereum-specific development environments are Brownie (7.2%), Dapptools (5.6%), Scaffold-ETH (3.2%), Foundry/Forge (1.1%) and Embark (0.5%).
+Truffle and Remix follow with a user share of roughly 25-26% each. Rather "niche" Ethereum-specific development environments are Brownie (10.5%), Dapptools (8.2%), Scaffold-ETH (4.7%), Foundry/Forge (1.6%) and Embark (0.7%). 3.5% of respondents are not using any Ethereum-specific IDE.
 
-Compared to 2020, Truffle (2020: 34.6% -> 2021: 17.9%) and Remix (2020: 29.3% -> 2021: 17%) lost significant share, while Hardhat, Brownie, Dapptools and newcomers like Foundry increased their share in users.
+Compared to 2020, Truffle (2020: 59.3%% -> 2021: 26.2%) and Remix (2020: 50.3% -> 2021: 24.8%) lost significant share, while Hardhat, Brownie, Dapptools and newcomers like Foundry increased their share in users. It's important to note that the 2020 survey had significantly fewer responses (2020: 194 -> 2021: 435), hence the year-on-year comparisons can only be interpreted as loose trends but don't have proper statistical relevance due to the small lot size.
 
-![Ethereum IDE Overview](/img/2022/02/eth_ide.png)
+![Ethereum IDE Overview](/img/2022/02/eth_ide2.png)
 
 With 86.3%, 0.8.x Solidity versions are by far the most used ones. Both 0.7.x (23%) and 0.6.x (18.3%) version series remain to be used while everything older than that is hardly in use anymore.
 
@@ -320,5 +320,5 @@ To not miss anything make sure to...
 - follow announcements on the [Solidity blog](https://blog.soliditylang.org/).
 
 --- 
-*All graphs can be found [here](https://docs.google.com/presentation/d/1B4ffyq4gJT3zxNbYmAToT4ognCkmbUjVCf8syeyNEA/edit?usp=sharing). The raw and analyzed data can be found [here](https://docs.google.com/spreadsheets/d/1PFCv7TwP8hp3AiJHYqy3qk4FTNatJDfUKjtsZnI5SUM/edit?usp=sharing).*
+*All graphs can be found [here](https://docs.google.com/presentation/d/1B4ffyq4gJT3zxNbYmAToT4ognCkmbUjVCf8sye_yNEA/edit?usp=sharing). The raw and analyzed data can be found [here](https://docs.google.com/spreadsheets/d/1PFCv7TwP8hp3AiJHYqy3qk4FTNatJDfUKjtsZnI5SUM/edit?usp=sharing).*
 

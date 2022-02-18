@@ -197,7 +197,7 @@ A few people are not aware of the version they are using or are still using very
 
 ![IDEs / Tooling](/img/2021/01/IDE.png)
 
-When asked if they are using an Ethereum-specific development environment, only 3% say that they are not using one. [Truffle](https://www.trufflesuite.com/truffle) is the most prominent with 35%, closely followed by [Remix](https://remix.ethereum.org/) (29%) and [Hardhat](https://hardhat.org/) (23%).
+When asked if they are using an Ethereum-specific development environment, 5% say that they are not using one. [Truffle](https://www.trufflesuite.com/truffle) is the most prominent with almost 60%, closely followed by [Remix](https://remix.ethereum.org/) (50.3%) and [Hardhat](https://hardhat.org/) (38.6%).
 
 ![Ethereum-specific IDEs / Tooling](/img/2021/01/EthIDE.png)
 
