@@ -142,7 +142,7 @@ Hardhat becomes the most popular Ethereum-specific development environment with 
 
 Truffle and Remix follow with a user share of roughly 25-26% each. Rather "niche" Ethereum-specific development environments are Brownie (10.5%), Dapptools (8.2%), Scaffold-ETH (4.7%), Foundry/Forge (1.6%) and Embark (0.7%). 3.5% of respondents are not using any Ethereum-specific IDE.
 
-Compared to 2020, Truffle (2020: 59.3%% -> 2021: 26.2%) and Remix (2020: 50.3% -> 2021: 24.8%) lost significant share, while Hardhat, Brownie, Dapptools and newcomers like Foundry increased their share in users. It's important to note that the 2020 survey had significantly fewer responses (2020: 194 -> 2021: 435), hence the year-on-year comparisons can only be interpreted as loose trends but don't have proper statistical relevance due to the small lot size.
+Compared to 2020, Truffle (2020: 59.3% -> 2021: 26.2%) and Remix (2020: 50.3% -> 2021: 24.8%) lost significant share, while Hardhat, Brownie, Dapptools and newcomers like Foundry increased their share in users. It's important to note that the 2020 survey had significantly fewer responses (2020: 194 -> 2021: 435), hence the year-on-year comparison can only be interpreted as a loose trend but doesn't have proper statistical relevance due to the small lot size.
 
 ![Ethereum IDE Overview](/img/2022/02/eth_ide.png)
 
