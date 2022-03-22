@@ -7,7 +7,7 @@ author: Solidity Team
 category: Security Alerts
 ---
 
-On March 10th, 2022 the Solidity team discovered a bug in the implementation of
+On March 10th, 2022, the Solidity team discovered a bug in the implementation of
 ``abi.encodeCall`` when used together with fixed-length bytes literals.
 
 It was introduced together with ``abi.encodeCall`` in Solidity 0.8.11 and is fixed in 0.8.13.
@@ -23,7 +23,7 @@ as a string literal (``"abcd"``).
 
 If you only pass variables to ``abi.encodeCall``, your code is not affected.
 
-## Technical Detials
+## Technical Details
 
 The compiler did check that the types of the values are all implicitly convertible
 to the types of the parameters of the function (this was the main advantage of
