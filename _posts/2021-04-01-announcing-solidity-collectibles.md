@@ -73,4 +73,4 @@ As a next step on our tokenization and decentralization journey we are consideri
 
 Owning a warning will allow you to set the warning text. In addition to that, only the owner will be able to disable the warning in the compiler.
 
-Follow us on [Twitter](https://twitter.com/solidity_lang) to not miss the [alpha leak](https://tinyurl.com/njyek8n2)! 😉
+Follow us on [Twitter](https://twitter.com/solidity_lang) to not miss the [alpha leak](https://www.youtube.com/watch?v=dQw4w9WgXcQ)! 😉
