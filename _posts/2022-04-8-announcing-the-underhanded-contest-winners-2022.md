@@ -44,8 +44,11 @@ Although in its simplified form, the underhanded nature of the optimization migh
 
 ### 🥈 Second Place: [Santiago Palladino]()
 
-_commentary by [Alex Beregszaszi](https://twitter.com/alexberegszaszi) and [Hari Mulackal](https://twitter.com/_hrkrshnn)_
+_commentary by [Alex Beregszaszi](https://twitter.com/alexberegszaszi) and [Hari](https://twitter.com/_hrkrshnn)_
 
+The submission demonstrates what could go wrong if a non-standard signature scheme is used in contracts. The contract cleverly designs the `Order` struct in such a way that it can collide with the RLP encoding of an `approve` transaction. This allows an attacker to reuse the signature for the `approve` transaction to execute an order in the exchange!
+
+There are several other issues with the implementation, and we leave it up to the reader to uncover all of them!
 
 
 ### 🥇 First Place: [Tynan Richards]()
