@@ -74,7 +74,7 @@ Once again, the Underhanded Solidity Contest showed interesting anti-patterns an
 
 Thanks to [ChainSecurity](https://chainsecurity.com/), [ConsenSys Diligence](https://diligence.consensys.net/), [Immunefi](https://immunefi.com/), [Solidified](https://solidified.io/), [Trail of Bits](https://www.trailofbits.com/), [Paradigm](https://www.paradigm.xyz/), the [Ethereum Foundation](https://ethereum.foundation/) for their support!
 
-Last  but not least, we'd like to extend a big thank you to our amazing judges for helping us make this contest happen: Alex Beregszaszi, Anton Permenev, Duncan Townsend, Gonçalo Sá, Hari Mulackal, Josselin Feist, samczsun and Stefan Beyer.
+Last but not least, we'd like to extend a big thank you to our amazing judges for helping us make this contest happen: Alex Beregszaszi, Anton Permenev, Duncan Townsend, Gonçalo Sá, Hari Mulackal, Josselin Feist, samczsun and Stefan Beyer.
 
 Would you like to propose a topic for the next Underhanded Solidity Contest, provide feedback, or help with judging the next time? Then feel free to reach out to us at ``sol_underhanded@ethereum.org``!
 
