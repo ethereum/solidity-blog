@@ -32,7 +32,7 @@ Now, without further ado, let's take a look at the winners, starting with the 3r
 
 ## Underhanded Solidity Contest 2022 Winners
 
-### 🥉 Third Place: [Michael Zhu]()
+### 🥉 Third Place: [Michael Zhu](https://github.com/ethereum/solidity-underhanded-contest/tree/master/2022/submissions_2022/submission17_MichaelZhu)
 
 _commentary by [samczsun](https://twitter.com/samczsun)_
  
@@ -42,16 +42,15 @@ When a bid is accepted, ``safeTransferFrom`` is used to move the payment from th
 
 Although in its simplified form, the underhanded nature of the optimization might be easily spotted (especially in the context of an underhanded competition), we think that it acts as a good proxy for teaching users how to look past what the code and comments might suggest and read between the lines. Similar methods of thinking lead to the discovery of the Anyswap exploit, and to a lesser extent, the various "fake contract" exploits.
 
-### 🥈 Second Place: [Santiago Palladino]()
+### 🥈 Second Place: [Santiago Palladino](https://github.com/ethereum/solidity-underhanded-contest/tree/master/2022/submissions_2022/submission10_SantiagoPalladino)
 
-_commentary by [Alex Beregszaszi](https://twitter.com/alexberegszaszi) and [Hari](https://twitter.com/_hrkrshnn)_
+_commentary by [Alex Beregszaszi](https://twitter.com/alexberegszaszi) and [Hari Mulackal](https://twitter.com/_hrkrshnn)_
 
 The submission demonstrates what could go wrong if a non-standard signature scheme is used in contracts. The contract cleverly designs the `Order` struct in such a way that it can collide with the RLP encoding of an `approve` transaction. This allows an attacker to reuse the signature for the `approve` transaction to execute an order in the exchange!
 
 There are several other issues with the implementation, and we leave it up to the reader to uncover all of them!
 
-
-### 🥇 First Place: [Tynan Richards]()
+### 🥇 First Place: [Tynan Richards](https://github.com/ethereum/solidity-underhanded-contest/tree/master/2022/submissions_2022/submission9_TynanRichards)
 
 _commentary by [Duncan Townsend](https://twitter.com/duncancmt)_
 
@@ -59,7 +58,7 @@ _commentary by [Duncan Townsend](https://twitter.com/duncancmt)_
 
 ## Honorable Mentions
 
-### 💐  [William Bowling]()
+### 💐  [William Bowling](https://github.com/ethereum/solidity-underhanded-contest/tree/master/2022/submissions_2022/submission4_WilliamBowling)
 
 _commentary by [Anton Permenev](https://twitter.com/a_permenev)_
 
@@ -71,7 +70,7 @@ However, such operators are quite rare and their usage is suspicious and raises 
 
 ## Trick us at the next Underhanded Solidity Contest, anon!
 
-Once again, the Underhanded Solidity Contest showed interesting anti-patterns and intriguing ways to embed malicious exploits into smart contract systems. We can't wait to see what you 
+Once again, the Underhanded Solidity Contest showed interesting anti-patterns and intriguing ways to embed malicious exploits into smart contract systems. We can't wait to see what you come up with next time!
 
 Thanks to [ChainSecurity](https://chainsecurity.com/), [ConsenSys Diligence](https://diligence.consensys.net/), [Immunefi](https://immunefi.com/), [Solidified](https://solidified.io/), [Trail of Bits](https://www.trailofbits.com/), [Paradigm](https://www.paradigm.xyz/), the [Ethereum Foundation](https://ethereum.foundation/) for their support!
 
