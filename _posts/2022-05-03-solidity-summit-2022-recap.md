@@ -22,7 +22,9 @@ The day was packed with 20+ talks on
 
 ... and more.
 
-The full agenda of the day can be found [here](https://summit.soliditylang.org/agenda.html).
+The full agenda of the day can be found [here](https://summit.soliditylang.org/agenda.html). You can watch all talks by browsing through the individual videos in the [YouTube playlist](https://www.youtube.com/playlist?list=PLX8x7Zj6Vezl1lqBgxiQH3TFbRNZza8Fk) or see the entire [stream on StreamETH.tv](https://streameth.tv/event/solidity-summit).
+
+---
 
 Sorted by topic, here are all talks with links to the recordings and slides.
 
