@@ -33,12 +33,12 @@ Sorted by topic, here are all talks with links to the recordings and slides.
 - The Solidity Optimizooooor - Hari Mulackal
     - [Recording](https://youtu.be/BWO7ij9sLuA)
     - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1640_HariMulackal_The%20Solidity%20Optimizooooor.pdf)
-- Generating EVM Bytecode from Yul in the New via-IR Pipeline - Daniel Kirchner
+- Generating EVM Bytecode from Yul in the New Via-IR Pipeline - Daniel Kirchner
     - [Recording](https://youtu.be/RJQdycaEgIE)
     - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1705_DanielKirchner_Generating%20EVM%20Bytecode%20from%20Yul%20in%20the%20New%20via-IR%20Pipeline.pdf)
 
 ### Solidity Tooling
-- Foundry 101, a hands-on introduction - odysseas
+- Foundry 101, a Hands-On Introduction - Odysseas
     - [Recording](https://youtu.be/3QlH1YvUPT4)
     - [Material](https://github.com/ethereum/solidity-summit/tree/master/2022/slides/1210_Odysseas_foundry101)
 - dΞth Crypto - Leo Logvinov
@@ -64,7 +64,7 @@ Sorted by topic, here are all talks with links to the recordings and slides.
 - Thanks for all the bugs! - Yannis Smaragdakis
     - [Recording](https://youtu.be/hcRY0oMscoM)
     - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1045_YannisSmaragdakis_Thanks%20for%20all%20the%20bugs.pdf)
-- Good practices from a Data Analyst Perspective - wei3erhase
+- Good Practices from a Data Analyst Perspective - wei3erhase
     - [Recording](https://youtu.be/-E-nG2GyDQQ)
     - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1110_Wei%C3%9FerHase_Good%20practices%20from%20a%20Data%20Analyst%20Perspective.pdf)
 - Mocking of Internal Functions in Solidity Unit Tests - Jason Smythe
@@ -91,6 +91,6 @@ Sorted by topic, here are all talks with links to the recordings and slides.
 
 We hope you enjoyed the day as much as we did! We are looking forward to the next Solidity Summit already and thank you all for your eager participation.
 
-In the meantime, feel free to send feedback and ideas for the upmcoming summits our way ``sol-summit[at]ethereum.org`` and see you all soon!
+In the meantime, feel free to send feedback and ideas for the upmcoming summits our way (``sol-summit[at]ethereum.org``) and see you all soon!
 
 ![Solidity Summit 2022](/img/2022/05/solidity_summit.png)
