@@ -45,6 +45,7 @@ Sorted by topic, here are all talks with links to the recordings and slides.
     - [Material](https://github.com/ethereum/solidity-summit/tree/master/2022/slides/1210_Odysseas_foundry101)
 - dΞth Crypto - Leo Logvinov
     - [Recording](https://youtu.be/PmgoZCo0CDk)
+    - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1350_LeoLogvinov_d%CE%9Eth%20Crypto.pdf)
 - Remix Hybrid Tools - Aniket
     - [Recording](https://youtu.be/Pm_z-p7Wgr0)
     - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1405_Aniket_Remix_Hybrid_Modules.pdf)
@@ -69,6 +70,7 @@ Sorted by topic, here are all talks with links to the recordings and slides.
     - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1110_Wei%C3%9FerHase_Good%20practices%20from%20a%20Data%20Analyst%20Perspective.pdf)
 - Mocking of Internal Functions in Solidity Unit Tests - Jason Smythe
     - [Recording](https://youtu.be/f-YaeM9FjlE)
+    - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1140_JasonSmythe_Solidity%20Internal%20Function%20Mocking.pdf)
 - Create 2 Patterns - Fred
     - [Recording](https://youtu.be/E9usgNS6du0)
     - [Slides](https://github.com/ethereum/solidity-summit/blob/master/2022/slides/1155_Fred_Create2%20Patterns.pdf)
