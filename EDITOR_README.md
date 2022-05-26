@@ -1,6 +1,6 @@
 # Blog Editor Instructions
 
-See the main README to see how add a blog post to the `_posts` folder in the `master` branch before following the steps below.
+See the main README to see how to add a blog post to the `_posts` folder in the `master` branch before following the steps below.
 
 ## Making the new blog post go live on the interwebz IN 5 EASY STEPS
 
