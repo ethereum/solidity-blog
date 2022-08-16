@@ -216,6 +216,10 @@ Even though `E.f()` is meant to simply return the same input it receives, due to
 Here, the cleanup performed for `b.y` would overwrite the length field of `b.x`.
 Similarly, the cleanup of `c` would overwrite the offset of `b.x`.
 
+Note that the above is not the most minimal example that reproduces the bug.
+To better illustrate the consequences, this case has two nested tuples and the overwrite happens twice
+but it is possible to reproduce it even with a single tuple with two components.
+
 The case with a static tuple was not affected because, in absence of the tail, the encoding order is linear.
 The encoder could still write past the end of the whole area reserved for the encoding but the compiler would be able
 to ensure that the memory past it had not been allocated for another purpose, making the cleanup perfectly safe.
