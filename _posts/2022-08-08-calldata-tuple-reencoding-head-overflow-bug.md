@@ -231,9 +231,13 @@ to ensure that the memory past it had not been allocated for another purpose, ma
 
 The bug only affected the encoding of tuples in the presence of a ``calldata`` array because that was the only situation where
 the routine that performs the aggressive cleanup was used.
-The routine is a part of the IR-based generator and runs regardless of the use of the optimizer.
+
+The routine is a part of the IR-based code generator and runs regardless of the use of the optimizer,
+which means that both optimized and unoptimized code is affected.
+
 Since the legacy code generation pipeline does not have its own ABI coder v2 implementation and uses
-the IR-based generator for ABI encoding, the bug can be triggered when using either of them.
+the IR-based generator for ABI encoding, the bug can be triggered when using either pipeline.
+It does not, however, affect ABI coder v1.
 
 ## Impact
 
