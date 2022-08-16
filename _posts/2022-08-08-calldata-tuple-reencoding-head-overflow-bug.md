@@ -52,10 +52,15 @@ In this case, due to tight packing of array elements, only the area past the arr
 area is never larger than 32 bytes.
 
 The cleanup was being performed using a single `mstore()` instruction, which always writes exactly 32 bytes.
-The cleanup was only ever required for byte arrays but was not considered harmful for `uint` and `bytes32`,
-because of the order in which the encoder writes tuple components.
+This was not considered harmful because of the order in which the encoder writes tuple components.
 The space after any given tuple component was assumed to be safe to write because it would eventually be
 overwritten with the data belonging to the next component.
+
+The cleanup is necessary only in the byte array case, but due to the shared code path was also being
+performed for `uint` and `bytes32`.
+This is completely redundant, but was overlooked in the initial implementation and not discovered
+until now, likely because it does not produce clearly visible side-effects in simple cases.
+The redundant instruction may even be removed by the optimizer in newer versions of the compiler.
 
 In order to explain why the assumption turned out to be incorrect, let us take a closer look at
 the layout of an ABI-encoded tuple.
