@@ -52,10 +52,15 @@ In this case, due to tight packing of array elements, only the area past the arr
 area is never larger than 32 bytes.
 
 The cleanup was being performed using a single `mstore()` instruction, which always writes exactly 32 bytes.
-The cleanup was only ever required for byte arrays but was not considered harmful for `uint` and `bytes32`,
-because of the order in which the encoder writes tuple components.
+This was not considered harmful because of the order in which the encoder writes tuple components.
 The space after any given tuple component was assumed to be safe to write because it would eventually be
 overwritten with the data belonging to the next component.
+
+The cleanup is necessary only in the byte array case, but due to the shared code path was also being
+performed for `uint` and `bytes32`.
+This is completely redundant, but was overlooked in the initial implementation and not discovered
+until now, likely because it does not produce clearly visible side-effects in simple cases.
+The redundant instruction may even be removed by the optimizer in newer versions of the compiler.
 
 In order to explain why the assumption turned out to be incorrect, let us take a closer look at
 the layout of an ABI-encoded tuple.
@@ -216,15 +221,23 @@ Even though `E.f()` is meant to simply return the same input it receives, due to
 Here, the cleanup performed for `b.y` would overwrite the length field of `b.x`.
 Similarly, the cleanup of `c` would overwrite the offset of `b.x`.
 
+Note that the above is not the most minimal example that reproduces the bug.
+To better illustrate the consequences, this case has two nested tuples and the overwrite happens twice
+but it is possible to reproduce it even with a single tuple with two components.
+
 The case with a static tuple was not affected because, in absence of the tail, the encoding order is linear.
 The encoder could still write past the end of the whole area reserved for the encoding but the compiler would be able
 to ensure that the memory past it had not been allocated for another purpose, making the cleanup perfectly safe.
 
 The bug only affected the encoding of tuples in the presence of a ``calldata`` array because that was the only situation where
 the routine that performs the aggressive cleanup was used.
-The routine is a part of the IR-based generator and runs regardless of the use of the optimizer.
+
+The routine is a part of the IR-based code generator and runs regardless of the use of the optimizer,
+which means that both optimized and unoptimized code is affected.
+
 Since the legacy code generation pipeline does not have its own ABI coder v2 implementation and uses
-the IR-based generator for ABI encoding, the bug can be triggered when using either of them.
+the IR-based generator for ABI encoding, the bug can be triggered when using either pipeline.
+It does not, however, affect ABI coder v1.
 
 ## Impact
 
