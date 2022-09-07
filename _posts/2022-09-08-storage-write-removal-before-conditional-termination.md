@@ -63,7 +63,7 @@ contract C {
 }
 ```
 
-Compiling the above via IR with enabled optimizer will result in ``f(false)`` to incorrectly terminate the transaction without modifying ``x``.
+Compiling the above via IR with enabled optimizer will result in ``f(false)`` incorrectly terminating the transaction without modifying ``x``.
 
 For a concrete contract, the bug may still be prevented, in case the optimizer inlines the function before running the problematic optimizer step, e.g. the following contract is almost identical, but unaffected, since ``g()`` will be inlined (in the snippet above the Solidity-level ``return;`` prevents easy inlining):
 
