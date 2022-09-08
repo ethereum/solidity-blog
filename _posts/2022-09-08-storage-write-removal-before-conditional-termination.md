@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 'Optimizer Bug Causing the Removal of Storage Writes Before Calls to Functions Conditionally Terminating the Transaction'
+title: 'Storage Write Removal Bug On Conditional Early Termination'
 date: '2022-09-08'
 author: Solidity Team
 category: Security Alerts
@@ -65,7 +65,7 @@ contract C {
 
 Compiling the above via IR with enabled optimizer will result in ``f(false)`` incorrectly terminating the transaction without modifying ``x``.
 
-For a concrete contract, the bug may still be prevented, in case the optimizer inlines the function before running the problematic optimizer step, e.g. the following contract is almost identical, but unaffected, since ``g()`` will be inlined (in the snippet above the Solidity-level ``return;`` prevents easy inlining):
+For a concrete contract, the optimizer may still prevent the bug by inlining the function before running the problematic optimizer step, e.g. the following contract is almost identical, but unaffected, since ``g()`` will be inlined (in the snippet above the Solidity-level ``return;`` prevents easy inlining):
 
 ```solidity
 contract C {
@@ -97,7 +97,7 @@ So similarly to above, the general pattern is:
 
 The bug is due to the treatment of certain function calls in (2).
 
-If a function call is performed between (1) and (3), the optimizer has to consider the control flow behaviour of the function call, e.g. whether control flow may continue beyond the call, whether the called function always reverts or always successfully terminates. However, in the case that the control flow conditionally can continue after the call to a function, but the function call may also terminate using the ``return(...)`` or ``stop()`` statements (see examples below), the optimizer incorrectly still behaved, as if the control flow *always* continued after the function.
+If a function call is performed between (1) and (3), the optimizer has to consider the control flow behaviour of the function call, e.g. whether control flow may continue beyond the call, whether the called function always reverts or always successfully terminates. However, in the case that the control flow conditionally can continue after the call to a function, but the function call may also terminate using the ``return(...)`` or ``stop()`` statements (see examples below), the optimizer incorrectly still behaved as if the control flow *always* continued after the function.
 
 Hence the write in (1) could be removed, even though (2) can in fact terminate and is supposed to retain the storage write in (1).
 
