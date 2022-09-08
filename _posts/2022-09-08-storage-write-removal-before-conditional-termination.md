@@ -88,7 +88,7 @@ To check whether your contract is actually affected, you need to trigger the con
 
 The Yul optimizer step responsible for the bug is the Unused Store Eliminator (abbreviated as `S` in the [optimizer step sequence](https://docs.soliditylang.org/en/latest/yul.html#optimization-step-sequence)). It is meant to remove storage writes that it can determine to be redundant. A storage write is considered redundant in either of the following two cases:
 - In all code paths after the initial write, a subsequent write overwrites the written value.
-- The transaction unconditionally reverts after the write.
+- The transaction unconditionally reverts after the initial write.
 
 So similarly to above, the general pattern is:
 1. a storage write (potentially within complex control flow), then
