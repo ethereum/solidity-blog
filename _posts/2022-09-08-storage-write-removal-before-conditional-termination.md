@@ -37,6 +37,8 @@ More concretely, the bug can occur if a contract contains the following pattern:
     - It overwrites the storage write in (1).
     - It reverts.
 
+If the initial storage write could possibly be read back (directly or in any internal or external call) between (1) and (3), it is, of course, never removed. Note, however, that in presence of the optimizer it is not always easy to determine if a storage read at the Solidity level will actually translate to a load instruction in assembly. For example the [Load Resolver](https://docs.soliditylang.org/en/latest/internals/optimizer.html#load-resolver) step can use the knowledge of values that were written before by the contract to replace a ``sload()`` directly with the value that it would read.
+
 With legacy code generation, all of this, i.e. steps 1-3, need to happen in a single inline assembly block and the function call in (2) needs to be a call to a user-defined assembly function (see below for examples of affected Yul snippets). Also note that during legacy code generation, the Yul optimizer is only run on inline assembly snippets that do not refer to Solidity variables, further reducing the amount of potentially affected cases.
 
 However, when using via-IR code generation the entire contract is first translated to Yul and then optimized as a whole. In this case, 1-3 can happen in Solidity code and only the function called in (2) needs to involve an inline assembly block calling ``return(...)`` or ``stop()`` (the compiler will not generate ``return(...)`` or ``stop()`` instructions that can trigger the bug without the use of inline assembly). Note that due to inlining, this inline assembly block can also merely occur in another nested function call, i.e. any call in (2) that, through any chain of nested calls, can both return to the caller and terminate via assembly is susceptible.
@@ -86,7 +88,7 @@ To check whether your contract is actually affected, you need to trigger the con
 
 ## Technical Details
 
-The Yul optimizer step responsible for the bug is the Unused Store Eliminator (abbreviated as `S` in the [optimizer step sequence](https://docs.soliditylang.org/en/latest/yul.html#optimization-step-sequence)). It is meant to remove storage writes that it can determine to be redundant. A storage write is considered redundant, if in all code paths continuing after it either of the following happens:
+The Yul optimizer step responsible for the bug is the Unused Store Eliminator (abbreviated as ``S`` in the [optimizer step sequence](https://docs.soliditylang.org/en/latest/yul.html#optimization-step-sequence)). It is meant to remove storage writes that it can determine to be redundant. A storage write is considered redundant, if in all code paths continuing after it either of the following happens, before the value could ever be read back again:
 - A subsequent write overwrites the value written in the initial write.
 - The code path unconditionally reverts.
 
