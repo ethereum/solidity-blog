@@ -13,7 +13,7 @@ Before we dive in, a reminder that the Solidity programming language and compile
 
 ## Thank you to our alumni 💐
 
-Like in any other project, there naturally comes a time for some team members to move on to other challenges. Since our last update, we have bid farewell to Christian (@christianparpart), Damian (@wechman), Đorđe (@mijovic), Hari (@hrkrshnn), Mathias (@marenz),  and Nishant (@nishant-sachdeva). We were delighted to have them and wish them all the best for their future! Luckily, some alumni remain in our orbit and continue to contribute with code and input to language design discussions.
+Like in any other project, there naturally comes a time for some team members to move on to other challenges. Since our last update, we have bid farewell to Christian (@christianparpart), Damian (@wechman), Đorđe (@mijovic), Hari (@hrkrshnn), Mathias (@marenz),  and Nishant (@nishant-sachdeva). We were delighted to have them and wish them all the best for their future! Luckily, some alumni remain in our orbit and continue contributing with code and input to language design discussions.
 
 ## Introducing new team members 💝
 
