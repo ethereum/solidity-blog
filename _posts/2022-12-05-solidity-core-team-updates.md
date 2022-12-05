@@ -59,7 +59,7 @@ _I have an MSc in Software Engineering, and all my life I have been highly motiv
 
 #### What would you like to see in the Solidity ecosystem in the future?
 
-_SSolidity will start having a more community-friendly [roadmap](https://github.com/orgs/ethereum/projects/26/views/1), and I would love it if the community could engage with us on those issues, especially in our [forum](https://forum.soliditylang.org/), since they can positively influence our plans. Another personal motivation is improving developer ergonomics with better-debugging tools or documentation_
+_Solidity will start having a more community-friendly [roadmap](https://github.com/orgs/ethereum/projects/26/views/1), and I would love it if the community could engage with us on those issues, especially in our [forum](https://forum.soliditylang.org/), since they can positively influence our plans. Another personal motivation is improving developer ergonomics with better debugging tools or documentation_.
 
 #### What do you like to do in your free time?
 
@@ -84,7 +84,7 @@ _SSolidity will start having a more community-friendly [roadmap](https://github.
 
 #### What is your role in the Solidity team? On which parts of Solidity do you work the most?
 
-*I work primarily on Solc-js (a JavaScript wrapper around the Solidity compiler), task automation, and Continuous Integration scripts in the Solidity repository. I also collaborate with the development of some minor changes in the compiler, and I'm looking forward to contributing to more compiler features and optimizations in the future.*
+*I work primarily on solc-js (a JavaScript wrapper around the Solidity compiler), task automation, and Continuous Integration scripts in the Solidity repository. I also collaborate with the development of some minor changes in the compiler, and I'm looking forward to contributing to more compiler features and optimizations in the future.*
 
 #### What made you join the Solidity team?
 
