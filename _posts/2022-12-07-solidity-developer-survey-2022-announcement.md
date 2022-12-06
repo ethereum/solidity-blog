@@ -46,7 +46,7 @@ This marks the third time we are conducting a structured developer survey and we
 
 **Please help us reach as many Solidity developers as possible by sharing the survey in your networks!**
 
-The results of the survey will be shared on this blog as well as on the [Solidity Twitter](https://twitter.com/solidity_lang) and [Mastodon](https://fosstodon.org/@solidity) accounts in Q1 of next year.
+The results of the survey will be shared on this blog as well as on the [Solidity Twitter](https://twitter.com/solidity_lang) and [Mastodon](https://fosstodon.org/@solidity) accounts in Q1 of 2023.
 
 Thank you for your support!
 
