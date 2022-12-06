@@ -19,7 +19,7 @@ You can find the results of last year’s Solidity Developer Survey [here](https
 
 ## About the Survey 🪄
 
-Like in previous years, this survey helps us to further improve the language and compiler, and shape the future roadmap of Solidity. We are curious to hear your feedback on Solidity and learn about your personal coding preferences.
+Like in previous years, this survey helps us to improve the language and compiler further and shape the future roadmap of Solidity. Therefore, we want to hear your feedback on Solidity and learn about your coding preferences.
 
 Your replies are invaluable for the Solidity project to understand your needs, the current strengths and weaknesses of the language and will contribute towards establishing development priorities for the future. This will ultimately result in improving the Solidity developer experience as a whole.
 
