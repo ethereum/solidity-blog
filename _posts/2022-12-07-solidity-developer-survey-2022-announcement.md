@@ -11,7 +11,7 @@ It’s that time of the year.
 Drumroll, please! 🥁🥁🥁 
 We are launching the [Solidity Developer Survey 2022](https://cryptpad.fr/form/#/2/form/view/HuPIRv4gvziSV0dPV1SJncKzYJXTVc8LGCaMfLUoj2c/)!
 
-Before we wrap up 2022 for good, we reach out to collect your feedback and insights!
+Before we wrap up 2022 for good, we want to reach out to collect your feedback and insights so we can improve on it!
 
 **📝 [TAKE THE SURVEY!](https://cryptpad.fr/form/#/2/form/view/HuPIRv4gvziSV0dPV1SJncKzYJXTVc8LGCaMfLUoj2c/) 📝**
 
