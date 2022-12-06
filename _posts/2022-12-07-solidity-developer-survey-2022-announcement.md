@@ -7,7 +7,9 @@ author: Franziska Heintel
 category: Announcements
 ---
 
-It's that time of the year again: Today, we are launching the [Solidity Developer Survey 2022](https://cryptpad.fr/form/#/2/form/view/HuPIRv4gvziSV0dPV1SJncKzYJXTVc8LGCaMfLUoj2c/).
+It’s that time of the year. 
+Drumroll, please! 🥁🥁🥁 
+We are launching the [Solidity Developer Survey 2022](https://cryptpad.fr/form/#/2/form/view/HuPIRv4gvziSV0dPV1SJncKzYJXTVc8LGCaMfLUoj2c/)!
 
 Before we wrap up 2022 for good, we reach out to collect your feedback and insights!
 
