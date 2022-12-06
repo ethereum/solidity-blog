@@ -38,7 +38,7 @@ None of the questions are mandatory, but keep in mind that filling in as many as
 
 This year, a little "token" of appreciation awaits you at the end of the survey.
 
-Last but not least, we moved away from Google forms and are trying an open-source alternative, namely CryptPad, in this iteration. Besides the fact that we prefer opting for open-source, encrypted, self-hostable software over proprietary software, selecting CryptPad specifically was a conscious choice since it allows you to submit your responses fully anonymous (client-side encryption).
+Last but not least, we moved away from Google forms and are trying an open-source alternative, namely CryptPad, in this iteration. Besides the fact that we prefer opting for open-source, encrypted, self-hostable software over proprietary software, selecting CryptPad specifically was a conscious choice since it allows you to submit your responses fully anonymously (client-side encryption).
 
 ## Spread the Word! 📯
 
