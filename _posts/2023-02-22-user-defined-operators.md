@@ -147,6 +147,36 @@ Once the operator is bound, the definition cannot be changed.
 User-defined operators are independent of attached functions.
 One can be done without the other, and both can be done simultaneously, even in the same `using for` directive.
 
+The following example illustrates this:
+
+```solidity
+pragma solidity ^0.8.19;
+
+type Int is int;
+using {add as +} for Int global;
+using {sub as -, sub} for Int global;
+
+function add(Int a, Int b) pure returns (Int) {
+    return Int.wrap(Int.unwrap(a) + Int.unwrap(b));
+}
+
+function sub(Int a, Int b) pure returns (Int) {
+    return Int.wrap(Int.unwrap(a) + Int.unwrap(b));
+}
+
+function test(Int x, Int y) pure {
+    x + y;
+    x.add(y); // ERROR: Member "add" not found or not visible after argument-dependent lookup in Int.
+
+    x - y;
+    x.sub(y); // OK -- "sub" was also attached in "using for"
+}
+```
+
+In the above example, the function `add()` is used *only* as the operator `+`, and not callable as `x.add(y)`
+(but it can, of course, be also called as `add(x, y)`).
+`sub()`, on the other hand, can both be used as the operator `-` and called on the type.
+
 The rules for `using for global` with operators are the same as for attached functions
 (with an additional restriction that operators *must* be global):
 it is only allowed at file level, the type must be defined in the same file and it makes
@@ -211,6 +241,156 @@ and(0xff, add(and(0xff, x), and(0xff, y)))
 and `div(x, y)` with
 ```solidity
 and(0xff, div(and(0xff, x), and(0xff, y)))
+```
+
+#### Examples
+
+##### Unchecked Counter
+This example shows how operators can be used to bypass the checked arithmetic for types
+specifically defined for cases where those checks are superfluous:
+
+```solidity
+pragma solidity ^0.8.19;
+
+type UncheckedCounter is uint;
+
+using {add as +, lt as <} for UncheckedCounter global;
+
+UncheckedCounter constant ONE = UncheckedCounter.wrap(1);
+
+function add(UncheckedCounter x, UncheckedCounter y) pure returns (UncheckedCounter) {
+    unchecked {
+        return UncheckedCounter.wrap(
+            UncheckedCounter.unwrap(x) +
+            UncheckedCounter.unwrap(y)
+        );
+    }
+}
+
+function lt(UncheckedCounter x, UncheckedCounter y) pure returns (bool) {
+    return UncheckedCounter.unwrap(x) < UncheckedCounter.unwrap(y);
+}
+
+contract C {
+    uint internalCounter = 12;
+
+    function testCounter() public returns (uint) {
+        for (
+            UncheckedCounter i = UncheckedCounter.wrap(12);
+            i < UncheckedCounter.wrap(20);
+            i = i + ONE
+        )
+            ++internalCounter;
+
+        return internalCounter;
+    }
+}
+```
+
+##### A More Complex Abstract Example
+This is a more complex example that shows multiple aspects of user-defined operators.
+The exact calculations it performs do not matter, the point is to show the syntax in a larger context.
+
+`redBlueScore.sol`
+```solidity
+pragma solidity ^0.8.19;
+
+import {Red, Blue, Score, RED_LIMIT, BLUE_LIMIT} from "./types.sol";
+
+contract RedBlueScore {
+    Red public redGauge;
+    Blue public blueGauge;
+
+    function voteRed(Red value, Red base) public {
+        require(-RED_LIMIT <= value * base && value * base <= RED_LIMIT);
+        redGauge = redGauge + value * base.exp(3);
+    }
+
+    function voteBlue(Blue value) public {
+        require(-BLUE_LIMIT <= value && value <= BLUE_LIMIT);
+        blueGauge = blueGauge + value - Blue.wrap(100);
+    }
+
+    function calculateScore() public view returns (Score) {
+        return
+            redGauge.toScore() / RED_LIMIT.toScore() -
+            blueGauge.toScore() / BLUE_LIMIT.toScore();
+    }
+}
+```
+
+`types.sol`
+```solidity
+pragma solidity ^0.8.19;
+
+import "./operators.sol" as op;
+
+type Red is int;
+using {op.RedLib.toScore, op.RedLib.exp, op.addRed as +, op.mulRed as *, op.unsubRed as -} for Red global;
+using {op.lteRed as <=, op.gtRed as >} for Red global;
+
+type Blue is int;
+using {
+    op.addBlue as +,
+    op.unsubBlue as -,
+    op.subBlue as -,
+    op.BlueLib.toScore,
+    op.lteBlue as <=,
+    op.gtBlue as >
+} for Blue global;
+
+type Score is int128;
+using {op.addScore as +} for Score global;
+using {op.subScore as -} for Score global;
+using {op.divScore as /} for Score global;
+
+Red constant RED_LIMIT = Red.wrap(10);
+Blue constant BLUE_LIMIT = Blue.wrap(20);
+```
+
+`operators.sol`
+```solidity
+pragma solidity ^0.8.19;
+
+import {Red, Blue, Score} from "./types.sol";
+
+library RedLib {
+    function toScore(Red x) internal pure returns (Score) {
+        return Score.wrap(int128(Red.unwrap(x))) + Score.wrap(10);
+    }
+
+    function exp(Red x, uint y) internal pure returns (Red) {
+        return Red.wrap(Red.unwrap(x) ** y);
+    }
+}
+
+library BlueLib {
+    function toScore(Blue x) internal pure returns (Score) {
+        return Score.wrap(int128(Blue.unwrap(x))) - Score.wrap(20);
+    }
+
+    function add(Blue x, Blue y) external pure returns (Blue) {
+        return Blue.wrap(Blue.unwrap(x) + Blue.unwrap(y));
+    }
+}
+
+using {BlueLib.add} for Blue;
+
+function addRed(Red x, Red y) pure returns (Red)  { return Red.wrap(Red.unwrap(x) + Red.unwrap(y)); }
+function mulRed(Red x, Red y) pure returns (Red)  { return Red.wrap(Red.unwrap(x) * Red.unwrap(y)); }
+function unsubRed(Red x)      pure returns (Red)  { return Red.wrap(-Red.unwrap(x)); }
+function lteRed(Red x, Red y) pure returns (bool) { return Red.unwrap(x) <= Red.unwrap(y); }
+function gtRed(Red x, Red y)  pure returns (bool) { return !(x <= y); }
+
+function addBlue(Blue x, Blue y) pure returns (Blue) { return x.add(y); }
+function unsubBlue(Blue x)       pure returns (Blue) { return Blue.wrap(-Blue.unwrap(x)); }
+function subBlue(Blue x, Blue y) pure returns (Blue) { return x + -y; }
+function lteBlue(Blue x, Blue y) pure returns (bool) { return Blue.unwrap(x) <= Blue.unwrap(y); }
+function gtBlue(Blue x, Blue y)  pure returns (bool) { return !(x <= y); }
+
+function addScore(Score x, Score y) pure returns (Score) { return Score.wrap(Score.unwrap(x) + Score.unwrap(y)); }
+function subScore(Score x, Score y) pure returns (Score) { return Score.wrap(Score.unwrap(x) - Score.unwrap(y)); }
+function divScore(Score x, Score y) pure returns (Score) { return Score.wrap(Score.unwrap(x) / Score.unwrap(y)); }
 ```
 
 ### AST Changes
