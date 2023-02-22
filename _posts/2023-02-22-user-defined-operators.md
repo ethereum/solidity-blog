@@ -36,13 +36,13 @@ Here is the full list for Solidity:
 
 | Category             | Operators                                                                |
 |----------------------|--------------------------------------------------------------------------|
-| Bitwise              | `&`, `\|`, `^`, `<<`, `>>`, `~`                                          |
+| Bitwise              | `&`, `|`, `^`, `<<`, `>>`, `~`                                           |
 | Arithmetic           | `+`, `-`, `*`, `/`, `%`, `**`                                            |
 | Comparison           | `==`, `!=`, `<`, `<=`, `>`, `>=`                                         |
-| Boolean              | `!`, `&&`, `\|\|`                                                        |
+| Boolean              | `!`, `&&`, `||`                                                          |
 | Increment/decrement  | `++`, `--`                                                               |
 | Simple assignment    | `=`                                                                      |
-| Composite assignment | `+=`, `-=`, `^=`, `*=`, `/=`, `%=`, `&=`, `\|=`, `^=`, `<<=`, `>>=`      |
+| Composite assignment | `+=`, `-=`, `^=`, `*=`, `/=`, `%=`, `&=`, `|=`, `^=`, `<<=`, `>>=`       |
 | Miscellaneous        | `delete`, `new`, `.`, `()`, `[]`, `?:`                                   |
 
 It is important to note that in many languages, an assignment is a statement that is handled in a special way.
@@ -130,7 +130,7 @@ The following operators can be defined:
 
 | Category   | Operators                        |
 |------------|----------------------------------|
-| Bitwise    | `&`, `\|`, `^`,  `~`             |
+| Bitwise    | `&`, `|`, `^`,  `~`              |
 | Arithmetic | `+`, `-`, `*`, `/`, `%`          |
 | Comparison | `==`, `!=`, `<`, `<=`, `>`, `>=` |
 
@@ -513,7 +513,7 @@ In the current implementation, it is not possible to:
     You cannot define:
     - `&&` and `||` due to their short-circuiting behavior.
     - `++` and `--` because they modify their argument and also have separate prefix and postfix variants with different semantics.
-    - `+=`, `-=`, `^=`, `*=`, `/=`, `%=`, `&=`, `\|=`, `^=`, `<<=`, `>>=` because they modify their argument.
+    - `+=`, `-=`, `^=`, `*=`, `/=`, `%=`, `&=`, `|=`, `^=`, `<<=`, `>>=` because they modify their argument.
     - `=`, `()`, `?:`, and `.` because they are built-in for all types.
     - `delete`, `new`, and `[]` because they are not usable with UDVTs.
 1. Define custom operators that do not exist in the language, like `===` or unary `+`.
