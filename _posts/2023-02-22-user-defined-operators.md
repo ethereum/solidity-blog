@@ -127,6 +127,7 @@ Since currently there are no implicit conversions allowed to and from UDVTs, use
 must always be invoked with exact types.
 
 The following operators can be defined:
+
 | Category   | Operators                        |
 |------------|----------------------------------|
 | Bitwise    | `&`, `\|`, `^`,  `~`             |
@@ -215,7 +216,6 @@ function yoloDiv(U8 x, U8 y) pure returns (U8 z) {
 contract C {
     function divAddNoOverflow(U8 a, U8 b, U8 c) external pure returns (U8) {
         return a / (b + c);
-
     }
 }
 ```
