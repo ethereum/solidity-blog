@@ -127,6 +127,7 @@ Since currently there are no implicit conversions allowed to and from UDVTs, use
 must always be invoked with exact types.
 
 The following operators can be defined:
+
 | Category   | Operators                        |
 |------------|----------------------------------|
 | Bitwise    | `&`, `\|`, `^`,  `~`             |
