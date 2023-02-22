@@ -216,7 +216,6 @@ function yoloDiv(U8 x, U8 y) pure returns (U8 z) {
 contract C {
     function divAddNoOverflow(U8 a, U8 b, U8 c) external pure returns (U8) {
         return a / (b + c);
-
     }
 }
 ```
