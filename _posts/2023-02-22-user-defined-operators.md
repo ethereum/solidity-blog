@@ -162,7 +162,7 @@ function add(Int a, Int b) pure returns (Int) {
 }
 
 function sub(Int a, Int b) pure returns (Int) {
-    return Int.wrap(Int.unwrap(a) + Int.unwrap(b));
+    return Int.wrap(Int.unwrap(a) - Int.unwrap(b));
 }
 
 function test(Int x, Int y) pure {
@@ -179,7 +179,7 @@ In the above example, the function `add()` is used *only* as the operator `+`, a
 `sub()`, on the other hand, can both be used as the operator `-` and called on the type.
 
 The rules for `using for global` with operators are the same as for attached functions
-(with an additional restriction that operators *must* be global):
+(with an additional restriction that operators *must* be global), i.e.
 it is only allowed at file level, the type must be defined in the same file and it makes
 the operator available everywhere.
 Note that only the directive itself must be colocated with the type.
@@ -546,7 +546,7 @@ just like a function called `transfer()` that does not transfer anything.
 
 Reviewing the invocations of an operator should not pose significant problems either, as long as
 the reviewer is aware of the types involved, which is always necessary to understand the expression.
-This is not a new thing, since the behavior of the built-in operators is has always been affected by operand types.
+This is not a new thing, since the behavior of the built-in operators has always been affected by operand types.
 For example the overflow semantics of integer types depend on the size of the type in question.
 
 Note that user-defined operators cannot alter semantics of the existing code.
