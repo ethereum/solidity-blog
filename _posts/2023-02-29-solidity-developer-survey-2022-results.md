@@ -17,7 +17,7 @@ Your input is invaluable to us and plays a crucial role in helping to continuous
 
 Before we get started, a few useful links:
 In the spirit of open source, you can find all raw data of the survey results [here](https://docs.google.com/spreadsheets/d/1A5iF3aKhFv9wTTJ10ko_uxgoflc8oEpVe3gqAAWoC2w/edit?usp=sharing) and all graphs [here](https://docs.google.com/presentation/d/1xH5pGZ6rrAP_jzRQobf0Mn1XYquyg8bD17DBQyrErMo/edit?usp=sharing).
-Since this is already our third time conducting a yearly survey, it may be interesting for you to compare the outcome to the previous surveys. The results from the 2021 developer survey are available [here](https://blog.soliditylang.org/2022/02/07/solidity-developer-survey-2021-results/] and from 2020 [here](https://blog.soliditylang.org/2021/01/26/solidity-developer-survey-2020-results/).
+Since this is already our third time conducting a yearly survey, it may be interesting for you to compare the outcome to the previous surveys. The results from the 2021 developer survey are available [here](https://blog.soliditylang.org/2022/02/07/solidity-developer-survey-2021-results/) and from 2020 [here](https://blog.soliditylang.org/2021/01/26/solidity-developer-survey-2020-results/).
 
 Without further ado, let’s dig into the 2022 results!
 
