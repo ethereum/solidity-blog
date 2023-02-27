@@ -33,7 +33,7 @@ Without further ado, let’s dig into the 2022 results!
 
 ![Demographics Header](/img/2023/02/header1.png)
 
-## [1] Demographics of the Survey Audience
+## Demographics of the Survey Audience
 
 _⚠️ Be aware that this survey has only been shared in English when interpreting results regarding the distribution of countries of residency and language preferences._
 
