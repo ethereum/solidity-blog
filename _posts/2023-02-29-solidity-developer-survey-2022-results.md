@@ -221,7 +221,6 @@ To summarize:
 * `via-IR` complication pipeline: 70.8% do not know what `via-IR` is. 18.6% use the `via-IR` pipeline already. In the following weeks we will share more context about why you should switch from the legacy compilation pipeline to `via-IR` and what this means.
 * Metadata publication: 53.5% publish the metadata of their smart contracts. 27.8% don’t, while 18.7% don’t know what this means.
 * Sourcify: 11% of all respondents use Sourcify for smart contract verification, while 21.2% claim to not need it. 67.8% don’t know what Sourcify is. If you want to learn more about Sourcify, visit [sourcify.dev](https://sourcify.dev/).
-
 #### Fixed-Point Types
 
 Approximately 91% of all survey respondents don’t use fixed-point types.
@@ -268,9 +267,7 @@ When getting stuck on a Solidity problem, most respondents visit Ethereum StackE
 
 Amongst the 40% that do,debugging issues are encountered most frequently, followed by stack-too-deep errors and bytecode size limitations.
 
-_ℹ️On the topic of debugging issues, we'd like to use the opportunity to highlight a new initiative aimed at defining a common debugging data format for languages built on top of the EVM: [ethdebug](​​https://github.com/ethdebug/format/). The end result will be a specification that will allow debuggers, analyzers and other tools to reliably map between the EVM bytecode produced by compilers and the high-level language features. This has been a common pain point across the ecosystem for years and is becoming more pressing with the introduction of the new IR-based code generator in Solidity, which often breaks implicit assumptions tools made based on how the legacy pipeline worked.
-
-We encourage all developers working on such tools to join the working group. The groups has regular bi-weekly meetings and coordinates via the [ethdebug channel](https://matrix.to/#/#ethdebug:matrix.org) on Matrix._
+_ℹ️On the topic of debugging issues, we'd like to use the opportunity to highlight a new initiative aimed at defining a common debugging data format for languages built on top of the EVM: [ethdebug](​​https://github.com/ethdebug/format/). The end result will be a specification that will allow debuggers, analyzers and other tools to reliably map between the EVM bytecode produced by compilers and the high-level language features. This has been a common pain point across the ecosystem for years and is becoming more pressing with the introduction of the new IR-based code generator in Solidity, which often breaks implicit assumptions tools made based on how the legacy pipeline worked. We encourage all developers working on such tools to join the working group. The group has regular bi-weekly meetings and coordinates via the [ethdebug channel](https://matrix.to/#/#ethdebug:matrix.org) on Matrix._
 
 ![Recurring Issues](/img/2023/02/recurring_issues.png)
 
@@ -398,19 +395,19 @@ Interestingly, almost 30% claim to not be doing any of the above.
 
 As part of “other”, respondents specified several community based means to stay up-to-date:
 
-YouTube
-Crypto Twitter / Community chats
-Solidity docs
-"Week in Ethereum" Newsletter
-"Crypto influencers" / Popular Solidity developers
-Updating RemixIDE / Hardhat / VS Code
-Coworkers
-Google
-Newsletters
-Conferences / Meetups
-OpenZeppelin forum
-Solidity website
-Reddit
+* YouTube
+* Crypto Twitter / Community chats
+* Solidity docs
+* "Week in Ethereum" Newsletter
+* "Crypto influencers" / Popular Solidity developers
+* Updating RemixIDE / Hardhat / VS Code
+* Coworkers
+* Google
+* Newsletters
+* Conferences / Meetups
+* OpenZeppelin forum
+* Solidity website
+* Reddit
 
 ![Means To Stay Up-To-Date](/img/2023/02/stay_informed.png)
 
@@ -421,7 +418,6 @@ More than half of respondents interact with other Solidity developers.
 16.7% don’t interact with other Solidity developers at all.
 
 ![Developer Interaction](/img/2023/02/interaction.png)
-
 
 Like in the previous years, as the last part of the survey, we wanted to hear how many participants agree or disagree with several statements regarding the Solidity community and the work of the Solidity team.
 
@@ -434,7 +430,7 @@ The results of this “community and Solidity team confidence ranking” are ver
 
 One can derive that while the community seems confident in the competency / qualification of the Solidity team, the communications around ways to contribute as well as understanding of the community’s needs can be improved. Those are things that we have been working on improving throughout the last years and will continue to do so.
 
-![Community and Solidity Team Confidence Ranking](/img/2023/02/statements.png)
+![Community and Solidity Team Confidence Ranking](/img/2023/02/community_statements.png)
 
 
 
@@ -450,7 +446,7 @@ We will continue to collect feedback on an ongoing basis.
 
 To not miss anything make sure to:
 * Follow Solidity on [Twitter](https://twitter.com/solidity_lang) or [Mastodon](https://fosstodon.org/@solidity).
-*Join the language design discussions in the [Solidity forum](https://forum.soliditylang.org/) or provide us feedback there.
+* Join the language design discussions in the [Solidity forum](https://forum.soliditylang.org/) or provide us feedback there.
 * Follow announcements and security alerts on the [Solidity blog](https://blog.soliditylang.org/).
 * Follow and ⭐ the [Solidity repo on Github](https://github.com/ethereum/solidity).
 
