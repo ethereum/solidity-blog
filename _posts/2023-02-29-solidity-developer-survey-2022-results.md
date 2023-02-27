@@ -203,7 +203,7 @@ With roughly 90%, 0.8.x Solidity versions remain to be the by far most used ones
 
 ![Used Solidity Versions](/img/2023/02/versions.png)
 
-_*⚠️ Reminder: Please make sure to frequently update your code. [Several important bug fixes and security improvements](https://github.com/ethereum/solidity/blob/develop/docs/bugs_by_version.json) are added in the newer versions!*_
+_⚠️ Reminder: Please make sure to frequently update your code. [Several important bug fixes and security improvements](https://github.com/ethereum/solidity/blob/develop/docs/bugs_by_version.json) are added in the newer versions!_
 
 #### Solidity Usage Details
 
@@ -212,15 +212,15 @@ This year, we also asked specific questions about Solidity usage habits.
 For charts and figures on those, please refer to the [presentation with all graphs]() and the [raw data file]().
 
 To summarize:
-Command line: Roughly two thirds of respondents do not use the Solidity compiler directly via the command line. 37.5% do.
-Command line: When using the compiler on the command line, 61.3% still use Standard JSON.
-Compiler support for old EVM versions: The vast majority of 82.6% of respondents does not rely on compiler support for older EVM versions. While 17.4% indicated they do require compiler support for older EVM versions, when asked which one specifically, only seven were able to point to an actual EVM version. All other responses were referring to Solidity versions. The answers indicate a clear misunderstanding of the question and the response can likely be interpreted as "no major support for older EVM versions needed".
-Optimizer: 93.6% do not disable the optimizer. The 6.4% that enabled the optimizer, stated that they would do so due to contract size limits, slow compilation, in order to pass EtherScan verification, for gas testing purposes or because of security concerns.
-Gas estimator: 23.4% use the gas estimator that is built into the compiler. 25% have tried it, but don’t use it regularly, while 41.5% never use it.
-SMTChecker: 81% of all respondents never use the SMTChecker. 13.7% have tried it and 5.4% use it frequently. You can learn more about the SMTChecker [here]().
-`via-IR` complication pipeline: 70.8% do not know what `via-IR` is. 18.6% use the `via-IR` pipeline already. In the following weeks we will share more context about why you should switch from the legacy compilation pipeline to `via-IR` and what this means.
-Metadata publication: 53.5% publish the metadata of their smart contracts. 27.8% don’t, while 18.7% don’t know what this means.
-Sourcify: 11% of all respondents use [Sourcify]() for smart contract verification, while 21.2% claim to not need it. 67.8% don’t know what Sourcify is. If you want to learn more about Sourcify, visit [sourcify.dev](https://sourcify.dev/).
+* Command line: Roughly two thirds of respondents do not use the Solidity compiler directly via the command line. 37.5% do.
+* Command line: When using the compiler on the command line, 61.3% still use Standard JSON.
+* Compiler support for old EVM versions: The vast majority of 82.6% of respondents does not rely on compiler support for older EVM versions. While 17.4% indicated they do require compiler support for older EVM versions, when asked which one specifically, only seven were able to point to an actual EVM version. All other responses were referring to Solidity versions. The answers indicate a clear misunderstanding of the question and the response can likely be interpreted as "no major support for older EVM versions needed".
+* Optimizer: 93.6% do not disable the optimizer. The 6.4% that enabled the optimizer, stated that they would do so due to contract size limits, slow compilation, in order to pass EtherScan verification, for gas testing purposes or because of security concerns.
+* Gas estimator: 23.4% use the gas estimator that is built into the compiler. 25% have tried it, but don’t use it regularly, while 41.5% never use it.
+* SMTChecker: 81% of all respondents never use the SMTChecker. 13.7% have tried it and 5.4% use it frequently. You can learn more about the SMTChecker [here]().
+* `via-IR` complication pipeline: 70.8% do not know what `via-IR` is. 18.6% use the `via-IR` pipeline already. In the following weeks we will share more context about why you should switch from the legacy compilation pipeline to `via-IR` and what this means.
+* Metadata publication: 53.5% publish the metadata of their smart contracts. 27.8% don’t, while 18.7% don’t know what this means.
+* Sourcify: 11% of all respondents use [Sourcify]() for smart contract verification, while 21.2% claim to not need it. 67.8% don’t know what Sourcify is. If you want to learn more about Sourcify, visit [sourcify.dev](https://sourcify.dev/).
 
 #### Fixed-Point Types
 
