@@ -7,7 +7,7 @@ author: Franziska Heintel
 category: Announcements
 ---
 
-In this post, we will be summarizing and analyzing the results of the [2022 Solidity Developer Survey](https://blog.soliditylang.org/2022/12/07/solidity-developer-survey-2022-announcement/).
+The [2022 Solidity Developer Survey](https://blog.soliditylang.org/2022/12/07/solidity-developer-survey-2022-announcement/) results are in! In this post, we will be summarizing and analyzing them.
 
 First of all, a big thank you to everybody who took the time and participated and to everybody who helped us spread the word about it!
 
@@ -15,7 +15,7 @@ This year, we received a smashing 1401 responses. That is more than a 3x in resp
 
 Your input is invaluable to us and plays a crucial role in helping to continuously improve the Solidity developer experience as a whole.
 
-Before we get started, a few useful links:
+Before we get started, here are a few useful links:
 * In the spirit of open source, you can find all raw data of the survey results [here](https://docs.google.com/spreadsheets/d/1A5iF3aKhFv9wTTJ10ko_uxgoflc8oEpVe3gqAAWoC2w/edit?usp=sharing) and all graphs [here](https://docs.google.com/presentation/d/1xH5pGZ6rrAP_jzRQobf0Mn1XYquyg8bD17DBQyrErMo/edit?usp=sharing).
 * Since this is already our third time conducting a yearly survey, it may be interesting for you to compare the outcome to the previous surveys. The results from the 2021 developer survey are available [here](https://blog.soliditylang.org/2022/02/07/solidity-developer-survey-2021-results/) and from 2020 [here](https://blog.soliditylang.org/2021/01/26/solidity-developer-survey-2020-results/).
 
@@ -24,12 +24,12 @@ Without further ado, let’s dig into the 2022 results!
 ## Summary & Notable Insights
 
 - **Survey Audience**: In total, 1401 developers from 100 different countries participated in the 2022 survey. That is more than a 222% increase in responses compared to the previous survey (435 respondents)! The coverage of different geographies also continuously increased from 48 countries in 2020 to 73 countries in 2021 to 100 countries in 2022. Roughly 18% stated to be residing in the US, followed by India (10%) and France (5%).
-- **Developer Profiles**: The level of coding experience remains at a medium to high level with the majority of respondents having coded professionally 3 or more years, 12.5% even more than 15 years.
-- **Solidity Experience**: More than half of all respondents have been using Solidity less than a year, while 13.8% have been using it more than 3 years. 41% use Solidity daily, 37.3% weekly.
-- **Solidity Expertise**: Many deem themselves Solidity experts, with a self rating in expertise of 7 or higher (scale of 10). 4.6% rate their expertise as a 10 out of 10. 70% of those have been using Solidity for 2-3 years, or longer.
-- **Developer Experience**: The majority (+75%) believes that the Solidity developer experience improved in the last year. 0.9% are of the opinion it got worse. Debugging issues are encountered most frequently, followed by stack-too-deep errors and bytecode size limitations.
-- **Future Features**: Support for decimal numbers and generics were mentioned most often as the “most anticipated Solidity feature”.
-- **Liked & Dreaded Features**: Respondents most like Solidity's syntax, the simplicity with regards to learning, reading, coding and compiling and the static typing. The biggest pain point is “stack-too-deep” with 33.6% of all votes, followed by missing memory optimizations (waste of memory) (24.4%) and redundant checks (e.g. in checked arithmetic) (11.8%). 9.9% say that compiler performance is their biggest issue.
+- **Developer Profiles**: The level of coding experience remains at a medium to a high level, with the majority of respondents having coded professionally for 3 or more years, 12.5% even more than 15 years.
+- **Solidity Experience**: More than half of all respondents have been using Solidity for less than a year, while 13.8% have been using it for more than 3 years. 41% use Solidity daily, and 37.3% weekly.
+- **Solidity Expertise**: Many deem themselves Solidity experts, with a self-rating in the expertise of 7 or higher (out of 10). 4.6% rate their expertise as a 10 out of 10. 70% of those have been using Solidity for 2-3 years or longer.
+- **Developer Experience**: The majority (+75%) believe that the Solidity developer experience improved in the last year. 0.9% are of the opinion it got worse. Debugging issues are frequently encountered, followed by stack-too-deep errors and bytecode size limitations.
+- **Future Features**: Support for decimal numbers and generics was mentioned most often as the “most anticipated Solidity feature”.
+- **Liked & Dreaded Features**: Respondents most like Solidity's syntax, the simplicity of learning, reading, coding, and compiling, and the static typing. The most significant pain point is “stack-too-deep”, with 33.6% of all votes, followed by missing memory optimizations (waste of memory) (24.4%) and redundant checks (e.g. in checked arithmetic) (11.8%). 9.9% say that compiler performance is their biggest issue.
 
 ![Demographics Header](/img/2023/02/header1.png)
 
@@ -37,15 +37,15 @@ Without further ado, let’s dig into the 2022 results!
 
 _⚠️ Be aware that this survey has only been shared in English when interpreting results regarding the distribution of countries of residency and language preferences._
 
-As usual, we begin by looking at the developers who participated in this survey: In this first chapter we cover general information on the survey audience, which includes residency, and spoken languages.
+As usual, we begin by looking at the developers who participated in this survey: In this first chapter, we cover general information on the survey audience, which includes residency and spoken languages.
 
 In total, 1401 developers from 100 different countries participated in the 2022 survey. Compared to the previous survey, this represents a 222% increase in responses.
 
-The coverage of different geographies increased from 73 countries in 2021, to 100 countries in 2022.
+The coverage of different geographies increased from 73 countries in 2021 to 100 countries in 2022.
 
 #### Residency 
 
-Roughly 18% stated to be residing in the US, followed by India (10%) and France (5%). Nigeria made it to rank 4, being the current residence of 4.5% of respondents.
+Roughly 18% of respondents stated to be residing in the US, followed by India (10%), France (5%), and Nigeria (4.5%).
 
 ![Survey Participants World Map](/img/2023/02/geo.png)
 
@@ -53,39 +53,39 @@ Roughly 18% stated to be residing in the US, followed by India (10%) and France 
 
 #### Language
 
-The diversity of respondents did not only increase in terms of countries of residency, but also in terms of native language. In total, 70 different languages were mentioned as native language. That’s a 40% increase compared to the previous year.
+The diversity of respondents did not only increase in terms of countries of residency but also in terms of the native language. In total, 70 different languages were mentioned as their native languages. That’s a 40% increase compared to the previous year.
 
-31.5% state English as their native language, followed by Indian languages (12.4%), Spanish (8.4%), French (6.9%), Russian (6.4%) and German (4.7%).
+31.5% state English as their native language, followed by Indian languages (12.4%), Spanish (8.4%), French (6.9%), Russian (6.4%), and German (4.7%).
 
-_ℹ️Hindi, Urdu, Telugu, Bengali, Tamil, Malayalam, Gujarati, Marathi, Kannada and Odia were clustered as “Indian languages”. Chinese, Cantonese and Mandarin were clustered as “Chinese languages”. Persian, Pashto and Ossetian were clustered as “Iranian languages”._
+_ℹ️Hindi, Urdu, Telugu, Bengali, Tamil, Malayalam, Gujarati, Marathi, Kannada, and Odia were clustered as “Indian languages”. Chinese, Cantonese, and Mandarin were clustered as “Chinese languages”. Persian, Pashto, and Ossetian were clustered as “Iranian languages”._
 
 ![Survey Participants Native Language](/img/2023/02/lang.png)
 
-With almost 80%, the majority of respondents predominantly speaks English at work. 
+With almost 80%, the majority of respondents predominantly speak English at work. 
 
-Other languages that are spoken at work: French (3.2%), Russian (3.1%) and Chinese languages (2.3%).
+Other languages that are spoken at work: French (3.2%), Russian (3.1%), and Chinese languages (2.3%).
 
 ![Survey Participants Work Language](/img/2023/02/lang_work.png)
 
-Of the respondents who didn't name English as their native language, 87% are okay with reading the Solidity documentation in English. 12.9% would prefer to read it in their native language, the most mentioned ones being Spanish, Indian languages and Russian. 
+Of the respondents who didn't name English as their native language, 87% are okay with reading the Solidity documentation in English. 12.9% would prefer to read it in their native language, the most mentioned ones being Spanish, Indian languages, and Russian. 
 
 ![Preferred Documentation Language](/img/2023/02/lang_docs.png)
 
 ![Preferred Documentation Language Breakdown](/img/2023/02/lang_docs_integrated.png)
 
-_ℹ️ Note: This survey has only been conducted in English, which may have impacted the outcome of this question. We still believe internationalization of resources like the Solidity documentation is a crucial factor to lower the barriers of entry and we aim to support by helping coordinate the community-driven [translation efforts](https://github.com/solidity-docs)._
+_ℹ️ Note: This survey has only been conducted in English, which may have impacted the outcome of this question. We still believe internationalization of resources like the Solidity documentation is a crucial factor in lowering the barriers of entry, and we aim to support by helping coordinate the community-driven [translation efforts](https://github.com/solidity-docs)._
 
 ![Developer Profile Header](/img/2023/02/header2.png)
 
 ### Developer Profile
 
-In the second section of the Solidity Developer Survey we learn more about professional experience and coding preferences of the survey audience.
+In the second section of the Solidity Developer Survey, we learn more about the professional experience and coding preferences of the survey audience.
 
 #### Work Experience & Employment
 
-Roughly 71% of respondents were employed at the time of the survey, while roughly 12% stated they were students and 17% said they were currently not working professionally.
+Roughly 71% of respondents were employed at the time of the survey, while roughly 12% stated they were students, and 17% said they were currently not working professionally.
 
-Compared to the previous survey, there is a slight increase in both the number of students, and currently unemployed developers.
+Compared to the previous survey, there is a slight increase in both the number of students and currently unemployed developers.
 
 ![Employment Status](/img/2023/02/employment.png)
 
@@ -107,7 +107,7 @@ Overall, the level of coding experience is medium to high with the majority of r
 
 #### Touch Points with Solidity
 
-Like in the previous survey, the majority of respondents (75.7%) still use Solidity for their personal projects. Roughly 64% of all respondents use Solidity at work.
+As in the previous survey, the majority of respondents (75.7%) still use Solidity for their personal projects. Roughly 64% of all respondents use Solidity at work.
 
 More than 20% state they are leading a programming team.
 
@@ -119,17 +119,17 @@ Only 23.4% of respondents contribute to open-source projects written in Solidity
 
 #### Programming Language Preferences
 
-Solidity marks the most used programming language for the survey audience (28.6%), closely followed by JavaScript (25.6%) and TypeScript (20.5%). Other less frequently mentioned languages are Python (8.7%), Rust (2.7%) and Go (2.5%).
+Solidity marks the most used programming language for the survey audience (28.6%), closely followed by JavaScript (25.6%) and TypeScript (20.5%). Other less frequently mentioned languages are Python (8.7%), Rust (2.7%), and Go (2.5%).
 
 ![Most Used Programming Language](/img/2023/02/progr_lang_use.png)
 
-Similar to the previous year, the respondents' favorite programming languages are distributed more evenly across various languages. Solidity is most popular, scoring 18.8% of all entries, followed by JavaScript (17.3%), Python (15.2%), TypeScript (15.0%), and Rust (8.6%).
+Similar to the previous year, the respondents' favorite programming languages are distributed more evenly across various languages. Solidity is the most popular, scoring 18.8% of all entries, followed by JavaScript (17.3%), Python (15.2%), TypeScript (15.0%), and Rust (8.6%).
 
 ![Favorite Programming Language](/img/2023/02/progr_lang_fav.png)
 
 #### Operating System
 
-Most respondents use MacOS as their primary Operating System (41.8%). Windows and Linux seem comparatively popular with 30.5 and 27.7%.
+Most respondents use MacOS as their primary Operating System (41.8%). Windows and Linux seem comparatively popular, with 30.5 and 27.7%, respectively.
 
 ![Operating System](/img/2023/02/os.png)
 
@@ -143,7 +143,7 @@ In this section of the survey, we asked respondents about their Solidity-specifi
 
 Almost 50% of all respondents deem themselves Solidity experts, with a self rating in expertise of 7 or higher (scale of 10).
 
-4.6% rate their expertise as a 10 out of 10. 70% of those have been using Solidity for 2-3 years, or longer.
+4.6% rate their expertise as a 10 out of 10, and 70% of those have been using Solidity for 2-3 years, or longer.
 
 Roughly 23% can be considered beginners or low-frequency users with a self-rated expertise level of 4 or lower.
 
@@ -157,11 +157,11 @@ Roughly 50% of all respondents have been using Solidity for less than a year, wi
 
 ![Solidity Experience Level](/img/2023/02/sol_experience.png)
 
-As in previous years, Solidity remains to appear rather easy to learn with 21.2% of respondents feeling productive in less than a month and 39.3% in less than half a year.
+As in previous years, Solidity appears rather easy to learn, with 21.2% of respondents feeling productive in less than a month and 39.3% in less than half a year.
 
 8.1% needed more than a year to feel comfortable with the language. 
 
-17.8% don't feel productive yet, out of which more than 74.2% are beginners and have been using Solidity for 6 months or less, 47% even less than three months.
+17.8% don't feel productive yet, out of which more than 74.2% are beginners and have been using Solidity for 6 months or less, and 47% even less than three months.
 
 ![Time to Productiveness](/img/2023/02/sol_productivity.png)
 
