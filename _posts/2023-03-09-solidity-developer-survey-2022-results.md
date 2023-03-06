@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'Solidity Developer Survey 2022 Results'
-date: '2023-02-26'
+date: '2023-03-09'
 author: Franziska Heintel
 category: Announcements
 ---
@@ -431,8 +431,6 @@ The results of this “community and Solidity team confidence ranking” are ver
 One can derive that while the community seems confident in the competency / qualification of the Solidity team, the communications around ways to contribute as well as understanding of the community’s needs can be improved. Those are things that we have been working on improving throughout the last years and will continue to do so.
 
 ![Community and Solidity Team Confidence Ranking](/img/2023/02/community_statements.png)
-
-
 
 ## Thank You & See You Next Year!
 
