@@ -361,11 +361,9 @@ Most mentioned anticipated features in descending order:
 
 We also wanted to know what Solidity-related EIPs the survey respondents think need support in the compiler.
 
-It’s interesting to note that only 93 out of 1401 respondents gave meaningful answers to this question.
-
 EIP-2335 “‘Diamonds, Multi-Facet Proxy” was mentioned most often, followed by EIP-1153 “Transient Storage” and EIP-3540 “EOF - EVM Object Format”.
 
-![Solidity-related EIPs](/img/2023/02/eip_support.png)
+![Solidity-related EIPs](/img/2023/02/EIP_support.png)
 
 ### Restrictiveness
 
