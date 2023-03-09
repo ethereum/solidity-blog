@@ -203,7 +203,7 @@ With roughly 90%, 0.8.x Solidity versions remain to be the by far most used ones
 
 ![Used Solidity Versions](/img/2023/02/versions.png)
 
-_⚠️ Reminder: Please make sure to frequently update your code. [Several important bug fixes and security improvements](https://github.com/ethereum/solidity/blob/develop/docs/bugs_by_version.json) are added in the newer versions!_
+_⚠️ Reminder: Please make sure to frequently update your code to the latest Solidity version. [Several important bug fixes and security improvements](https://github.com/ethereum/solidity/blob/develop/docs/bugs_by_version.json) are added in the newer versions!_
 
 #### Solidity Usage Details
 
@@ -217,7 +217,7 @@ To summarize:
 * Optimizer: 93.6% do not disable the optimizer. The 6.4% that enabled the optimizer, stated that they would do so due to contract size limits, slow compilation, in order to pass EtherScan verification, for gas testing purposes or because of security concerns.
 * Gas estimator: 23.4% use the gas estimator that is built into the compiler. 25% have tried it, but don’t use it regularly, while 41.5% never use it.
 * SMTChecker: 81% of all respondents never use the SMTChecker. 13.7% have tried it and 5.4% use it frequently. You can learn more about the SMTChecker [here](https://docs.soliditylang.org/en/latest/smtchecker.html).
-* `via-IR` complication pipeline: 70.8% do not know what `via-IR` is. 18.6% use the `via-IR` pipeline already. In the following weeks, we will share more context about why you should switch from the legacy compilation pipeline to `via-IR` and what this means.
+* `via-IR` compilation pipeline: 70.8% do not know what `via-IR` is. 18.6% use the `via-IR` pipeline already. In the following weeks, we will share more context about why you should switch from the legacy compilation pipeline to `via-IR` and what this means.
 * Metadata publication: 53.5% publish the metadata of their smart contracts. 27.8% don’t, while 18.7% don’t know what this means.
 * Sourcify: 11% of all respondents use Sourcify for smart contract verification, while 21.2% claim to not need it. 67.8% don’t know what Sourcify is. If you want to learn more about Sourcify, visit [sourcify.dev](https://sourcify.dev/).
 #### Fixed-Point Types
@@ -240,7 +240,7 @@ More than half of all respondents use Solidity outside of [Ethereum Mainnet](htt
 
 #### Other Smart Contract Languages
 
-Half of all respondents use other smart contract languages alongside Solidity. The most used other smart contract language is [Yul](https://docs.soliditylang.org/en/latest/yul.html), an intermediate language for Solidity, with 17.2%, followed by [Vyper](https://docs.vyperlang.org/en/latest/index.html), a pythonic EVM language, with 10.5%. [Cairo](https://www.cairo-lang.org/docs/) (7.1%), a STARK based language targeting StarkNet, and [Huff](https://docs.huff.sh/) (6.2%), a low level assembly language for the EVM, are also mentioned several times. Other “newcomers” like [Sway](https://fuellabs.github.io/sway/v0.35.3/book/) (2.4%) and [Fe](https://fe-lang.org/docs/index.html) (1.5%) also make it into the chart.
+Half of all respondents use other smart contract languages alongside Solidity. The most used other smart contract language is [Yul](https://docs.soliditylang.org/en/latest/yul.html), an intermediate language for Solidity, with 17.2%, followed by [Vyper](https://docs.vyperlang.org), a pythonic EVM language, with 10.5%. [Cairo](https://www.cairo-lang.org/docs/) (7.1%), a STARK based language targeting StarkNet, and [Huff](https://docs.huff.sh) (6.2%), a low-level assembly language for the EVM, are also mentioned several times. Other “newcomers” like [Sway](https://fuellabs.github.io/sway/) (2.4%) and [Fe](https://fe-lang.org/docs/) (1.5%) also make it into the chart.
 
 ![Other Smart Contract Languages](/img/2023/02/smart_contr_langs.png)
 
@@ -266,7 +266,7 @@ When getting stuck on a Solidity problem, most respondents visit Ethereum StackE
 
 Amongst the 40% that do, debugging issues are encountered most frequently, followed by stack-too-deep errors and bytecode size limitations.
 
-_ℹ️On the topic of debugging issues, we'd like to use the opportunity to highlight a new initiative aimed at defining a common debugging data format for languages built on top of the EVM: [ethdebug](​​https://github.com/ethdebug/format/). The end result will be a specification that will allow debuggers, analyzers, and other tools to reliably map between the EVM bytecode produced by compilers and the high-level language features. This has been a common pain point across the ecosystem for years and is becoming more pressing with the introduction of the new IR-based code generator in Solidity, which often breaks implicit assumptions tools made based on how the legacy pipeline worked. We encourage all developers working on such tools to join the working group. The group has regular bi-weekly meetings and coordinates via the [ethdebug channel](https://matrix.to/#/#ethdebug:matrix.org) on Matrix._
+_ℹ️On the topic of debugging issues, we'd like to use the opportunity to highlight a new initiative aimed at defining a common debugging data format for languages built on top of the EVM: [ethdebug](https://github.com/ethdebug/format/). The end result will be a specification that will allow debuggers, analyzers, and other tools to reliably map between the EVM bytecode produced by compilers and the high-level language features. This has been a common pain point across the ecosystem for years and is becoming more pressing with the introduction of the new IR-based code generator (i.e. the `via-IR` pipeline) in Solidity, which often breaks implicit assumptions tools made based on how the legacy pipeline worked. We encourage all developers working on such tools to join the working group. The group has regular bi-weekly meetings and coordinates via the [ethdebug channel](https://matrix.to/#/#ethdebug:matrix.org) on Matrix._
 
 ![Recurring Issues](/img/2023/02/recurring_issues.png)
 
@@ -333,7 +333,7 @@ Most mentioned “change requests” in descending order were:
 * Fix stack-too-deep
 * Better array handling
 * Gas optimizations
-* Add decimal math (fixed point types / floating types)
+* Add fractional numbers (fixed point types / floating types)
 * Better error handling, descriptions
 * Better debugging
 * Higher contact bytecode size limit
@@ -342,13 +342,13 @@ Most mentioned “change requests” in descending order were:
 
 #### Most Anticipated Feature
 
-Support for decimal numbers and generics was mentioned most often as the “most anticipated Solidity feature”.
+Support for fractional numbers and generics was mentioned most often as the “most anticipated Solidity feature”.
 
-_⚠️ Similar to the previous year, we noted that respondents were using various different terms like "floats", "floating point arithmetic", "floating point number", "fixed point numbers", and "fixed point math". We categorized those as "decimal numbers"._
+_⚠️ Similar to the previous year, we noted that respondents were using various different terms like "floats", "floating point arithmetic", "floating point number", "fixed point numbers", and "fixed point math". We categorized those as "fractional numbers"._
 
 Most mentioned anticipated features in descending order:
 
-* Support for decimal numbers (fixed point types / floating points)
+* Support for fractional numbers (fixed point types / floating points)
 * Generics
 * Better optimization
 * No stack-too-deep
@@ -397,7 +397,7 @@ As part of “other”, respondents specified several community based means to s
 * YouTube
 * Crypto Twitter / Community chats
 * Solidity docs
-* "Week in Ethereum" Newsletter
+* "Week in Ethereum News" Newsletter
 * "Crypto influencers" / Popular Solidity developers
 * Updating RemixIDE / Hardhat / VS Code
 * Coworkers
