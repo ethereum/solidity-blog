@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: 'Solidity Developer Survey 2022 Results'
-date: '2023-03-09'
+date: '2023-03-10'
 author: Franziska Heintel
 category: Announcements
 ---
@@ -217,7 +217,7 @@ With roughly 90%, 0.8.x Solidity versions remain to be the by far most used ones
 
 ![Used Solidity Versions](/img/2023/02/versions.png)
 
-_⚠️ Reminder: Please make sure to frequently update your code to the latest Solidity version. [Several important bug fixes and security improvements](https://github.com/ethereum/solidity/blob/develop/docs/bugs_by_version.json) are added in the newer versions!_
+_⚠️ Reminder: Please make sure to frequently update your code (and compiler) to the latest Solidity version. [Several important bug fixes and security improvements](https://github.com/ethereum/solidity/blob/develop/docs/bugs_by_version.json) are added in the newer versions!_
 
 #### Solidity Usage Details
 
