@@ -385,7 +385,7 @@ Most mentioned anticipated features in descending order:
 
 We also wanted to know what Solidity-related EIPs the survey respondents think need support in the compiler.
 
-EIP-2335 “‘Diamonds, Multi-Facet Proxy” was mentioned most often, followed by EIP-1153 “Transient Storage” and EIP-3540 “EOF - EVM Object Format”.
+EIP-2535 “‘Diamonds, Multi-Facet Proxy” was mentioned most often, followed by EIP-1153 “Transient Storage” and EIP-3540 “EOF - EVM Object Format”.
 
 ![Solidity-related EIPs](/img/2023/02/EIP_support.png)
 
@@ -412,9 +412,9 @@ Roughly 30% say that they are not interested in or qualified for the discussions
 
 ### Staying Informed
 
-Similar to the previous years, most people like to stay up-to-date about Solidity versions, security alerts, and announcements by following Solidity on Twitter or Mastodon. 
+Similar to the previous years, most people like to stay up-to-date about Solidity versions, security alerts, and announcements by following Solidity on [Twitter](https://twitter.com/solidity_lang) or [Mastodon](https://fosstodon.org/@solidity). 
 
-Other often used means for information are the Solidity blog and Solidity GitHub release page.
+Other often used means for information are the [Solidity blog](https://blog.soliditylang.org/) and [Solidity GitHub release page](https://github.com/ethereum/solidity/releases).
 
 Interestingly, almost 30% claim to not be doing any of the above.
 
@@ -422,16 +422,16 @@ As part of “other”, respondents specified several community based means to s
 
 * YouTube
 * Crypto Twitter / Community chats
-* Solidity docs
-* "Week in Ethereum News" Newsletter
+* [Solidity docs](https://docs.soliditylang.org/en/latest/)
+* ["Week in Ethereum News" Newsletter](https://www.weekinethereumnews.com/)
 * "Crypto influencers" / Popular Solidity developers
-* Updating RemixIDE / Hardhat / VS Code
+* Updating [RemixIDE](https://remix.ethereum.org/) / [Hardhat](https://hardhat.org/) / [VS Code](https://code.visualstudio.com/)
 * Coworkers
 * Google
 * Newsletters
 * Conferences / Meetups
-* OpenZeppelin forum
-* Solidity website
+* [OpenZeppelin forum](https://forum.openzeppelin.com/)
+* [Solidity website](https://soliditylang.org/)
 * Reddit
 
 ![Means To Stay Up-To-Date](/img/2023/02/stay_informed.png)
