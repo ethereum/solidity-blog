@@ -10,7 +10,7 @@ category: Security Alerts
 
 On April 5th, 2021, a bug in the Solidity ABI decoder v2 was reported by
 John Toman of the Certora development team. Certora's bug disclosure post
-can be found here: [Memory Isolation Violation in Deserialization Code](https://www.certora.com/blog/deserialization.html).
+can be found here: [Memory Isolation Violation in Deserialization Code](https://medium.com/certora/memory-isolation-violation-in-deserialization-code-certora-bug-disclosure-aece7cd00562).
 
 The bug is fixed with [Solidity version 0.8.4](https://github.com/ethereum/solidity/releases/tag/v0.8.4)
 released on April 21st, 2021. **The bug is present in all prior versions of ABI coder v2.**
