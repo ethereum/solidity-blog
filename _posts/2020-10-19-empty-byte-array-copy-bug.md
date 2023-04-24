@@ -8,7 +8,7 @@ category: Security Alerts
 ---
 
 On October 14, 2020, a bug in the Solidity code generator was reported by
-John Toman of the Certora development team. Certora's bug disclosure post can be found [here](https://www.certora.com/blog/corruptedStorage.html).
+John Toman of the Certora development team. Certora's bug disclosure post can be found [here](https://medium.com/certora/the-solidity-compiler-silently-corrupts-storage-certora-bug-disclosure-b909289f0d6f).
 
 The bug is fixed with [Solidity version 0.7.4](https://github.com/ethereum/solidity/releases/tag/v0.7.4)
 released on October 19, 2020. **The bug is present in all prior versions of Solidity.**
