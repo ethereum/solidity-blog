@@ -28,7 +28,7 @@ like the return of a function call, such expressions will not be evaluated in th
 legacy code generation, leading to a different behavior when compiling with and without ``via-ir``.
 
 For example, the code below, if compiled with ``via-ir`` will result in ``x`` being 
-assigned ``42``, evaluating the function call ``h()`` expression.
+assigned ``42``, as a side-effect of evaluating the function call ``h()``.
 On the other hand, if compiled without ``via-ir`` it will result in ``x`` being ``0``.
 
 ```solidity
