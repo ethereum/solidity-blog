@@ -1,3 +1,5 @@
+## 🚨 This repository has been archived. Please visit the new home for the Solidity website codebase at [`ethereum/solidity-website`](https://github.com/ethereum/solidity-website)
+
 # Blog Editor Instructions
 
 See the main README to see how to add a blog post to the `_posts` folder in the `master` branch before following the steps below.
