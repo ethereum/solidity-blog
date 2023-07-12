@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-title: 'Bug when accessing the .selector member on complex expressions in legacy code generation'
-date: '2023-07-11'
+title: 'Bug in legacy code generation when accessing the .selector member on expressions with side-effects'
+date: '2023-07-19'
 author: Solidity Team
 category: Security Alerts
 ---
