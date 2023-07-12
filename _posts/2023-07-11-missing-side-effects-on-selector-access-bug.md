@@ -11,7 +11,7 @@ On June 26, 2023, a bug in the legacy code generation pipeline of the Solidity c
 investigation of a security report related to the use of ``abi.decode`` with a ternary
 expression as the type argument.
 
-The legacy code generation was not evaluating expressions when accessing the ``.selector``
+The legacy code generator was not evaluating expressions when accessing the ``.selector``
 member on some complex expressions, like assignments and conditionals, while the ``via-ir`` code
 generation behave as expected and evaluates such expressions.
 This leads to a wrong compiler behavior in the legacy code generation.
