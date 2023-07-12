@@ -7,7 +7,7 @@ author: Solidity Team
 category: Security Alerts
 ---
 
-On June 26, 2023, a bug in the Solidity legacy code generator was found after further
+On June 26, 2023, a bug in the legacy code generation pipeline of the Solidity compiler was found during
 investigation of a security report related to the use of ``abi.decode`` with a ternary
 expression as the type argument.
 
